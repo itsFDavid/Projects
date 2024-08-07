@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin - Update Match Data</title>
+</head>
+<body>
+  <h1>Update Match Data</h1>
+
+  <form id="update-score-form">
+    <h2>Update Score</h2>
+    <label for="score">Score:</label>
+    <input type="text" id="score" name="score" required>
+    <button type="submit">Update Score</button>
+  </form>
+
+  <form id="add-event-form">
+    <h2>Add Event</h2>
+    <label for="time">Time:</label>
+    <input type="text" id="time" name="time" required>
+    <label for="description">Description:</label>
+    <input type="text" id="description" name="description" required>
+    <button type="submit">Add Event</button>
+  </form>
+
+  <script>
+    document.getElementById('update-score-form').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const score = document.getElementById('score').value;
+      await fetch('/update-score', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ score }),
+      });
+    });
+
+    document.getElementById('add-event-form').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const time = document.getElementById('time').value;
+      const description = document.getElementById('description').value;
+      await fetch('/add-event', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ time, description }),
+      });
+    });
+  </script>
+</body>
+</html>

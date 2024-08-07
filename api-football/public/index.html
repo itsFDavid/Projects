@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sports Streaming</title>
+</head>
+<body>
+  <h1>Live Match Updates</h1>
+  <div id="match-info">
+    <h2>Score: <span id="score">0-0</span></h2>
+    <h3>Events:</h3>
+    <ul id="events"></ul>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script>
+    const socket = io();
+
+    socket.on('matchUpdate', (data) => {
+      document.getElementById('score').textContent = data.score;
+
+      const eventsList = document.getElementById('events');
+      eventsList.innerHTML = '';
+      data.events.forEach(event => {
+        const listItem = document.createElement('li');
+        listItem.textContent = `${event.time} - ${event.description}`;
+        eventsList.appendChild(listItem);
+      });
+    });
+  </script>
+</body>
+</html>
