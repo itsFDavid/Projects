@@ -9,16 +9,32 @@
             margin: 0;
             padding: 0;
             overflow: hidden;
+            background-color: #000;
+            color: #ffffff;
         }
         canvas {
             display: block;
             margin: 0 auto;
             margin-top: 40px;
         }
+        input {
+            display: block;
+            margin: 0 auto;
+            margin-top: 20px;
+            padding: 10px;
+        }
+        .ballsInput {
+            margin-top: 10px;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
     <canvas></canvas>
+    <div class="ballsInput">
+        <label for="">Ingresa el numero de bolas a dibujar</label>
+        <input type="number" id="numBalls" placeholder="0" min="0" ></input>
+    </div>
     <script src="js/js.js"></script>
 </body>
 </html>
