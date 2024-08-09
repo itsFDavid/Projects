@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log-In</title>
+</head>
+<body>
+    
+    <form method="POST">
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="username">
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password">
+        <br>
+        <button type="submit">Log-In</button>
+    </form>
+
+</body>
+<script>
+    const form = document.querySelector('form');
+    form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const username = document.querySelector('#username').value;
+        const password = document.querySelector('#password').value;
+        
+        // Realiza la petición POST al servidor para autenticar al usuario
+        const response = await fetch('http://localhost:3000/api/login', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ username, password })
+        });
+        
+        // Procesa la respuesta del servidor
+        const data = await response.json();
+        if (response.ok) {
+            const { token } = data;
+            // Guarda el token en localStorage
+            localStorage.setItem('token', token);
+            // Redirige a la página de administración
+            window.location.href = 'http://localhost:3000/admin';
+        } else {
+            // Muestra un mensaje de error si el login falla
+            alert(data.message);
+        }
+    });
+
+    // Envía el token almacenado al acceder a la ruta de admin
+    window.addEventListener('load', async () => {
+        const token = localStorage.getItem('token');
+        if (token) {
+            const response = await fetch('http://localhost:3000/admin', {
+                method: 'GET',
+                headers: {
+                    'Authorization': `Bearer ${token}`
+                }
+            });
+            if (!response.ok) {
+                alert('No tienes acceso autorizado');
+                window.location.href = '/';
+            }
+        } else {
+            alert('Por favor, inicia sesión primero');
+            window.location.href = '/';
+        }
+    });
+</script>
+</html>
