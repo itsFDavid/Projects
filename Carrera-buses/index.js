@@ -1,5 +1,7 @@
 import chalk from 'chalk';
 import readline from 'readline';
+import sound from 'sound-play';
+import player from 'play-sound';
 // Configurar readline para leer desde la terminal
 const rl = readline.createInterface({
     input: process.stdin,
@@ -51,6 +53,12 @@ class Bus {
 function limpiarConsola() {
     process.stdout.write('\x1Bc');
 }
+function reproducirSonido(rutaArchivo) {
+    player().play(rutaArchivo), (err) => {
+        if (err) console.error('Error al reproducir el audio:', err);
+    };
+}
+
 
 async function main(buses) {
     let ganador = null;
@@ -58,9 +66,8 @@ async function main(buses) {
         console.log('No hay buses para correr');
         return;
     }
-
+    reproducirSonido('carrera_de_buses.m4r');
     while (!ganador) {
-        
         for (const bus of buses) {
             bus.avanzar();
             console.clear();
