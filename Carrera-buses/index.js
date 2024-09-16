@@ -1,10 +1,16 @@
-let meta = process.stdout.columns - 25;
+const readline = require('readline');
+
+// Configurar readline para leer desde la terminal
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
+let meta = process.stdout.columns - 30;
 
 class Bus {
-    constructor(name, carril) {
+    constructor(name) {
         this.name = name;
         this.posicion = 0;
-        this.carril = carril;  // Carril donde se dibuja el bus
     }
 
     avanzar() {
@@ -13,10 +19,9 @@ class Bus {
     }
 
     async dibujar() {
-        const anchoConsola = process.stdout.columns;
+        const anchoConsola = process.stdout.columns - 10;
         const linea = '-'.repeat(anchoConsola);
 
-        // Dibujar la carretera
         console.log(linea);
 
        
@@ -25,33 +30,47 @@ class Bus {
         console.log(`${" ".repeat(this.posicion)} - - |   ${this.name}  )   } `);
         console.log(`${" ".repeat(this.posicion)}     dwb=-OO-----OO-=`);
 
-        // Dibujar la separación entre carriles (carretera)
         console.log(linea);
         await new Promise(resolve => setTimeout(resolve, 50));
     }
 }
 
-let bus1 = new Bus("Francisco", 1);  // Carril 1
-let bus2 = new Bus("David", 2);      // Carril 2
-let buses = [bus1, bus2];
 async function main(buses) {
     let ganador = null;
 
     while (!ganador) {
         console.clear();
-        
         for (const bus of buses) {
             bus.avanzar();
             await bus.dibujar();
-
+            
             
             if (bus.posicion >= meta) {
                 ganador = bus.name;
                 break;
             }
         }  
+        console.log("\n".repeat(3));
     }
     console.log(`¡El bus de ${ganador} ha ganado la carrera!`);
 }
 
-main(buses);
+let Buses=[]
+function addBus(name){
+    Buses.push(new Bus(name));
+}
+
+
+function preguntarNombreBus() {
+    rl.question('Ingresa el nombre del bus (o deja vacío para iniciar la carrera): ', (name) => {
+        if (name) {
+            addBus(name);  
+            preguntarNombreBus();  
+        } else {
+            rl.close();
+            main(Buses);
+        }
+    });
+}
+
+preguntarNombreBus();
