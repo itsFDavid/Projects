@@ -1,4 +1,5 @@
-const readline = require('readline');
+import chalk from 'chalk';
+import readline from 'readline';
 
 // Configurar readline para leer desde la terminal
 const rl = readline.createInterface({
@@ -6,11 +7,25 @@ const rl = readline.createInterface({
     output: process.stdout
 });
 let meta = process.stdout.columns - 30;
+let Buses=[]
+const COLORS = [
+    "red",
+    "green",
+    "yellow",
+    "blue",
+    "magenta",
+    "cyan",
+    "white",
+    "gray"
+]
 
 class Bus {
-    constructor(name) {
+    constructor(name, color,carril) {
         this.name = name;
         this.posicion = 0;
+        this.color = color;
+        this.carril = carril;
+        console.log(`El bus ${name} ha sido creado con el color ${color}`);
     }
 
     avanzar() {
@@ -22,13 +37,14 @@ class Bus {
         const anchoConsola = process.stdout.columns - 10;
         const linea = '-'.repeat(anchoConsola);
 
-        console.log(linea);
+        
 
-       
-        console.log(`${" ".repeat(this.posicion)}       ______________`);
-        console.log(`${" ".repeat(this.posicion)} - - | [][][][][] ||_|`);
-        console.log(`${" ".repeat(this.posicion)} - - |   ${this.name}  )   } `);
-        console.log(`${" ".repeat(this.posicion)}     dwb=-OO-----OO-=`);
+        console.log(linea);
+        const colorFunc = chalk[this.color] || chalk.white;
+        console.log(colorFunc(`${" ".repeat(this.posicion)}       ______________`));
+        console.log(colorFunc(`${" ".repeat(this.posicion)} - - | [][][][][] ||_|`));
+        console.log(colorFunc(`${" ".repeat(this.posicion)} - - |   ${this.name}  )   } `));
+        console.log(colorFunc(`${" ".repeat(this.posicion)}     dwb=-OO-----OO-=`));
 
         console.log(linea);
         await new Promise(resolve => setTimeout(resolve, 50));
@@ -37,6 +53,10 @@ class Bus {
 
 async function main(buses) {
     let ganador = null;
+    if (buses.length === 0) {
+        console.log('No hay buses para correr');
+        return;
+    }
 
     while (!ganador) {
         console.clear();
@@ -55,20 +75,26 @@ async function main(buses) {
     console.log(`¡El bus de ${ganador} ha ganado la carrera!`);
 }
 
-let Buses=[]
-function addBus(name){
-    Buses.push(new Bus(name));
+
+function addBus(name, color){
+    Buses.push(new Bus(name, color));
 }
 
 
 function preguntarNombreBus() {
-    rl.question('Ingresa el nombre del bus (o deja vacío para iniciar la carrera): ', (name) => {
-        if (name) {
-            addBus(name);  
-            preguntarNombreBus();  
-        } else {
+    rl.question(chalk.red('Ingresa el nombre del bus ' + chalk.gray('(o deja vacío para iniciar la carrera): ')), (name) => {
+        if(!name){
             rl.close();
             main(Buses);
+        }else{
+            COLORS.forEach((color, index) => {
+                console.log(index + 1, chalk[color](color));
+            });
+            rl.question(chalk.red('Ingresa el color del bus: '), (color) => {
+                if(!color) color = 'green';
+                addBus(name,color);
+                preguntarNombreBus();
+            });
         }
     });
 }
