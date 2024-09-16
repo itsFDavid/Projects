@@ -1,6 +1,5 @@
 import chalk from 'chalk';
 import readline from 'readline';
-
 // Configurar readline para leer desde la terminal
 const rl = readline.createInterface({
     input: process.stdin,
@@ -8,10 +7,10 @@ const rl = readline.createInterface({
 });
 let meta = process.stdout.columns - 30;
 let Buses=[]
+let carrilInicial = 0;
 const COLORS = [
     "red",
     "green",
-    "yellow",
     "blue",
     "magenta",
     "cyan",
@@ -25,11 +24,10 @@ class Bus {
         this.posicion = 0;
         this.color = color;
         this.carril = carril;
-        console.log(`El bus ${name} ha sido creado con el color ${color}`);
     }
 
     avanzar() {
-        this.posicion += Math.random() < 0.65 ? 1 : -1;
+        this.posicion += Math.random() < 0.85 ? 1 : -1;
         if (this.posicion < 0) this.posicion = 0;
     }
 
@@ -37,18 +35,21 @@ class Bus {
         const anchoConsola = process.stdout.columns - 10;
         const linea = '-'.repeat(anchoConsola);
 
-        
+        console.log("\n".repeat(this.carril));
 
-        console.log(linea);
+        console.log(chalk.yellow(linea));
         const colorFunc = chalk[this.color] || chalk.white;
         console.log(colorFunc(`${" ".repeat(this.posicion)}       ______________`));
         console.log(colorFunc(`${" ".repeat(this.posicion)} - - | [][][][][] ||_|`));
         console.log(colorFunc(`${" ".repeat(this.posicion)} - - |   ${this.name}  )   } `));
         console.log(colorFunc(`${" ".repeat(this.posicion)}     dwb=-OO-----OO-=`));
 
-        console.log(linea);
+        console.log(chalk.yellow(linea));
         await new Promise(resolve => setTimeout(resolve, 50));
     }
+}
+function limpiarConsola() {
+    process.stdout.write('\x1Bc');
 }
 
 async function main(buses) {
@@ -59,9 +60,10 @@ async function main(buses) {
     }
 
     while (!ganador) {
-        console.clear();
+        
         for (const bus of buses) {
             bus.avanzar();
+            console.clear();
             await bus.dibujar();
             
             
@@ -70,18 +72,19 @@ async function main(buses) {
                 break;
             }
         }  
-        console.log("\n".repeat(3));
     }
-    console.log(`¡El bus de ${ganador} ha ganado la carrera!`);
+    console.log(chalk.bgYellowBright(`¡El bus de ${ganador} ha ganado la carrera!`));
 }
 
 
 function addBus(name, color){
-    Buses.push(new Bus(name, color));
+    Buses.push(new Bus(name, color, carrilInicial));
+    carrilInicial += 6;
 }
 
 
 function preguntarNombreBus() {
+    limpiarConsola();
     rl.question(chalk.red('Ingresa el nombre del bus ' + chalk.gray('(o deja vacío para iniciar la carrera): ')), (name) => {
         if(!name){
             rl.close();
@@ -93,6 +96,7 @@ function preguntarNombreBus() {
             rl.question(chalk.red('Ingresa el color del bus: '), (color) => {
                 if(!color) color = 'green';
                 addBus(name,color);
+                console.clear();
                 preguntarNombreBus();
             });
         }
