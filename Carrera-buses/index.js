@@ -104,7 +104,7 @@ async function preguntarNombreBus() {
         const { nombre } = await inquirer.prompt({
             type: 'input',
             name: 'nombre',
-            message: chalk.red('Ingresa el nombre del bus ') + chalk.gray('(o deja vacío para iniciar la carrera):')
+            message: chalk.yellow('Ingresa el nombre del bus ') + chalk.gray('(o deja vacío para iniciar la carrera):')
         });
 
         if (!nombre) break;
