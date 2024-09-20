@@ -40,21 +40,21 @@ class Bus {
 
         console.log("\n".repeat(this.carril));
 
-        console.log(chalk.yellow(linea));
+        console.log(chalk.bgGray(linea));
         const colorFunc = chalk[this.color] || chalk.white;
         console.log(colorFunc(`${" ".repeat(this.posicion)}       ______________`));
         console.log(colorFunc(`${" ".repeat(this.posicion)} - - | [][][][][] ||_|`));
         console.log(colorFunc(`${" ".repeat(this.posicion)} - - |   ${this.name}  )   } `));
         console.log(colorFunc(`${" ".repeat(this.posicion)}     dwb=-OO-----OO-=`));
 
-        console.log(chalk.yellow(linea));
+        console.log(chalk.bgGray(linea));
         await new Promise(resolve => setTimeout(resolve, 40));
     }
     async velocidad(){
         const velocidad= parseInt(this.posicion);
         console.log("\n".repeat(this.carril));
         console.log(chalk.bgBlueBright(`Bus de ${this.name} va a :\t${velocidad}Km/h`));
-        await new Promise(resolve => setTimeout(resolve, 50));
+        await new Promise(resolve => setTimeout(resolve, 30));
     }
 }
 function limpiarConsola() {
