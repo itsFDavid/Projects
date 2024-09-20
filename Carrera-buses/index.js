@@ -53,7 +53,7 @@ class Bus {
     async velocidad(){
         const velocidad= parseInt(this.posicion);
         console.log("\n".repeat(this.carril));
-        console.log(chalk.bgYellowBright(`Bus de ${this.name} va a :\t${velocidad}Km/h`));
+        console.log(chalk.bgBlueBright(`Bus de ${this.name} va a :\t${velocidad}Km/h`));
         await new Promise(resolve => setTimeout(resolve, 50));
     }
 }
