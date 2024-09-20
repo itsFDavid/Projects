@@ -30,7 +30,7 @@ class Bus {
     }
 
     avanzar() {
-        this.posicion += Math.random() < 0.65 ? 1 : -.05;
+        this.posicion += Math.random() < 0.65 ? 1 : -1;
         if (this.posicion < 0) this.posicion = 0;
     }
 
