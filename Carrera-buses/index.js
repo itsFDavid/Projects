@@ -40,14 +40,14 @@ class Bus {
 
         console.log("\n".repeat(this.carril));
 
-        console.log(chalk.bgGray(linea));
+        console.log(chalk.bgCyan(linea));
         const colorFunc = chalk[this.color] || chalk.white;
         console.log(colorFunc(`${" ".repeat(this.posicion)}       ______________`));
         console.log(colorFunc(`${" ".repeat(this.posicion)} - - | [][][][][] ||_|`));
         console.log(colorFunc(`${" ".repeat(this.posicion)} - - |   ${this.name}  )   } `));
         console.log(colorFunc(`${" ".repeat(this.posicion)}     dwb=-OO-----OO-=`));
 
-        console.log(chalk.bgGray(linea));
+        console.log(chalk.bgCyan(linea));
         await new Promise(resolve => setTimeout(resolve, 40));
     }
     async velocidad(){
