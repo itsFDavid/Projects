@@ -1,3 +1,5 @@
+import inquirer from "inquirer";
+import chalk from "chalk";
 class arbolBinario{
 
     constructor(){
@@ -149,22 +151,60 @@ class Nodo{
         this.right = right;
     }
 }
-const arbol = new arbolBinario();
-arbol.insertar(10);
-arbol.insertar(5);
-arbol.insertar(15);
-arbol.insertar(3);
-arbol.insertar(7);
-arbol.insertar(13);
-arbol.insertar(18);
-arbol.insertar(1);
-arbol.insertar(6);
 
-console.log("PreOrden");
-arbol.preOrden(arbol.getRaiz());
-console.log("InOrden");
-arbol.inOrden(arbol.getRaiz());
-console.log("PostOrden");
-arbol.postOrden(arbol.getRaiz());
-console.log("Buscar 13");
-console.log(arbol.buscar(13));
+const main = async () => {
+    const {arbol} = await inquirer.prompt({
+        type: 'input',
+        name: 'arbol',
+        message: chalk.bgCyan('Ingrese el valor del nodo a insertar')
+    });
+    const arb= new arbolBinario();
+    while (arbol){
+        const {opcion} = await inquirer.prompt({
+            type: 'list',
+            name: 'opcion',
+            message: chalk.bgCyan('Seleccione una opcion'),
+            choices: ['Insertar', 'Buscar', 'Eliminar', 'PreOrden', 'InOrden', 'PostOrden', 'Salir']
+        });
+
+        switch(opcion){
+            case 'Insertar':
+                var valor = await inquirer.prompt({
+                    type: 'input',
+                    name: 'valor',
+                    message: chalk.bgBlue('Ingrese el valor del nodo a insertar')
+                });
+                arb.insertar(valor);
+                break;
+            case 'Buscar':
+                var valor = await inquirer.prompt({
+                    type: 'input',
+                    name: 'valor',
+                    message: chalk.bgBlue('Ingrese el valor del nodo a insertar')
+                });
+                arb.buscar(valor);
+                break;
+            case 'Eliminar':
+                var valor = await inquirer.prompt({
+                    type: 'input',
+                    name: 'valor',
+                    message: chalk.bgBlue('Ingrese el valor del nodo a insertar')
+                });
+                arb.eliminar(valor);
+                break;
+            case 'PreOrden':
+                arb.preOrden(arb.getRaiz());
+                break;
+            case 'InOrden':
+                arb.inOrden(arb.getRaiz());
+                break;
+            case 'PostOrden':
+                arb.postOrden(arb.getRaiz());
+                break;
+            case 'Salir':
+                return;
+        }
+    }
+}
+
+main();
