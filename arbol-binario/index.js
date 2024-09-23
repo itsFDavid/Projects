@@ -147,7 +147,7 @@ const main = async () => {
     const { opcion } = await inquirer.prompt({
       type: 'list',
       name: 'opcion',
-      message: chalk.bgGreenBright('Seleccione una opción'),
+      message: chalk.green('Seleccione una opción'),
       choices: [
         'Insertar', 
         'Buscar', 
@@ -165,7 +165,7 @@ const main = async () => {
         const { valorInsertar } = await inquirer.prompt({
           type: 'input',
           name: 'valorInsertar',
-          message: chalk.bgBlue('Ingrese el valor del nodo a insertar')
+          message: chalk.blue('Ingrese el valor del nodo a insertar')
         });
         arbol.insertar(parseInt(valorInsertar));
         console.log(chalk.green(`Nodo ${valorInsertar} insertado`));
@@ -175,7 +175,7 @@ const main = async () => {
         const { valorBuscar } = await inquirer.prompt({
           type: 'input',
           name: 'valorBuscar',
-          message: chalk.bgBlue('Ingrese el valor del nodo a buscar')
+          message: chalk.blue('Ingrese el valor del nodo a buscar')
         });
         const nodo = arbol.buscar(parseInt(valorBuscar));
         if (nodo) {
@@ -189,7 +189,7 @@ const main = async () => {
         const { valorEliminar } = await inquirer.prompt({
           type: 'input',
           name: 'valorEliminar',
-          message: chalk.bgBlue('Ingrese el valor del nodo a eliminar')
+          message: chalk.blue('Ingrese el valor del nodo a eliminar')
         });
         arbol.eliminar(parseInt(valorEliminar));
         console.log(chalk.green(`Nodo ${valorEliminar} eliminado`));
