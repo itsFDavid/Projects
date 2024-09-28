@@ -130,7 +130,7 @@ class ArbolBinario {
         this.imprimirArbol(nodo.right, prefijo + (esIzquierdo ? "│   " : "    "), false);
 
         // Imprimir el nodo actual
-        console.log(prefijo + (esIzquierdo ? "└── " : "┌── ") + nodo.valor);
+        console.log(chalk.red(prefijo + (esIzquierdo ? "└── " : "┌── ") + nodo.valor));
 
         // Llamada recursiva en el subárbol izquierdo
         this.imprimirArbol(nodo.left, prefijo + (esIzquierdo ? "    " : "│   "), true);
