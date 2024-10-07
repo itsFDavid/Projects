@@ -88,7 +88,7 @@ async function main(buses) {
             }
         }  
     }
-    console.log(chalk.bgBlack(`El bus ${ganador.name} ha ganado la carrera`));
+    console.log(chalk.bgBlackBright(`\nEl bus ${ganador.name} ha ganado la carrera`));
 }
 
 
