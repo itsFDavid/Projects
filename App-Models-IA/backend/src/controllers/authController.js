@@ -11,6 +11,11 @@ const userSchema = z.object({
     role: z.enum(['administrador', 'usuario']),
 });
 
+const loginSchema = z.object({
+    email: z.string().email(),
+    password: z.string().min(6),
+});
+
 
 exports.register = async (req, res) => {
     try {
@@ -31,19 +36,23 @@ exports.register = async (req, res) => {
 
 
 exports.login = async (req, res) => {
-    const { email, password } = req.body;
+    try{
+        const { email, password } = loginSchema.parse(req.body);
 
-    const [rows] = await pool.execute('SELECT * FROM users WHERE email = ?', [email]);
+        const [rows] = await pool.execute('SELECT * FROM users WHERE email = ?', [email]);
 
-    if (rows.length === 0) return res.status(400).json({ message: 'Usuario no encontrado' });
+        if (rows.length === 0) return res.status(400).json({ message: 'Usuario no encontrado' });
 
-    const user = rows[0];
+        const user = rows[0];
 
-    const isValidPassword = await bcrypt.compare(password, user.password);
-    if (!isValidPassword) return res.status(400).json({ message: 'Contraseña incorrecta' });
+        const isValidPassword = await bcrypt.compare(password, user.password);
+        if (!isValidPassword) return res.status(400).json({ message: 'Contraseña incorrecta' });
 
-    const token = jwt.sign({ id: user.id, role: user.role }, process.env.JWT_SECRET, { expiresIn: '1d' });
-    res.json({ token });
+        const token = jwt.sign({ id: user.id, role: user.role }, process.env.JWT_SECRET, { expiresIn: '1d' });
+        res.json({ token });
+    }catch(error){
+        res.status(400).json({ error: error.message });
+    }
 };
 
 
