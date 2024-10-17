@@ -3,6 +3,7 @@ require('dotenv').config();
 const express = require('express');
 const authRoutes = require('./src/routes/authRoutes');
 const rateLimitMiddleware = require('./src/middleware/rateLimitMiddleware');
+const errorHandler = require('./src/middleware/errorMiddleware');
 
 const app = express();
 app.use(express.json());
@@ -19,7 +20,8 @@ app.use((err, req, res, next) => {
 });
 
 
-app.use(rateLimitMiddleware);
+
+app.use(errorHandler);
 
 
 const PORT = process.env.PORT || 3000;
