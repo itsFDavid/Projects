@@ -6,36 +6,36 @@ const { sendVerificationEmail } = require('../utils/mailer');
 
 
 const userSchema = z.object({
-    email: z.string().email(),
-    password: z.string().min(6),
-    role: z.enum(['administrador', 'usuario']),
+    email: z.string().email({message: 'Email invalido'}),
+    password: z.string().min(6, {message: 'La contraseña debe tener al menos 6 caracteres'})
 });
 
 const loginSchema = z.object({
-    email: z.string().email(),
-    password: z.string().min(6),
+    email: z.string().email({message: 'Email invalido'}),
+    password: z.string().min(6, {message: 'La contraseña debe tener al menos 6 caracteres'}),
 });
 
 
-exports.register = async (req, res) => {
+exports.register = async (req, res, next) => {
     try {
-        const { email, password, role } = userSchema.parse(req.body);
+        const { email, password} = userSchema.parse(req.body);
+        const role = 'usuario';
         const hashedPassword = await bcrypt.hash(password, 10);
 
         const [user] = await pool.execute('INSERT INTO users (email, password, role) VALUES (?, ?, ?)', [email, hashedPassword, role]);
-        
+        if(user.affectedRows === 0) return res.status(400).json({ message: 'No se pudo registrar el usuario' });
 
         const verificationCode = Math.floor(100000 + Math.random() * 900000);
         await sendVerificationEmail(email, verificationCode);
 
         res.status(201).json({ message: 'Usuario registrado, verifique su email' });
     } catch (error) {
-        res.status(400).json({ error: error.message });
+        next(error);
     }
 };
 
 
-exports.login = async (req, res) => {
+exports.login = async (req, res, next) => {
     try{
         const { email, password } = loginSchema.parse(req.body);
 
@@ -48,10 +48,10 @@ exports.login = async (req, res) => {
         const isValidPassword = await bcrypt.compare(password, user.password);
         if (!isValidPassword) return res.status(400).json({ message: 'Contraseña incorrecta' });
 
-        const token = jwt.sign({ id: user.id, role: user.role }, process.env.JWT_SECRET, { expiresIn: '1d' });
+        const token = jwt.sign({ id: user.id, role: user.role }, process.env.JWT_SECRET, {algorithm: 'HS256', expiresIn: '1d' },);
         res.json({ token });
     }catch(error){
-        res.status(400).json({ error: error.message });
+        next(error);
     }
 };
 
