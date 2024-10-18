@@ -6,9 +6,11 @@ COPY requirements.txt .
 
 RUN pip install --no-cache-dir -r requirements.txt
 
+RUN python -m nltk.downloader stopwords
+
 COPY . .
 
-EXPOSE 5000
+EXPOSE 4000
 
 ENV FLASK_ENV=production
 
