@@ -5,7 +5,7 @@ const { pool } = require('../models/userModel');
 const rateLimitMiddleware = async (req, res, next) => {
     try {
         const token = req.headers.authorization.split(' ')[1];
-
+        console.log(token);
         if (!token) {
             return res.status(401).json({ message: 'No se proporcionó un token' });
         }
@@ -13,6 +13,7 @@ const rateLimitMiddleware = async (req, res, next) => {
         let decoded;
         try {
             decoded = jwt.verify(token, process.env.JWT_SECRET);
+            console.log('Decoded:', decoded);
         } catch (error) {
             return res.status(401).json({ message: 'Token inválido o expirado' });
         }
@@ -23,11 +24,12 @@ const rateLimitMiddleware = async (req, res, next) => {
 
         const user = rows[0];
         const today = new Date().toISOString().split('T')[0];
-        const userLastRequest = user.last_request_date.toISOString().split('T')[0]
+        const userLastRequest = user.last_request_date ? user.last_request_date.toISOString().split('T')[0] : null;
+        console.log('userLastRequest:', userLastRequest);
 
 
 
-        if (userLastRequest !== today) {
+        if (userLastRequest !== today && userLastRequest !== null) {
             await pool.execute('UPDATE users SET request_count = 0, last_request_date = ? WHERE id = ?;', [today, userId]);
             user.request_count = 0;
         }
@@ -40,7 +42,7 @@ const rateLimitMiddleware = async (req, res, next) => {
 
         next();
     } catch (error) {
-        return res.status(401).json({ message: 'Token inválido o no proporcionado' });
+        return res.status(401).json({ message: 'Token inválido o no proporcionado' + error.message });
     }
 };
 
