@@ -1,8 +1,6 @@
-// app.js
 require('dotenv').config();
 const express = require('express');
 const authRoutes = require('./src/routes/authRoutes');
-const rateLimitMiddleware = require('./src/middleware/rateLimitMiddleware');
 const errorHandler = require('./src/middleware/errorMiddleware');
 
 const app = express();
