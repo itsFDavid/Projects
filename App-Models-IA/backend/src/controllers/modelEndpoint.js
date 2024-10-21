@@ -47,7 +47,6 @@ exports.modelEndpoint = async (req, res) => {
         );
 
         res.status(200).json({
-            message: 'Petición a la API externa realizada correctamente',
             data: externalApiResponse.data
         });
     } catch (error) {
@@ -57,7 +56,7 @@ exports.modelEndpoint = async (req, res) => {
 
         console.error("Error realizando la petición a la API externa:", error.message);
         res.status(500).json({
-            message: 'Error realizando la petición a la API externa',
+            message: 'No se pudo realizar la consulta, intente mas tarde',
             error: error.message
         });
     }
