@@ -16,7 +16,7 @@ const loginSchema = z.object({
 });
 
 
-exports.register = async (req, res, next) => {
+exports.register = async (req, res) => {
     try {
         const { email, password} = userSchema.parse(req.body);
         const role = 'usuario';
@@ -30,7 +30,7 @@ exports.register = async (req, res, next) => {
 
         res.status(201).json({ message: 'Usuario registrado, verifique su email' });
     } catch (error) {
-        next(error);
+        res.status(400).json({ message: 'Error al registrar el usuario, intente mas tarde' });
     }
 };
 
