@@ -39,27 +39,22 @@ def predict():
         print(f'Token inválido: {str(e)}')
         return jsonify({'error': 'Token inválido'}), 401
 
-    # Obtener los valores del cuerpo de la solicitud
     data = request.get_json()
     n_elements = data.get('n_elements')
     n_train = data.get('n_train')
     n_test = data.get('n_test')
 
-    # Validar que todos los parámetros estén presentes
     if None in [n_elements, n_train, n_test]:
         return jsonify({'error': 'Faltan parámetros en la solicitud'}), 400
 
-    # Validar que la suma de n_train y n_test sea igual a n_elements
     if n_train + n_test != n_elements:
         return jsonify({'error': 'La suma de n_train y n_test debe ser igual a n_elements'}), 400
 
-    # Llamar a la función de predicción
     accuracy = prediccion(n_elements, n_train, n_test)
 
-    # Devolver la respuesta
     return jsonify({'accuracy': accuracy})
 
-# Ejecutar la app
+
 if __name__ == '__main__':
     port = int(os.getenv("FLASK_RUN_PORT", 5000))
-    app.run(host='0.0.0.0', port=port, debug=True) 
+    app.run(host='0.0.0.0', port=port, debug=True)
