@@ -2,11 +2,13 @@ from flask import Flask, request, jsonify
 import jwt  
 from jwt.exceptions import ExpiredSignatureError, InvalidTokenError
 from predict import prediccion
+from save_prep_dataset import save_prep_dataset
 import os
 from dotenv import load_dotenv
 
-# Cargar variables de entorno
+
 load_dotenv()
+save_prep_dataset("data/full/index", 30000)
 
 app = Flask(__name__)
 SECRET_KEY = os.getenv("SECRET_KEY")
