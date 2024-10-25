@@ -28,3 +28,4 @@ def save_prep_dataset(index_path, n_elements):
 
         with open(file_path, 'w') as email_file:
             json.dump(email_data, email_file)
+    return True
