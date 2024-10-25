@@ -1,14 +1,21 @@
+import os
 from flask import Flask, request, jsonify
 import jwt  
 from jwt.exceptions import ExpiredSignatureError, InvalidTokenError
 from predict import prediccion
 from save_prep_dataset import save_prep_dataset
-import os
 from dotenv import load_dotenv
 
+FLAG_SAVE_PREP_DATASET = False
 
 load_dotenv()
-save_prep_dataset("data/full/index", 30000)
+
+FLAG_SAVE_PREP_DATASET = save_prep_dataset("data/full/index", 30000)
+if FLAG_SAVE_PREP_DATASET:
+    print("Dataset preprocesado guardado con éxito")
+else:
+    print("Error al guardar el dataset preprocesado")
+
 
 app = Flask(__name__)
 SECRET_KEY = os.getenv("SECRET_KEY")
