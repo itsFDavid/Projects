@@ -21,8 +21,8 @@ const getBall = () => ({
     y: Math.random() * canvas.height,
     x: Math.random() * canvas.width,
     radius: Math.random() * 10 + 5,
-    dx: (Math.random() - 0.5) * 6, // Velocidad en x, rango entre -3 y 3
-    dy: (Math.random() - 0.5) * 6, // Velocidad en y, rango entre -3 y 3
+    dx: (Math.random() - 0.5) * 6,
+    dy: (Math.random() - 0.5) * 6, 
     color: COLORS[Math.floor(Math.random() * COLORS.length)],
     draw() {
         ctx.fillStyle = this.color;
