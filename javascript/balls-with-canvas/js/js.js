@@ -16,12 +16,12 @@ canvas.style.border = '10px solid yellow';
 canvas.style.borderRadius = '10px';
 
 const COLORS = ['red', 'green', 'blue', 'yellow', 'purple', 'orange', 'pink', 'brown', 'black', 'white'];
-const DIRECTIONS = ['right', 'left', 'up', 'down'];
+const DIRECTIONS = ['right', 'left', 'up', 'down', 'diagonal-right', 'diagonal-left'];
 
 const getBall = () => ({
     y: Math.random() * canvas.height,
     x: Math.random() * canvas.width,
-    radius: Math.random() * 10,
+    radius: Math.random() * 10 + 5,
     direction: DIRECTIONS[Math.floor(Math.random() * DIRECTIONS.length)],
     color: COLORS[Math.floor(Math.random() * COLORS.length)],
     draw() {
@@ -40,6 +40,19 @@ const getBall = () => ({
             this.y -= 3;
         } else if (this.direction === 'down') {
             this.y += 3;
+        }
+        if (this.direction === 'diagonal-right') {
+            this.x += 3;
+            this.y += 3;
+        }
+        if (this.direction === 'diagonal-left') {
+            this.x -= 3;
+            this.y += 3;
+        }
+        if (this.x >= canvas.width - this.radius || this.x <= this.radius) {
+            this.direction = 'diagonal-right';
+        }else if (this.x >= canvas.height - this.radius || this.x <= this.radius) {
+            this.direction = 'diagonal-left';
         }
 
         // Rebotes contra los bordes del canvas
