@@ -16,13 +16,13 @@ canvas.style.border = '10px solid yellow';
 canvas.style.borderRadius = '10px';
 
 const COLORS = ['red', 'green', 'blue', 'yellow', 'purple', 'orange', 'pink', 'brown', 'black', 'white'];
-const DIRECTIONS = ['right', 'left', 'up', 'down', 'diagonal-right', 'diagonal-left'];
 
 const getBall = () => ({
     y: Math.random() * canvas.height,
     x: Math.random() * canvas.width,
     radius: Math.random() * 10 + 5,
-    direction: DIRECTIONS[Math.floor(Math.random() * DIRECTIONS.length)],
+    dx: (Math.random() - 0.5) * 6, // Velocidad en x, rango entre -3 y 3
+    dy: (Math.random() - 0.5) * 6, // Velocidad en y, rango entre -3 y 3
     color: COLORS[Math.floor(Math.random() * COLORS.length)],
     draw() {
         ctx.fillStyle = this.color;
@@ -31,40 +31,14 @@ const getBall = () => ({
         ctx.fill();
         ctx.closePath();
 
-        if (this.direction === 'right') {
-            this.x += 3;
-        } else if (this.direction === 'left') {
-            this.x -= 3;
-        }
-        if (this.direction === 'up') {
-            this.y -= 3;
-        } else if (this.direction === 'down') {
-            this.y += 3;
-        }
-        if (this.direction === 'diagonal-right') {
-            this.x += 3;
-            this.y += 3;
-        }
-        if (this.direction === 'diagonal-left') {
-            this.x -= 3;
-            this.y += 3;
-        }
-        if (this.x >= canvas.width - this.radius || this.x <= this.radius) {
-            this.direction = 'diagonal-right';
-        }else if (this.x >= canvas.height - this.radius || this.x <= this.radius) {
-            this.direction = 'diagonal-left';
-        }
+        this.x += this.dx;
+        this.y += this.dy;
 
-        // Rebotes contra los bordes del canvas
-        if (this.y >= canvas.height - this.radius) {
-            this.direction = 'up';
-        } else if (this.y <= this.radius) {
-            this.direction = 'down';
+        if (this.x + this.radius > canvas.width || this.x - this.radius < 0) {
+            this.dx *= -1;
         }
-        if (this.x >= canvas.width - this.radius) {
-            this.direction = 'left';
-        } else if (this.x <= this.radius) {
-            this.direction = 'right';
+        if (this.y + this.radius > canvas.height || this.y - this.radius < 0) {
+            this.dy *= -1;
         }
     }
 });
@@ -85,8 +59,19 @@ const handleCollisions = (ball1, ball2) => {
     const distance = Math.sqrt(dx * dx + dy * dy);
 
     if (distance < ball1.radius + ball2.radius) {
-        // Invertir direcciones si colisionan
-        [ball1.direction, ball2.direction] = [ball2.direction, ball1.direction];
+        // Invertir los vectores de movimiento (dx y dy) al colisionar
+        ball1.dx *= -1;
+        ball1.dy *= -1;
+        ball2.dx *= -1;
+        ball2.dy *= -1;
+
+        // Ajustar las posiciones para evitar sobreposición
+        const overlap = ball1.radius + ball2.radius - distance;
+        const adjustmentFactor = overlap / distance;
+        ball1.x += dx * adjustmentFactor / 2;
+        ball1.y += dy * adjustmentFactor / 2;
+        ball2.x -= dx * adjustmentFactor / 2;
+        ball2.y -= dy * adjustmentFactor / 2;
     }
 };
 
