@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Máquina de Turing - Ruleta de Estados</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Máquina de Turing</h1>
+    <h2>Producto de dos numeros</h2>
+    <div class="contenedor">
+        <div id="cinta" class="cinta"></div>
+        <!-- Contenedor de la ruleta con el indicador fijo arriba -->
+        <div class="ruleta-container">
+            <p class="estadoP">Estado actual: <span id="estado">J</span></p>
+            <div id="circuloEstados" class="ruleta">
+                <div class="estado A">A</div>
+                <div class="estado B">B</div>
+                <div class="estado C">C</div>
+                <div class="estado D">D</div>
+                <div class="estado E">E</div>
+                <div class="estado F">F</div>
+                <div class="estado G">G</div>
+                <div class="estado H">H</div>
+                <div class="estado I">I</div>
+                <div class="estado J">J</div>
+                <div class="estado K">K</div>
+                <div class="estado L">L</div>
+                <div class="estado M">M</div>
+                <div class="estado N">N</div>
+                <div class="estado O">O</div>
+                <div class="estado arroba">@</div>
+            </div>
+            <div class="indicador"></div> <!-- Indicador fijo en la parte superior -->
+        </div>
+        
+        
+
+        <div class="buttons">
+            <button  class="acciones" onclick="paso()">Siguiente Paso</button>
+            <button class="acciones" onclick="reset()">Reiniciar</button>
+        </div>
+
+        <div class="cintaNueva">
+            <label class="labelCintaNueva" for="cintaInput">Ingresa la cinta: </label>
+            <input class="inputCintaNueva" type="text" id="cintaInput" placeholder="Ejemplo: 01101100000">
+            <button class="buttonCintaNueva" onclick="iniciarConCinta()">Iniciar</button>
+        </div>
+        
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>

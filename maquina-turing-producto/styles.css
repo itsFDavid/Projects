@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #a09d9d;
+}
+
+
+h1, h2 {
+    margin: 20px;
+    text-align: center;
+    font-family: monospace;
+}
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+}
+.acciones{
+    background-color: #d0bc87;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0;
+    box-shadow: inset 0 0 10px #000000;
+}
+.cinta {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.celda {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 2px;
+    font-size: 20px;
+}
+.activo {
+    background-color: yellow;
+}
+.fin {
+    background-color: green;
+    color: yellow;
+}
+/* Estilo del círculo tipo ruleta */
+.ruleta-container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    margin-top: 80px;
+}
+.estadoP{
+    position: absolute;
+    z-index: 2;
+    top: -50px;
+    align-items: center;
+    font-family: monospace;
+    font-size: 20px;
+}
+.ruleta {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: #d0bc87;
+    box-shadow: inset 0 0 10px #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(0deg);
+    transition: transform 1s ease;
+}
+.estado {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+    border-radius: 50%;
+}
+/* Posiciones de los estados en el "reloj" */
+.A { transform: rotate(0deg) translate(90px); }
+.B { transform: rotate(22.5deg) translate(90px); }
+.C { transform: rotate(45deg) translate(90px); }
+.D { transform: rotate(67.5deg) translate(90px); }
+.E { transform: rotate(90deg) translate(90px); }
+.F { transform: rotate(112.5deg) translate(90px); }
+.G { transform: rotate(135deg) translate(90px); }
+.H { transform: rotate(157.5deg) translate(90px); }
+.I { transform: rotate(180deg) translate(90px); }
+.J { transform: rotate(202.5deg) translate(90px); }
+.K { transform: rotate(225deg) translate(90px); }
+.L { transform: rotate(247.5deg) translate(90px); }
+.M { transform: rotate(270deg) translate(90px); }
+.N { transform: rotate(292.5deg) translate(90px); }
+.O { transform: rotate(315deg) translate(90px); }
+.arroba { transform: rotate(337.5deg) translate(90px); }
+
+/* Indicador fijo */
+.indicador {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 25px;
+    background-image: linear-gradient(#d0bc87, #000000);
+    border-radius: 50%;
+    z-index: 1;
+}
+
+
+
+.cintaNueva{
+    font-size: large;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.labelCintaNueva{
+    font-family: monospace;
+    margin: 30px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.inputCintaNueva{
+    font-family: monospace;
+    margin: 20px 5px;
+    display: flex;
+    justify-content: center;
+    background-color: #e3e3e3;
+}
+
+.buttonCintaNueva, .acciones {
+    background-color: #e46d29;
+    color: white;
+    font-family: monospace;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+}
+.buttonCintaNueva:hover, .acciones:hover {
+    background-color: #d65c23;
+}
+.buttonCintaNueva{
+    margin: 20px;
+}
