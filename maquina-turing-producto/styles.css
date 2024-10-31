@@ -228,6 +228,27 @@ h1, h2 {
     .O{transform: rotate(315deg) translate(135px);}
     .arroba{transform: rotate(337.5deg) translate(135px);}
 
+    .celda{
+        width: 20px;
+        height: 20px;
+    }
+    .cintaNueva{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0px;
+    }
+    .labelCintaNueva{
+        margin: 10px 0px;
+    }
+    .inputCintaNueva{
+        margin: 10px 5px;
+        padding: 10px 20px;
+    }
+    .buttonCintaNueva{
+        margin: 10px;
+        width: 100%;
+    }
 }
 
 @media (min-width: 992px){
