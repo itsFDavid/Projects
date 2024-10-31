@@ -4,13 +4,13 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
-# Configuración de la cinta y estados de la máquina de Turing
-cintaOriginal = ["0", "1", "1", "0", "1", "1", "0", "0", "0", "0", "0", "0", "0"]
-cinta = list(cintaOriginal)  # Inicialización de la cinta
-posicion = 0  # Cabezal de lectura en la posición inicial
-estado = "J"  # Estado inicial para comenzar la operación de multiplicación
 
-# Tabla de transición de estados
+cintaOriginal = ["0", "1", "1", "0", "1", "1", "0", "0", "0", "0", "0", "0", "0"]
+cinta = list(cintaOriginal)
+posicion = 0
+estado = "J"
+
+
 transiciones = {
     ("A", "0"): ("A", "0", "R"),
     ("A", "1"): ("B", "0", "R"),
@@ -52,7 +52,7 @@ def iniciar():
     if not all(c in "01" for c in nueva_cinta):
         return jsonify({"error": "La cinta solo debe contener 0s y 1s"}), 400
 
-    cinta = list(nueva_cinta)  # Actualiza la cinta
+    cinta = list(nueva_cinta)
     posicion = 0
     estado = "J"
     print("Cinta:", cinta)
@@ -65,9 +65,9 @@ def iniciar():
 def paso():
     global posicion, estado, cinta
 
-    # Obtiene el símbolo en la posición actual del cabezal
+
     simbolo_actual = cinta[posicion]
-    # Obtiene la transición basada en el estado actual y el símbolo
+
     clave = (estado, simbolo_actual)
     if clave not in transiciones:
         return jsonify({"fin": True, "estado": estado, "cinta": cinta, "posicion": posicion})
@@ -90,9 +90,9 @@ def paso():
 @app.route("/reset", methods=['GET'])
 def reset():
     global posicion, estado, cinta
-    cinta = list(cintaOriginal)  # Restaura la cinta original
-    estado = "J"  # Estado inicial
-    posicion = 0  # Posición inicial
+    cinta = list(cintaOriginal)
+    estado = "J"
+    posicion = 0
     return jsonify({"Reinicio": True, "estado": estado, "cinta": cinta, "posicion": posicion})
 
 if __name__ == "__main__":
