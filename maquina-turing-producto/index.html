@@ -8,6 +8,7 @@
 <body>
     <h1>Máquina de Turing</h1>
     <h2>Producto de dos numeros</h2>
+    <main class="principal">
     <div class="contenedor">
         <div id="cinta" class="cinta"></div>
 
@@ -48,6 +49,32 @@
         </div>
         
     </div>
+    <div class="reglas">
+        <h3>Reglas</h3>
+        <p>- La máquina de Turing se encuentra en un estado inicial, en este caso el estado J.</p>
+        <p>- La cinta contiene una serie de ceros y unos, los cuales representan los números a multiplicar.</p>
+        <p>- La máquina de Turing se moverá a la derecha o a la izquierda dependiendo del estado en el que se encuentre.</p>
+        <p>- El estado @ es el estado final, en el cual la máquina de Turing se detiene.</p>
+        <p>- La máquina de Turing realiza la multiplicación de los números en la cinta y los escribe en la misma cinta.</p>
+        <p>- La máquina de Turing se detiene cuando llega al estado @.</p>
+        <p class="cintaValida">- Las cintas validas solo son como:
+            <menu>
+                <li>01101100000</li> 
+                <li>011011000000</li>
+                <li>0110110000000</li>
+                <li>000001101100000000</li>
+                <li>0000011011000000000</li>
+            </menu>
+        </p>
+        <p class="cintaInvalida">- Las cintas invalidas son como:
+            <menu>
+                <li>100010110</li>
+                <li>101010101</li>
+                <li>000100001000110000</li>
+            </menu>
+        </p>
+    </div>
+    </main>
     <script src="js.js"></script>
 </body>
 </html>
