@@ -26,7 +26,10 @@ exports.register = async (req, res) => {
         if(user.affectedRows === 0) return res.status(400).json({ message: 'No se pudo registrar el usuario' });
 
         const verificationCode = Math.floor(100000 + Math.random() * 900000);
-        await sendVerificationEmail(email, verificationCode);
+        const sendEmailData =  await sendVerificationEmail(email, verificationCode);
+
+        if(!sendEmailData) return res.status(201)
+                .json({message: 'Usuario registrado', messageEmail: 'No se pudo enviar el email' })
 
         res.status(201).json({ message: 'Usuario registrado, verifique su email' });
     } catch (error) {
@@ -59,3 +62,13 @@ exports.login = async (req, res, next) => {
 exports.logout = (req, res) => {
     res.json({ message: 'Sesión cerrada correctamente' });
 };
+
+exports.deleteAcount = async (req, res) =>{
+    try{
+        const {token} = req.headers.authorization
+        
+
+    }catch(error){
+        next(error)
+    }
+}
