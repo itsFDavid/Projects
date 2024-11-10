@@ -1,0 +1,27 @@
+.page {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  padding: 2rem;
+  font-size: 6rem;
+  font-family: var(--font-geist-sans);
+}
+
+@media (prefers-color-scheme: dark) {
+  .page {
+    --gray-rgb: 255, 255, 255;
+    --gray-alpha-200: rgba(var(--gray-rgb), 0.145);
+    --gray-alpha-100: rgba(var(--gray-rgb), 0.06);
+
+    --button-primary-hover: #ccc;
+    --button-secondary-hover: #1a1a1a;
+  }
+}
+
+.description {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  text-align: center;
+  color: var(--gray-600);
+  margin-top: 1rem;
+}
