@@ -25,7 +25,7 @@ body {
 
 body {
   color: var(--black);
-  background: linear-gradient(-17deg, var(--primary) 56%, var(--linear-primary) 100%);
+  background: linear-gradient(197deg, var(--primary) 56%, var(--linear-primary) 100%);
   background-attachment: fixed;
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
