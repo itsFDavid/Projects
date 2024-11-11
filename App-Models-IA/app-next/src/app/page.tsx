@@ -1,12 +1,10 @@
-import display from './page.module.css';
+import Nav from "@components/nav";
 
 export default function Home() {
   return (
    <>
-    <h1 className={display.page}>Modelos de ML</h1>
-    <p className={display.description}>
-      A simple web app to explore models.
-    </p>
+    <Nav />
+    <h1>Hello, world!</h1>
    </>
   );
 }
