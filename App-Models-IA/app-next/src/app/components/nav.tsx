@@ -1,9 +1,13 @@
 "use client";
-import { useState } from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import display from "@src/page.module.css";
 
-export default function Nav() {
+export default function Nav({
+  background,
+}: {
+  background?: React.CSSProperties["background"];
+}) {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -15,7 +19,7 @@ export default function Nav() {
   };
 
   return (
-    <nav className={display.nav}>
+    <nav className={`${display.nav}`} style={{ background }}>
       <Link href="/" className={display.description_nav}>
         Prueba Modelos De ML
       </Link>

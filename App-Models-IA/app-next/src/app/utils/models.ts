@@ -16,4 +16,13 @@ export const MODELS: IModel[] = [
     nombre: "Agrupación",
     descripcion: "Agrupación de datos",
   },
+  {
+    nombre: "Redes Neuronales",
+    descripcion: "Redes Neuronales",
+  },
+  {
+    nombre: "Aprendizaje Profundo",
+    descripcion: "Aprendizaje Profundo",
+  }
+  
 ];
