@@ -1,14 +1,14 @@
-body{
+body {
   margin: 0;
   padding: 0;
 }
-.main{
+.main {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 10vh;
 }
-.formContainer{
+.formContainer {
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -16,37 +16,37 @@ body{
   max-width: 400px;
   width: 100%;
 }
-.tittle{
+.tittle {
   text-align: center;
   font-size: 2rem;
   color: #333;
   margin-bottom: 1.5rem;
 }
 
-.form{
+.form {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
 }
 
-.form input{
-    width: 100%;
-    padding: 10px;
-    margin: 5px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+.form input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
-.form input:focus{
-    outline: none;
-    border-color: #007bff;
+.form input:focus {
+  outline: none;
+  border-color: #007bff;
 }
-.form label{
+.form label {
   font-size: 0.9rem;
   color: #555;
 }
 
-.form button{
-  background-color: #abdecb;
+.form button {
+  background-color: #42e0a6;
   color: #fff;
   padding: 1rem;
   border: none;
@@ -55,10 +55,10 @@ body{
   font-size: 1rem;
   transition: background-color 0.3s ease;
 }
-.form button:hover{
+.form button:hover {
   background-color: #007bff;
 }
-.form a{
+.form a {
   text-decoration: none;
   color: #abdecb;
   font-size: 0.9rem;
@@ -66,35 +66,12 @@ body{
   display: block;
   margin-top: 1rem;
 }
-.form a:hover{
+.form a:hover {
   color: #80a598;
 }
 
-.form .error{
+.error {
   color: red;
   font-size: 0.9rem;
   margin-top: 0.5rem;
-}
-
-.form .success{
-  color: green;
-  font-size: 0.9rem;
-  margin-top: 0.5rem;
-}
-
-.form .loading{
-  color: #007bff;
-  font-size: 0.9rem;
-  margin-top: 0.5rem;
-}
-
-.form .loading::after{
-  content: '';
-  display: inline-block;
-  width: 1rem;
-  height: 1rem;
-  border-radius: 50%;
-  border: 2px solid #007bff;
-  border-top-color: transparent;
-  animation: spin 1s linear infinite;
 }

@@ -7,16 +7,15 @@ import Nav from "@src/components/nav";
 interface FormData {
   email: string;
   password: string;
-  confirmPassword: string;
 }
 
-export default function Register() {
+export default function Login() {
   const [formData, setFormData] = useState<FormData>({
     email: "",
     password: "",
-    confirmPassword: "",
   });
-  const [error, setError] = useState<string>("");
+  const [error, setError] = useState<string>(""); // Estado para errores
+  const [success, setSuccess] = useState<string>(""); // Estado para éxito
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
@@ -27,21 +26,13 @@ export default function Register() {
   };
 
   const validateForm = () => {
-    if (!formData.email || !formData.password || !formData.confirmPassword) {
+    if (!formData.email || !formData.password) {
       return "Por favor, completa todos los campos.";
     }
 
     const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
     if (!emailRegex.test(formData.email)) {
       return "Por favor, ingresa un correo electrónico válido.";
-    }
-
-    if (formData.password.length < 6) {
-      return "La contraseña debe tener al menos 6 caracteres.";
-    }
-
-    if (formData.password !== formData.confirmPassword) {
-      return "Las contraseñas no coinciden.";
     }
 
     return ""; // Si no hay errores
@@ -52,10 +43,35 @@ export default function Register() {
     const validationError = validateForm();
     if (validationError) {
       setError(validationError);
+      setSuccess(""); // Limpiar cualquier mensaje de éxito
     } else {
-      setError(""); // Limpiar errores
-      console.log(formData);
-      // Aquí puedes enviar los datos al servidor
+      setError(""); // Limpiar el error
+      setSuccess(""); // Limpiar cualquier mensaje de éxito
+
+      try {
+        // Aquí iría la llamada a la API para hacer login
+        const response = await fetch("/api/login", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formData),
+        });
+
+        const data = await response.json();
+
+        if (response.ok) {
+          // Si la respuesta es exitosa
+          setSuccess("Inicio de sesión exitoso.");
+          // Aquí podrías redirigir al usuario o guardar el token, por ejemplo
+        } else {
+          // Si hay un error
+          setError(data.message || "Algo salió mal. Intenta de nuevo.");
+        }
+      } catch (err) {
+        console.log("Error al iniciar sesión:", err);
+        setError("Hubo un error al intentar iniciar sesión.");
+      }
     }
   };
 
@@ -64,8 +80,11 @@ export default function Register() {
       <Nav />
       <section className={styles.main}>
         <div className={styles.formContainer}>
-          <h2 className={styles.tittle}>Registrarse</h2>
-          {error && <div className={styles.error}>{error}</div>}
+          <h2 className={styles.tittle}>Iniciar Sesión</h2>
+          {error && <div className={styles.error}>{error}</div>}{" "}
+          {/* Mostrar error si existe */}
+          {success && <div className={styles.success}>{success}</div>}{" "}
+          {/* Mostrar éxito si existe */}
           <form onSubmit={handleSubmit} className={styles.form}>
             <div>
               <label htmlFor="email">Correo Electrónico</label>
@@ -89,18 +108,7 @@ export default function Register() {
                 required
               />
             </div>
-            <div>
-              <label htmlFor="confirmPassword">Confirmar Contraseña</label>
-              <input
-                type="password"
-                id="confirmPassword"
-                name="confirmPassword"
-                value={formData.confirmPassword}
-                onChange={handleChange}
-                required
-              />
-            </div>
-            <button type="submit">Registrar</button>
+            <button type="submit">Iniciar sesión</button>
           </form>
         </div>
       </section>
