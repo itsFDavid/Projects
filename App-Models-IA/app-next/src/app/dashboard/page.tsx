@@ -1,14 +1,26 @@
 // src/app/dashboard/page.tsx
 "use client";
 
-import Nav from "@src/components/nav";
+import NavDash from "@src/components/navDash";
 import styles from "./dashboard.module.css";
 import { MODELS } from "@src/utils/models";
+import { useEffect } from "react";
+import { useRouter } from "next/navigation";
 
 const Dashboard = () => {
+  const router = useRouter();
+
+  useEffect(() => {
+    // Verifica si el usuario tiene una sesión
+    const isAuthenticated = !!localStorage.getItem("authToken"); // O verifica de otra forma
+
+    if (!isAuthenticated) {
+      router.push("/login"); // Redirige al login si no está autenticado
+    }
+  }, [router]);
   return (
     <>
-      <Nav />
+      <NavDash />
       <main className={styles.main}>
         <h1 className={styles.title}>Dashboard - Modelos de ML</h1>
 

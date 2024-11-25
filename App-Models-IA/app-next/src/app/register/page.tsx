@@ -3,6 +3,7 @@
 import { useState } from "react";
 import styles from "./page.module.css";
 import Nav from "@src/components/nav";
+import { useRouter } from "next/navigation";
 
 interface FormData {
   email: string;
@@ -17,6 +18,7 @@ export default function Register() {
     confirmPassword: "",
   });
   const [error, setError] = useState<string>("");
+  const router = useRouter();
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
@@ -56,6 +58,26 @@ export default function Register() {
       setError(""); // Limpiar errores
       console.log(formData);
       // Aquí puedes enviar los datos al servidor
+      fetch("/api/register", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      })
+        .then((res) => res.json())
+        .then((data) => {
+          if (data.error) {
+            setError(data.error);
+          } else {
+            // Si todo sale bien, redirigir a la página de inicio
+            router.push("/login");
+          }
+        })
+        .catch((error) => {
+          console.error("Error:", error);
+          setError("Hubo un error al procesar el registro.");
+        });
     }
   };
 

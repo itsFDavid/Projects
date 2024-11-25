@@ -3,6 +3,8 @@
 import { useState } from "react";
 import styles from "./page.module.css";
 import Nav from "@src/components/nav";
+import { useRouter } from "next/navigation";
+import { useEffect } from "react";
 
 interface FormData {
   email: string;
@@ -16,6 +18,15 @@ export default function Login() {
   });
   const [error, setError] = useState<string>(""); // Estado para errores
   const [success, setSuccess] = useState<string>(""); // Estado para éxito
+
+  const router = useRouter();
+
+  useEffect(() => {
+    const token = localStorage.getItem("authToken");
+    if (token) {
+      router.push("/dashboard");
+    }
+  }, [router]);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
@@ -50,6 +61,7 @@ export default function Login() {
 
       try {
         // Aquí iría la llamada a la API para hacer login
+        console.log("Datos a enviar:", formData);
         const response = await fetch("/api/login", {
           method: "POST",
           headers: {
@@ -57,16 +69,14 @@ export default function Login() {
           },
           body: JSON.stringify(formData),
         });
-
         const data = await response.json();
-
         if (response.ok) {
-          // Si la respuesta es exitosa
           setSuccess("Inicio de sesión exitoso.");
-          // Aquí podrías redirigir al usuario o guardar el token, por ejemplo
+          setError("");
+          router.push("/dashboard");
+          localStorage.setItem("authToken", data.token);
         } else {
-          // Si hay un error
-          setError(data.message || "Algo salió mal. Intenta de nuevo.");
+          setError("Algo salió mal. Intenta de nuevo.");
         }
       } catch (err) {
         console.log("Error al iniciar sesión:", err);
@@ -82,9 +92,7 @@ export default function Login() {
         <div className={styles.formContainer}>
           <h2 className={styles.tittle}>Iniciar Sesión</h2>
           {error && <div className={styles.error}>{error}</div>}{" "}
-          {/* Mostrar error si existe */}
           {success && <div className={styles.success}>{success}</div>}{" "}
-          {/* Mostrar éxito si existe */}
           <form onSubmit={handleSubmit} className={styles.form}>
             <div>
               <label htmlFor="email">Correo Electrónico</label>
