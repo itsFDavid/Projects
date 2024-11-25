@@ -1,4 +1,5 @@
 import display from "@src/page.module.css";
+import Link from "next/link";
 
 
 export default function PreviewModels({
@@ -9,11 +10,11 @@ export default function PreviewModels({
   description: string;
 }) {
   return (
-    <section className={display.preview_ml}>
+    <Link  href="/register" className={display.preview_ml}>
       <h2>Modelo de {name}</h2>
       <div className="">
         <p>{description}</p>
       </div>
-    </section>
+    </Link>
   );
 }
