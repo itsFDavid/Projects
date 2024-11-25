@@ -1,16 +1,17 @@
-require('dotenv').config();
-const express = require('express');
-const authRoutes = require('./src/routes/authRoutes');
-const errorHandler = require('./src/middleware/errorMiddleware');
-
+require("dotenv").config();
+const express = require("express");
+const authRoutes = require("./src/routes/authRoutes");
+const errorHandler = require("./src/middleware/errorMiddleware");
+const cors = require("cors");
 
 const app = express();
 app.use(express.json());
 
-app.use('/auth', authRoutes);
+app.use("/auth", authRoutes);
 
+app.use(cors());
 app.use((req, res, next) => {
-    res.status(404).json({ message: 'Ruta no encontrada' });
+  res.status(404).json({ message: "Ruta no encontrada" });
 });
 
 // app.use((err, req, res, next) => {
@@ -18,12 +19,9 @@ app.use((req, res, next) => {
 // res.status(500).json({ message: 'Ocurrió un error, intente mas tarde'});
 // });
 
-
-
 app.use(errorHandler);
-
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-    console.log(`Servidor corriendo en ´http://localhost:${PORT}´`);
+  console.log(`Servidor corriendo en ´http://localhost:${PORT}´`);
 });
