@@ -1,0 +1,70 @@
+*,
+**::before,
+**::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: center;
+  margin-top: 2rem;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid #000;
+  aspect-ratio: 2/ 1;
+  margin: 50px;
+  gap: 1rem;
+  font-size: 1.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  align-items: start;
+
+  && .sect {
+    width: 100%;
+    display: flex;
+    gap: 1rem 10rem;
+    align-items: center;
+    justify-content: center;
+
+    && .inp {
+      width: 100%;
+      padding: 10px;
+      font-size: 20px;
+      border-radius: 7px;
+      border: 1px solid #000;
+    }
+  }
+}
+
+.buttons {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  width: 100%;
+}
+
+.buttons input {
+  padding: 10px;
+  border-radius: 7px;
+  background-color: #f0f0f0;
+  font-size: 20px;
+  text-align: center;
+}
+
+.buttons input:hover {
+  background-color: #e0e0e0;
+}
