@@ -1,11 +1,11 @@
 // src/app/dashboard/page.tsx
 "use client";
 
-import NavDash from "@src/components/navDash";
 import styles from "./dashboard.module.css";
 import { MODELS } from "@src/utils/models";
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
+import Nav from "@src/components/nav";
 
 const Dashboard = () => {
   const router = useRouter();
@@ -20,7 +20,7 @@ const Dashboard = () => {
   }, [router]);
   return (
     <>
-      <NavDash />
+      <Nav />
       <main className={styles.main}>
         <h1 className={styles.title}>Dashboard - Modelos de ML</h1>
 
