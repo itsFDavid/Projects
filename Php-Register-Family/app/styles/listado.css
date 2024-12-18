@@ -1,0 +1,72 @@
+*,
+**::before,
+**::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  gap: 1rem;
+  background-color: #3d3c3c;
+}
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: wheat;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  background-color: #93929256;
+  padding: 1rem;
+
+  && a {
+    color: #f0f0f0;
+    text-decoration: none;
+    font-weight: bold;
+  }
+}
+.personas {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-auto-flow: row;
+  gap: 10px;
+  max-width: 90%;
+  margin: 0 auto;
+  border: 1px solid black;
+  background-color: #f0f0f0;
+}
+.persona {
+  aspect-ratio: 1/1; /* Relación de aspecto 1:1 */
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(100, 200, 60, 0.5);
+  margin: 1rem;
+}
+
+.foto {
+  width: 50%;
+  img {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+}
+.datos {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  gap: 1rem;
+  color: #3d3c3c;
+
+  && label {
+    font-weight: bold;
+  }
+}
