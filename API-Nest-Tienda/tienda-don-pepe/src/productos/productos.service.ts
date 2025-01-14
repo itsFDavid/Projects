@@ -1,0 +1,89 @@
+import { BadRequestException, ConflictException, Injectable } from '@nestjs/common';
+import { CreateProductoDto } from './dto/create-producto.dto';
+import { UpdateProductoDto } from './dto/update-producto.dto';
+import { PaginationDto } from 'src/common/dto/pagination.dto';
+import { Repository } from 'typeorm';
+import { Producto } from './entities/producto.entity';
+import { InjectRepository } from '@nestjs/typeorm';
+import { readFileSync } from 'fs';
+
+@Injectable()
+export class ProductosService {
+  constructor(
+
+    @InjectRepository(Producto)
+    private readonly productosRepository: Repository<Producto>
+  ){}
+
+  async create(createProductoDto: CreateProductoDto) {
+    try{
+      const producto = this.productosRepository.create(createProductoDto);
+      return await this.productosRepository.save(producto);
+    }catch(error){
+      this.handleExceptions(error);
+    }
+  }
+
+  async findAll(paginationDto: PaginationDto) {
+    const { limit = 10, offset = 0 } = paginationDto;
+
+    return await this.productosRepository.find({
+      skip: offset,
+      take: limit,
+    });
+  }
+
+  async findOne(id: number) {
+    const producto = await this.productosRepository.findOneBy({id_producto: id});
+    if (!producto) {
+      throw new BadRequestException('No existe un producto con el id ' + id);
+    }
+    return producto;
+  }
+
+  async update(id: number, updateProductoDto: UpdateProductoDto) {
+    const producto = await this.findOne(id);
+ 
+    try {
+      this.productosRepository.merge(producto, updateProductoDto);
+      return await this.productosRepository.save(producto);
+    }
+    catch (error) {
+      this.handleExceptions(error);
+    }
+  }
+
+  async remove(id: number) {
+    const producto = await this.findOne(id);
+    return await this.productosRepository.remove(producto);
+  }
+
+  async seed(){
+    try{
+      const productosJson = readFileSync('src/common/utils/productos.seed.json', 'utf8');
+      const productosData = JSON.parse(productosJson);
+  
+      const productos = productosData.map((producto: Producto) =>{
+        const createProductoDto: CreateProductoDto ={
+          nombre_producto: producto.nombre_producto,
+          descripcion: producto.descripcion,
+          precio: producto.precio,
+          stock: producto.stock,
+        }
+        return this.create(createProductoDto);
+      });
+      return await Promise.all(productos);
+    }catch (error){
+      throw new Error(`Error al intentar leer el archivo de seed de clientes: ${error.message}`);
+    }
+
+  }
+
+  handleExceptions(error: any){
+    if (error.code === 'ER_DUP_ENTRY') {
+      throw new ConflictException('Ya existe un producto con ese nombre');
+    }
+
+    throw new BadRequestException('Error al procesar la solicitud');
+  }
+}
