@@ -33,10 +33,14 @@ export class ProductosService {
     });
   }
 
-  async findOne(id: number) {
-    const producto = await this.productosRepository.findOneBy({id_producto: id});
+  async findOne(term: string | number) {
+    const producto = await this.productosRepository.createQueryBuilder('producto')
+      .where('producto.nombre_producto = :term', { term })
+      .orWhere('producto.id_producto = :term', { term })
+      .getOne();
+    
     if (!producto) {
-      throw new BadRequestException('No existe un producto con el id ' + id);
+      throw new BadRequestException(`Producto con termino ${term} no encontrado`);
     }
     return producto;
   }

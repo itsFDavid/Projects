@@ -23,8 +23,8 @@ export class TiendasController {
     return this.tiendasService.findAll(paginationDto);
   }
 
-  @Get(':id')
-  findOne(@Param('id', ParseIntPipe) id: number) {
+  @Get(':term')
+  findOne(@Param('term') id: string) {
     return this.tiendasService.findOne(id);
   }
 

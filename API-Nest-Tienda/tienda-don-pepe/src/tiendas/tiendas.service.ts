@@ -21,18 +21,21 @@ export class TiendasService {
   async findAll(paginationDto: PaginationDto) {
     const { limit= 10, offset = 0 } = paginationDto;
     return await this.tiendasRepository.find({
+      relations: ['compras_'],
       skip: offset,
       take: limit,
     });
   }
 
-  async findOne(id: number) {
-    const tienda = await this.tiendasRepository.findOne({
-      where: { id_tienda: id }
-    });
+  async findOne(term: string | number) {
+    const tienda = await this.tiendasRepository.createQueryBuilder('tienda')
+      .where('tienda.nombre_tienda = :term', { term })
+      .orWhere('tienda.id_tienda = :term', { term })
+      .leftJoinAndSelect('tienda.compras_', 'compras_')
+      .getOne();
 
     if(!tienda){
-      throw new NotFoundException(`Tienda con ID ${id} no encontrada`);
+      throw new NotFoundException(`Tienda con termino ${term} no encontrada`);
     }
 
     return tienda;
@@ -57,12 +60,14 @@ export class TiendasService {
   
 
     await this.tiendasRepository.manager.transaction(async (transactionalEntityManager) => {
+      // Elimina las compras de la tienda
+      await transactionalEntityManager.delete('compra', { tienda_: { id_tienda: id } });
 
       // Finalmente, elimina la tienda
       await transactionalEntityManager.delete(Tienda, { id_tienda: id });
     });
   
-    return { message: `Tienda con ID ${id} eliminada correctamente` };
+    return;
   }
 
   async seed(){

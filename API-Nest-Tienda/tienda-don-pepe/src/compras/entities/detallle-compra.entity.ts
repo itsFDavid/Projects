@@ -1,6 +1,7 @@
-import { Column, Entity, ManyToOne, PrimaryGeneratedColumn } from "typeorm";
+import { Column, Entity, ManyToOne, OneToOne, PrimaryGeneratedColumn } from "typeorm";
 import { Compra } from "./compra.entity";
 import { Producto } from "src/productos/entities/producto.entity";
+
 
 @Entity()
 export class DetalleCompra{
@@ -18,6 +19,8 @@ export class DetalleCompra{
   
     @Column({ type: 'double', precision: 10, scale: 2 })
     precio_unitario: number;
+
+
   
     @ManyToOne(() => Compra, (compra) => compra.detalles_, { onDelete: 'CASCADE' })
     compra_: Compra;

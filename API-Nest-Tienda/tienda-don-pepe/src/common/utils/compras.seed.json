@@ -1,5102 +1,4202 @@
 [
   {
-    "clienteId": 2,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 3,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 4,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 5,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 6,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 7,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 8,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 9,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 10,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 1,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 2,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 3,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 4,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 5,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 6,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 7,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 8,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 9,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 10,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 1,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 2,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 3,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 4,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 5,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 6,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 7,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 8,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 9,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 10,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 1,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 2,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 3,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 4,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 5,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 6,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 7,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 8,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 9,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 10,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 1,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 2,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 3,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 4,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 5,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 6,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 7,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 8,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 9,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 10,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 1,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 2,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 3,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 4,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 5,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 6,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 7,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 8,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 9,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 10,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 1,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 2,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 3,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 4,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 5,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 6,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 7,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 8,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 9,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 10,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 1,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 2,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 3,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 4,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 5,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 6,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 7,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 8,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 9,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 10,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 1,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 2,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 3,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 4,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 5,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 6,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 7,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 8,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 9,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 10,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 1,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 2,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 3,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 4,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 5,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 6,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 7,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 8,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 9,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 10,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 1,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 2,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 3,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 4,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 5,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 6,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 7,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 8,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 9,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 10,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 1,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 2,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 3,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 4,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 5,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 6,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 7,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 8,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 9,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 10,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 1,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 2,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 3,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 4,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 5,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 6,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 7,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 8,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 9,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 10,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 1,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 2,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 3,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 4,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 5,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 6,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 7,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 8,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 9,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 10,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 1,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 2,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 3,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 4,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 5,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 6,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 7,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 8,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 9,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 10,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 1,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 2,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 3,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 4,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 5,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 6,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 7,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 8,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 9,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 10,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 1,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 2,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 3,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 4,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 5,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 6,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 7,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 8,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 9,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 10,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 1,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 2,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 3,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 4,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 5,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 6,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 7,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 8,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 9,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 10,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 1,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 2,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 3,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 4,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 5,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 6,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 7,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 8,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 9,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 10,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 1,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 2,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 3,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 4,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 5,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 6,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 7,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 8,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 9,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 10,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 1,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 2,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 3,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 4,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 5,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 6,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 7,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 8,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 9,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 10,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 1,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 2,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 3,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 4,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 5,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 6,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 7,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 8,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 9,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 10,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 1,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 2,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 3,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 4,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 5,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 6,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 7,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 8,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 9,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 10,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 1,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 2,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 3,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 4,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 5,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 6,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 7,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 8,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 9,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 10,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 1,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 2,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 3,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 4,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 5,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 6,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 7,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 8,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 9,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 10,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 1,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 2,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 3,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 4,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 5,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 6,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 7,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 8,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 9,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 10,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 1,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 2,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 3,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 4,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 5,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 6,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 7,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 8,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 9,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 10,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 1,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 2,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 3,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 4,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 5,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 6,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 7,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 8,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 9,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 10,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 1,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 2,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 3,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 4,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 5,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 6,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 7,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 8,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 9,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 10,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 1,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 2,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 3,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 4,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 5,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 6,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
-  },
-  {
-    "clienteId": 7,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 4
-      }
-    ]
-  },
-  {
-    "clienteId": 8,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 3
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 2
-      }
-    ]
-  },
-  {
-    "clienteId": 9,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 2
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 5
-      }
-    ]
-  },
-  {
-    "clienteId": 10,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 5
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 4
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 3
-      }
-    ]
-  },
-  {
-    "clienteId": 1,
-    "detalles": [
-      {
-        "productoId": 2,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 3,
-        "cantidad_productos": 1
-      },
-      {
-        "productoId": 4,
-        "cantidad_productos": 1
-      }
-    ]
+      "clienteId": 69,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 50,
+              "cantidad_productos": 22
+          },
+          {
+              "productoId": 28,
+              "cantidad_productos": 12
+          }
+      ]
+  },
+  {
+      "clienteId": 25,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 6,
+              "cantidad_productos": 22
+          },
+          {
+              "productoId": 40,
+              "cantidad_productos": 22
+          }
+      ]
+  },
+  {
+      "clienteId": 47,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 35,
+              "cantidad_productos": 5
+          },
+          {
+              "productoId": 28,
+              "cantidad_productos": 18
+          }
+      ]
+  },
+  {
+      "clienteId": 59,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 5,
+              "cantidad_productos": 26
+          },
+          {
+              "productoId": 5,
+              "cantidad_productos": 20
+          }
+      ]
+  },
+  {
+      "clienteId": 50,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 32,
+              "cantidad_productos": 3
+          },
+          {
+              "productoId": 7,
+              "cantidad_productos": 6
+          }
+      ]
+  },
+  {
+      "clienteId": 46,
+      "tiendaId": 1,
+      "detalles": [
+          {
+              "productoId": 40,
+              "cantidad_productos": 11
+          },
+          {
+              "productoId": 47,
+              "cantidad_productos": 29
+          }
+      ]
+  },
+  {
+      "clienteId": 28,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 36,
+              "cantidad_productos": 13
+          },
+          {
+              "productoId": 23,
+              "cantidad_productos": 19
+          }
+      ]
+  },
+  {
+      "clienteId": 94,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 11,
+              "cantidad_productos": 26
+          },
+          {
+              "productoId": 48,
+              "cantidad_productos": 19
+          }
+      ]
+  },
+  {
+      "clienteId": 83,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 36,
+              "cantidad_productos": 29
+          },
+          {
+              "productoId": 46,
+              "cantidad_productos": 4
+          }
+      ]
+  },
+  {
+      "clienteId": 90,
+      "tiendaId": 1,
+      "detalles": [
+          {
+              "productoId": 35,
+              "cantidad_productos": 28
+          },
+          {
+              "productoId": 15,
+              "cantidad_productos": 23
+          }
+      ]
+  },
+  {
+      "clienteId": 10,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 16,
+              "cantidad_productos": 25
+          },
+          {
+              "productoId": 3,
+              "cantidad_productos": 26
+          }
+      ]
+  },
+  {
+      "clienteId": 26,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 47,
+              "cantidad_productos": 9
+          },
+          {
+              "productoId": 15,
+              "cantidad_productos": 5
+          }
+      ]
+  },
+  {
+      "clienteId": 2,
+      "tiendaId": 1,
+      "detalles": [
+          {
+              "productoId": 2,
+              "cantidad_productos": 12
+          },
+          {
+              "productoId": 26,
+              "cantidad_productos": 18
+          }
+      ]
+  },
+  {
+      "clienteId": 50,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 42,
+              "cantidad_productos": 22
+          },
+          {
+              "productoId": 13,
+              "cantidad_productos": 18
+          }
+      ]
+  },
+  {
+      "clienteId": 86,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 32,
+              "cantidad_productos": 3
+          },
+          {
+              "productoId": 19,
+              "cantidad_productos": 24
+          }
+      ]
+  },
+  {
+      "clienteId": 46,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 9,
+              "cantidad_productos": 17
+          },
+          {
+              "productoId": 11,
+              "cantidad_productos": 21
+          }
+      ]
+  },
+  {
+      "clienteId": 22,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 32,
+              "cantidad_productos": 21
+          },
+          {
+              "productoId": 47,
+              "cantidad_productos": 8
+          }
+      ]
+  },
+  {
+      "clienteId": 94,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 5,
+              "cantidad_productos": 21
+          },
+          {
+              "productoId": 38,
+              "cantidad_productos": 19
+          }
+      ]
+  },
+  {
+      "clienteId": 11,
+      "tiendaId": 1,
+      "detalles": [
+          {
+              "productoId": 16,
+              "cantidad_productos": 9
+          },
+          {
+              "productoId": 26,
+              "cantidad_productos": 30
+          }
+      ]
+  },
+  {
+      "clienteId": 19,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 38,
+              "cantidad_productos": 4
+          },
+          {
+              "productoId": 6,
+              "cantidad_productos": 7
+          }
+      ]
+  },
+  {
+      "clienteId": 44,
+      "tiendaId": 1,
+      "detalles": [
+          {
+              "productoId": 14,
+              "cantidad_productos": 6
+          },
+          {
+              "productoId": 37,
+              "cantidad_productos": 4
+          }
+      ]
+  },
+  {
+      "clienteId": 25,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 50,
+              "cantidad_productos": 25
+          },
+          {
+              "productoId": 18,
+              "cantidad_productos": 18
+          }
+      ]
+  },
+  {
+      "clienteId": 81,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 40,
+              "cantidad_productos": 15
+          },
+          {
+              "productoId": 41,
+              "cantidad_productos": 4
+          }
+      ]
+  },
+  {
+      "clienteId": 91,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 16,
+              "cantidad_productos": 14
+          },
+          {
+              "productoId": 18,
+              "cantidad_productos": 17
+          }
+      ]
+  },
+  {
+      "clienteId": 94,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 39,
+              "cantidad_productos": 9
+          },
+          {
+              "productoId": 35,
+              "cantidad_productos": 20
+          }
+      ]
+  },
+  {
+      "clienteId": 85,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 44,
+              "cantidad_productos": 9
+          },
+          {
+              "productoId": 16,
+              "cantidad_productos": 2
+          }
+      ]
+  },
+  {
+      "clienteId": 76,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 50,
+              "cantidad_productos": 25
+          },
+          {
+              "productoId": 26,
+              "cantidad_productos": 26
+          }
+      ]
+  },
+  {
+      "clienteId": 63,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 15,
+              "cantidad_productos": 6
+          },
+          {
+              "productoId": 1,
+              "cantidad_productos": 1
+          }
+      ]
+  },
+  {
+      "clienteId": 20,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 47,
+              "cantidad_productos": 18
+          },
+          {
+              "productoId": 45,
+              "cantidad_productos": 27
+          }
+      ]
+  },
+  {
+      "clienteId": 23,
+      "tiendaId": 1,
+      "detalles": [
+          {
+              "productoId": 10,
+              "cantidad_productos": 26
+          },
+          {
+              "productoId": 39,
+              "cantidad_productos": 27
+          }
+      ]
+  },
+  {
+      "clienteId": 23,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 24,
+              "cantidad_productos": 15
+          },
+          {
+              "productoId": 11,
+              "cantidad_productos": 17
+          }
+      ]
+  },
+  {
+      "clienteId": 14,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 28,
+              "cantidad_productos": 30
+          },
+          {
+              "productoId": 17,
+              "cantidad_productos": 7
+          }
+      ]
+  },
+  {
+      "clienteId": 35,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 8,
+              "cantidad_productos": 8
+          },
+          {
+              "productoId": 11,
+              "cantidad_productos": 30
+          }
+      ]
+  },
+  {
+      "clienteId": 68,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 7,
+              "cantidad_productos": 13
+          },
+          {
+              "productoId": 18,
+              "cantidad_productos": 23
+          }
+      ]
+  },
+  {
+      "clienteId": 68,
+      "tiendaId": 1,
+      "detalles": [
+          {
+              "productoId": 32,
+              "cantidad_productos": 8
+          },
+          {
+              "productoId": 15,
+              "cantidad_productos": 24
+          }
+      ]
+  },
+  {
+      "clienteId": 98,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 31,
+              "cantidad_productos": 14
+          },
+          {
+              "productoId": 29,
+              "cantidad_productos": 16
+          }
+      ]
+  },
+  {
+      "clienteId": 15,
+      "tiendaId": 1,
+      "detalles": [
+          {
+              "productoId": 37,
+              "cantidad_productos": 10
+          },
+          {
+              "productoId": 44,
+              "cantidad_productos": 12
+          }
+      ]
+  },
+  {
+      "clienteId": 71,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 48,
+              "cantidad_productos": 7
+          },
+          {
+              "productoId": 25,
+              "cantidad_productos": 25
+          }
+      ]
+  },
+  {
+      "clienteId": 73,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 2,
+              "cantidad_productos": 27
+          },
+          {
+              "productoId": 12,
+              "cantidad_productos": 21
+          }
+      ]
+  },
+  {
+      "clienteId": 63,
+      "tiendaId": 1,
+      "detalles": [
+          {
+              "productoId": 50,
+              "cantidad_productos": 8
+          },
+          {
+              "productoId": 5,
+              "cantidad_productos": 29
+          }
+      ]
+  },
+  {
+      "clienteId": 43,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 13,
+              "cantidad_productos": 29
+          },
+          {
+              "productoId": 20,
+              "cantidad_productos": 13
+          }
+      ]
+  },
+  {
+      "clienteId": 61,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 50,
+              "cantidad_productos": 23
+          },
+          {
+              "productoId": 37,
+              "cantidad_productos": 28
+          }
+      ]
+  },
+  {
+      "clienteId": 1,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 17,
+              "cantidad_productos": 19
+          },
+          {
+              "productoId": 23,
+              "cantidad_productos": 16
+          }
+      ]
+  },
+  {
+      "clienteId": 30,
+      "tiendaId": 1,
+      "detalles": [
+          {
+              "productoId": 6,
+              "cantidad_productos": 1
+          },
+          {
+              "productoId": 25,
+              "cantidad_productos": 25
+          }
+      ]
+  },
+  {
+      "clienteId": 98,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 32,
+              "cantidad_productos": 19
+          },
+          {
+              "productoId": 36,
+              "cantidad_productos": 6
+          }
+      ]
+  },
+  {
+      "clienteId": 95,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 10,
+              "cantidad_productos": 23
+          },
+          {
+              "productoId": 40,
+              "cantidad_productos": 24
+          }
+      ]
+  },
+  {
+      "clienteId": 9,
+      "tiendaId": 1,
+      "detalles": [
+          {
+              "productoId": 8,
+              "cantidad_productos": 27
+          },
+          {
+              "productoId": 43,
+              "cantidad_productos": 12
+          }
+      ]
+  },
+  {
+      "clienteId": 82,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 4,
+              "cantidad_productos": 21
+          },
+          {
+              "productoId": 22,
+              "cantidad_productos": 19
+          }
+      ]
+  },
+  {
+      "clienteId": 47,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 18,
+              "cantidad_productos": 25
+          },
+          {
+              "productoId": 6,
+              "cantidad_productos": 27
+          }
+      ]
+  },
+  {
+      "clienteId": 24,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 40,
+              "cantidad_productos": 22
+          },
+          {
+              "productoId": 35,
+              "cantidad_productos": 1
+          }
+      ]
+  },
+  {
+      "clienteId": 20,
+      "tiendaId": 1,
+      "detalles": [
+          {
+              "productoId": 24,
+              "cantidad_productos": 9
+          },
+          {
+              "productoId": 1,
+              "cantidad_productos": 5
+          }
+      ]
+  },
+  {
+      "clienteId": 45,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 23,
+              "cantidad_productos": 15
+          },
+          {
+              "productoId": 38,
+              "cantidad_productos": 10
+          }
+      ]
+  },
+  {
+      "clienteId": 32,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 11,
+              "cantidad_productos": 2
+          },
+          {
+              "productoId": 14,
+              "cantidad_productos": 29
+          }
+      ]
+  },
+  {
+      "clienteId": 28,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 3,
+              "cantidad_productos": 14
+          },
+          {
+              "productoId": 24,
+              "cantidad_productos": 23
+          }
+      ]
+  },
+  {
+      "clienteId": 83,
+      "tiendaId": 1,
+      "detalles": [
+          {
+              "productoId": 33,
+              "cantidad_productos": 5
+          },
+          {
+              "productoId": 50,
+              "cantidad_productos": 29
+          }
+      ]
+  },
+  {
+      "clienteId": 62,
+      "tiendaId": 1,
+      "detalles": [
+          {
+              "productoId": 35,
+              "cantidad_productos": 1
+          },
+          {
+              "productoId": 9,
+              "cantidad_productos": 12
+          }
+      ]
+  },
+  {
+      "clienteId": 63,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 12,
+              "cantidad_productos": 1
+          },
+          {
+              "productoId": 15,
+              "cantidad_productos": 26
+          }
+      ]
+  },
+  {
+      "clienteId": 98,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 45,
+              "cantidad_productos": 27
+          },
+          {
+              "productoId": 19,
+              "cantidad_productos": 30
+          }
+      ]
+  },
+  {
+      "clienteId": 61,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 26,
+              "cantidad_productos": 7
+          },
+          {
+              "productoId": 4,
+              "cantidad_productos": 4
+          }
+      ]
+  },
+  {
+      "clienteId": 20,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 41,
+              "cantidad_productos": 11
+          },
+          {
+              "productoId": 4,
+              "cantidad_productos": 5
+          }
+      ]
+  },
+  {
+      "clienteId": 6,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 35,
+              "cantidad_productos": 17
+          },
+          {
+              "productoId": 47,
+              "cantidad_productos": 5
+          }
+      ]
+  },
+  {
+      "clienteId": 75,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 30,
+              "cantidad_productos": 21
+          },
+          {
+              "productoId": 22,
+              "cantidad_productos": 16
+          }
+      ]
+  },
+  {
+      "clienteId": 49,
+      "tiendaId": 1,
+      "detalles": [
+          {
+              "productoId": 21,
+              "cantidad_productos": 10
+          },
+          {
+              "productoId": 40,
+              "cantidad_productos": 7
+          }
+      ]
+  },
+  {
+      "clienteId": 80,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 29,
+              "cantidad_productos": 14
+          },
+          {
+              "productoId": 17,
+              "cantidad_productos": 13
+          }
+      ]
+  },
+  {
+      "clienteId": 76,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 19,
+              "cantidad_productos": 11
+          },
+          {
+              "productoId": 7,
+              "cantidad_productos": 22
+          }
+      ]
+  },
+  {
+      "clienteId": 82,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 22,
+              "cantidad_productos": 27
+          },
+          {
+              "productoId": 26,
+              "cantidad_productos": 23
+          }
+      ]
+  },
+  {
+      "clienteId": 70,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 46,
+              "cantidad_productos": 1
+          },
+          {
+              "productoId": 30,
+              "cantidad_productos": 10
+          }
+      ]
+  },
+  {
+      "clienteId": 19,
+      "tiendaId": 1,
+      "detalles": [
+          {
+              "productoId": 6,
+              "cantidad_productos": 2
+          },
+          {
+              "productoId": 1,
+              "cantidad_productos": 17
+          }
+      ]
+  },
+  {
+      "clienteId": 63,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 40,
+              "cantidad_productos": 1
+          },
+          {
+              "productoId": 16,
+              "cantidad_productos": 18
+          }
+      ]
+  },
+  {
+      "clienteId": 68,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 32,
+              "cantidad_productos": 13
+          },
+          {
+              "productoId": 30,
+              "cantidad_productos": 5
+          }
+      ]
+  },
+  {
+      "clienteId": 85,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 45,
+              "cantidad_productos": 5
+          },
+          {
+              "productoId": 48,
+              "cantidad_productos": 3
+          }
+      ]
+  },
+  {
+      "clienteId": 79,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 46,
+              "cantidad_productos": 28
+          },
+          {
+              "productoId": 44,
+              "cantidad_productos": 23
+          }
+      ]
+  },
+  {
+      "clienteId": 70,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 2,
+              "cantidad_productos": 5
+          },
+          {
+              "productoId": 18,
+              "cantidad_productos": 26
+          }
+      ]
+  },
+  {
+      "clienteId": 1,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 1,
+              "cantidad_productos": 12
+          },
+          {
+              "productoId": 36,
+              "cantidad_productos": 22
+          }
+      ]
+  },
+  {
+      "clienteId": 75,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 12,
+              "cantidad_productos": 22
+          },
+          {
+              "productoId": 4,
+              "cantidad_productos": 6
+          }
+      ]
+  },
+  {
+      "clienteId": 92,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 48,
+              "cantidad_productos": 20
+          },
+          {
+              "productoId": 18,
+              "cantidad_productos": 21
+          }
+      ]
+  },
+  {
+      "clienteId": 79,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 7,
+              "cantidad_productos": 22
+          },
+          {
+              "productoId": 7,
+              "cantidad_productos": 5
+          }
+      ]
+  },
+  {
+      "clienteId": 60,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 35,
+              "cantidad_productos": 21
+          },
+          {
+              "productoId": 8,
+              "cantidad_productos": 1
+          }
+      ]
+  },
+  {
+      "clienteId": 50,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 48,
+              "cantidad_productos": 17
+          },
+          {
+              "productoId": 21,
+              "cantidad_productos": 7
+          }
+      ]
+  },
+  {
+      "clienteId": 58,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 4,
+              "cantidad_productos": 6
+          },
+          {
+              "productoId": 40,
+              "cantidad_productos": 11
+          }
+      ]
+  },
+  {
+      "clienteId": 44,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 25,
+              "cantidad_productos": 19
+          },
+          {
+              "productoId": 35,
+              "cantidad_productos": 25
+          }
+      ]
+  },
+  {
+      "clienteId": 38,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 43,
+              "cantidad_productos": 6
+          },
+          {
+              "productoId": 16,
+              "cantidad_productos": 5
+          }
+      ]
+  },
+  {
+      "clienteId": 81,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 18,
+              "cantidad_productos": 7
+          },
+          {
+              "productoId": 10,
+              "cantidad_productos": 18
+          }
+      ]
+  },
+  {
+      "clienteId": 63,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 2,
+              "cantidad_productos": 7
+          },
+          {
+              "productoId": 28,
+              "cantidad_productos": 18
+          }
+      ]
+  },
+  {
+      "clienteId": 11,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 42,
+              "cantidad_productos": 24
+          },
+          {
+              "productoId": 36,
+              "cantidad_productos": 10
+          }
+      ]
+  },
+  {
+      "clienteId": 21,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 28,
+              "cantidad_productos": 25
+          },
+          {
+              "productoId": 45,
+              "cantidad_productos": 6
+          }
+      ]
+  },
+  {
+      "clienteId": 8,
+      "tiendaId": 1,
+      "detalles": [
+          {
+              "productoId": 1,
+              "cantidad_productos": 4
+          },
+          {
+              "productoId": 15,
+              "cantidad_productos": 22
+          }
+      ]
+  },
+  {
+      "clienteId": 29,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 31,
+              "cantidad_productos": 14
+          },
+          {
+              "productoId": 50,
+              "cantidad_productos": 18
+          }
+      ]
+  },
+  {
+      "clienteId": 78,
+      "tiendaId": 1,
+      "detalles": [
+          {
+              "productoId": 48,
+              "cantidad_productos": 27
+          },
+          {
+              "productoId": 25,
+              "cantidad_productos": 26
+          }
+      ]
+  },
+  {
+      "clienteId": 10,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 21,
+              "cantidad_productos": 18
+          },
+          {
+              "productoId": 30,
+              "cantidad_productos": 28
+          }
+      ]
+  },
+  {
+      "clienteId": 55,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 23,
+              "cantidad_productos": 21
+          },
+          {
+              "productoId": 23,
+              "cantidad_productos": 1
+          }
+      ]
+  },
+  {
+      "clienteId": 25,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 14,
+              "cantidad_productos": 26
+          },
+          {
+              "productoId": 14,
+              "cantidad_productos": 23
+          }
+      ]
+  },
+  {
+      "clienteId": 75,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 4,
+              "cantidad_productos": 25
+          },
+          {
+              "productoId": 46,
+              "cantidad_productos": 9
+          }
+      ]
+  },
+  {
+      "clienteId": 22,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 37,
+              "cantidad_productos": 15
+          },
+          {
+              "productoId": 25,
+              "cantidad_productos": 17
+          }
+      ]
+  },
+  {
+      "clienteId": 57,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 41,
+              "cantidad_productos": 19
+          },
+          {
+              "productoId": 13,
+              "cantidad_productos": 4
+          }
+      ]
+  },
+  {
+      "clienteId": 71,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 12,
+              "cantidad_productos": 21
+          },
+          {
+              "productoId": 30,
+              "cantidad_productos": 30
+          }
+      ]
+  },
+  {
+      "clienteId": 18,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 31,
+              "cantidad_productos": 15
+          },
+          {
+              "productoId": 45,
+              "cantidad_productos": 5
+          }
+      ]
+  },
+  {
+      "clienteId": 43,
+      "tiendaId": 1,
+      "detalles": [
+          {
+              "productoId": 17,
+              "cantidad_productos": 21
+          },
+          {
+              "productoId": 22,
+              "cantidad_productos": 22
+          }
+      ]
+  },
+  {
+      "clienteId": 70,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 23,
+              "cantidad_productos": 4
+          },
+          {
+              "productoId": 45,
+              "cantidad_productos": 9
+          }
+      ]
+  },
+  {
+      "clienteId": 24,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 49,
+              "cantidad_productos": 12
+          },
+          {
+              "productoId": 39,
+              "cantidad_productos": 27
+          }
+      ]
+  },
+  {
+      "clienteId": 68,
+      "tiendaId": 1,
+      "detalles": [
+          {
+              "productoId": 4,
+              "cantidad_productos": 24
+          },
+          {
+              "productoId": 32,
+              "cantidad_productos": 15
+          }
+      ]
+  },
+  {
+      "clienteId": 94,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 20,
+              "cantidad_productos": 29
+          },
+          {
+              "productoId": 35,
+              "cantidad_productos": 9
+          }
+      ]
+  },
+  {
+      "clienteId": 19,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 8,
+              "cantidad_productos": 8
+          },
+          {
+              "productoId": 42,
+              "cantidad_productos": 24
+          }
+      ]
+  },
+  {
+      "clienteId": 49,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 43,
+              "cantidad_productos": 1
+          },
+          {
+              "productoId": 24,
+              "cantidad_productos": 23
+          }
+      ]
+  },
+  {
+      "clienteId": 78,
+      "tiendaId": 1,
+      "detalles": [
+          {
+              "productoId": 42,
+              "cantidad_productos": 8
+          },
+          {
+              "productoId": 40,
+              "cantidad_productos": 25
+          }
+      ]
+  },
+  {
+      "clienteId": 13,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 12,
+              "cantidad_productos": 26
+          },
+          {
+              "productoId": 2,
+              "cantidad_productos": 26
+          }
+      ]
+  },
+  {
+      "clienteId": 65,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 6,
+              "cantidad_productos": 25
+          },
+          {
+              "productoId": 45,
+              "cantidad_productos": 15
+          }
+      ]
+  },
+  {
+      "clienteId": 93,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 34,
+              "cantidad_productos": 21
+          },
+          {
+              "productoId": 32,
+              "cantidad_productos": 19
+          }
+      ]
+  },
+  {
+      "clienteId": 94,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 23,
+              "cantidad_productos": 29
+          },
+          {
+              "productoId": 12,
+              "cantidad_productos": 19
+          }
+      ]
+  },
+  {
+      "clienteId": 21,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 27,
+              "cantidad_productos": 24
+          },
+          {
+              "productoId": 42,
+              "cantidad_productos": 28
+          }
+      ]
+  },
+  {
+      "clienteId": 60,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 19,
+              "cantidad_productos": 20
+          },
+          {
+              "productoId": 29,
+              "cantidad_productos": 8
+          }
+      ]
+  },
+  {
+      "clienteId": 29,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 9,
+              "cantidad_productos": 14
+          },
+          {
+              "productoId": 48,
+              "cantidad_productos": 12
+          }
+      ]
+  },
+  {
+      "clienteId": 89,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 11,
+              "cantidad_productos": 12
+          },
+          {
+              "productoId": 17,
+              "cantidad_productos": 6
+          }
+      ]
+  },
+  {
+      "clienteId": 40,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 16,
+              "cantidad_productos": 27
+          },
+          {
+              "productoId": 15,
+              "cantidad_productos": 17
+          }
+      ]
+  },
+  {
+      "clienteId": 31,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 33,
+              "cantidad_productos": 11
+          },
+          {
+              "productoId": 28,
+              "cantidad_productos": 17
+          }
+      ]
+  },
+  {
+      "clienteId": 19,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 3,
+              "cantidad_productos": 3
+          },
+          {
+              "productoId": 25,
+              "cantidad_productos": 28
+          }
+      ]
+  },
+  {
+      "clienteId": 75,
+      "tiendaId": 1,
+      "detalles": [
+          {
+              "productoId": 46,
+              "cantidad_productos": 9
+          },
+          {
+              "productoId": 48,
+              "cantidad_productos": 12
+          }
+      ]
+  },
+  {
+      "clienteId": 46,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 50,
+              "cantidad_productos": 25
+          },
+          {
+              "productoId": 33,
+              "cantidad_productos": 9
+          }
+      ]
+  },
+  {
+      "clienteId": 30,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 43,
+              "cantidad_productos": 27
+          },
+          {
+              "productoId": 22,
+              "cantidad_productos": 2
+          }
+      ]
+  },
+  {
+      "clienteId": 18,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 11,
+              "cantidad_productos": 20
+          },
+          {
+              "productoId": 34,
+              "cantidad_productos": 27
+          }
+      ]
+  },
+  {
+      "clienteId": 45,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 11,
+              "cantidad_productos": 9
+          },
+          {
+              "productoId": 12,
+              "cantidad_productos": 3
+          }
+      ]
+  },
+  {
+      "clienteId": 32,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 21,
+              "cantidad_productos": 27
+          },
+          {
+              "productoId": 25,
+              "cantidad_productos": 5
+          }
+      ]
+  },
+  {
+      "clienteId": 95,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 42,
+              "cantidad_productos": 1
+          },
+          {
+              "productoId": 14,
+              "cantidad_productos": 10
+          }
+      ]
+  },
+  {
+      "clienteId": 45,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 22,
+              "cantidad_productos": 13
+          },
+          {
+              "productoId": 13,
+              "cantidad_productos": 1
+          }
+      ]
+  },
+  {
+      "clienteId": 7,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 39,
+              "cantidad_productos": 23
+          },
+          {
+              "productoId": 18,
+              "cantidad_productos": 15
+          }
+      ]
+  },
+  {
+      "clienteId": 42,
+      "tiendaId": 1,
+      "detalles": [
+          {
+              "productoId": 2,
+              "cantidad_productos": 5
+          },
+          {
+              "productoId": 25,
+              "cantidad_productos": 15
+          }
+      ]
+  },
+  {
+      "clienteId": 59,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 46,
+              "cantidad_productos": 8
+          },
+          {
+              "productoId": 47,
+              "cantidad_productos": 6
+          }
+      ]
+  },
+  {
+      "clienteId": 31,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 11,
+              "cantidad_productos": 19
+          },
+          {
+              "productoId": 10,
+              "cantidad_productos": 1
+          }
+      ]
+  },
+  {
+      "clienteId": 82,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 16,
+              "cantidad_productos": 13
+          },
+          {
+              "productoId": 38,
+              "cantidad_productos": 21
+          }
+      ]
+  },
+  {
+      "clienteId": 6,
+      "tiendaId": 1,
+      "detalles": [
+          {
+              "productoId": 40,
+              "cantidad_productos": 28
+          },
+          {
+              "productoId": 47,
+              "cantidad_productos": 8
+          }
+      ]
+  },
+  {
+      "clienteId": 4,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 42,
+              "cantidad_productos": 27
+          },
+          {
+              "productoId": 5,
+              "cantidad_productos": 3
+          }
+      ]
+  },
+  {
+      "clienteId": 50,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 15,
+              "cantidad_productos": 22
+          },
+          {
+              "productoId": 11,
+              "cantidad_productos": 6
+          }
+      ]
+  },
+  {
+      "clienteId": 40,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 4,
+              "cantidad_productos": 7
+          },
+          {
+              "productoId": 26,
+              "cantidad_productos": 7
+          }
+      ]
+  },
+  {
+      "clienteId": 10,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 8,
+              "cantidad_productos": 5
+          },
+          {
+              "productoId": 21,
+              "cantidad_productos": 14
+          }
+      ]
+  },
+  {
+      "clienteId": 10,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 37,
+              "cantidad_productos": 16
+          },
+          {
+              "productoId": 21,
+              "cantidad_productos": 10
+          }
+      ]
+  },
+  {
+      "clienteId": 21,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 37,
+              "cantidad_productos": 24
+          },
+          {
+              "productoId": 18,
+              "cantidad_productos": 16
+          }
+      ]
+  },
+  {
+      "clienteId": 88,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 16,
+              "cantidad_productos": 9
+          },
+          {
+              "productoId": 2,
+              "cantidad_productos": 14
+          }
+      ]
+  },
+  {
+      "clienteId": 16,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 41,
+              "cantidad_productos": 11
+          },
+          {
+              "productoId": 40,
+              "cantidad_productos": 23
+          }
+      ]
+  },
+  {
+      "clienteId": 30,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 34,
+              "cantidad_productos": 13
+          },
+          {
+              "productoId": 47,
+              "cantidad_productos": 16
+          }
+      ]
+  },
+  {
+      "clienteId": 82,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 15,
+              "cantidad_productos": 5
+          },
+          {
+              "productoId": 40,
+              "cantidad_productos": 16
+          }
+      ]
+  },
+  {
+      "clienteId": 76,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 9,
+              "cantidad_productos": 12
+          },
+          {
+              "productoId": 27,
+              "cantidad_productos": 25
+          }
+      ]
+  },
+  {
+      "clienteId": 21,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 22,
+              "cantidad_productos": 2
+          },
+          {
+              "productoId": 7,
+              "cantidad_productos": 11
+          }
+      ]
+  },
+  {
+      "clienteId": 88,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 35,
+              "cantidad_productos": 18
+          },
+          {
+              "productoId": 14,
+              "cantidad_productos": 12
+          }
+      ]
+  },
+  {
+      "clienteId": 57,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 40,
+              "cantidad_productos": 12
+          },
+          {
+              "productoId": 29,
+              "cantidad_productos": 21
+          }
+      ]
+  },
+  {
+      "clienteId": 87,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 29,
+              "cantidad_productos": 1
+          },
+          {
+              "productoId": 38,
+              "cantidad_productos": 25
+          }
+      ]
+  },
+  {
+      "clienteId": 74,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 35,
+              "cantidad_productos": 2
+          },
+          {
+              "productoId": 31,
+              "cantidad_productos": 13
+          }
+      ]
+  },
+  {
+      "clienteId": 70,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 39,
+              "cantidad_productos": 30
+          },
+          {
+              "productoId": 44,
+              "cantidad_productos": 28
+          }
+      ]
+  },
+  {
+      "clienteId": 71,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 9,
+              "cantidad_productos": 2
+          },
+          {
+              "productoId": 43,
+              "cantidad_productos": 4
+          }
+      ]
+  },
+  {
+      "clienteId": 74,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 11,
+              "cantidad_productos": 27
+          },
+          {
+              "productoId": 18,
+              "cantidad_productos": 14
+          }
+      ]
+  },
+  {
+      "clienteId": 56,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 27,
+              "cantidad_productos": 14
+          },
+          {
+              "productoId": 41,
+              "cantidad_productos": 5
+          }
+      ]
+  },
+  {
+      "clienteId": 63,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 5,
+              "cantidad_productos": 7
+          },
+          {
+              "productoId": 19,
+              "cantidad_productos": 17
+          }
+      ]
+  },
+  {
+      "clienteId": 67,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 37,
+              "cantidad_productos": 4
+          },
+          {
+              "productoId": 48,
+              "cantidad_productos": 21
+          }
+      ]
+  },
+  {
+      "clienteId": 34,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 29,
+              "cantidad_productos": 11
+          },
+          {
+              "productoId": 39,
+              "cantidad_productos": 22
+          }
+      ]
+  },
+  {
+      "clienteId": 92,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 7,
+              "cantidad_productos": 9
+          },
+          {
+              "productoId": 30,
+              "cantidad_productos": 1
+          }
+      ]
+  },
+  {
+      "clienteId": 67,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 19,
+              "cantidad_productos": 8
+          },
+          {
+              "productoId": 29,
+              "cantidad_productos": 15
+          }
+      ]
+  },
+  {
+      "clienteId": 64,
+      "tiendaId": 1,
+      "detalles": [
+          {
+              "productoId": 20,
+              "cantidad_productos": 7
+          },
+          {
+              "productoId": 11,
+              "cantidad_productos": 12
+          }
+      ]
+  },
+  {
+      "clienteId": 84,
+      "tiendaId": 1,
+      "detalles": [
+          {
+              "productoId": 48,
+              "cantidad_productos": 1
+          },
+          {
+              "productoId": 44,
+              "cantidad_productos": 3
+          }
+      ]
+  },
+  {
+      "clienteId": 45,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 36,
+              "cantidad_productos": 27
+          },
+          {
+              "productoId": 38,
+              "cantidad_productos": 20
+          }
+      ]
+  },
+  {
+      "clienteId": 73,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 42,
+              "cantidad_productos": 13
+          },
+          {
+              "productoId": 42,
+              "cantidad_productos": 12
+          }
+      ]
+  },
+  {
+      "clienteId": 19,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 7,
+              "cantidad_productos": 28
+          },
+          {
+              "productoId": 16,
+              "cantidad_productos": 6
+          }
+      ]
+  },
+  {
+      "clienteId": 65,
+      "tiendaId": 1,
+      "detalles": [
+          {
+              "productoId": 47,
+              "cantidad_productos": 21
+          },
+          {
+              "productoId": 9,
+              "cantidad_productos": 8
+          }
+      ]
+  },
+  {
+      "clienteId": 80,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 18,
+              "cantidad_productos": 3
+          },
+          {
+              "productoId": 23,
+              "cantidad_productos": 23
+          }
+      ]
+  },
+  {
+      "clienteId": 81,
+      "tiendaId": 1,
+      "detalles": [
+          {
+              "productoId": 19,
+              "cantidad_productos": 12
+          },
+          {
+              "productoId": 12,
+              "cantidad_productos": 20
+          }
+      ]
+  },
+  {
+      "clienteId": 60,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 47,
+              "cantidad_productos": 13
+          },
+          {
+              "productoId": 38,
+              "cantidad_productos": 19
+          }
+      ]
+  },
+  {
+      "clienteId": 37,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 8,
+              "cantidad_productos": 15
+          },
+          {
+              "productoId": 20,
+              "cantidad_productos": 21
+          }
+      ]
+  },
+  {
+      "clienteId": 56,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 31,
+              "cantidad_productos": 20
+          },
+          {
+              "productoId": 19,
+              "cantidad_productos": 8
+          }
+      ]
+  },
+  {
+      "clienteId": 17,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 39,
+              "cantidad_productos": 8
+          },
+          {
+              "productoId": 8,
+              "cantidad_productos": 11
+          }
+      ]
+  },
+  {
+      "clienteId": 99,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 10,
+              "cantidad_productos": 17
+          },
+          {
+              "productoId": 41,
+              "cantidad_productos": 29
+          }
+      ]
+  },
+  {
+      "clienteId": 5,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 35,
+              "cantidad_productos": 3
+          },
+          {
+              "productoId": 28,
+              "cantidad_productos": 23
+          }
+      ]
+  },
+  {
+      "clienteId": 61,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 43,
+              "cantidad_productos": 15
+          },
+          {
+              "productoId": 30,
+              "cantidad_productos": 6
+          }
+      ]
+  },
+  {
+      "clienteId": 30,
+      "tiendaId": 1,
+      "detalles": [
+          {
+              "productoId": 17,
+              "cantidad_productos": 18
+          },
+          {
+              "productoId": 32,
+              "cantidad_productos": 2
+          }
+      ]
+  },
+  {
+      "clienteId": 68,
+      "tiendaId": 1,
+      "detalles": [
+          {
+              "productoId": 23,
+              "cantidad_productos": 21
+          },
+          {
+              "productoId": 15,
+              "cantidad_productos": 18
+          }
+      ]
+  },
+  {
+      "clienteId": 30,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 2,
+              "cantidad_productos": 19
+          },
+          {
+              "productoId": 5,
+              "cantidad_productos": 28
+          }
+      ]
+  },
+  {
+      "clienteId": 69,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 46,
+              "cantidad_productos": 26
+          },
+          {
+              "productoId": 23,
+              "cantidad_productos": 21
+          }
+      ]
+  },
+  {
+      "clienteId": 75,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 16,
+              "cantidad_productos": 29
+          },
+          {
+              "productoId": 43,
+              "cantidad_productos": 4
+          }
+      ]
+  },
+  {
+      "clienteId": 58,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 1,
+              "cantidad_productos": 25
+          },
+          {
+              "productoId": 5,
+              "cantidad_productos": 3
+          }
+      ]
+  },
+  {
+      "clienteId": 77,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 8,
+              "cantidad_productos": 18
+          },
+          {
+              "productoId": 42,
+              "cantidad_productos": 27
+          }
+      ]
+  },
+  {
+      "clienteId": 43,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 20,
+              "cantidad_productos": 5
+          },
+          {
+              "productoId": 10,
+              "cantidad_productos": 28
+          }
+      ]
+  },
+  {
+      "clienteId": 20,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 46,
+              "cantidad_productos": 14
+          },
+          {
+              "productoId": 35,
+              "cantidad_productos": 26
+          }
+      ]
+  },
+  {
+      "clienteId": 88,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 35,
+              "cantidad_productos": 3
+          },
+          {
+              "productoId": 4,
+              "cantidad_productos": 13
+          }
+      ]
+  },
+  {
+      "clienteId": 83,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 22,
+              "cantidad_productos": 7
+          },
+          {
+              "productoId": 29,
+              "cantidad_productos": 22
+          }
+      ]
+  },
+  {
+      "clienteId": 45,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 24,
+              "cantidad_productos": 17
+          },
+          {
+              "productoId": 23,
+              "cantidad_productos": 26
+          }
+      ]
+  },
+  {
+      "clienteId": 64,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 42,
+              "cantidad_productos": 22
+          },
+          {
+              "productoId": 7,
+              "cantidad_productos": 23
+          }
+      ]
+  },
+  {
+      "clienteId": 100,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 10,
+              "cantidad_productos": 7
+          },
+          {
+              "productoId": 23,
+              "cantidad_productos": 14
+          }
+      ]
+  },
+  {
+      "clienteId": 2,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 19,
+              "cantidad_productos": 17
+          },
+          {
+              "productoId": 5,
+              "cantidad_productos": 24
+          }
+      ]
+  },
+  {
+      "clienteId": 64,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 25,
+              "cantidad_productos": 27
+          },
+          {
+              "productoId": 43,
+              "cantidad_productos": 22
+          }
+      ]
+  },
+  {
+      "clienteId": 66,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 28,
+              "cantidad_productos": 6
+          },
+          {
+              "productoId": 28,
+              "cantidad_productos": 6
+          }
+      ]
+  },
+  {
+      "clienteId": 43,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 20,
+              "cantidad_productos": 21
+          },
+          {
+              "productoId": 31,
+              "cantidad_productos": 6
+          }
+      ]
+  },
+  {
+      "clienteId": 37,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 11,
+              "cantidad_productos": 11
+          },
+          {
+              "productoId": 47,
+              "cantidad_productos": 11
+          }
+      ]
+  },
+  {
+      "clienteId": 27,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 18,
+              "cantidad_productos": 24
+          },
+          {
+              "productoId": 35,
+              "cantidad_productos": 20
+          }
+      ]
+  },
+  {
+      "clienteId": 6,
+      "tiendaId": 1,
+      "detalles": [
+          {
+              "productoId": 17,
+              "cantidad_productos": 23
+          },
+          {
+              "productoId": 28,
+              "cantidad_productos": 20
+          }
+      ]
+  },
+  {
+      "clienteId": 46,
+      "tiendaId": 1,
+      "detalles": [
+          {
+              "productoId": 43,
+              "cantidad_productos": 9
+          },
+          {
+              "productoId": 38,
+              "cantidad_productos": 2
+          }
+      ]
+  },
+  {
+      "clienteId": 62,
+      "tiendaId": 1,
+      "detalles": [
+          {
+              "productoId": 48,
+              "cantidad_productos": 21
+          },
+          {
+              "productoId": 23,
+              "cantidad_productos": 1
+          }
+      ]
+  },
+  {
+      "clienteId": 46,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 8,
+              "cantidad_productos": 6
+          },
+          {
+              "productoId": 7,
+              "cantidad_productos": 30
+          }
+      ]
+  },
+  {
+      "clienteId": 3,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 41,
+              "cantidad_productos": 17
+          },
+          {
+              "productoId": 44,
+              "cantidad_productos": 26
+          }
+      ]
+  },
+  {
+      "clienteId": 21,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 37,
+              "cantidad_productos": 28
+          },
+          {
+              "productoId": 4,
+              "cantidad_productos": 3
+          }
+      ]
+  },
+  {
+      "clienteId": 72,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 16,
+              "cantidad_productos": 14
+          },
+          {
+              "productoId": 24,
+              "cantidad_productos": 14
+          }
+      ]
+  },
+  {
+      "clienteId": 29,
+      "tiendaId": 1,
+      "detalles": [
+          {
+              "productoId": 18,
+              "cantidad_productos": 23
+          },
+          {
+              "productoId": 14,
+              "cantidad_productos": 20
+          }
+      ]
+  },
+  {
+      "clienteId": 5,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 37,
+              "cantidad_productos": 21
+          },
+          {
+              "productoId": 30,
+              "cantidad_productos": 5
+          }
+      ]
+  },
+  {
+      "clienteId": 90,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 24,
+              "cantidad_productos": 25
+          },
+          {
+              "productoId": 11,
+              "cantidad_productos": 6
+          }
+      ]
+  },
+  {
+      "clienteId": 22,
+      "tiendaId": 1,
+      "detalles": [
+          {
+              "productoId": 45,
+              "cantidad_productos": 12
+          },
+          {
+              "productoId": 16,
+              "cantidad_productos": 1
+          }
+      ]
+  },
+  {
+      "clienteId": 16,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 6,
+              "cantidad_productos": 23
+          },
+          {
+              "productoId": 16,
+              "cantidad_productos": 16
+          }
+      ]
+  },
+  {
+      "clienteId": 37,
+      "tiendaId": 1,
+      "detalles": [
+          {
+              "productoId": 4,
+              "cantidad_productos": 1
+          },
+          {
+              "productoId": 32,
+              "cantidad_productos": 29
+          }
+      ]
+  },
+  {
+      "clienteId": 66,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 18,
+              "cantidad_productos": 20
+          },
+          {
+              "productoId": 32,
+              "cantidad_productos": 2
+          }
+      ]
+  },
+  {
+      "clienteId": 17,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 18,
+              "cantidad_productos": 29
+          },
+          {
+              "productoId": 29,
+              "cantidad_productos": 17
+          }
+      ]
+  },
+  {
+      "clienteId": 9,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 27,
+              "cantidad_productos": 24
+          },
+          {
+              "productoId": 24,
+              "cantidad_productos": 3
+          }
+      ]
+  },
+  {
+      "clienteId": 67,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 50,
+              "cantidad_productos": 11
+          },
+          {
+              "productoId": 4,
+              "cantidad_productos": 6
+          }
+      ]
+  },
+  {
+      "clienteId": 29,
+      "tiendaId": 1,
+      "detalles": [
+          {
+              "productoId": 35,
+              "cantidad_productos": 3
+          },
+          {
+              "productoId": 47,
+              "cantidad_productos": 1
+          }
+      ]
+  },
+  {
+      "clienteId": 11,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 25,
+              "cantidad_productos": 1
+          },
+          {
+              "productoId": 22,
+              "cantidad_productos": 7
+          }
+      ]
+  },
+  {
+      "clienteId": 24,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 16,
+              "cantidad_productos": 3
+          },
+          {
+              "productoId": 2,
+              "cantidad_productos": 2
+          }
+      ]
+  },
+  {
+      "clienteId": 9,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 28,
+              "cantidad_productos": 4
+          },
+          {
+              "productoId": 21,
+              "cantidad_productos": 5
+          }
+      ]
+  },
+  {
+      "clienteId": 32,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 35,
+              "cantidad_productos": 3
+          },
+          {
+              "productoId": 15,
+              "cantidad_productos": 1
+          }
+      ]
+  },
+  {
+      "clienteId": 97,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 6,
+              "cantidad_productos": 27
+          },
+          {
+              "productoId": 18,
+              "cantidad_productos": 1
+          }
+      ]
+  },
+  {
+      "clienteId": 3,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 50,
+              "cantidad_productos": 9
+          },
+          {
+              "productoId": 32,
+              "cantidad_productos": 24
+          }
+      ]
+  },
+  {
+      "clienteId": 55,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 29,
+              "cantidad_productos": 14
+          },
+          {
+              "productoId": 18,
+              "cantidad_productos": 2
+          }
+      ]
+  },
+  {
+      "clienteId": 38,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 32,
+              "cantidad_productos": 18
+          },
+          {
+              "productoId": 44,
+              "cantidad_productos": 18
+          }
+      ]
+  },
+  {
+      "clienteId": 41,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 9,
+              "cantidad_productos": 5
+          },
+          {
+              "productoId": 22,
+              "cantidad_productos": 30
+          }
+      ]
+  },
+  {
+      "clienteId": 45,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 48,
+              "cantidad_productos": 7
+          },
+          {
+              "productoId": 9,
+              "cantidad_productos": 10
+          }
+      ]
+  },
+  {
+      "clienteId": 1,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 7,
+              "cantidad_productos": 17
+          },
+          {
+              "productoId": 46,
+              "cantidad_productos": 5
+          }
+      ]
+  },
+  {
+      "clienteId": 78,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 32,
+              "cantidad_productos": 19
+          },
+          {
+              "productoId": 21,
+              "cantidad_productos": 17
+          }
+      ]
+  },
+  {
+      "clienteId": 100,
+      "tiendaId": 1,
+      "detalles": [
+          {
+              "productoId": 43,
+              "cantidad_productos": 9
+          },
+          {
+              "productoId": 10,
+              "cantidad_productos": 20
+          }
+      ]
+  },
+  {
+      "clienteId": 25,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 24,
+              "cantidad_productos": 9
+          },
+          {
+              "productoId": 36,
+              "cantidad_productos": 16
+          }
+      ]
+  },
+  {
+      "clienteId": 92,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 18,
+              "cantidad_productos": 4
+          },
+          {
+              "productoId": 44,
+              "cantidad_productos": 2
+          }
+      ]
+  },
+  {
+      "clienteId": 38,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 11,
+              "cantidad_productos": 15
+          },
+          {
+              "productoId": 35,
+              "cantidad_productos": 5
+          }
+      ]
+  },
+  {
+      "clienteId": 37,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 39,
+              "cantidad_productos": 13
+          },
+          {
+              "productoId": 6,
+              "cantidad_productos": 29
+          }
+      ]
+  },
+  {
+      "clienteId": 24,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 47,
+              "cantidad_productos": 26
+          },
+          {
+              "productoId": 41,
+              "cantidad_productos": 25
+          }
+      ]
+  },
+  {
+      "clienteId": 27,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 11,
+              "cantidad_productos": 21
+          },
+          {
+              "productoId": 40,
+              "cantidad_productos": 12
+          }
+      ]
+  },
+  {
+      "clienteId": 42,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 34,
+              "cantidad_productos": 28
+          },
+          {
+              "productoId": 13,
+              "cantidad_productos": 21
+          }
+      ]
+  },
+  {
+      "clienteId": 70,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 12,
+              "cantidad_productos": 17
+          },
+          {
+              "productoId": 35,
+              "cantidad_productos": 14
+          }
+      ]
+  },
+  {
+      "clienteId": 38,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 12,
+              "cantidad_productos": 9
+          },
+          {
+              "productoId": 49,
+              "cantidad_productos": 13
+          }
+      ]
+  },
+  {
+      "clienteId": 54,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 31,
+              "cantidad_productos": 29
+          },
+          {
+              "productoId": 34,
+              "cantidad_productos": 18
+          }
+      ]
+  },
+  {
+      "clienteId": 60,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 43,
+              "cantidad_productos": 2
+          },
+          {
+              "productoId": 9,
+              "cantidad_productos": 8
+          }
+      ]
+  },
+  {
+      "clienteId": 48,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 35,
+              "cantidad_productos": 15
+          },
+          {
+              "productoId": 18,
+              "cantidad_productos": 13
+          }
+      ]
+  },
+  {
+      "clienteId": 25,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 29,
+              "cantidad_productos": 23
+          },
+          {
+              "productoId": 37,
+              "cantidad_productos": 12
+          }
+      ]
+  },
+  {
+      "clienteId": 16,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 34,
+              "cantidad_productos": 9
+          },
+          {
+              "productoId": 37,
+              "cantidad_productos": 10
+          }
+      ]
+  },
+  {
+      "clienteId": 35,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 6,
+              "cantidad_productos": 6
+          },
+          {
+              "productoId": 17,
+              "cantidad_productos": 15
+          }
+      ]
+  },
+  {
+      "clienteId": 50,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 41,
+              "cantidad_productos": 8
+          },
+          {
+              "productoId": 50,
+              "cantidad_productos": 28
+          }
+      ]
+  },
+  {
+      "clienteId": 49,
+      "tiendaId": 1,
+      "detalles": [
+          {
+              "productoId": 32,
+              "cantidad_productos": 20
+          },
+          {
+              "productoId": 23,
+              "cantidad_productos": 5
+          }
+      ]
+  },
+  {
+      "clienteId": 5,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 21,
+              "cantidad_productos": 16
+          },
+          {
+              "productoId": 25,
+              "cantidad_productos": 14
+          }
+      ]
+  },
+  {
+      "clienteId": 21,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 34,
+              "cantidad_productos": 25
+          },
+          {
+              "productoId": 47,
+              "cantidad_productos": 18
+          }
+      ]
+  },
+  {
+      "clienteId": 7,
+      "tiendaId": 1,
+      "detalles": [
+          {
+              "productoId": 34,
+              "cantidad_productos": 3
+          },
+          {
+              "productoId": 41,
+              "cantidad_productos": 22
+          }
+      ]
+  },
+  {
+      "clienteId": 82,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 4,
+              "cantidad_productos": 8
+          },
+          {
+              "productoId": 17,
+              "cantidad_productos": 14
+          }
+      ]
+  },
+  {
+      "clienteId": 15,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 30,
+              "cantidad_productos": 30
+          },
+          {
+              "productoId": 47,
+              "cantidad_productos": 16
+          }
+      ]
+  },
+  {
+      "clienteId": 41,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 34,
+              "cantidad_productos": 22
+          },
+          {
+              "productoId": 45,
+              "cantidad_productos": 15
+          }
+      ]
+  },
+  {
+      "clienteId": 55,
+      "tiendaId": 1,
+      "detalles": [
+          {
+              "productoId": 46,
+              "cantidad_productos": 6
+          },
+          {
+              "productoId": 23,
+              "cantidad_productos": 21
+          }
+      ]
+  },
+  {
+      "clienteId": 4,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 5,
+              "cantidad_productos": 30
+          },
+          {
+              "productoId": 10,
+              "cantidad_productos": 2
+          }
+      ]
+  },
+  {
+      "clienteId": 65,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 12,
+              "cantidad_productos": 25
+          },
+          {
+              "productoId": 16,
+              "cantidad_productos": 7
+          }
+      ]
+  },
+  {
+      "clienteId": 81,
+      "tiendaId": 1,
+      "detalles": [
+          {
+              "productoId": 17,
+              "cantidad_productos": 1
+          },
+          {
+              "productoId": 2,
+              "cantidad_productos": 4
+          }
+      ]
+  },
+  {
+      "clienteId": 72,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 40,
+              "cantidad_productos": 11
+          },
+          {
+              "productoId": 41,
+              "cantidad_productos": 14
+          }
+      ]
+  },
+  {
+      "clienteId": 6,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 34,
+              "cantidad_productos": 12
+          },
+          {
+              "productoId": 40,
+              "cantidad_productos": 11
+          }
+      ]
+  },
+  {
+      "clienteId": 38,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 23,
+              "cantidad_productos": 25
+          },
+          {
+              "productoId": 2,
+              "cantidad_productos": 28
+          }
+      ]
+  },
+  {
+      "clienteId": 62,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 50,
+              "cantidad_productos": 9
+          },
+          {
+              "productoId": 11,
+              "cantidad_productos": 19
+          }
+      ]
+  },
+  {
+      "clienteId": 89,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 26,
+              "cantidad_productos": 27
+          },
+          {
+              "productoId": 49,
+              "cantidad_productos": 15
+          }
+      ]
+  },
+  {
+      "clienteId": 20,
+      "tiendaId": 1,
+      "detalles": [
+          {
+              "productoId": 41,
+              "cantidad_productos": 22
+          },
+          {
+              "productoId": 26,
+              "cantidad_productos": 21
+          }
+      ]
+  },
+  {
+      "clienteId": 75,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 1,
+              "cantidad_productos": 7
+          },
+          {
+              "productoId": 8,
+              "cantidad_productos": 21
+          }
+      ]
+  },
+  {
+      "clienteId": 83,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 1,
+              "cantidad_productos": 27
+          },
+          {
+              "productoId": 5,
+              "cantidad_productos": 2
+          }
+      ]
+  },
+  {
+      "clienteId": 39,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 28,
+              "cantidad_productos": 8
+          },
+          {
+              "productoId": 9,
+              "cantidad_productos": 30
+          }
+      ]
+  },
+  {
+      "clienteId": 6,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 36,
+              "cantidad_productos": 2
+          },
+          {
+              "productoId": 10,
+              "cantidad_productos": 7
+          }
+      ]
+  },
+  {
+      "clienteId": 6,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 28,
+              "cantidad_productos": 11
+          },
+          {
+              "productoId": 27,
+              "cantidad_productos": 30
+          }
+      ]
+  },
+  {
+      "clienteId": 33,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 28,
+              "cantidad_productos": 10
+          },
+          {
+              "productoId": 7,
+              "cantidad_productos": 13
+          }
+      ]
+  },
+  {
+      "clienteId": 56,
+      "tiendaId": 1,
+      "detalles": [
+          {
+              "productoId": 33,
+              "cantidad_productos": 27
+          },
+          {
+              "productoId": 33,
+              "cantidad_productos": 8
+          }
+      ]
+  },
+  {
+      "clienteId": 100,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 26,
+              "cantidad_productos": 3
+          },
+          {
+              "productoId": 22,
+              "cantidad_productos": 6
+          }
+      ]
+  },
+  {
+      "clienteId": 16,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 19,
+              "cantidad_productos": 26
+          },
+          {
+              "productoId": 40,
+              "cantidad_productos": 2
+          }
+      ]
+  },
+  {
+      "clienteId": 45,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 23,
+              "cantidad_productos": 16
+          },
+          {
+              "productoId": 12,
+              "cantidad_productos": 22
+          }
+      ]
+  },
+  {
+      "clienteId": 98,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 44,
+              "cantidad_productos": 29
+          },
+          {
+              "productoId": 22,
+              "cantidad_productos": 24
+          }
+      ]
+  },
+  {
+      "clienteId": 70,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 26,
+              "cantidad_productos": 10
+          },
+          {
+              "productoId": 18,
+              "cantidad_productos": 18
+          }
+      ]
+  },
+  {
+      "clienteId": 10,
+      "tiendaId": 1,
+      "detalles": [
+          {
+              "productoId": 17,
+              "cantidad_productos": 20
+          },
+          {
+              "productoId": 19,
+              "cantidad_productos": 5
+          }
+      ]
+  },
+  {
+      "clienteId": 4,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 45,
+              "cantidad_productos": 20
+          },
+          {
+              "productoId": 27,
+              "cantidad_productos": 10
+          }
+      ]
+  },
+  {
+      "clienteId": 14,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 27,
+              "cantidad_productos": 6
+          },
+          {
+              "productoId": 35,
+              "cantidad_productos": 19
+          }
+      ]
+  },
+  {
+      "clienteId": 37,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 39,
+              "cantidad_productos": 10
+          },
+          {
+              "productoId": 8,
+              "cantidad_productos": 6
+          }
+      ]
+  },
+  {
+      "clienteId": 66,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 47,
+              "cantidad_productos": 6
+          },
+          {
+              "productoId": 17,
+              "cantidad_productos": 13
+          }
+      ]
+  },
+  {
+      "clienteId": 73,
+      "tiendaId": 1,
+      "detalles": [
+          {
+              "productoId": 11,
+              "cantidad_productos": 10
+          },
+          {
+              "productoId": 17,
+              "cantidad_productos": 2
+          }
+      ]
+  },
+  {
+      "clienteId": 65,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 40,
+              "cantidad_productos": 22
+          },
+          {
+              "productoId": 10,
+              "cantidad_productos": 14
+          }
+      ]
+  },
+  {
+      "clienteId": 68,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 16,
+              "cantidad_productos": 20
+          },
+          {
+              "productoId": 38,
+              "cantidad_productos": 15
+          }
+      ]
+  },
+  {
+      "clienteId": 83,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 14,
+              "cantidad_productos": 20
+          },
+          {
+              "productoId": 49,
+              "cantidad_productos": 7
+          }
+      ]
+  },
+  {
+      "clienteId": 34,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 8,
+              "cantidad_productos": 4
+          },
+          {
+              "productoId": 5,
+              "cantidad_productos": 28
+          }
+      ]
+  },
+  {
+      "clienteId": 64,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 39,
+              "cantidad_productos": 20
+          },
+          {
+              "productoId": 21,
+              "cantidad_productos": 12
+          }
+      ]
+  },
+  {
+      "clienteId": 75,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 6,
+              "cantidad_productos": 24
+          },
+          {
+              "productoId": 44,
+              "cantidad_productos": 17
+          }
+      ]
+  },
+  {
+      "clienteId": 35,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 29,
+              "cantidad_productos": 21
+          },
+          {
+              "productoId": 23,
+              "cantidad_productos": 22
+          }
+      ]
+  },
+  {
+      "clienteId": 1,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 2,
+              "cantidad_productos": 13
+          },
+          {
+              "productoId": 27,
+              "cantidad_productos": 15
+          }
+      ]
+  },
+  {
+      "clienteId": 42,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 14,
+              "cantidad_productos": 16
+          },
+          {
+              "productoId": 44,
+              "cantidad_productos": 18
+          }
+      ]
+  },
+  {
+      "clienteId": 31,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 10,
+              "cantidad_productos": 16
+          },
+          {
+              "productoId": 33,
+              "cantidad_productos": 28
+          }
+      ]
+  },
+  {
+      "clienteId": 50,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 5,
+              "cantidad_productos": 6
+          },
+          {
+              "productoId": 10,
+              "cantidad_productos": 9
+          }
+      ]
+  },
+  {
+      "clienteId": 87,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 40,
+              "cantidad_productos": 1
+          },
+          {
+              "productoId": 28,
+              "cantidad_productos": 21
+          }
+      ]
+  },
+  {
+      "clienteId": 71,
+      "tiendaId": 1,
+      "detalles": [
+          {
+              "productoId": 1,
+              "cantidad_productos": 15
+          },
+          {
+              "productoId": 32,
+              "cantidad_productos": 11
+          }
+      ]
+  },
+  {
+      "clienteId": 87,
+      "tiendaId": 1,
+      "detalles": [
+          {
+              "productoId": 6,
+              "cantidad_productos": 18
+          },
+          {
+              "productoId": 26,
+              "cantidad_productos": 28
+          }
+      ]
+  },
+  {
+      "clienteId": 3,
+      "tiendaId": 1,
+      "detalles": [
+          {
+              "productoId": 43,
+              "cantidad_productos": 14
+          },
+          {
+              "productoId": 39,
+              "cantidad_productos": 1
+          }
+      ]
+  },
+  {
+      "clienteId": 70,
+      "tiendaId": 1,
+      "detalles": [
+          {
+              "productoId": 6,
+              "cantidad_productos": 11
+          },
+          {
+              "productoId": 11,
+              "cantidad_productos": 27
+          }
+      ]
+  },
+  {
+      "clienteId": 70,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 40,
+              "cantidad_productos": 29
+          },
+          {
+              "productoId": 8,
+              "cantidad_productos": 6
+          }
+      ]
+  },
+  {
+      "clienteId": 82,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 12,
+              "cantidad_productos": 16
+          },
+          {
+              "productoId": 30,
+              "cantidad_productos": 26
+          }
+      ]
+  },
+  {
+      "clienteId": 70,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 9,
+              "cantidad_productos": 27
+          },
+          {
+              "productoId": 4,
+              "cantidad_productos": 3
+          }
+      ]
+  },
+  {
+      "clienteId": 4,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 18,
+              "cantidad_productos": 2
+          },
+          {
+              "productoId": 38,
+              "cantidad_productos": 23
+          }
+      ]
+  },
+  {
+      "clienteId": 78,
+      "tiendaId": 1,
+      "detalles": [
+          {
+              "productoId": 5,
+              "cantidad_productos": 16
+          },
+          {
+              "productoId": 50,
+              "cantidad_productos": 15
+          }
+      ]
+  },
+  {
+      "clienteId": 23,
+      "tiendaId": 2,
+      "detalles": [
+          {
+              "productoId": 24,
+              "cantidad_productos": 26
+          },
+          {
+              "productoId": 15,
+              "cantidad_productos": 17
+          }
+      ]
+  },
+  {
+      "clienteId": 57,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 42,
+              "cantidad_productos": 18
+          },
+          {
+              "productoId": 30,
+              "cantidad_productos": 28
+          }
+      ]
+  },
+  {
+      "clienteId": 3,
+      "tiendaId": 1,
+      "detalles": [
+          {
+              "productoId": 33,
+              "cantidad_productos": 13
+          },
+          {
+              "productoId": 49,
+              "cantidad_productos": 29
+          }
+      ]
+  },
+  {
+      "clienteId": 62,
+      "tiendaId": 4,
+      "detalles": [
+          {
+              "productoId": 2,
+              "cantidad_productos": 30
+          },
+          {
+              "productoId": 18,
+              "cantidad_productos": 7
+          }
+      ]
+  },
+  {
+      "clienteId": 56,
+      "tiendaId": 5,
+      "detalles": [
+          {
+              "productoId": 41,
+              "cantidad_productos": 17
+          },
+          {
+              "productoId": 3,
+              "cantidad_productos": 25
+          }
+      ]
+  },
+  {
+      "clienteId": 56,
+      "tiendaId": 1,
+      "detalles": [
+          {
+              "productoId": 38,
+              "cantidad_productos": 17
+          },
+          {
+              "productoId": 33,
+              "cantidad_productos": 28
+          }
+      ]
+  },
+  {
+      "clienteId": 80,
+      "tiendaId": 3,
+      "detalles": [
+          {
+              "productoId": 49,
+              "cantidad_productos": 18
+          },
+          {
+              "productoId": 48,
+              "cantidad_productos": 23
+          }
+      ]
   }
 ]

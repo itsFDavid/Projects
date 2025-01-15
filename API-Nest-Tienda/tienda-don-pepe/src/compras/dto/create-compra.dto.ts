@@ -1,6 +1,6 @@
 
 import { Type } from "class-transformer";
-import { IsNotEmpty, IsNumber, ValidateNested } from "class-validator";
+import { IsNotEmpty, IsNumber, Min, ValidateNested } from "class-validator";
 import { DetalleCompraDto } from "./create-detalle-compra.dto";
 
 export class CreateCompraDto {
@@ -8,6 +8,11 @@ export class CreateCompraDto {
     @IsNumber()
     clienteId: number;
     
+    @IsNotEmpty()
+    @IsNumber()
+    @Min(1)
+    tiendaId: number;
+
     @ValidateNested({ each: true })
     @Type(() => DetalleCompraDto)
     detalles: DetalleCompraDto[];

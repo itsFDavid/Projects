@@ -9,6 +9,7 @@ import { Producto } from 'src/productos/entities/producto.entity';
 import { Cliente } from 'src/clientes/entities/cliente.entity';
 import { PaginationDto } from 'src/common/dto/pagination.dto';
 import { readFileSync } from 'fs';
+import { Tienda } from 'src/tiendas/entities/tienda.entity';
 
 @Injectable()
 export class ComprasService {
@@ -37,7 +38,7 @@ export class ComprasService {
     await queryRunner.startTransaction();
 
     try {
-      const { clienteId, detalles } = createCompraDto;
+      const { clienteId, tiendaId ,detalles } = createCompraDto;
 
       // Verificar si el cliente existe
       const cliente = await queryRunner.manager.findOne(Cliente, {
@@ -47,11 +48,17 @@ export class ComprasService {
       if (!cliente) {
         throw new NotFoundException(`Cliente con ID ${clienteId} no encontrado`);
       }
+      const tienda = await queryRunner.manager.findOne(Tienda, { where: { id_tienda: tiendaId } });
+      if (!tienda) {
+        throw new NotFoundException(`Tienda con ID ${tiendaId} no encontrada`);
+      }
 
       // Crear los detalles de la compra y calcular el precio_unitario
       const detallesCompra = await Promise.all(
         detalles.map(async (detalleDto) => {
           const { productoId, cantidad_productos } = detalleDto;
+
+
 
           // Verificar si el producto existe
           const producto = await queryRunner.manager.findOne(Producto, {
@@ -82,7 +89,7 @@ export class ComprasService {
             producto,
             cantidad_productos,
             precio_unitario: producto.precio,
-            total,
+            total
           });
 
           return detalle;
@@ -92,6 +99,7 @@ export class ComprasService {
       // Crear la compra
       const compra = queryRunner.manager.create(Compra, {
         cliente_: cliente,
+        tienda_: tienda,
         detalles_: detallesCompra,
       });
 
@@ -111,7 +119,7 @@ export class ComprasService {
   async findAll(paginationDto: PaginationDto) {
     const { limit= 10, offset = 0 } = paginationDto;
     return await this.comprasRepository.find({
-      relations: ['cliente_', 'detalles_', 'detalles_.producto'],
+      relations: ['cliente_', 'detalles_', 'detalles_.producto', 'tienda_'],
       take: limit,
       skip: offset,
     });
@@ -120,7 +128,7 @@ export class ComprasService {
   async findOne(id: number) {
     const compra = await this.comprasRepository.findOne({
       where: { id_compra: id },
-      relations: ['cliente_', 'detalles_', 'detalles_.producto'],
+      relations: ['cliente_', 'detalles_', 'detalles_.producto', 'tienda_'],
     });
 
     if (!compra) {
@@ -136,22 +144,27 @@ export class ComprasService {
     await queryRunner.startTransaction();
   
     try {
-      const { clienteId, detalles } = updateCompraDto;
+      const { clienteId, tiendaId ,detalles } = updateCompraDto;
   
       // Verificar cliente
       const cliente = await queryRunner.manager.findOne(Cliente, { where: { id_cliente: clienteId } });
       if (!cliente) throw new NotFoundException(`Cliente con ID ${clienteId} no encontrado`);
   
+      const tienda = await queryRunner.manager.findOne(Tienda, { where: { id_tienda: tiendaId } });
+      if (!tienda) throw new NotFoundException(`Tienda con ID ${tiendaId} no encontrada`);
+      
       // Verificar compra existente
       const compra = await queryRunner.manager.findOne(Compra, { 
         where: { id_compra: id }, 
-        relations: ['cliente_','detalles_', 'detalles_.producto'] 
+        relations: ['cliente_','detalles_', 'detalles_.producto', 'tienda_'] 
       });
       if (!compra) throw new NotFoundException(`Compra con ID ${id} no encontrada`);
   
       // Ajustar detalles y stock
       const detallesActualizados = await Promise.all(detalles.map(async (detalleDto) => {
         const { productoId, cantidad_productos } = detalleDto;
+
+
   
         const producto = await queryRunner.manager.findOne(Producto, { where: { id_producto: productoId } });
         if (!producto) throw new NotFoundException(`Producto con ID ${productoId} no encontrado`);
@@ -179,6 +192,7 @@ export class ComprasService {
   
       compra.cliente_ = cliente;
       compra.detalles_ = detallesActualizados;
+      compra.tienda_ = tienda;
   
       await queryRunner.manager.save(Compra, compra);
       await queryRunner.commitTransaction();
@@ -202,9 +216,12 @@ export class ComprasService {
     try {
       const compra = await queryRunner.manager.findOne(Compra, {
         where: { id_compra: id },
-        relations: ['cliente_', 'detalles_', 'detalles_.producto'],
+        relations: ['cliente_', 'detalles_', 'detalles_.producto', 'tienda_'],
       });
       if (!compra) throw new NotFoundException(`Compra con ID ${id} no encontrada`);
+
+      const tienda = await queryRunner.manager.findOne(Tienda, { where: { id_tienda: compra.tienda_.id_tienda } });
+      if (!tienda) throw new NotFoundException(`Tienda con ID ${compra.tienda_.id_tienda} no encontrada`);
   
       // Restaurar stock
       for (const detalle of compra.detalles_) {
@@ -218,6 +235,8 @@ export class ComprasService {
       // Eliminar compra y detalles
       await queryRunner.manager.delete(DetalleCompra, { compra_: compra });
       await queryRunner.manager.delete(Compra, { id_compra: id });
+      await queryRunner.manager.delete(Tienda, { id_tienda: tienda.id_tienda });
+
   
       await queryRunner.commitTransaction();
       return { message: `Compra con ID ${id} eliminada correctamente` };
@@ -243,7 +262,7 @@ export class ComprasService {
   
       // Crear las compras con los detalles
       for (const compraData of comprasData) {
-        const { clienteId, detalles } = compraData;
+        const { clienteId, tiendaId, detalles } = compraData;
   
         // Verificar si el cliente existe
         const cliente = await queryRunner.manager.findOne(Cliente, {
@@ -252,6 +271,11 @@ export class ComprasService {
   
         if (!cliente) {
           errors.push(`Cliente con ID ${clienteId} no encontrado`);
+        }
+
+        const tienda = await queryRunner.manager.findOne(Tienda, { where: { id_tienda: tiendaId } });
+        if (!tienda) {
+          errors.push(`Tienda con ID ${tiendaId} no encontrada`);
         }
   
         // Crear los detalles de la compra
@@ -267,6 +291,12 @@ export class ComprasService {
             if (!producto) {
               errors.push(`Producto con ID ${productoId} no encontrado`);
               return null;  // No continuar si el producto no se encuentra
+            }
+
+            const tienda = await queryRunner.manager.findOne(Tienda, { where: { id_tienda: detalleDto.tiendaId } });
+            if (!tienda) {
+              errors.push(`Tienda con ID ${detalleDto.tiendaId} no encontrada`);
+              return null;  // No continuar si la tienda no se encuentra
             }
   
             // Verificar si hay suficiente stock
@@ -301,6 +331,7 @@ export class ComprasService {
           // Crear la compra si hay detalles válidos y el cliente existe
           const compra = queryRunner.manager.create(Compra, {
             cliente_: cliente,
+            tienda_: tienda,
             detalles_: detallesCompraFiltrados,
           });
   

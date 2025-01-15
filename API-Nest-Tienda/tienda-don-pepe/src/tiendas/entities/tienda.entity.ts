@@ -1,3 +1,4 @@
+import { Compra } from "src/compras/entities/compra.entity";
 import { Column, Entity, OneToMany, PrimaryGeneratedColumn } from "typeorm";
 
 
@@ -9,4 +10,6 @@ export class Tienda {
     @Column({ unique: true, length: 100 })
     nombre_tienda: string;
   
+    @OneToMany(() => Compra, (compra) => compra.tienda_, { cascade: true })
+    compras_: Compra[];
 }

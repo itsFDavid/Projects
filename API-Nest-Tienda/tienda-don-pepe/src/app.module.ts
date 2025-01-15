@@ -6,23 +6,25 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { ProductosModule } from './productos/productos.module';
 import { ConfigModule } from '@nestjs/config';
 import { CommonModule } from './common/common.module';
+import { config } from './common/enviroments';
 
 
 @Module({
   imports: [
     ConfigModule.forRoot({
       isGlobal: true,
-      envFilePath: '.env',
+      envFilePath: `.env.${process.env.NODE_ENV || 'local'}`,
     }),
-    TypeOrmModule.forRoot({
-      type: 'mysql',
-      host: process.env.DATABASE_HOST_PROD || 'localhost',
-      port: process.env.DATABASE_PORT_PROD ? parseInt(process.env.DATABASE_PORT) : 3306,
-      username: process.env.MYSQL_USER_PROD,
-      password: process.env.MYSQL_PASSWORD_PROD,
-      database: process.env.MYSQL_DATABASE_PROD,
-      autoLoadEntities: true,
-      synchronize: true,
+    TypeOrmModule.forRootAsync({
+      useFactory: () => {
+        const enviroment = process.env.NODE_ENV === 'prod' ? 'prod' : 'local';
+        return {
+          type: 'mysql',
+          ...config.enviroments[enviroment],
+          autoLoadEntities: true,
+          synchronize: true,
+        }
+      }
     }),
     ComprasModule,
     ClientesModule,

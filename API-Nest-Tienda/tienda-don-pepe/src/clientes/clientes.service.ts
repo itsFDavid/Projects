@@ -31,15 +31,19 @@ export class ClientesService {
     });
   }
 
-  async findOne(id: number) {
-    try {
-      return await this.clientesRepository.findOneOrFail({
-        where: { id_cliente: id },
-        relations: ['compras_', 'compras_.detalles_', 'compras_.detalles_.producto'],
-      });
-    }catch (error){
-      throw new NotFoundException(`Cliente con ID ${id} no encontrado`);
+  async findOne(id: string | number) {
+    const cliente = await this.clientesRepository.createQueryBuilder('cliente')
+      .where('cliente.nombre_cliente = :id', { id })
+      .orWhere('cliente.id_cliente = :id', { id })
+      .leftJoinAndSelect('cliente.compras_', 'compras_')
+      .leftJoinAndSelect('compras_.detalles_', 'detalles_')
+      .leftJoinAndSelect('detalles_.producto', 'producto')
+      .leftJoinAndSelect('compras_.tienda_', 'tienda_')
+      .getOne();
+    if (!cliente) {
+      throw new NotFoundException(`Cliente con termino ${id} no encontrado`);
     }
+    return cliente;
   }
 
   async update(id: number, updateClienteDto: UpdateClienteDto) {
@@ -52,7 +56,6 @@ export class ClientesService {
     const cliente = await this.findOne(id);
     await this.clientesRepository.remove(cliente);
     return;
-    
   }
 
   async seed(){
