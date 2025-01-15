@@ -39,7 +39,13 @@ export class TiendasService {
   }
 
   async update(id: number, updateTiendaDto: CreateTiendaDto) {
-    return await this.tiendasRepository.update({id_tienda: id}, updateTiendaDto);
+    const tienda = await this.findOne(id);
+    try{
+      this.tiendasRepository.merge(tienda, updateTiendaDto);
+      return await this.tiendasRepository.save(tienda);
+    }catch(error){
+      throw new Error(`Error en el update de la tienda: ${error.message}`);
+    }
   }
 
   async remove(id: number) {
