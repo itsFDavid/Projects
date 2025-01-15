@@ -21,7 +21,6 @@ export class TiendasService {
   async findAll(paginationDto: PaginationDto) {
     const { limit= 10, offset = 0 } = paginationDto;
     return await this.tiendasRepository.find({
-      relations: ['inventario'],
       skip: offset,
       take: limit,
     });
@@ -29,8 +28,7 @@ export class TiendasService {
 
   async findOne(id: number) {
     const tienda = await this.tiendasRepository.findOne({
-      where: { id_tienda: id },
-      relations: ['inventario'],
+      where: { id_tienda: id }
     });
 
     if(!tienda){
