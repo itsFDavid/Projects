@@ -37,8 +37,7 @@ export class ClientesController {
 
   @Get(':term')
   @ApiOperation({ summary: 'Obtener un cliente por ID o nombre' })
-  @ApiParam({ name: 'term', type: 'string' })
-  @ApiParam({ name: 'term', type: 'number' })
+  @ApiParam({ name: 'term', description: 'Nombre o Id del cliente' })
   @ApiResponse({ status: 201, description: 'Cliente encontrado exitosamente' })
   @ApiResponse({ status: 404, description: 'Cliente no encontrado' })
   @ApiResponse({ status: 400, description: 'Datos inválidos' })
