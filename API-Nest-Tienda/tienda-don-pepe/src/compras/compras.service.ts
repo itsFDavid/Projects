@@ -1,6 +1,5 @@
 import { BadRequestException, Injectable, NotFoundException } from '@nestjs/common';
 import { CreateCompraDto } from './dto/create-compra.dto';
-import { UpdateCompraDto } from './dto/update-compra.dto';
 import { DataSource, Repository } from 'typeorm';
 import { Compra } from './entities/compra.entity';
 import { InjectRepository } from '@nestjs/typeorm';
@@ -10,6 +9,8 @@ import { Cliente } from 'src/clientes/entities/cliente.entity';
 import { PaginationDto } from 'src/common/dto/pagination.dto';
 import { readFileSync } from 'fs';
 import { Tienda } from 'src/tiendas/entities/tienda.entity';
+import { DetalleCompraDto } from './dto/create-detalle-compra.dto';
+import { UpdateCompraDto } from './dto/update-compra.dto';
 
 @Injectable()
 export class ComprasService {
@@ -72,7 +73,8 @@ export class ComprasService {
           // Verificar si hay suficiente stock
           if (producto.stock < cantidad_productos) {
             throw new BadRequestException(
-              `No hay suficiente stock para el producto ${producto.nombre_producto}. Disponible: ${producto.stock}, solicitado: ${cantidad_productos}`,
+              `No hay suficiente stock para el producto ${producto.nombre_producto}. 
+              Disponible: ${producto.stock}, solicitado: ${cantidad_productos}`,
             );
           }
 
@@ -161,7 +163,7 @@ export class ComprasService {
       if (!compra) throw new NotFoundException(`Compra con ID ${id} no encontrada`);
   
       // Ajustar detalles y stock
-      const detallesActualizados = await Promise.all(detalles.map(async (detalleDto) => {
+      const detallesActualizados = await Promise.all(detalles.map(async (detalleDto: DetalleCompraDto) => {
         const { productoId, cantidad_productos } = detalleDto;
 
 

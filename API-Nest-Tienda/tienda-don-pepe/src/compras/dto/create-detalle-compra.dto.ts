@@ -7,7 +7,6 @@ export class DetalleCompraDto {
         description: 'Id del producto a comprar',
         required: true,
       })
-    @IsNotEmpty()
     @IsNumber()
     @Min(1)
     productoId: number;
@@ -17,7 +16,6 @@ export class DetalleCompraDto {
         description: 'Cantidad de productos a comprar',
         required: true,
       })
-    @IsNotEmpty()
     @IsNumber()
     @Min(1)
     cantidad_productos: number;

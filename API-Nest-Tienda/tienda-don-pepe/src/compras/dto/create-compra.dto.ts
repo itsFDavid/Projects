@@ -10,7 +10,6 @@ export class CreateCompraDto {
         description: 'Id del cliente que realiza la compra',
         required: true,
       })
-    @IsNotEmpty()
     @IsNumber()
     clienteId: number;
     
@@ -19,25 +18,24 @@ export class CreateCompraDto {
         description: 'Id de la tienda donde se realiza la compra',
         required: true,
       })
-    @IsNotEmpty()
     @IsNumber()
     @Min(1)
     tiendaId: number;
 
-      @ApiProperty({
-        description: 'Lista de detalles de la compra',
-        type: DetalleCompraDto,
-        isArray: true,
-        required: true,
-        example: [
-            {
-                productoId: 1,
-                cantidad_productos: 2
-            },
-            {
-                productoId: 2,
-                cantidad_productos: 3
-            }
+    @ApiProperty({
+      description: 'Lista de detalles de la compra',
+      type: DetalleCompraDto,
+      isArray: true,
+      required: true,
+      example: [
+          {
+              productoId: 1,
+              cantidad_productos: 2
+          },
+          {
+              productoId: 2,
+              cantidad_productos: 3
+          }
         ]
       })
     @ValidateNested({ each: true })
