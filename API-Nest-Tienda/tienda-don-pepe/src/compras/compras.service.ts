@@ -34,58 +34,59 @@ export class ComprasService {
 
   async create(createCompraDto: CreateCompraDto) {
     const queryRunner = this.dataSource.createQueryRunner();
-
     await queryRunner.connect();
     await queryRunner.startTransaction();
-
+  
     try {
-      const { clienteId, tiendaId ,detalles } = createCompraDto;
-
+      const { clienteId, tiendaId, detalles } = createCompraDto;
+  
       // Verificar si el cliente existe
       const cliente = await queryRunner.manager.findOne(Cliente, {
         where: { id_cliente: clienteId },
       });
-
+  
       if (!cliente) {
         throw new NotFoundException(`Cliente con ID ${clienteId} no encontrado`);
       }
+  
       const tienda = await queryRunner.manager.findOne(Tienda, { where: { id_tienda: tiendaId } });
       if (!tienda) {
         throw new NotFoundException(`Tienda con ID ${tiendaId} no encontrada`);
       }
-
-      // Crear los detalles de la compra y calcular el precio_unitario
+  
+      // Verificar el stock de todos los productos antes de realizar cualquier cambio
+      for (const detalleDto of detalles) {
+        const { productoId, cantidad_productos } = detalleDto;
+  
+        // Verificar si el producto existe
+        const producto = await queryRunner.manager.findOne(Producto, {
+          where: { id_producto: productoId },
+        });
+  
+        if (!producto) {
+          throw new NotFoundException(`Producto con ID ${productoId} no encontrado`);
+        }
+  
+        // Verificar si hay suficiente stock
+        if (producto.stock < cantidad_productos) {
+          throw new BadRequestException(
+            `No hay suficiente stock para el producto ${producto.nombre_producto}. 
+            Disponible: ${producto.stock}, solicitado: ${cantidad_productos}`,
+          );
+        }
+      }
+  
+      // Crear los detalles de la compra
       const detallesCompra = await Promise.all(
         detalles.map(async (detalleDto) => {
           const { productoId, cantidad_productos } = detalleDto;
-
-
-
-          // Verificar si el producto existe
           const producto = await queryRunner.manager.findOne(Producto, {
             where: { id_producto: productoId },
           });
-
-          if (!producto) {
-            throw new NotFoundException(`Producto con ID ${productoId} no encontrado`);
-          }
-
-          // Verificar si hay suficiente stock
-          if (producto.stock < cantidad_productos) {
-            throw new BadRequestException(
-              `No hay suficiente stock para el producto ${producto.nombre_producto}. 
-              Disponible: ${producto.stock}, solicitado: ${cantidad_productos}`,
-            );
-          }
-
-          // Actualizar el stock
-          producto.stock -= cantidad_productos;
-          await queryRunner.manager.save(Producto, producto);
-
+  
           // Calcular el total basado en el precio del producto
           const total = cantidad_productos * producto.precio;
-
-
+  
           // Crear el detalle de la compra
           const detalle = queryRunner.manager.create(DetalleCompra, {
             producto,
@@ -93,22 +94,34 @@ export class ComprasService {
             precio_unitario: producto.precio,
             total
           });
-
+  
           return detalle;
         }),
       );
-
+  
+      // Actualizar el stock de los productos después de validar todos los detalles
+      for (const detalleDto of detalles) {
+        const { productoId, cantidad_productos } = detalleDto;
+        const producto = await queryRunner.manager.findOne(Producto, {
+          where: { id_producto: productoId },
+        });
+  
+        // Actualizar el stock
+        producto.stock -= cantidad_productos;
+        await queryRunner.manager.save(Producto, producto);
+      }
+  
       // Crear la compra
       const compra = queryRunner.manager.create(Compra, {
         cliente_: cliente,
         tienda_: tienda,
         detalles_: detallesCompra,
       });
-
+  
       // Guardar la compra y los detalles
       await queryRunner.manager.save(Compra, compra);
       await queryRunner.commitTransaction();
-
+  
       return compra;
     } catch (error) {
       await queryRunner.rollbackTransaction();
@@ -117,6 +130,7 @@ export class ComprasService {
       await queryRunner.release();
     }
   }
+  
 
   async findAll(paginationDto: PaginationDto) {
     const { limit= 10, offset = 0 } = paginationDto;
