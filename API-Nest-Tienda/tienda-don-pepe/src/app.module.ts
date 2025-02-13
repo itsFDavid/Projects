@@ -7,6 +7,7 @@ import { ProductosModule } from './productos/productos.module';
 import { ConfigModule } from '@nestjs/config';
 import { CommonModule } from './common/common.module';
 import { config } from './common/enviroments';
+import { PdfsModule } from './pdfs/pdfs.module';
 
 
 @Module({
@@ -30,7 +31,8 @@ import { config } from './common/enviroments';
     ClientesModule,
     TiendasModule,
     ProductosModule,
-    CommonModule
+    CommonModule,
+    PdfsModule
   ],
   controllers: [],
   providers: [],
