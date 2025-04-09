@@ -12,29 +12,29 @@ services:
     restart: always
     volumes:
       - ./database:/var/lib/mysql
-    networks:
-      - app-network
+    # networks:
+    #   - app-network
 
-  nestjs-app:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    container_name: nestjs-app
-    environment:
-      DATABASE_HOST: ${HOST_DATABASE_API}
-      DATABASE_PORT: ${DATABASE_PORT}
-      DATABASE_USERNAME: ${MYSQL_USER}
-      DATABASE_PASSWORD: ${MYSQL_PASSWORD}
-      DATABASE_NAME: ${MYSQL_DATABASE}
-    depends_on:
-      - database
-    ports:
-      - "${API_PORT}:${API_PORT}"
-    restart: always
-    networks:
-      - app-network
-    command: npm run start:prod
+#   nestjs-app:
+#     build:
+#       context: .
+#       dockerfile: Dockerfile
+#     container_name: nestjs-app
+#     environment:
+#       DATABASE_HOST: ${HOST_DATABASE_API}
+#       DATABASE_PORT: ${DATABASE_PORT}
+#       DATABASE_USERNAME: ${MYSQL_USER}
+#       DATABASE_PASSWORD: ${MYSQL_PASSWORD}
+#       DATABASE_NAME: ${MYSQL_DATABASE}
+#     depends_on:
+#       - database
+#     ports:
+#       - "${API_PORT}:${API_PORT}"
+#     restart: always
+#     networks:
+#       - app-network
+#     command: npm run start:prod
 
-networks:
-  app-network:
-    driver: bridge
+# networks:
+#   app-network:
+#     driver: bridge
