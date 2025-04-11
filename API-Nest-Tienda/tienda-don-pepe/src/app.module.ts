@@ -7,7 +7,9 @@ import { ProductosModule } from './productos/productos.module';
 import { ConfigModule } from '@nestjs/config';
 import { CommonModule } from './common/common.module';
 import { config } from './common/enviroments';
-import { PdfsModule } from './pdfs/pdfs.module';
+import { FacturasModule } from './facturas/facturas.module';
+import { PrinterModule } from './printer/printer.module';
+import { AuthModule } from './auth/auth.module';
 
 
 @Module({
@@ -32,7 +34,9 @@ import { PdfsModule } from './pdfs/pdfs.module';
     TiendasModule,
     ProductosModule,
     CommonModule,
-    PdfsModule
+    FacturasModule,
+    PrinterModule,
+    AuthModule,
   ],
   controllers: [],
   providers: [],
