@@ -17,8 +17,13 @@ export class ClientesService {
   ){}
 
   async create(createClienteDto: CreateClienteDto) {
-    const cliente = this.clientesRepository.create(createClienteDto);
-    return await this.clientesRepository.save(cliente);
+    try {
+      const cliente = this.clientesRepository.create(createClienteDto);
+      return await this.clientesRepository.save(cliente);
+    } catch (error) {
+      // si el error es otro, lanzamos una excepcion generica
+      throw new NotFoundException(`Error al crear el cliente: ${error.message}`);
+    }
   }
 
   async findAll(paginationDto: PaginationDto) {
@@ -60,7 +65,7 @@ export class ClientesService {
 
   async seed(){
     try{
-      const clientesJson = readFileSync('src/common/utils/clientes.seed.json', 'utf8');
+      const clientesJson = readFileSync('src/common/utils/clientes.seed2.json', 'utf8');
       const clientesData = JSON.parse(clientesJson);
   
       const clientes = clientesData.map((cliente: Cliente) =>{
@@ -68,6 +73,7 @@ export class ClientesService {
           nombre_cliente: cliente.nombre_cliente,
           apellido1: cliente.apellido1,
           apellido2: cliente.apellido2,
+          email: cliente.email,
           fecha_nacimiento: new Date(cliente.fecha_nacimiento).toISOString(),
           puntos_compra: cliente.puntos_compra ?? 0,
         };

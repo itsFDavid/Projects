@@ -18,6 +18,9 @@ export class Cliente {
   
     @Column({ type: 'date', nullable: true })
     fecha_nacimiento?: Date;
+
+    @Column({ length: 50, unique: true, nullable: false })
+    email: string;
   
     @Column({ default: 0 })
     puntos_compra: number;

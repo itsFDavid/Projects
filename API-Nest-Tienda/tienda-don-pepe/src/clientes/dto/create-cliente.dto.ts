@@ -1,5 +1,5 @@
 import { Type } from "class-transformer";
-import { IsDate, IsNumber, IsOptional, IsString, Length, Min } from "class-validator";
+import { IsDate, IsEmail, IsNumber, IsOptional, IsString, Length, Min } from "class-validator";
 import { ApiProperty } from "@nestjs/swagger";
 
 export class CreateClienteDto {
@@ -40,6 +40,16 @@ export class CreateClienteDto {
     @IsOptional()
     @Type(() => String)
     fecha_nacimiento?: String;
+
+    @ApiProperty({
+        example: 'your@email.com',
+        description: 'Email del cliente',
+        required: true,
+      })
+    @IsEmail()
+    @IsString()
+    @Length(1, 50)
+    email: string;
   
     @ApiProperty({
         example: 0,

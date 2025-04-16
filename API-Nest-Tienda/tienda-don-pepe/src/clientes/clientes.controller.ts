@@ -1,9 +1,13 @@
-import { Controller, Get, Post, Body, Patch, Param, Delete, Query, ParseIntPipe } from '@nestjs/common';
+import { Controller, Get, Post, Body, Patch, Param, Delete, Query, ParseIntPipe, UseGuards } from '@nestjs/common';
 import { ClientesService } from './clientes.service';
 import { CreateClienteDto } from './dto/create-cliente.dto';
 import { UpdateClienteDto } from './dto/update-cliente.dto';
 import { PaginationDto } from 'src/common/dto/pagination.dto';
 import { ApiBody, ApiOperation, ApiParam, ApiQuery, ApiResponse, ApiTags } from '@nestjs/swagger';
+import { AuthGuard } from 'src/auth/guards/auth.guard';
+import { UserRoleGuard } from 'src/auth/guards/user-role.guard';
+import { ValidRoles } from 'src/auth/interfaces';
+import { RoleProtected } from 'src/auth/decorators';
 
 
 @ApiTags('clientes')
@@ -23,6 +27,8 @@ export class ClientesController {
   @Get('seed')
   @ApiOperation({ summary: 'Crear clientes de prueba' })
   @ApiResponse({ status: 201, description: 'Clientes creados exitosamente' })
+  @UseGuards(AuthGuard, UserRoleGuard)
+  @RoleProtected(ValidRoles.ADMIN)
   seed(){
     return this.clientesService.seed();
   }
@@ -31,6 +37,8 @@ export class ClientesController {
   @ApiOperation({ summary: 'Obtener todos los clientes' })
   @ApiQuery({ type: PaginationDto })
   @ApiResponse({ status: 201, description: 'Lista de clientes retornada exitosamente' })
+  @UseGuards(AuthGuard, UserRoleGuard)
+  @RoleProtected(ValidRoles.ADMIN)
   findAll(@Query() paginationDto: PaginationDto) {
     return this.clientesService.findAll(paginationDto);
   }
@@ -41,6 +49,8 @@ export class ClientesController {
   @ApiResponse({ status: 201, description: 'Cliente encontrado exitosamente' })
   @ApiResponse({ status: 404, description: 'Cliente no encontrado' })
   @ApiResponse({ status: 400, description: 'Datos inválidos' })
+  @UseGuards(AuthGuard, UserRoleGuard)
+  @RoleProtected(ValidRoles.USER, ValidRoles.ADMIN)
   findOne(@Param('term') id: string) {
     return this.clientesService.findOne(id);
   }
@@ -52,6 +62,8 @@ export class ClientesController {
   @ApiResponse({ status: 201, description: 'Cliente actualizado exitosamente' })
   @ApiResponse({ status: 404, description: 'Cliente no encontrado' })
   @ApiResponse({ status: 400, description: 'Datos inválidos' })
+  @UseGuards(AuthGuard, UserRoleGuard)
+  @RoleProtected(ValidRoles.ADMIN)
   update(@Param('id', ParseIntPipe) id: number, @Body() updateClienteDto: UpdateClienteDto) {
     return this.clientesService.update(id, updateClienteDto);
   }
@@ -62,6 +74,8 @@ export class ClientesController {
   @ApiResponse({ status: 201, description: 'Cliente eliminado exitosamente' })
   @ApiResponse({ status: 404, description: 'Cliente no encontrado' })
   @ApiResponse({ status: 400, description: 'Datos inválidos' })
+  @UseGuards(AuthGuard, UserRoleGuard)
+  @RoleProtected(ValidRoles.ADMIN)
   remove(@Param('id', ParseIntPipe) id: number) {
     return this.clientesService.remove(id);
   }
