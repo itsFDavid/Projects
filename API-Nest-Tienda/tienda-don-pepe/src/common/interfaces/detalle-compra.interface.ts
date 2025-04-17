@@ -1,13 +1,13 @@
-type Cliente = {
+export type Cliente = {
     id_cliente: number;
     nombre_cliente: string;
     apellido1: string;
-    apellido2: string;
+    apellido2?: string | null;
     fecha_nacimiento: Date;
     puntos_compra: number;
     fecha_registro: Date;
 }
-type Producto = {
+export type Producto = {
     id_producto: number;
     nombre_producto: string;
     descripcion: string|null;
@@ -15,7 +15,7 @@ type Producto = {
     stock: number;
 }
 
-type Detalle = {
+export type Detalle = {
     id_detalle_compra: number;
     total: number;
     descripcion: string|null;
@@ -23,13 +23,13 @@ type Detalle = {
     precio_unitario: number;
     producto: Producto;
 }
-type Tienda = {
+export type Tienda = {
     id_tienda: number;
     nombre_tienda: string;
 }
 
 export interface DetalleCompra {
-    id_detalle_compra: number;
+    id_compra: number;
     fecha_compra: Date;
     cliente_: Cliente;
     detalles_: Detalle[];
