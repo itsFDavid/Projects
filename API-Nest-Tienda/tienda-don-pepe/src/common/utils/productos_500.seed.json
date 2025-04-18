@@ -1,0 +1,3002 @@
+[
+  {
+    "nombre_producto": "Monitor 4K Gris pizarra oscuro 6003",
+    "descripcion": "Monitor UHD de 27 pulgadas",
+    "precio": 530.8,
+    "stock": 103
+  },
+  {
+    "nombre_producto": "Mesa Plegable Verde limón 6594",
+    "descripcion": "Mesa multiusos portátil",
+    "precio": 305.15,
+    "stock": 34
+  },
+  {
+    "nombre_producto": "Silla Gamer Rojo carmesí 3121",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 149.62,
+    "stock": 129
+  },
+  {
+    "nombre_producto": "Monitor 4K Blanco lino 7222",
+    "descripcion": "Monitor UHD de 27 pulgadas",
+    "precio": 490.83,
+    "stock": 257
+  },
+  {
+    "nombre_producto": "Silla Gamer Marrón rosado 2870",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 94.48,
+    "stock": 65
+  },
+  {
+    "nombre_producto": "Camisa Casual Violeta cardo 1034",
+    "descripcion": "Camisa de algodón para uso diario",
+    "precio": 90.55,
+    "stock": 84
+  },
+  {
+    "nombre_producto": "Reloj Inteligente Verde 3581",
+    "descripcion": "Reloj con monitor de actividad física",
+    "precio": 687.7,
+    "stock": 20
+  },
+  {
+    "nombre_producto": "Lámpara LED Verde mar medio 4485",
+    "descripcion": "Lámpara de escritorio con ajuste de brillo",
+    "precio": 478.6,
+    "stock": 169
+  },
+  {
+    "nombre_producto": "Teclado Mecánico Rojo anaranjado 6577",
+    "descripcion": "Teclado con retroiluminación RGB",
+    "precio": 343.34,
+    "stock": 112
+  },
+  {
+    "nombre_producto": "Reloj Inteligente Amarillo verde 9895",
+    "descripcion": "Reloj con monitor de actividad física",
+    "precio": 377.08,
+    "stock": 275
+  },
+  {
+    "nombre_producto": "Lámpara LED Cian clarto 4375",
+    "descripcion": "Lámpara de escritorio con ajuste de brillo",
+    "precio": 574.47,
+    "stock": 7
+  },
+  {
+    "nombre_producto": "Monitor 4K Amarillo trigo 3755",
+    "descripcion": "Monitor UHD de 27 pulgadas",
+    "precio": 476.71,
+    "stock": 225
+  },
+  {
+    "nombre_producto": "Mouse Inalámbrico Azul cielo profundo 5550",
+    "descripcion": "Mouse ergonómico y recargable",
+    "precio": 691.52,
+    "stock": 148
+  },
+  {
+    "nombre_producto": "Mouse Inalámbrico Blanco lino 6203",
+    "descripcion": "Mouse ergonómico y recargable",
+    "precio": 11.08,
+    "stock": 147
+  },
+  {
+    "nombre_producto": "Zapato Deportivo Blanco fantasma 9904",
+    "descripcion": "Zapato cómodo para actividades deportivas",
+    "precio": 380.82,
+    "stock": 26
+  },
+  {
+    "nombre_producto": "Monitor 4K Violeta oscuro 4568",
+    "descripcion": "Monitor UHD de 27 pulgadas",
+    "precio": 392.9,
+    "stock": 239
+  },
+  {
+    "nombre_producto": "Teclado Mecánico Verde mar 4104",
+    "descripcion": "Teclado con retroiluminación RGB",
+    "precio": 289.61,
+    "stock": 234
+  },
+  {
+    "nombre_producto": "Silla Gamer Azul acero claro 1615",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 696.47,
+    "stock": 63
+  },
+  {
+    "nombre_producto": "Teclado Mecánico Turquesa pálido 3929",
+    "descripcion": "Teclado con retroiluminación RGB",
+    "precio": 635.9,
+    "stock": 65
+  },
+  {
+    "nombre_producto": "Reloj Inteligente Salmón oscuro 7633",
+    "descripcion": "Reloj con monitor de actividad física",
+    "precio": 217.81,
+    "stock": 123
+  },
+  {
+    "nombre_producto": "Mesa Plegable Blanco lino 8899",
+    "descripcion": "Mesa multiusos portátil",
+    "precio": 249.14,
+    "stock": 122
+  },
+  {
+    "nombre_producto": "Mouse Inalámbrico Rosa claro 9160",
+    "descripcion": "Mouse ergonómico y recargable",
+    "precio": 118.21,
+    "stock": 196
+  },
+  {
+    "nombre_producto": "Lámpara LED Rosa profundo 5975",
+    "descripcion": "Lámpara de escritorio con ajuste de brillo",
+    "precio": 499.05,
+    "stock": 161
+  },
+  {
+    "nombre_producto": "Silla Gamer Verde mar oscuro 2530",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 166.65,
+    "stock": 52
+  },
+  {
+    "nombre_producto": "Teclado Mecánico Salmón oscuro 3552",
+    "descripcion": "Teclado con retroiluminación RGB",
+    "precio": 500.84,
+    "stock": 10
+  },
+  {
+    "nombre_producto": "Mouse Inalámbrico Beige 5229",
+    "descripcion": "Mouse ergonómico y recargable",
+    "precio": 16.41,
+    "stock": 70
+  },
+  {
+    "nombre_producto": "Zapato Deportivo Violeta oscuro 4336",
+    "descripcion": "Zapato cómodo para actividades deportivas",
+    "precio": 443.25,
+    "stock": 87
+  },
+  {
+    "nombre_producto": "Mesa Plegable Almendra blanqueado 2877",
+    "descripcion": "Mesa multiusos portátil",
+    "precio": 175.66,
+    "stock": 158
+  },
+  {
+    "nombre_producto": "Reloj Inteligente Rojo 7093",
+    "descripcion": "Reloj con monitor de actividad física",
+    "precio": 287.64,
+    "stock": 202
+  },
+  {
+    "nombre_producto": "Mesa Plegable Verde primavera 6551",
+    "descripcion": "Mesa multiusos portátil",
+    "precio": 269.31,
+    "stock": 106
+  },
+  {
+    "nombre_producto": "Mouse Inalámbrico Marrón perú 4334",
+    "descripcion": "Mouse ergonómico y recargable",
+    "precio": 86.82,
+    "stock": 85
+  },
+  {
+    "nombre_producto": "Lámpara LED Blanco menta 8905",
+    "descripcion": "Lámpara de escritorio con ajuste de brillo",
+    "precio": 611.97,
+    "stock": 219
+  },
+  {
+    "nombre_producto": "Mouse Inalámbrico Verde primavera 6927",
+    "descripcion": "Mouse ergonómico y recargable",
+    "precio": 517.36,
+    "stock": 260
+  },
+  {
+    "nombre_producto": "Monitor 4K Orquídea púrpura oscuro 8246",
+    "descripcion": "Monitor UHD de 27 pulgadas",
+    "precio": 125.53,
+    "stock": 270
+  },
+  {
+    "nombre_producto": "Camisa Casual Orquídea púrpura oscuro 3652",
+    "descripcion": "Camisa de algodón para uso diario",
+    "precio": 577.43,
+    "stock": 264
+  },
+  {
+    "nombre_producto": "Silla Gamer Naranja 4775",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 28.29,
+    "stock": 248
+  },
+  {
+    "nombre_producto": "Mouse Inalámbrico Gris mate 2378",
+    "descripcion": "Mouse ergonómico y recargable",
+    "precio": 235.49,
+    "stock": 134
+  },
+  {
+    "nombre_producto": "Mesa Plegable Beige antiguo 8026",
+    "descripcion": "Mesa multiusos portátil",
+    "precio": 574.17,
+    "stock": 238
+  },
+  {
+    "nombre_producto": "Silla Gamer Verde oliva oscuro 4277",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 317.52,
+    "stock": 86
+  },
+  {
+    "nombre_producto": "Mesa Plegable Almendra blanqueado 8366",
+    "descripcion": "Mesa multiusos portátil",
+    "precio": 583.26,
+    "stock": 182
+  },
+  {
+    "nombre_producto": "Lámpara LED Azul 6974",
+    "descripcion": "Lámpara de escritorio con ajuste de brillo",
+    "precio": 511.88,
+    "stock": 102
+  },
+  {
+    "nombre_producto": "Silla Gamer Negro 5125",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 469.15,
+    "stock": 176
+  },
+  {
+    "nombre_producto": "Mouse Inalámbrico Amarillo trigo 6246",
+    "descripcion": "Mouse ergonómico y recargable",
+    "precio": 590.44,
+    "stock": 219
+  },
+  {
+    "nombre_producto": "Mesa Plegable Gris pizarra oscuro 4936",
+    "descripcion": "Mesa multiusos portátil",
+    "precio": 264.02,
+    "stock": 70
+  },
+  {
+    "nombre_producto": "Mesa Plegable Amarillo dorado 7480",
+    "descripcion": "Mesa multiusos portátil",
+    "precio": 528.1,
+    "stock": 217
+  },
+  {
+    "nombre_producto": "Reloj Inteligente Marrón siena 2260",
+    "descripcion": "Reloj con monitor de actividad física",
+    "precio": 647.77,
+    "stock": 45
+  },
+  {
+    "nombre_producto": "Lámpara LED Beige papaya 5222",
+    "descripcion": "Lámpara de escritorio con ajuste de brillo",
+    "precio": 346.67,
+    "stock": 109
+  },
+  {
+    "nombre_producto": "Reloj Inteligente Azul cielo claro 5357",
+    "descripcion": "Reloj con monitor de actividad física",
+    "precio": 155.3,
+    "stock": 298
+  },
+  {
+    "nombre_producto": "Silla Gamer Blanco lavanda 7474",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 300.19,
+    "stock": 33
+  },
+  {
+    "nombre_producto": "Mesa Plegable Azul cadete 7040",
+    "descripcion": "Mesa multiusos portátil",
+    "precio": 282.97,
+    "stock": 190
+  },
+  {
+    "nombre_producto": "Mouse Inalámbrico Verde pálido 8058",
+    "descripcion": "Mouse ergonómico y recargable",
+    "precio": 632.5,
+    "stock": 79
+  },
+  {
+    "nombre_producto": "Monitor 4K Blanco navajo 5656",
+    "descripcion": "Monitor UHD de 27 pulgadas",
+    "precio": 108.06,
+    "stock": 40
+  },
+  {
+    "nombre_producto": "Lámpara LED Gris pizarra claro 8481",
+    "descripcion": "Lámpara de escritorio con ajuste de brillo",
+    "precio": 98.57,
+    "stock": 175
+  },
+  {
+    "nombre_producto": "Mouse Inalámbrico Verde primavera medio 1015",
+    "descripcion": "Mouse ergonómico y recargable",
+    "precio": 692.6,
+    "stock": 87
+  },
+  {
+    "nombre_producto": "Reloj Inteligente Verde bosque 6209",
+    "descripcion": "Reloj con monitor de actividad física",
+    "precio": 437.92,
+    "stock": 129
+  },
+  {
+    "nombre_producto": "Zapato Deportivo Melón dulce 9128",
+    "descripcion": "Zapato cómodo para actividades deportivas",
+    "precio": 631.88,
+    "stock": 239
+  },
+  {
+    "nombre_producto": "Audífonos Inalámbricos Blanco menta 7087",
+    "descripcion": "Audífonos con cancelación de ruido",
+    "precio": 410.31,
+    "stock": 31
+  },
+  {
+    "nombre_producto": "Audífonos Inalámbricos Azul marino 7916",
+    "descripcion": "Audífonos con cancelación de ruido",
+    "precio": 357.47,
+    "stock": 35
+  },
+  {
+    "nombre_producto": "Monitor 4K Azul pizarra 1760",
+    "descripcion": "Monitor UHD de 27 pulgadas",
+    "precio": 138.83,
+    "stock": 190
+  },
+  {
+    "nombre_producto": "Audífonos Inalámbricos Verde mar claro 6147",
+    "descripcion": "Audífonos con cancelación de ruido",
+    "precio": 408.06,
+    "stock": 263
+  },
+  {
+    "nombre_producto": "Zapato Deportivo Cyan oscuro 8488",
+    "descripcion": "Zapato cómodo para actividades deportivas",
+    "precio": 405.57,
+    "stock": 239
+  },
+  {
+    "nombre_producto": "Monitor 4K Azul medio 2345",
+    "descripcion": "Monitor UHD de 27 pulgadas",
+    "precio": 595.32,
+    "stock": 202
+  },
+  {
+    "nombre_producto": "Mouse Inalámbrico Violeta 3305",
+    "descripcion": "Mouse ergonómico y recargable",
+    "precio": 679.45,
+    "stock": 67
+  },
+  {
+    "nombre_producto": "Lámpara LED Verde mar claro 9646",
+    "descripcion": "Lámpara de escritorio con ajuste de brillo",
+    "precio": 447.54,
+    "stock": 286
+  },
+  {
+    "nombre_producto": "Silla Gamer Beige papaya 9060",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 595.19,
+    "stock": 61
+  },
+  {
+    "nombre_producto": "Teclado Mecánico Naranja oscuro 9683",
+    "descripcion": "Teclado con retroiluminación RGB",
+    "precio": 439.61,
+    "stock": 45
+  },
+  {
+    "nombre_producto": "Mouse Inalámbrico Orquídea medio 7375",
+    "descripcion": "Mouse ergonómico y recargable",
+    "precio": 449.9,
+    "stock": 47
+  },
+  {
+    "nombre_producto": "Mouse Inalámbrico Chocolate 4725",
+    "descripcion": "Mouse ergonómico y recargable",
+    "precio": 163.15,
+    "stock": 177
+  },
+  {
+    "nombre_producto": "Camisa Casual Melón dulce 9226",
+    "descripcion": "Camisa de algodón para uso diario",
+    "precio": 59.37,
+    "stock": 73
+  },
+  {
+    "nombre_producto": "Audífonos Inalámbricos Azul polvo 4176",
+    "descripcion": "Audífonos con cancelación de ruido",
+    "precio": 166.37,
+    "stock": 154
+  },
+  {
+    "nombre_producto": "Monitor 4K Violeta cardo 8769",
+    "descripcion": "Monitor UHD de 27 pulgadas",
+    "precio": 204.4,
+    "stock": 195
+  },
+  {
+    "nombre_producto": "Monitor 4K Beige papaya 1994",
+    "descripcion": "Monitor UHD de 27 pulgadas",
+    "precio": 440.07,
+    "stock": 298
+  },
+  {
+    "nombre_producto": "Silla Gamer Blanco 4421",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 39.84,
+    "stock": 258
+  },
+  {
+    "nombre_producto": "Silla Gamer Blanco nieve 4346",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 524.49,
+    "stock": 49
+  },
+  {
+    "nombre_producto": "Camisa Casual Rojo tomate 2185",
+    "descripcion": "Camisa de algodón para uso diario",
+    "precio": 435.52,
+    "stock": 124
+  },
+  {
+    "nombre_producto": "Mesa Plegable Rojo violeta medio 3559",
+    "descripcion": "Mesa multiusos portátil",
+    "precio": 14.97,
+    "stock": 115
+  },
+  {
+    "nombre_producto": "Audífonos Inalámbricos Gris mate 1608",
+    "descripcion": "Audífonos con cancelación de ruido",
+    "precio": 130.72,
+    "stock": 18
+  },
+  {
+    "nombre_producto": "Lámpara LED Amarillo verde 7291",
+    "descripcion": "Lámpara de escritorio con ajuste de brillo",
+    "precio": 680.34,
+    "stock": 285
+  },
+  {
+    "nombre_producto": "Monitor 4K Rosa brumoso 3294",
+    "descripcion": "Monitor UHD de 27 pulgadas",
+    "precio": 119.46,
+    "stock": 242
+  },
+  {
+    "nombre_producto": "Mouse Inalámbrico Verde primavera 8834",
+    "descripcion": "Mouse ergonómico y recargable",
+    "precio": 503.67,
+    "stock": 87
+  },
+  {
+    "nombre_producto": "Lámpara LED Caqui 8190",
+    "descripcion": "Lámpara de escritorio con ajuste de brillo",
+    "precio": 456.95,
+    "stock": 126
+  },
+  {
+    "nombre_producto": "Mouse Inalámbrico Verde primavera 3035",
+    "descripcion": "Mouse ergonómico y recargable",
+    "precio": 695.97,
+    "stock": 292
+  },
+  {
+    "nombre_producto": "Teclado Mecánico Amarillo dorado claro 9668",
+    "descripcion": "Teclado con retroiluminación RGB",
+    "precio": 27.89,
+    "stock": 201
+  },
+  {
+    "nombre_producto": "Audífonos Inalámbricos Marrón perú 4609",
+    "descripcion": "Audífonos con cancelación de ruido",
+    "precio": 232.31,
+    "stock": 147
+  },
+  {
+    "nombre_producto": "Reloj Inteligente Rosa profundo 9256",
+    "descripcion": "Reloj con monitor de actividad física",
+    "precio": 162.36,
+    "stock": 75
+  },
+  {
+    "nombre_producto": "Teclado Mecánico Azul violeta 6279",
+    "descripcion": "Teclado con retroiluminación RGB",
+    "precio": 662.08,
+    "stock": 285
+  },
+  {
+    "nombre_producto": "Mesa Plegable Turquesa medio 4111",
+    "descripcion": "Mesa multiusos portátil",
+    "precio": 416.62,
+    "stock": 73
+  },
+  {
+    "nombre_producto": "Camisa Casual Amarillo 4014",
+    "descripcion": "Camisa de algodón para uso diario",
+    "precio": 156.12,
+    "stock": 145
+  },
+  {
+    "nombre_producto": "Mesa Plegable Azul oscuro 6778",
+    "descripcion": "Mesa multiusos portátil",
+    "precio": 277.52,
+    "stock": 99
+  },
+  {
+    "nombre_producto": "Reloj Inteligente Magenta oscuro 8032",
+    "descripcion": "Reloj con monitor de actividad física",
+    "precio": 698.46,
+    "stock": 133
+  },
+  {
+    "nombre_producto": "Reloj Inteligente Verde azulado 9796",
+    "descripcion": "Reloj con monitor de actividad física",
+    "precio": 403.66,
+    "stock": 59
+  },
+  {
+    "nombre_producto": "Silla Gamer Púrpura 6154",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 268.62,
+    "stock": 26
+  },
+  {
+    "nombre_producto": "Mouse Inalámbrico Verde claro 1162",
+    "descripcion": "Mouse ergonómico y recargable",
+    "precio": 674.24,
+    "stock": 140
+  },
+  {
+    "nombre_producto": "Teclado Mecánico Magenta 4052",
+    "descripcion": "Teclado con retroiluminación RGB",
+    "precio": 28.07,
+    "stock": 225
+  },
+  {
+    "nombre_producto": "Teclado Mecánico Azul cielo profundo 3646",
+    "descripcion": "Teclado con retroiluminación RGB",
+    "precio": 453.68,
+    "stock": 75
+  },
+  {
+    "nombre_producto": "Lámpara LED Negro 8673",
+    "descripcion": "Lámpara de escritorio con ajuste de brillo",
+    "precio": 486.06,
+    "stock": 284
+  },
+  {
+    "nombre_producto": "Mesa Plegable Blanco lino 5867",
+    "descripcion": "Mesa multiusos portátil",
+    "precio": 392.69,
+    "stock": 85
+  },
+  {
+    "nombre_producto": "Camisa Casual Verde primavera medio 2326",
+    "descripcion": "Camisa de algodón para uso diario",
+    "precio": 140.66,
+    "stock": 220
+  },
+  {
+    "nombre_producto": "Camisa Casual Gris pizarra 1239",
+    "descripcion": "Camisa de algodón para uso diario",
+    "precio": 380.54,
+    "stock": 258
+  },
+  {
+    "nombre_producto": "Mesa Plegable Beige antiguo 5374",
+    "descripcion": "Mesa multiusos portátil",
+    "precio": 596.88,
+    "stock": 292
+  },
+  {
+    "nombre_producto": "Zapato Deportivo Blanco humo 3923",
+    "descripcion": "Zapato cómodo para actividades deportivas",
+    "precio": 365.59,
+    "stock": 125
+  },
+  {
+    "nombre_producto": "Monitor 4K Amarillo dorado claro 7665",
+    "descripcion": "Monitor UHD de 27 pulgadas",
+    "precio": 317.46,
+    "stock": 193
+  },
+  {
+    "nombre_producto": "Teclado Mecánico Púrpura 6032",
+    "descripcion": "Teclado con retroiluminación RGB",
+    "precio": 298.95,
+    "stock": 130
+  },
+  {
+    "nombre_producto": "Zapato Deportivo Granate 6973",
+    "descripcion": "Zapato cómodo para actividades deportivas",
+    "precio": 376.4,
+    "stock": 299
+  },
+  {
+    "nombre_producto": "Lámpara LED Rosa profundo 1207",
+    "descripcion": "Lámpara de escritorio con ajuste de brillo",
+    "precio": 353.3,
+    "stock": 207
+  },
+  {
+    "nombre_producto": "Lámpara LED Beige mocasín 9309",
+    "descripcion": "Lámpara de escritorio con ajuste de brillo",
+    "precio": 400.68,
+    "stock": 144
+  },
+  {
+    "nombre_producto": "Reloj Inteligente Amarillo verde 1747",
+    "descripcion": "Reloj con monitor de actividad física",
+    "precio": 93.13,
+    "stock": 186
+  },
+  {
+    "nombre_producto": "Zapato Deportivo Cyan oscuro 5914",
+    "descripcion": "Zapato cómodo para actividades deportivas",
+    "precio": 640.75,
+    "stock": 167
+  },
+  {
+    "nombre_producto": "Mesa Plegable Verde mar claro 1160",
+    "descripcion": "Mesa multiusos portátil",
+    "precio": 104.04,
+    "stock": 237
+  },
+  {
+    "nombre_producto": "Silla Gamer Verde oscuro 4237",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 18.78,
+    "stock": 63
+  },
+  {
+    "nombre_producto": "Monitor 4K Amarillo verde 7603",
+    "descripcion": "Monitor UHD de 27 pulgadas",
+    "precio": 568.71,
+    "stock": 244
+  },
+  {
+    "nombre_producto": "Mouse Inalámbrico Rojo anaranjado 6178",
+    "descripcion": "Mouse ergonómico y recargable",
+    "precio": 583.96,
+    "stock": 157
+  },
+  {
+    "nombre_producto": "Camisa Casual Rosa 8960",
+    "descripcion": "Camisa de algodón para uso diario",
+    "precio": 182.33,
+    "stock": 236
+  },
+  {
+    "nombre_producto": "Mesa Plegable Gris oscuro 4727",
+    "descripcion": "Mesa multiusos portátil",
+    "precio": 114.65,
+    "stock": 85
+  },
+  {
+    "nombre_producto": "Mesa Plegable Amarillo dorado pálido 9307",
+    "descripcion": "Mesa multiusos portátil",
+    "precio": 16.32,
+    "stock": 59
+  },
+  {
+    "nombre_producto": "Teclado Mecánico Azul medianoche 7605",
+    "descripcion": "Teclado con retroiluminación RGB",
+    "precio": 17.8,
+    "stock": 8
+  },
+  {
+    "nombre_producto": "Audífonos Inalámbricos Beige melocotón 3628",
+    "descripcion": "Audífonos con cancelación de ruido",
+    "precio": 612.52,
+    "stock": 135
+  },
+  {
+    "nombre_producto": "Reloj Inteligente Coral 2348",
+    "descripcion": "Reloj con monitor de actividad física",
+    "precio": 21.5,
+    "stock": 77
+  },
+  {
+    "nombre_producto": "Teclado Mecánico Azul pizarra 9483",
+    "descripcion": "Teclado con retroiluminación RGB",
+    "precio": 554.24,
+    "stock": 113
+  },
+  {
+    "nombre_producto": "Mouse Inalámbrico Verde mar 1513",
+    "descripcion": "Mouse ergonómico y recargable",
+    "precio": 304.53,
+    "stock": 89
+  },
+  {
+    "nombre_producto": "Camisa Casual Marrón rosado 1997",
+    "descripcion": "Camisa de algodón para uso diario",
+    "precio": 30.88,
+    "stock": 77
+  },
+  {
+    "nombre_producto": "Mesa Plegable Púrpura medio 7927",
+    "descripcion": "Mesa multiusos portátil",
+    "precio": 137.06,
+    "stock": 96
+  },
+  {
+    "nombre_producto": "Teclado Mecánico Azul real 6279",
+    "descripcion": "Teclado con retroiluminación RGB",
+    "precio": 668.24,
+    "stock": 209
+  },
+  {
+    "nombre_producto": "Camisa Casual Melón dulce 4216",
+    "descripcion": "Camisa de algodón para uso diario",
+    "precio": 21.57,
+    "stock": 242
+  },
+  {
+    "nombre_producto": "Monitor 4K Gris pizarra 3323",
+    "descripcion": "Monitor UHD de 27 pulgadas",
+    "precio": 271.35,
+    "stock": 171
+  },
+  {
+    "nombre_producto": "Audífonos Inalámbricos Verde oliva oscuro 8631",
+    "descripcion": "Audífonos con cancelación de ruido",
+    "precio": 269.03,
+    "stock": 80
+  },
+  {
+    "nombre_producto": "Camisa Casual Gris mate 3194",
+    "descripcion": "Camisa de algodón para uso diario",
+    "precio": 162.4,
+    "stock": 239
+  },
+  {
+    "nombre_producto": "Mesa Plegable Verde limón 2582",
+    "descripcion": "Mesa multiusos portátil",
+    "precio": 414.01,
+    "stock": 75
+  },
+  {
+    "nombre_producto": "Mouse Inalámbrico Rojo oscuro 2797",
+    "descripcion": "Mouse ergonómico y recargable",
+    "precio": 363.08,
+    "stock": 194
+  },
+  {
+    "nombre_producto": "Mouse Inalámbrico Blanco concha 1330",
+    "descripcion": "Mouse ergonómico y recargable",
+    "precio": 200.32,
+    "stock": 166
+  },
+  {
+    "nombre_producto": "Teclado Mecánico Azul cielo profundo 5639",
+    "descripcion": "Teclado con retroiluminación RGB",
+    "precio": 563.26,
+    "stock": 54
+  },
+  {
+    "nombre_producto": "Teclado Mecánico Rojo ladrillo 3269",
+    "descripcion": "Teclado con retroiluminación RGB",
+    "precio": 543.73,
+    "stock": 291
+  },
+  {
+    "nombre_producto": "Audífonos Inalámbricos Verde mar medio 6781",
+    "descripcion": "Audífonos con cancelación de ruido",
+    "precio": 539.63,
+    "stock": 254
+  },
+  {
+    "nombre_producto": "Zapato Deportivo Violeta 2806",
+    "descripcion": "Zapato cómodo para actividades deportivas",
+    "precio": 355.43,
+    "stock": 96
+  },
+  {
+    "nombre_producto": "Silla Gamer Verde primavera 9404",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 647.91,
+    "stock": 215
+  },
+  {
+    "nombre_producto": "Camisa Casual Azul claro 3479",
+    "descripcion": "Camisa de algodón para uso diario",
+    "precio": 44.98,
+    "stock": 226
+  },
+  {
+    "nombre_producto": "Monitor 4K Verde mar medio 8749",
+    "descripcion": "Monitor UHD de 27 pulgadas",
+    "precio": 330.73,
+    "stock": 24
+  },
+  {
+    "nombre_producto": "Zapato Deportivo Amarillo claro 3721",
+    "descripcion": "Zapato cómodo para actividades deportivas",
+    "precio": 355.68,
+    "stock": 52
+  },
+  {
+    "nombre_producto": "Silla Gamer Amarillo dorado oscuro 6089",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 416.69,
+    "stock": 101
+  },
+  {
+    "nombre_producto": "Teclado Mecánico Rojo indio 6837",
+    "descripcion": "Teclado con retroiluminación RGB",
+    "precio": 388.13,
+    "stock": 231
+  },
+  {
+    "nombre_producto": "Teclado Mecánico Amarillo dorado pálido 4229",
+    "descripcion": "Teclado con retroiluminación RGB",
+    "precio": 588.18,
+    "stock": 123
+  },
+  {
+    "nombre_producto": "Silla Gamer Turquesa pálido 7688",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 167.7,
+    "stock": 28
+  },
+  {
+    "nombre_producto": "Silla Gamer Almendra blanqueado 9959",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 505.28,
+    "stock": 138
+  },
+  {
+    "nombre_producto": "Zapato Deportivo Marrón caqui 3110",
+    "descripcion": "Zapato cómodo para actividades deportivas",
+    "precio": 62.9,
+    "stock": 118
+  },
+  {
+    "nombre_producto": "Reloj Inteligente Verde primavera 2975",
+    "descripcion": "Reloj con monitor de actividad física",
+    "precio": 259.88,
+    "stock": 207
+  },
+  {
+    "nombre_producto": "Audífonos Inalámbricos Azul pizarra medio 1289",
+    "descripcion": "Audífonos con cancelación de ruido",
+    "precio": 393.45,
+    "stock": 153
+  },
+  {
+    "nombre_producto": "Lámpara LED Blanco humo 5791",
+    "descripcion": "Lámpara de escritorio con ajuste de brillo",
+    "precio": 565.88,
+    "stock": 205
+  },
+  {
+    "nombre_producto": "Camisa Casual Azul cielo 7619",
+    "descripcion": "Camisa de algodón para uso diario",
+    "precio": 690.41,
+    "stock": 158
+  },
+  {
+    "nombre_producto": "Lámpara LED Granate 6844",
+    "descripcion": "Lámpara de escritorio con ajuste de brillo",
+    "precio": 529.46,
+    "stock": 178
+  },
+  {
+    "nombre_producto": "Audífonos Inalámbricos Oliva 9257",
+    "descripcion": "Audífonos con cancelación de ruido",
+    "precio": 132.26,
+    "stock": 156
+  },
+  {
+    "nombre_producto": "Audífonos Inalámbricos Gris oscuro 8767",
+    "descripcion": "Audífonos con cancelación de ruido",
+    "precio": 501.97,
+    "stock": 71
+  },
+  {
+    "nombre_producto": "Monitor 4K Blanco concha 6922",
+    "descripcion": "Monitor UHD de 27 pulgadas",
+    "precio": 303.89,
+    "stock": 116
+  },
+  {
+    "nombre_producto": "Reloj Inteligente Amarillo dorado 2885",
+    "descripcion": "Reloj con monitor de actividad física",
+    "precio": 501.98,
+    "stock": 31
+  },
+  {
+    "nombre_producto": "Zapato Deportivo Índigo 1191",
+    "descripcion": "Zapato cómodo para actividades deportivas",
+    "precio": 433.19,
+    "stock": 223
+  },
+  {
+    "nombre_producto": "Zapato Deportivo Rojo indio 2825",
+    "descripcion": "Zapato cómodo para actividades deportivas",
+    "precio": 164.88,
+    "stock": 151
+  },
+  {
+    "nombre_producto": "Teclado Mecánico Salmón 5341",
+    "descripcion": "Teclado con retroiluminación RGB",
+    "precio": 307.8,
+    "stock": 185
+  },
+  {
+    "nombre_producto": "Teclado Mecánico Salmón 1972",
+    "descripcion": "Teclado con retroiluminación RGB",
+    "precio": 172.42,
+    "stock": 25
+  },
+  {
+    "nombre_producto": "Camisa Casual Marrón 3199",
+    "descripcion": "Camisa de algodón para uso diario",
+    "precio": 26.02,
+    "stock": 13
+  },
+  {
+    "nombre_producto": "Audífonos Inalámbricos Gris pizarra oscuro 5326",
+    "descripcion": "Audífonos con cancelación de ruido",
+    "precio": 603.07,
+    "stock": 21
+  },
+  {
+    "nombre_producto": "Mouse Inalámbrico Azul real 5058",
+    "descripcion": "Mouse ergonómico y recargable",
+    "precio": 156.72,
+    "stock": 66
+  },
+  {
+    "nombre_producto": "Mesa Plegable Coral 3755",
+    "descripcion": "Mesa multiusos portátil",
+    "precio": 547.79,
+    "stock": 180
+  },
+  {
+    "nombre_producto": "Camisa Casual Beige papaya 6073",
+    "descripcion": "Camisa de algodón para uso diario",
+    "precio": 247.92,
+    "stock": 230
+  },
+  {
+    "nombre_producto": "Camisa Casual Azul cielo claro 8187",
+    "descripcion": "Camisa de algodón para uso diario",
+    "precio": 39.83,
+    "stock": 112
+  },
+  {
+    "nombre_producto": "Silla Gamer Marrón siena 2641",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 608.62,
+    "stock": 208
+  },
+  {
+    "nombre_producto": "Teclado Mecánico Azul marino 6756",
+    "descripcion": "Teclado con retroiluminación RGB",
+    "precio": 472.94,
+    "stock": 138
+  },
+  {
+    "nombre_producto": "Mesa Plegable Blanco concha 6847",
+    "descripcion": "Mesa multiusos portátil",
+    "precio": 182.19,
+    "stock": 140
+  },
+  {
+    "nombre_producto": "Monitor 4K Cyan oscuro 6702",
+    "descripcion": "Monitor UHD de 27 pulgadas",
+    "precio": 572.22,
+    "stock": 120
+  },
+  {
+    "nombre_producto": "Zapato Deportivo Beige melocotón 4452",
+    "descripcion": "Zapato cómodo para actividades deportivas",
+    "precio": 485.89,
+    "stock": 233
+  },
+  {
+    "nombre_producto": "Camisa Casual Marrón caqui 5903",
+    "descripcion": "Camisa de algodón para uso diario",
+    "precio": 124.94,
+    "stock": 119
+  },
+  {
+    "nombre_producto": "Mesa Plegable Azul cadete 4498",
+    "descripcion": "Mesa multiusos portátil",
+    "precio": 225.94,
+    "stock": 142
+  },
+  {
+    "nombre_producto": "Audífonos Inalámbricos Rojo oscuro 2777",
+    "descripcion": "Audífonos con cancelación de ruido",
+    "precio": 502.91,
+    "stock": 126
+  },
+  {
+    "nombre_producto": "Reloj Inteligente Orquídea púrpura oscuro 8859",
+    "descripcion": "Reloj con monitor de actividad física",
+    "precio": 304.22,
+    "stock": 106
+  },
+  {
+    "nombre_producto": "Camisa Casual Azul 9955",
+    "descripcion": "Camisa de algodón para uso diario",
+    "precio": 285.28,
+    "stock": 241
+  },
+  {
+    "nombre_producto": "Zapato Deportivo Marrón 7450",
+    "descripcion": "Zapato cómodo para actividades deportivas",
+    "precio": 324.21,
+    "stock": 33
+  },
+  {
+    "nombre_producto": "Zapato Deportivo Marrón siena 8969",
+    "descripcion": "Zapato cómodo para actividades deportivas",
+    "precio": 446.41,
+    "stock": 92
+  },
+  {
+    "nombre_producto": "Teclado Mecánico Amarillo maíz dulce 9865",
+    "descripcion": "Teclado con retroiluminación RGB",
+    "precio": 199.76,
+    "stock": 168
+  },
+  {
+    "nombre_producto": "Lámpara LED Verde claro 2927",
+    "descripcion": "Lámpara de escritorio con ajuste de brillo",
+    "precio": 218.97,
+    "stock": 241
+  },
+  {
+    "nombre_producto": "Mesa Plegable Gris oscuro 6391",
+    "descripcion": "Mesa multiusos portátil",
+    "precio": 656.11,
+    "stock": 134
+  },
+  {
+    "nombre_producto": "Reloj Inteligente Gris pizarra 9255",
+    "descripcion": "Reloj con monitor de actividad física",
+    "precio": 507.41,
+    "stock": 208
+  },
+  {
+    "nombre_producto": "Silla Gamer Fucsia 5864",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 543.06,
+    "stock": 180
+  },
+  {
+    "nombre_producto": "Reloj Inteligente Azul medio 1988",
+    "descripcion": "Reloj con monitor de actividad física",
+    "precio": 658.65,
+    "stock": 108
+  },
+  {
+    "nombre_producto": "Monitor 4K Verde primavera 3550",
+    "descripcion": "Monitor UHD de 27 pulgadas",
+    "precio": 257.93,
+    "stock": 275
+  },
+  {
+    "nombre_producto": "Lámpara LED Azul cielo profundo 4413",
+    "descripcion": "Lámpara de escritorio con ajuste de brillo",
+    "precio": 194.94,
+    "stock": 70
+  },
+  {
+    "nombre_producto": "Silla Gamer Azul violeta 4752",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 341.26,
+    "stock": 166
+  },
+  {
+    "nombre_producto": "Teclado Mecánico Marrón cuero 9003",
+    "descripcion": "Teclado con retroiluminación RGB",
+    "precio": 477.72,
+    "stock": 261
+  },
+  {
+    "nombre_producto": "Teclado Mecánico Blanco navajo 9944",
+    "descripcion": "Teclado con retroiluminación RGB",
+    "precio": 239.38,
+    "stock": 214
+  },
+  {
+    "nombre_producto": "Silla Gamer Azul lona 5940",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 218.75,
+    "stock": 106
+  },
+  {
+    "nombre_producto": "Audífonos Inalámbricos Beige papaya 1073",
+    "descripcion": "Audífonos con cancelación de ruido",
+    "precio": 404.65,
+    "stock": 265
+  },
+  {
+    "nombre_producto": "Audífonos Inalámbricos Azul cielo profundo 7426",
+    "descripcion": "Audífonos con cancelación de ruido",
+    "precio": 443.54,
+    "stock": 254
+  },
+  {
+    "nombre_producto": "Teclado Mecánico Cian 3859",
+    "descripcion": "Teclado con retroiluminación RGB",
+    "precio": 635.44,
+    "stock": 155
+  },
+  {
+    "nombre_producto": "Zapato Deportivo Azul medianoche 6051",
+    "descripcion": "Zapato cómodo para actividades deportivas",
+    "precio": 577.07,
+    "stock": 41
+  },
+  {
+    "nombre_producto": "Mouse Inalámbrico Índigo 5570",
+    "descripcion": "Mouse ergonómico y recargable",
+    "precio": 698.59,
+    "stock": 135
+  },
+  {
+    "nombre_producto": "Audífonos Inalámbricos Oliva 8119",
+    "descripcion": "Audífonos con cancelación de ruido",
+    "precio": 579.28,
+    "stock": 151
+  },
+  {
+    "nombre_producto": "Reloj Inteligente Verde mar claro 4255",
+    "descripcion": "Reloj con monitor de actividad física",
+    "precio": 133.5,
+    "stock": 178
+  },
+  {
+    "nombre_producto": "Silla Gamer Marrón 5751",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 505.68,
+    "stock": 178
+  },
+  {
+    "nombre_producto": "Monitor 4K Agua marina medio 5982",
+    "descripcion": "Monitor UHD de 27 pulgadas",
+    "precio": 624.35,
+    "stock": 122
+  },
+  {
+    "nombre_producto": "Reloj Inteligente Oro 9479",
+    "descripcion": "Reloj con monitor de actividad física",
+    "precio": 568.31,
+    "stock": 291
+  },
+  {
+    "nombre_producto": "Lámpara LED Rojo anaranjado 2660",
+    "descripcion": "Lámpara de escritorio con ajuste de brillo",
+    "precio": 691.86,
+    "stock": 243
+  },
+  {
+    "nombre_producto": "Camisa Casual Beige melocotón 4131",
+    "descripcion": "Camisa de algodón para uso diario",
+    "precio": 627.53,
+    "stock": 59
+  },
+  {
+    "nombre_producto": "Mouse Inalámbrico Rosa caliente 7699",
+    "descripcion": "Mouse ergonómico y recargable",
+    "precio": 570.05,
+    "stock": 270
+  },
+  {
+    "nombre_producto": "Silla Gamer Blanco concha 6955",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 153.87,
+    "stock": 161
+  },
+  {
+    "nombre_producto": "Lámpara LED Lima 8587",
+    "descripcion": "Lámpara de escritorio con ajuste de brillo",
+    "precio": 262.44,
+    "stock": 250
+  },
+  {
+    "nombre_producto": "Zapato Deportivo Fucsia 2905",
+    "descripcion": "Zapato cómodo para actividades deportivas",
+    "precio": 421.42,
+    "stock": 112
+  },
+  {
+    "nombre_producto": "Lámpara LED Azul lona 5617",
+    "descripcion": "Lámpara de escritorio con ajuste de brillo",
+    "precio": 461.73,
+    "stock": 159
+  },
+  {
+    "nombre_producto": "Camisa Casual Verde mar claro 7274",
+    "descripcion": "Camisa de algodón para uso diario",
+    "precio": 628.14,
+    "stock": 117
+  },
+  {
+    "nombre_producto": "Reloj Inteligente Rojo oscuro 5799",
+    "descripcion": "Reloj con monitor de actividad física",
+    "precio": 436.81,
+    "stock": 152
+  },
+  {
+    "nombre_producto": "Silla Gamer Naranja oscuro 2530",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 443.62,
+    "stock": 112
+  },
+  {
+    "nombre_producto": "Mouse Inalámbrico Verde primavera medio 1433",
+    "descripcion": "Mouse ergonómico y recargable",
+    "precio": 219.75,
+    "stock": 282
+  },
+  {
+    "nombre_producto": "Reloj Inteligente Verde azulado 9057",
+    "descripcion": "Reloj con monitor de actividad física",
+    "precio": 35.71,
+    "stock": 159
+  },
+  {
+    "nombre_producto": "Mesa Plegable Verde mar oscuro 9760",
+    "descripcion": "Mesa multiusos portátil",
+    "precio": 699.01,
+    "stock": 279
+  },
+  {
+    "nombre_producto": "Lámpara LED Rosa profundo 7822",
+    "descripcion": "Lámpara de escritorio con ajuste de brillo",
+    "precio": 224.04,
+    "stock": 266
+  },
+  {
+    "nombre_producto": "Silla Gamer Marrón cuero 1074",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 587.65,
+    "stock": 158
+  },
+  {
+    "nombre_producto": "Zapato Deportivo Rosa 5157",
+    "descripcion": "Zapato cómodo para actividades deportivas",
+    "precio": 433.81,
+    "stock": 103
+  },
+  {
+    "nombre_producto": "Mouse Inalámbrico Rojo indio 4222",
+    "descripcion": "Mouse ergonómico y recargable",
+    "precio": 94.94,
+    "stock": 249
+  },
+  {
+    "nombre_producto": "Reloj Inteligente Verde mar 1577",
+    "descripcion": "Reloj con monitor de actividad física",
+    "precio": 123.49,
+    "stock": 68
+  },
+  {
+    "nombre_producto": "Lámpara LED Marrón madera rústica 3332",
+    "descripcion": "Lámpara de escritorio con ajuste de brillo",
+    "precio": 468.02,
+    "stock": 31
+  },
+  {
+    "nombre_producto": "Silla Gamer Agua-marina 6903",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 68.41,
+    "stock": 244
+  },
+  {
+    "nombre_producto": "Mouse Inalámbrico Amarillo dorado 8131",
+    "descripcion": "Mouse ergonómico y recargable",
+    "precio": 134.93,
+    "stock": 23
+  },
+  {
+    "nombre_producto": "Monitor 4K Rojo indio 9279",
+    "descripcion": "Monitor UHD de 27 pulgadas",
+    "precio": 367.24,
+    "stock": 72
+  },
+  {
+    "nombre_producto": "Reloj Inteligente Rosa profundo 1806",
+    "descripcion": "Reloj con monitor de actividad física",
+    "precio": 688.32,
+    "stock": 93
+  },
+  {
+    "nombre_producto": "Teclado Mecánico Azul anciano 1150",
+    "descripcion": "Teclado con retroiluminación RGB",
+    "precio": 16.46,
+    "stock": 5
+  },
+  {
+    "nombre_producto": "Silla Gamer Marrón arena 3050",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 627.19,
+    "stock": 100
+  },
+  {
+    "nombre_producto": "Silla Gamer Rosa profundo 9554",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 217.97,
+    "stock": 65
+  },
+  {
+    "nombre_producto": "Mouse Inalámbrico Azul cadete 1895",
+    "descripcion": "Mouse ergonómico y recargable",
+    "precio": 527.04,
+    "stock": 155
+  },
+  {
+    "nombre_producto": "Teclado Mecánico Cyan oscuro 1719",
+    "descripcion": "Teclado con retroiluminación RGB",
+    "precio": 211.42,
+    "stock": 167
+  },
+  {
+    "nombre_producto": "Monitor 4K Amarillo dorado pálido 2974",
+    "descripcion": "Monitor UHD de 27 pulgadas",
+    "precio": 474.65,
+    "stock": 134
+  },
+  {
+    "nombre_producto": "Silla Gamer Magenta 9861",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 218.36,
+    "stock": 230
+  },
+  {
+    "nombre_producto": "Audífonos Inalámbricos Naranja oscuro 3899",
+    "descripcion": "Audífonos con cancelación de ruido",
+    "precio": 134.9,
+    "stock": 272
+  },
+  {
+    "nombre_producto": "Camisa Casual Verde bosque 6353",
+    "descripcion": "Camisa de algodón para uso diario",
+    "precio": 71.19,
+    "stock": 26
+  },
+  {
+    "nombre_producto": "Silla Gamer Amarillo dorado 4889",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 526.86,
+    "stock": 235
+  },
+  {
+    "nombre_producto": "Camisa Casual Gris gainsboro (Estaño) 1441",
+    "descripcion": "Camisa de algodón para uso diario",
+    "precio": 666.04,
+    "stock": 220
+  },
+  {
+    "nombre_producto": "Teclado Mecánico Blanco encaje 1509",
+    "descripcion": "Teclado con retroiluminación RGB",
+    "precio": 404.15,
+    "stock": 248
+  },
+  {
+    "nombre_producto": "Camisa Casual Amarillo dorado pálido 3210",
+    "descripcion": "Camisa de algodón para uso diario",
+    "precio": 583.61,
+    "stock": 51
+  },
+  {
+    "nombre_producto": "Monitor 4K Oro 1048",
+    "descripcion": "Monitor UHD de 27 pulgadas",
+    "precio": 628.84,
+    "stock": 203
+  },
+  {
+    "nombre_producto": "Monitor 4K Azul polvo 1820",
+    "descripcion": "Monitor UHD de 27 pulgadas",
+    "precio": 458.31,
+    "stock": 47
+  },
+  {
+    "nombre_producto": "Lámpara LED Lavanda 4296",
+    "descripcion": "Lámpara de escritorio con ajuste de brillo",
+    "precio": 430.93,
+    "stock": 52
+  },
+  {
+    "nombre_producto": "Audífonos Inalámbricos Cyan oscuro 8238",
+    "descripcion": "Audífonos con cancelación de ruido",
+    "precio": 604.17,
+    "stock": 271
+  },
+  {
+    "nombre_producto": "Teclado Mecánico Azul marino 4608",
+    "descripcion": "Teclado con retroiluminación RGB",
+    "precio": 182.86,
+    "stock": 40
+  },
+  {
+    "nombre_producto": "Teclado Mecánico Rojo violeta medio 5980",
+    "descripcion": "Teclado con retroiluminación RGB",
+    "precio": 48.71,
+    "stock": 156
+  },
+  {
+    "nombre_producto": "Zapato Deportivo Rojo anaranjado 5906",
+    "descripcion": "Zapato cómodo para actividades deportivas",
+    "precio": 72.52,
+    "stock": 283
+  },
+  {
+    "nombre_producto": "Mesa Plegable Azul pizarra 5372",
+    "descripcion": "Mesa multiusos portátil",
+    "precio": 647.39,
+    "stock": 175
+  },
+  {
+    "nombre_producto": "Lámpara LED Naranja oscuro 2674",
+    "descripcion": "Lámpara de escritorio con ajuste de brillo",
+    "precio": 379.16,
+    "stock": 77
+  },
+  {
+    "nombre_producto": "Camisa Casual Caqui 1666",
+    "descripcion": "Camisa de algodón para uso diario",
+    "precio": 171.02,
+    "stock": 161
+  },
+  {
+    "nombre_producto": "Camisa Casual Beige papaya 3579",
+    "descripcion": "Camisa de algodón para uso diario",
+    "precio": 698.95,
+    "stock": 296
+  },
+  {
+    "nombre_producto": "Zapato Deportivo Turquesa 5866",
+    "descripcion": "Zapato cómodo para actividades deportivas",
+    "precio": 527.02,
+    "stock": 183
+  },
+  {
+    "nombre_producto": "Reloj Inteligente Violeta cardo 4324",
+    "descripcion": "Reloj con monitor de actividad física",
+    "precio": 163.97,
+    "stock": 26
+  },
+  {
+    "nombre_producto": "Mesa Plegable Fucsia 7010",
+    "descripcion": "Mesa multiusos portátil",
+    "precio": 139.4,
+    "stock": 129
+  },
+  {
+    "nombre_producto": "Lámpara LED Turquesa medio 6722",
+    "descripcion": "Lámpara de escritorio con ajuste de brillo",
+    "precio": 359.0,
+    "stock": 273
+  },
+  {
+    "nombre_producto": "Silla Gamer Melón dulce 6952",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 531.94,
+    "stock": 36
+  },
+  {
+    "nombre_producto": "Silla Gamer Amarillo trigo 4602",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 544.76,
+    "stock": 29
+  },
+  {
+    "nombre_producto": "Reloj Inteligente Azul cadete 7213",
+    "descripcion": "Reloj con monitor de actividad física",
+    "precio": 46.24,
+    "stock": 40
+  },
+  {
+    "nombre_producto": "Mouse Inalámbrico Blanco concha 7149",
+    "descripcion": "Mouse ergonómico y recargable",
+    "precio": 373.76,
+    "stock": 252
+  },
+  {
+    "nombre_producto": "Reloj Inteligente Blanco fantasma 9860",
+    "descripcion": "Reloj con monitor de actividad física",
+    "precio": 65.47,
+    "stock": 147
+  },
+  {
+    "nombre_producto": "Reloj Inteligente Salmón oscuro 8120",
+    "descripcion": "Reloj con monitor de actividad física",
+    "precio": 391.28,
+    "stock": 70
+  },
+  {
+    "nombre_producto": "Lámpara LED Turquesa 7012",
+    "descripcion": "Lámpara de escritorio con ajuste de brillo",
+    "precio": 10.98,
+    "stock": 235
+  },
+  {
+    "nombre_producto": "Audífonos Inalámbricos Azul polvo 9772",
+    "descripcion": "Audífonos con cancelación de ruido",
+    "precio": 389.42,
+    "stock": 282
+  },
+  {
+    "nombre_producto": "Camisa Casual Blanco floral 1746",
+    "descripcion": "Camisa de algodón para uso diario",
+    "precio": 647.81,
+    "stock": 128
+  },
+  {
+    "nombre_producto": "Zapato Deportivo Verde pálido 2657",
+    "descripcion": "Zapato cómodo para actividades deportivas",
+    "precio": 511.64,
+    "stock": 162
+  },
+  {
+    "nombre_producto": "Monitor 4K Rojo carmesí 4864",
+    "descripcion": "Monitor UHD de 27 pulgadas",
+    "precio": 487.94,
+    "stock": 234
+  },
+  {
+    "nombre_producto": "Silla Gamer Azul cadete 8784",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 116.69,
+    "stock": 136
+  },
+  {
+    "nombre_producto": "Camisa Casual Azul lona 3294",
+    "descripcion": "Camisa de algodón para uso diario",
+    "precio": 317.32,
+    "stock": 64
+  },
+  {
+    "nombre_producto": "Camisa Casual Bisque 1216",
+    "descripcion": "Camisa de algodón para uso diario",
+    "precio": 137.46,
+    "stock": 164
+  },
+  {
+    "nombre_producto": "Silla Gamer Rojo 9921",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 342.43,
+    "stock": 91
+  },
+  {
+    "nombre_producto": "Audífonos Inalámbricos Verde mar oscuro 1652",
+    "descripcion": "Audífonos con cancelación de ruido",
+    "precio": 464.15,
+    "stock": 73
+  },
+  {
+    "nombre_producto": "Lámpara LED Agua-marina 3278",
+    "descripcion": "Lámpara de escritorio con ajuste de brillo",
+    "precio": 132.55,
+    "stock": 297
+  },
+  {
+    "nombre_producto": "Camisa Casual Lima 5824",
+    "descripcion": "Camisa de algodón para uso diario",
+    "precio": 207.52,
+    "stock": 75
+  },
+  {
+    "nombre_producto": "Reloj Inteligente Oro 4610",
+    "descripcion": "Reloj con monitor de actividad física",
+    "precio": 203.63,
+    "stock": 152
+  },
+  {
+    "nombre_producto": "Mesa Plegable Rojo 5083",
+    "descripcion": "Mesa multiusos portátil",
+    "precio": 390.9,
+    "stock": 10
+  },
+  {
+    "nombre_producto": "Teclado Mecánico Agua-marina 8240",
+    "descripcion": "Teclado con retroiluminación RGB",
+    "precio": 564.34,
+    "stock": 75
+  },
+  {
+    "nombre_producto": "Silla Gamer Coral claro 5186",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 489.5,
+    "stock": 173
+  },
+  {
+    "nombre_producto": "Audífonos Inalámbricos Verde mar medio 8489",
+    "descripcion": "Audífonos con cancelación de ruido",
+    "precio": 370.75,
+    "stock": 207
+  },
+  {
+    "nombre_producto": "Camisa Casual Beige limón 8688",
+    "descripcion": "Camisa de algodón para uso diario",
+    "precio": 147.35,
+    "stock": 33
+  },
+  {
+    "nombre_producto": "Reloj Inteligente Verde lima 9400",
+    "descripcion": "Reloj con monitor de actividad física",
+    "precio": 359.23,
+    "stock": 236
+  },
+  {
+    "nombre_producto": "Zapato Deportivo Violeta sonrojado pálido 2443",
+    "descripcion": "Zapato cómodo para actividades deportivas",
+    "precio": 295.61,
+    "stock": 127
+  },
+  {
+    "nombre_producto": "Camisa Casual Verde primavera 8440",
+    "descripcion": "Camisa de algodón para uso diario",
+    "precio": 667.86,
+    "stock": 184
+  },
+  {
+    "nombre_producto": "Camisa Casual Beige mocasín 1023",
+    "descripcion": "Camisa de algodón para uso diario",
+    "precio": 146.59,
+    "stock": 97
+  },
+  {
+    "nombre_producto": "Silla Gamer Verde primavera 5188",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 420.6,
+    "stock": 198
+  },
+  {
+    "nombre_producto": "Audífonos Inalámbricos Azul 9741",
+    "descripcion": "Audífonos con cancelación de ruido",
+    "precio": 48.56,
+    "stock": 103
+  },
+  {
+    "nombre_producto": "Monitor 4K Verde primavera 8598",
+    "descripcion": "Monitor UHD de 27 pulgadas",
+    "precio": 72.36,
+    "stock": 149
+  },
+  {
+    "nombre_producto": "Audífonos Inalámbricos Oro 5665",
+    "descripcion": "Audífonos con cancelación de ruido",
+    "precio": 664.59,
+    "stock": 84
+  },
+  {
+    "nombre_producto": "Mesa Plegable Azul medio 6363",
+    "descripcion": "Mesa multiusos portátil",
+    "precio": 246.63,
+    "stock": 183
+  },
+  {
+    "nombre_producto": "Audífonos Inalámbricos Rojo 3321",
+    "descripcion": "Audífonos con cancelación de ruido",
+    "precio": 218.34,
+    "stock": 94
+  },
+  {
+    "nombre_producto": "Mesa Plegable Gris pizarra oscuro 6353",
+    "descripcion": "Mesa multiusos portátil",
+    "precio": 596.22,
+    "stock": 62
+  },
+  {
+    "nombre_producto": "Mesa Plegable Azul acero 5701",
+    "descripcion": "Mesa multiusos portátil",
+    "precio": 339.97,
+    "stock": 109
+  },
+  {
+    "nombre_producto": "Silla Gamer Bisque 2364",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 413.79,
+    "stock": 87
+  },
+  {
+    "nombre_producto": "Silla Gamer Marrón arena 8060",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 448.66,
+    "stock": 283
+  },
+  {
+    "nombre_producto": "Teclado Mecánico Beige melocotón 6913",
+    "descripcion": "Teclado con retroiluminación RGB",
+    "precio": 129.75,
+    "stock": 99
+  },
+  {
+    "nombre_producto": "Audífonos Inalámbricos Azul pizarra 1299",
+    "descripcion": "Audífonos con cancelación de ruido",
+    "precio": 535.54,
+    "stock": 230
+  },
+  {
+    "nombre_producto": "Monitor 4K Agua marina medio 4803",
+    "descripcion": "Monitor UHD de 27 pulgadas",
+    "precio": 22.56,
+    "stock": 40
+  },
+  {
+    "nombre_producto": "Teclado Mecánico Caqui oscuro 6261",
+    "descripcion": "Teclado con retroiluminación RGB",
+    "precio": 648.14,
+    "stock": 267
+  },
+  {
+    "nombre_producto": "Audífonos Inalámbricos Azul pizarra 2497",
+    "descripcion": "Audífonos con cancelación de ruido",
+    "precio": 596.57,
+    "stock": 10
+  },
+  {
+    "nombre_producto": "Reloj Inteligente Rojo carmesí 5920",
+    "descripcion": "Reloj con monitor de actividad física",
+    "precio": 499.79,
+    "stock": 133
+  },
+  {
+    "nombre_producto": "Mouse Inalámbrico Fucsia 5874",
+    "descripcion": "Mouse ergonómico y recargable",
+    "precio": 28.73,
+    "stock": 287
+  },
+  {
+    "nombre_producto": "Camisa Casual Fucsia 2079",
+    "descripcion": "Camisa de algodón para uso diario",
+    "precio": 46.68,
+    "stock": 230
+  },
+  {
+    "nombre_producto": "Monitor 4K Beige papaya 7032",
+    "descripcion": "Monitor UHD de 27 pulgadas",
+    "precio": 619.09,
+    "stock": 108
+  },
+  {
+    "nombre_producto": "Mesa Plegable Azul cadete 7858",
+    "descripcion": "Mesa multiusos portátil",
+    "precio": 278.74,
+    "stock": 63
+  },
+  {
+    "nombre_producto": "Lámpara LED Orquídea púrpura oscuro 9140",
+    "descripcion": "Lámpara de escritorio con ajuste de brillo",
+    "precio": 415.35,
+    "stock": 126
+  },
+  {
+    "nombre_producto": "Mesa Plegable Azul cielo 8733",
+    "descripcion": "Mesa multiusos portátil",
+    "precio": 34.74,
+    "stock": 105
+  },
+  {
+    "nombre_producto": "Mesa Plegable Verde azulado 3482",
+    "descripcion": "Mesa multiusos portátil",
+    "precio": 127.5,
+    "stock": 225
+  },
+  {
+    "nombre_producto": "Lámpara LED Blanco lino 4625",
+    "descripcion": "Lámpara de escritorio con ajuste de brillo",
+    "precio": 591.58,
+    "stock": 218
+  },
+  {
+    "nombre_producto": "Mouse Inalámbrico Verde mar 6546",
+    "descripcion": "Mouse ergonómico y recargable",
+    "precio": 697.58,
+    "stock": 299
+  },
+  {
+    "nombre_producto": "Silla Gamer Verde mar 1264",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 559.99,
+    "stock": 231
+  },
+  {
+    "nombre_producto": "Silla Gamer Rosa 9945",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 567.92,
+    "stock": 221
+  },
+  {
+    "nombre_producto": "Mouse Inalámbrico Chocolate 3075",
+    "descripcion": "Mouse ergonómico y recargable",
+    "precio": 532.39,
+    "stock": 64
+  },
+  {
+    "nombre_producto": "Silla Gamer Marrón 9734",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 567.62,
+    "stock": 119
+  },
+  {
+    "nombre_producto": "Zapato Deportivo Turquesa medio 6640",
+    "descripcion": "Zapato cómodo para actividades deportivas",
+    "precio": 389.82,
+    "stock": 100
+  },
+  {
+    "nombre_producto": "Reloj Inteligente Azul marino 1611",
+    "descripcion": "Reloj con monitor de actividad física",
+    "precio": 333.37,
+    "stock": 216
+  },
+  {
+    "nombre_producto": "Audífonos Inalámbricos Azul medianoche 3676",
+    "descripcion": "Audífonos con cancelación de ruido",
+    "precio": 183.35,
+    "stock": 52
+  },
+  {
+    "nombre_producto": "Reloj Inteligente Rojo indio 5552",
+    "descripcion": "Reloj con monitor de actividad física",
+    "precio": 239.29,
+    "stock": 264
+  },
+  {
+    "nombre_producto": "Silla Gamer Azul pizarra medio 1384",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 502.93,
+    "stock": 285
+  },
+  {
+    "nombre_producto": "Zapato Deportivo Rojo carmesí 3745",
+    "descripcion": "Zapato cómodo para actividades deportivas",
+    "precio": 123.53,
+    "stock": 272
+  },
+  {
+    "nombre_producto": "Monitor 4K Azul cielo 9072",
+    "descripcion": "Monitor UHD de 27 pulgadas",
+    "precio": 181.7,
+    "stock": 192
+  },
+  {
+    "nombre_producto": "Audífonos Inalámbricos Negro 8730",
+    "descripcion": "Audífonos con cancelación de ruido",
+    "precio": 639.63,
+    "stock": 49
+  },
+  {
+    "nombre_producto": "Audífonos Inalámbricos Caqui oscuro 1806",
+    "descripcion": "Audífonos con cancelación de ruido",
+    "precio": 64.95,
+    "stock": 7
+  },
+  {
+    "nombre_producto": "Lámpara LED Violeta oscuro 5687",
+    "descripcion": "Lámpara de escritorio con ajuste de brillo",
+    "precio": 291.9,
+    "stock": 5
+  },
+  {
+    "nombre_producto": "Silla Gamer Amarillo dorado 9968",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 84.75,
+    "stock": 158
+  },
+  {
+    "nombre_producto": "Teclado Mecánico Chartreuse 1353",
+    "descripcion": "Teclado con retroiluminación RGB",
+    "precio": 14.58,
+    "stock": 281
+  },
+  {
+    "nombre_producto": "Silla Gamer Beige melocotón 5408",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 488.34,
+    "stock": 250
+  },
+  {
+    "nombre_producto": "Monitor 4K Marrón 3921",
+    "descripcion": "Monitor UHD de 27 pulgadas",
+    "precio": 431.21,
+    "stock": 209
+  },
+  {
+    "nombre_producto": "Zapato Deportivo Verde mar claro 9953",
+    "descripcion": "Zapato cómodo para actividades deportivas",
+    "precio": 695.36,
+    "stock": 29
+  },
+  {
+    "nombre_producto": "Mouse Inalámbrico Turquesa medio 1855",
+    "descripcion": "Mouse ergonómico y recargable",
+    "precio": 519.23,
+    "stock": 253
+  },
+  {
+    "nombre_producto": "Mesa Plegable Rojo tomate 2549",
+    "descripcion": "Mesa multiusos portátil",
+    "precio": 268.11,
+    "stock": 234
+  },
+  {
+    "nombre_producto": "Camisa Casual Magenta oscuro 8395",
+    "descripcion": "Camisa de algodón para uso diario",
+    "precio": 414.83,
+    "stock": 275
+  },
+  {
+    "nombre_producto": "Mouse Inalámbrico Plata 3218",
+    "descripcion": "Mouse ergonómico y recargable",
+    "precio": 165.54,
+    "stock": 68
+  },
+  {
+    "nombre_producto": "Teclado Mecánico Blanco 4458",
+    "descripcion": "Teclado con retroiluminación RGB",
+    "precio": 649.87,
+    "stock": 181
+  },
+  {
+    "nombre_producto": "Silla Gamer Azul pizarra oscuro 2044",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 112.64,
+    "stock": 36
+  },
+  {
+    "nombre_producto": "Reloj Inteligente Orquídea púrpura oscuro 3104",
+    "descripcion": "Reloj con monitor de actividad física",
+    "precio": 240.92,
+    "stock": 275
+  },
+  {
+    "nombre_producto": "Zapato Deportivo Lima 9823",
+    "descripcion": "Zapato cómodo para actividades deportivas",
+    "precio": 487.76,
+    "stock": 10
+  },
+  {
+    "nombre_producto": "Reloj Inteligente Azul acero 7213",
+    "descripcion": "Reloj con monitor de actividad física",
+    "precio": 288.75,
+    "stock": 70
+  },
+  {
+    "nombre_producto": "Camisa Casual Azul violeta 5766",
+    "descripcion": "Camisa de algodón para uso diario",
+    "precio": 561.04,
+    "stock": 257
+  },
+  {
+    "nombre_producto": "Reloj Inteligente Amarillo maíz dulce 7868",
+    "descripcion": "Reloj con monitor de actividad física",
+    "precio": 572.91,
+    "stock": 166
+  },
+  {
+    "nombre_producto": "Teclado Mecánico Azul pizarra medio 7096",
+    "descripcion": "Teclado con retroiluminación RGB",
+    "precio": 31.63,
+    "stock": 14
+  },
+  {
+    "nombre_producto": "Camisa Casual Beige melocotón 9284",
+    "descripcion": "Camisa de algodón para uso diario",
+    "precio": 569.28,
+    "stock": 233
+  },
+  {
+    "nombre_producto": "Zapato Deportivo Cian 4449",
+    "descripcion": "Zapato cómodo para actividades deportivas",
+    "precio": 459.5,
+    "stock": 65
+  },
+  {
+    "nombre_producto": "Mesa Plegable Azul oscuro 7619",
+    "descripcion": "Mesa multiusos portátil",
+    "precio": 181.58,
+    "stock": 215
+  },
+  {
+    "nombre_producto": "Lámpara LED Verde 4886",
+    "descripcion": "Lámpara de escritorio con ajuste de brillo",
+    "precio": 616.76,
+    "stock": 176
+  },
+  {
+    "nombre_producto": "Audífonos Inalámbricos Azul marino 6959",
+    "descripcion": "Audífonos con cancelación de ruido",
+    "precio": 278.79,
+    "stock": 227
+  },
+  {
+    "nombre_producto": "Camisa Casual Verde mar medio 3764",
+    "descripcion": "Camisa de algodón para uso diario",
+    "precio": 109.73,
+    "stock": 179
+  },
+  {
+    "nombre_producto": "Monitor 4K Azul marino 2427",
+    "descripcion": "Monitor UHD de 27 pulgadas",
+    "precio": 571.92,
+    "stock": 257
+  },
+  {
+    "nombre_producto": "Mesa Plegable Rojo ladrillo 9017",
+    "descripcion": "Mesa multiusos portátil",
+    "precio": 202.3,
+    "stock": 48
+  },
+  {
+    "nombre_producto": "Zapato Deportivo Gris oscuro 7364",
+    "descripcion": "Zapato cómodo para actividades deportivas",
+    "precio": 67.61,
+    "stock": 242
+  },
+  {
+    "nombre_producto": "Lámpara LED Beige melocotón 6608",
+    "descripcion": "Lámpara de escritorio con ajuste de brillo",
+    "precio": 201.15,
+    "stock": 259
+  },
+  {
+    "nombre_producto": "Audífonos Inalámbricos Marrón rojizo 3198",
+    "descripcion": "Audífonos con cancelación de ruido",
+    "precio": 349.82,
+    "stock": 66
+  },
+  {
+    "nombre_producto": "Teclado Mecánico Marrón siena 5455",
+    "descripcion": "Teclado con retroiluminación RGB",
+    "precio": 108.6,
+    "stock": 125
+  },
+  {
+    "nombre_producto": "Silla Gamer Blanco concha 7332",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 14.2,
+    "stock": 190
+  },
+  {
+    "nombre_producto": "Lámpara LED Rojo indio 9647",
+    "descripcion": "Lámpara de escritorio con ajuste de brillo",
+    "precio": 664.69,
+    "stock": 164
+  },
+  {
+    "nombre_producto": "Mouse Inalámbrico Rojo ladrillo 7698",
+    "descripcion": "Mouse ergonómico y recargable",
+    "precio": 242.27,
+    "stock": 280
+  },
+  {
+    "nombre_producto": "Camisa Casual Azul 1150",
+    "descripcion": "Camisa de algodón para uso diario",
+    "precio": 540.9,
+    "stock": 15
+  },
+  {
+    "nombre_producto": "Camisa Casual Verde mar medio 8130",
+    "descripcion": "Camisa de algodón para uso diario",
+    "precio": 52.05,
+    "stock": 7
+  },
+  {
+    "nombre_producto": "Lámpara LED Blanco encaje 2385",
+    "descripcion": "Lámpara de escritorio con ajuste de brillo",
+    "precio": 387.13,
+    "stock": 57
+  },
+  {
+    "nombre_producto": "Lámpara LED Gris gainsboro (Estaño) 2228",
+    "descripcion": "Lámpara de escritorio con ajuste de brillo",
+    "precio": 352.91,
+    "stock": 90
+  },
+  {
+    "nombre_producto": "Camisa Casual Verde limón 6299",
+    "descripcion": "Camisa de algodón para uso diario",
+    "precio": 416.45,
+    "stock": 61
+  },
+  {
+    "nombre_producto": "Mouse Inalámbrico Azul 8748",
+    "descripcion": "Mouse ergonómico y recargable",
+    "precio": 192.04,
+    "stock": 214
+  },
+  {
+    "nombre_producto": "Mesa Plegable Gris pizarra oscuro 1311",
+    "descripcion": "Mesa multiusos portátil",
+    "precio": 337.1,
+    "stock": 185
+  },
+  {
+    "nombre_producto": "Monitor 4K Índigo 3369",
+    "descripcion": "Monitor UHD de 27 pulgadas",
+    "precio": 25.16,
+    "stock": 256
+  },
+  {
+    "nombre_producto": "Silla Gamer Marrón 1326",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 157.11,
+    "stock": 282
+  },
+  {
+    "nombre_producto": "Mesa Plegable Blanco lavanda 3069",
+    "descripcion": "Mesa multiusos portátil",
+    "precio": 450.85,
+    "stock": 211
+  },
+  {
+    "nombre_producto": "Silla Gamer Marrón arena 2991",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 644.79,
+    "stock": 39
+  },
+  {
+    "nombre_producto": "Audífonos Inalámbricos Azul cadete 6090",
+    "descripcion": "Audífonos con cancelación de ruido",
+    "precio": 101.39,
+    "stock": 141
+  },
+  {
+    "nombre_producto": "Zapato Deportivo Blanco floral 9446",
+    "descripcion": "Zapato cómodo para actividades deportivas",
+    "precio": 499.81,
+    "stock": 99
+  },
+  {
+    "nombre_producto": "Silla Gamer Agua-marina 1793",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 46.55,
+    "stock": 164
+  },
+  {
+    "nombre_producto": "Lámpara LED Marfil 7044",
+    "descripcion": "Lámpara de escritorio con ajuste de brillo",
+    "precio": 589.58,
+    "stock": 222
+  },
+  {
+    "nombre_producto": "Reloj Inteligente Azul azur 4042",
+    "descripcion": "Reloj con monitor de actividad física",
+    "precio": 403.8,
+    "stock": 93
+  },
+  {
+    "nombre_producto": "Reloj Inteligente Azul oscuro 9689",
+    "descripcion": "Reloj con monitor de actividad física",
+    "precio": 27.96,
+    "stock": 132
+  },
+  {
+    "nombre_producto": "Silla Gamer Rosa profundo 9055",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 330.45,
+    "stock": 206
+  },
+  {
+    "nombre_producto": "Camisa Casual Bisque 2527",
+    "descripcion": "Camisa de algodón para uso diario",
+    "precio": 549.4,
+    "stock": 282
+  },
+  {
+    "nombre_producto": "Teclado Mecánico Caqui 7255",
+    "descripcion": "Teclado con retroiluminación RGB",
+    "precio": 25.27,
+    "stock": 276
+  },
+  {
+    "nombre_producto": "Reloj Inteligente Azul cielo 7679",
+    "descripcion": "Reloj con monitor de actividad física",
+    "precio": 582.33,
+    "stock": 120
+  },
+  {
+    "nombre_producto": "Audífonos Inalámbricos Amarillo trigo 6009",
+    "descripcion": "Audífonos con cancelación de ruido",
+    "precio": 182.13,
+    "stock": 24
+  },
+  {
+    "nombre_producto": "Zapato Deportivo Cian clarto 5999",
+    "descripcion": "Zapato cómodo para actividades deportivas",
+    "precio": 648.97,
+    "stock": 242
+  },
+  {
+    "nombre_producto": "Monitor 4K Verde bosque 4192",
+    "descripcion": "Monitor UHD de 27 pulgadas",
+    "precio": 696.73,
+    "stock": 260
+  },
+  {
+    "nombre_producto": "Monitor 4K Verde lima 4914",
+    "descripcion": "Monitor UHD de 27 pulgadas",
+    "precio": 146.8,
+    "stock": 55
+  },
+  {
+    "nombre_producto": "Monitor 4K Violeta 7640",
+    "descripcion": "Monitor UHD de 27 pulgadas",
+    "precio": 22.6,
+    "stock": 296
+  },
+  {
+    "nombre_producto": "Monitor 4K Amarillo dorado oscuro 6121",
+    "descripcion": "Monitor UHD de 27 pulgadas",
+    "precio": 139.64,
+    "stock": 44
+  },
+  {
+    "nombre_producto": "Reloj Inteligente Verde bosque 9217",
+    "descripcion": "Reloj con monitor de actividad física",
+    "precio": 175.29,
+    "stock": 265
+  },
+  {
+    "nombre_producto": "Reloj Inteligente Azul cadete 1097",
+    "descripcion": "Reloj con monitor de actividad física",
+    "precio": 540.86,
+    "stock": 49
+  },
+  {
+    "nombre_producto": "Audífonos Inalámbricos Blanco floral 9711",
+    "descripcion": "Audífonos con cancelación de ruido",
+    "precio": 291.07,
+    "stock": 124
+  },
+  {
+    "nombre_producto": "Audífonos Inalámbricos Verde primavera 8470",
+    "descripcion": "Audífonos con cancelación de ruido",
+    "precio": 296.7,
+    "stock": 17
+  },
+  {
+    "nombre_producto": "Mouse Inalámbrico Verde 3698",
+    "descripcion": "Mouse ergonómico y recargable",
+    "precio": 453.19,
+    "stock": 101
+  },
+  {
+    "nombre_producto": "Audífonos Inalámbricos Gris pizarra 9362",
+    "descripcion": "Audífonos con cancelación de ruido",
+    "precio": 136.01,
+    "stock": 169
+  },
+  {
+    "nombre_producto": "Lámpara LED Blanco fantasma 1881",
+    "descripcion": "Lámpara de escritorio con ajuste de brillo",
+    "precio": 375.69,
+    "stock": 61
+  },
+  {
+    "nombre_producto": "Mouse Inalámbrico Blanco floral 2687",
+    "descripcion": "Mouse ergonómico y recargable",
+    "precio": 351.2,
+    "stock": 229
+  },
+  {
+    "nombre_producto": "Mouse Inalámbrico Verde oliva oscuro 7047",
+    "descripcion": "Mouse ergonómico y recargable",
+    "precio": 486.15,
+    "stock": 291
+  },
+  {
+    "nombre_producto": "Silla Gamer Blanco floral 8797",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 662.82,
+    "stock": 256
+  },
+  {
+    "nombre_producto": "Audífonos Inalámbricos Almendra blanqueado 5523",
+    "descripcion": "Audífonos con cancelación de ruido",
+    "precio": 187.27,
+    "stock": 181
+  },
+  {
+    "nombre_producto": "Silla Gamer Amarillo maíz dulce 1303",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 288.14,
+    "stock": 168
+  },
+  {
+    "nombre_producto": "Teclado Mecánico Melón dulce 9592",
+    "descripcion": "Teclado con retroiluminación RGB",
+    "precio": 101.12,
+    "stock": 227
+  },
+  {
+    "nombre_producto": "Lámpara LED Blanco floral 9005",
+    "descripcion": "Lámpara de escritorio con ajuste de brillo",
+    "precio": 391.22,
+    "stock": 91
+  },
+  {
+    "nombre_producto": "Mesa Plegable Salmón 7014",
+    "descripcion": "Mesa multiusos portátil",
+    "precio": 643.7,
+    "stock": 93
+  },
+  {
+    "nombre_producto": "Reloj Inteligente Salmón oscuro 1394",
+    "descripcion": "Reloj con monitor de actividad física",
+    "precio": 193.17,
+    "stock": 271
+  },
+  {
+    "nombre_producto": "Reloj Inteligente Verde azulado 6966",
+    "descripcion": "Reloj con monitor de actividad física",
+    "precio": 320.56,
+    "stock": 192
+  },
+  {
+    "nombre_producto": "Mesa Plegable Cian clarto 1517",
+    "descripcion": "Mesa multiusos portátil",
+    "precio": 602.76,
+    "stock": 55
+  },
+  {
+    "nombre_producto": "Reloj Inteligente Chartreuse 7060",
+    "descripcion": "Reloj con monitor de actividad física",
+    "precio": 585.4,
+    "stock": 177
+  },
+  {
+    "nombre_producto": "Lámpara LED Beige melocotón 9357",
+    "descripcion": "Lámpara de escritorio con ajuste de brillo",
+    "precio": 180.6,
+    "stock": 296
+  },
+  {
+    "nombre_producto": "Reloj Inteligente Verde oliva oscuro 3477",
+    "descripcion": "Reloj con monitor de actividad física",
+    "precio": 311.52,
+    "stock": 184
+  },
+  {
+    "nombre_producto": "Reloj Inteligente Gris gainsboro (Estaño) 1417",
+    "descripcion": "Reloj con monitor de actividad física",
+    "precio": 518.52,
+    "stock": 28
+  },
+  {
+    "nombre_producto": "Camisa Casual Azul Alicia 4828",
+    "descripcion": "Camisa de algodón para uso diario",
+    "precio": 419.34,
+    "stock": 234
+  },
+  {
+    "nombre_producto": "Camisa Casual Agua-marina 1166",
+    "descripcion": "Camisa de algodón para uso diario",
+    "precio": 684.32,
+    "stock": 167
+  },
+  {
+    "nombre_producto": "Teclado Mecánico Verde oliva oscuro 4461",
+    "descripcion": "Teclado con retroiluminación RGB",
+    "precio": 594.3,
+    "stock": 295
+  },
+  {
+    "nombre_producto": "Mouse Inalámbrico Agua-marina 1843",
+    "descripcion": "Mouse ergonómico y recargable",
+    "precio": 515.06,
+    "stock": 240
+  },
+  {
+    "nombre_producto": "Lámpara LED Blanco humo 5885",
+    "descripcion": "Lámpara de escritorio con ajuste de brillo",
+    "precio": 322.79,
+    "stock": 223
+  },
+  {
+    "nombre_producto": "Teclado Mecánico Beige antiguo 1986",
+    "descripcion": "Teclado con retroiluminación RGB",
+    "precio": 592.91,
+    "stock": 105
+  },
+  {
+    "nombre_producto": "Mouse Inalámbrico Rojo tomate 3888",
+    "descripcion": "Mouse ergonómico y recargable",
+    "precio": 86.38,
+    "stock": 84
+  },
+  {
+    "nombre_producto": "Silla Gamer Naranja 3932",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 366.44,
+    "stock": 297
+  },
+  {
+    "nombre_producto": "Reloj Inteligente Verde lima 6044",
+    "descripcion": "Reloj con monitor de actividad física",
+    "precio": 68.29,
+    "stock": 140
+  },
+  {
+    "nombre_producto": "Lámpara LED Azul acero claro 8871",
+    "descripcion": "Lámpara de escritorio con ajuste de brillo",
+    "precio": 685.72,
+    "stock": 270
+  },
+  {
+    "nombre_producto": "Monitor 4K Cian 9877",
+    "descripcion": "Monitor UHD de 27 pulgadas",
+    "precio": 317.1,
+    "stock": 189
+  },
+  {
+    "nombre_producto": "Mouse Inalámbrico Gris pizarra 4721",
+    "descripcion": "Mouse ergonómico y recargable",
+    "precio": 213.88,
+    "stock": 179
+  },
+  {
+    "nombre_producto": "Teclado Mecánico Naranja oscuro 7806",
+    "descripcion": "Teclado con retroiluminación RGB",
+    "precio": 211.75,
+    "stock": 88
+  },
+  {
+    "nombre_producto": "Reloj Inteligente Blanco 9235",
+    "descripcion": "Reloj con monitor de actividad física",
+    "precio": 417.15,
+    "stock": 298
+  },
+  {
+    "nombre_producto": "Lámpara LED Verde pálido 2162",
+    "descripcion": "Lámpara de escritorio con ajuste de brillo",
+    "precio": 259.13,
+    "stock": 221
+  },
+  {
+    "nombre_producto": "Teclado Mecánico Gris mate 9378",
+    "descripcion": "Teclado con retroiluminación RGB",
+    "precio": 304.51,
+    "stock": 151
+  },
+  {
+    "nombre_producto": "Silla Gamer Amarillo verde 2612",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 194.43,
+    "stock": 144
+  },
+  {
+    "nombre_producto": "Monitor 4K Blanco navajo 3280",
+    "descripcion": "Monitor UHD de 27 pulgadas",
+    "precio": 515.5,
+    "stock": 121
+  },
+  {
+    "nombre_producto": "Monitor 4K Ciruela 6477",
+    "descripcion": "Monitor UHD de 27 pulgadas",
+    "precio": 593.16,
+    "stock": 180
+  },
+  {
+    "nombre_producto": "Camisa Casual Rojo oscuro 3210",
+    "descripcion": "Camisa de algodón para uso diario",
+    "precio": 466.87,
+    "stock": 262
+  },
+  {
+    "nombre_producto": "Teclado Mecánico Orquídea medio 2097",
+    "descripcion": "Teclado con retroiluminación RGB",
+    "precio": 368.08,
+    "stock": 270
+  },
+  {
+    "nombre_producto": "Silla Gamer Verde oscuro 6665",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 562.27,
+    "stock": 135
+  },
+  {
+    "nombre_producto": "Teclado Mecánico Marrón perú 6163",
+    "descripcion": "Teclado con retroiluminación RGB",
+    "precio": 512.27,
+    "stock": 121
+  },
+  {
+    "nombre_producto": "Camisa Casual Rojo indio 5834",
+    "descripcion": "Camisa de algodón para uso diario",
+    "precio": 260.67,
+    "stock": 69
+  },
+  {
+    "nombre_producto": "Mesa Plegable Marrón perú 7991",
+    "descripcion": "Mesa multiusos portátil",
+    "precio": 572.79,
+    "stock": 177
+  },
+  {
+    "nombre_producto": "Monitor 4K Marrón siena 1998",
+    "descripcion": "Monitor UHD de 27 pulgadas",
+    "precio": 435.74,
+    "stock": 238
+  },
+  {
+    "nombre_producto": "Audífonos Inalámbricos Marrón siena 3599",
+    "descripcion": "Audífonos con cancelación de ruido",
+    "precio": 622.12,
+    "stock": 59
+  },
+  {
+    "nombre_producto": "Monitor 4K Orquídea 6173",
+    "descripcion": "Monitor UHD de 27 pulgadas",
+    "precio": 197.46,
+    "stock": 33
+  },
+  {
+    "nombre_producto": "Silla Gamer Amarillo verde 8547",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 519.51,
+    "stock": 148
+  },
+  {
+    "nombre_producto": "Reloj Inteligente Caqui 9628",
+    "descripcion": "Reloj con monitor de actividad física",
+    "precio": 346.48,
+    "stock": 64
+  },
+  {
+    "nombre_producto": "Reloj Inteligente Beige melocotón 3423",
+    "descripcion": "Reloj con monitor de actividad física",
+    "precio": 58.61,
+    "stock": 138
+  },
+  {
+    "nombre_producto": "Silla Gamer Azul pizarra medio 9400",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 165.16,
+    "stock": 100
+  },
+  {
+    "nombre_producto": "Mouse Inalámbrico Marrón caqui 4278",
+    "descripcion": "Mouse ergonómico y recargable",
+    "precio": 617.87,
+    "stock": 52
+  },
+  {
+    "nombre_producto": "Reloj Inteligente Verde pálido 3899",
+    "descripcion": "Reloj con monitor de actividad física",
+    "precio": 299.14,
+    "stock": 33
+  },
+  {
+    "nombre_producto": "Camisa Casual Verde oscuro 2550",
+    "descripcion": "Camisa de algodón para uso diario",
+    "precio": 512.59,
+    "stock": 101
+  },
+  {
+    "nombre_producto": "Mouse Inalámbrico Salmón claro 9346",
+    "descripcion": "Mouse ergonómico y recargable",
+    "precio": 349.84,
+    "stock": 42
+  },
+  {
+    "nombre_producto": "Zapato Deportivo Verde primavera 8868",
+    "descripcion": "Zapato cómodo para actividades deportivas",
+    "precio": 659.28,
+    "stock": 286
+  },
+  {
+    "nombre_producto": "Mouse Inalámbrico Rosa 8707",
+    "descripcion": "Mouse ergonómico y recargable",
+    "precio": 315.43,
+    "stock": 160
+  },
+  {
+    "nombre_producto": "Mouse Inalámbrico Blanco concha 2068",
+    "descripcion": "Mouse ergonómico y recargable",
+    "precio": 165.4,
+    "stock": 219
+  },
+  {
+    "nombre_producto": "Mouse Inalámbrico Verde prado 2709",
+    "descripcion": "Mouse ergonómico y recargable",
+    "precio": 392.66,
+    "stock": 107
+  },
+  {
+    "nombre_producto": "Mouse Inalámbrico Cyan oscuro 1417",
+    "descripcion": "Mouse ergonómico y recargable",
+    "precio": 412.72,
+    "stock": 54
+  },
+  {
+    "nombre_producto": "Zapato Deportivo Salmón claro 3759",
+    "descripcion": "Zapato cómodo para actividades deportivas",
+    "precio": 526.86,
+    "stock": 228
+  },
+  {
+    "nombre_producto": "Teclado Mecánico Blanco lavanda 7815",
+    "descripcion": "Teclado con retroiluminación RGB",
+    "precio": 420.58,
+    "stock": 255
+  },
+  {
+    "nombre_producto": "Camisa Casual Blanco lino 7601",
+    "descripcion": "Camisa de algodón para uso diario",
+    "precio": 274.75,
+    "stock": 201
+  },
+  {
+    "nombre_producto": "Camisa Casual Marrón rojizo 4269",
+    "descripcion": "Camisa de algodón para uso diario",
+    "precio": 186.03,
+    "stock": 149
+  },
+  {
+    "nombre_producto": "Mesa Plegable Azul acero claro 6971",
+    "descripcion": "Mesa multiusos portátil",
+    "precio": 308.84,
+    "stock": 240
+  },
+  {
+    "nombre_producto": "Mesa Plegable Magenta 9099",
+    "descripcion": "Mesa multiusos portátil",
+    "precio": 605.4,
+    "stock": 197
+  },
+  {
+    "nombre_producto": "Mesa Plegable Rosa 8883",
+    "descripcion": "Mesa multiusos portátil",
+    "precio": 683.26,
+    "stock": 157
+  },
+  {
+    "nombre_producto": "Teclado Mecánico Azul pizarra oscuro 5243",
+    "descripcion": "Teclado con retroiluminación RGB",
+    "precio": 24.65,
+    "stock": 27
+  },
+  {
+    "nombre_producto": "Camisa Casual Caqui oscuro 3066",
+    "descripcion": "Camisa de algodón para uso diario",
+    "precio": 230.38,
+    "stock": 263
+  },
+  {
+    "nombre_producto": "Monitor 4K Azul claro 5550",
+    "descripcion": "Monitor UHD de 27 pulgadas",
+    "precio": 70.81,
+    "stock": 75
+  },
+  {
+    "nombre_producto": "Zapato Deportivo Rojo anaranjado 5290",
+    "descripcion": "Zapato cómodo para actividades deportivas",
+    "precio": 155.36,
+    "stock": 236
+  },
+  {
+    "nombre_producto": "Silla Gamer Agua-marina 5264",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 672.03,
+    "stock": 266
+  },
+  {
+    "nombre_producto": "Silla Gamer Orquídea 3021",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 118.34,
+    "stock": 296
+  },
+  {
+    "nombre_producto": "Audífonos Inalámbricos Azul acero 8819",
+    "descripcion": "Audífonos con cancelación de ruido",
+    "precio": 292.82,
+    "stock": 200
+  },
+  {
+    "nombre_producto": "Silla Gamer Rojo anaranjado 1019",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 162.18,
+    "stock": 232
+  },
+  {
+    "nombre_producto": "Silla Gamer Verde claro 9843",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 193.77,
+    "stock": 203
+  },
+  {
+    "nombre_producto": "Mouse Inalámbrico Beige 9268",
+    "descripcion": "Mouse ergonómico y recargable",
+    "precio": 175.94,
+    "stock": 39
+  },
+  {
+    "nombre_producto": "Mesa Plegable Amarillo 4949",
+    "descripcion": "Mesa multiusos portátil",
+    "precio": 412.55,
+    "stock": 212
+  },
+  {
+    "nombre_producto": "Camisa Casual Beige mocasín 5568",
+    "descripcion": "Camisa de algodón para uso diario",
+    "precio": 435.4,
+    "stock": 266
+  },
+  {
+    "nombre_producto": "Monitor 4K Magenta 8102",
+    "descripcion": "Monitor UHD de 27 pulgadas",
+    "precio": 168.86,
+    "stock": 31
+  },
+  {
+    "nombre_producto": "Zapato Deportivo Verde bosque 2934",
+    "descripcion": "Zapato cómodo para actividades deportivas",
+    "precio": 577.31,
+    "stock": 204
+  },
+  {
+    "nombre_producto": "Lámpara LED Amarillo dorado 6052",
+    "descripcion": "Lámpara de escritorio con ajuste de brillo",
+    "precio": 350.53,
+    "stock": 102
+  },
+  {
+    "nombre_producto": "Lámpara LED Verde azulado 1839",
+    "descripcion": "Lámpara de escritorio con ajuste de brillo",
+    "precio": 232.02,
+    "stock": 300
+  },
+  {
+    "nombre_producto": "Lámpara LED Gris pizarra oscuro 5622",
+    "descripcion": "Lámpara de escritorio con ajuste de brillo",
+    "precio": 530.28,
+    "stock": 143
+  },
+  {
+    "nombre_producto": "Lámpara LED Azul real 3710",
+    "descripcion": "Lámpara de escritorio con ajuste de brillo",
+    "precio": 188.75,
+    "stock": 237
+  },
+  {
+    "nombre_producto": "Teclado Mecánico Azul anciano 8569",
+    "descripcion": "Teclado con retroiluminación RGB",
+    "precio": 635.37,
+    "stock": 173
+  },
+  {
+    "nombre_producto": "Audífonos Inalámbricos Azul 4694",
+    "descripcion": "Audífonos con cancelación de ruido",
+    "precio": 244.68,
+    "stock": 276
+  },
+  {
+    "nombre_producto": "Reloj Inteligente Azul polvo 3060",
+    "descripcion": "Reloj con monitor de actividad física",
+    "precio": 346.34,
+    "stock": 132
+  },
+  {
+    "nombre_producto": "Silla Gamer Blanco concha 2662",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 66.88,
+    "stock": 150
+  },
+  {
+    "nombre_producto": "Mesa Plegable Coral 3969",
+    "descripcion": "Mesa multiusos portátil",
+    "precio": 406.49,
+    "stock": 159
+  },
+  {
+    "nombre_producto": "Mouse Inalámbrico Amarillo dorado pálido 1959",
+    "descripcion": "Mouse ergonómico y recargable",
+    "precio": 308.99,
+    "stock": 133
+  },
+  {
+    "nombre_producto": "Silla Gamer Azul anciano 7817",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 620.6,
+    "stock": 143
+  },
+  {
+    "nombre_producto": "Teclado Mecánico Verde primavera medio 7265",
+    "descripcion": "Teclado con retroiluminación RGB",
+    "precio": 353.71,
+    "stock": 288
+  },
+  {
+    "nombre_producto": "Reloj Inteligente Verde mar claro 4037",
+    "descripcion": "Reloj con monitor de actividad física",
+    "precio": 578.6,
+    "stock": 67
+  },
+  {
+    "nombre_producto": "Mouse Inalámbrico Amarillo verde 7088",
+    "descripcion": "Mouse ergonómico y recargable",
+    "precio": 626.01,
+    "stock": 100
+  },
+  {
+    "nombre_producto": "Audífonos Inalámbricos Rojo oscuro 9277",
+    "descripcion": "Audífonos con cancelación de ruido",
+    "precio": 394.27,
+    "stock": 243
+  },
+  {
+    "nombre_producto": "Mouse Inalámbrico Amarillo 7430",
+    "descripcion": "Mouse ergonómico y recargable",
+    "precio": 194.85,
+    "stock": 86
+  },
+  {
+    "nombre_producto": "Mouse Inalámbrico Verde lima 1647",
+    "descripcion": "Mouse ergonómico y recargable",
+    "precio": 494.36,
+    "stock": 193
+  },
+  {
+    "nombre_producto": "Lámpara LED Turquesa medio 6509",
+    "descripcion": "Lámpara de escritorio con ajuste de brillo",
+    "precio": 171.96,
+    "stock": 188
+  },
+  {
+    "nombre_producto": "Mesa Plegable Ciruela 4218",
+    "descripcion": "Mesa multiusos portátil",
+    "precio": 31.4,
+    "stock": 202
+  },
+  {
+    "nombre_producto": "Monitor 4K Rojo violeta medio 3967",
+    "descripcion": "Monitor UHD de 27 pulgadas",
+    "precio": 611.43,
+    "stock": 191
+  },
+  {
+    "nombre_producto": "Reloj Inteligente Marfil 2756",
+    "descripcion": "Reloj con monitor de actividad física",
+    "precio": 269.08,
+    "stock": 94
+  },
+  {
+    "nombre_producto": "Camisa Casual Ciruela 7846",
+    "descripcion": "Camisa de algodón para uso diario",
+    "precio": 608.97,
+    "stock": 191
+  },
+  {
+    "nombre_producto": "Monitor 4K Magenta oscuro 4439",
+    "descripcion": "Monitor UHD de 27 pulgadas",
+    "precio": 612.02,
+    "stock": 57
+  },
+  {
+    "nombre_producto": "Monitor 4K Amarillo maíz dulce 9558",
+    "descripcion": "Monitor UHD de 27 pulgadas",
+    "precio": 439.68,
+    "stock": 273
+  },
+  {
+    "nombre_producto": "Silla Gamer Marfil 3520",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 209.55,
+    "stock": 222
+  },
+  {
+    "nombre_producto": "Teclado Mecánico Bisque 8864",
+    "descripcion": "Teclado con retroiluminación RGB",
+    "precio": 624.6,
+    "stock": 273
+  },
+  {
+    "nombre_producto": "Reloj Inteligente Cian clarto 4523",
+    "descripcion": "Reloj con monitor de actividad física",
+    "precio": 25.2,
+    "stock": 53
+  },
+  {
+    "nombre_producto": "Teclado Mecánico Orquídea púrpura oscuro 2609",
+    "descripcion": "Teclado con retroiluminación RGB",
+    "precio": 448.35,
+    "stock": 112
+  },
+  {
+    "nombre_producto": "Zapato Deportivo Oliva 5319",
+    "descripcion": "Zapato cómodo para actividades deportivas",
+    "precio": 207.29,
+    "stock": 50
+  },
+  {
+    "nombre_producto": "Camisa Casual Agua-marina 1427",
+    "descripcion": "Camisa de algodón para uso diario",
+    "precio": 195.11,
+    "stock": 228
+  },
+  {
+    "nombre_producto": "Mesa Plegable Amarillo dorado claro 6917",
+    "descripcion": "Mesa multiusos portátil",
+    "precio": 418.6,
+    "stock": 254
+  },
+  {
+    "nombre_producto": "Audífonos Inalámbricos Gris oscuro 8769",
+    "descripcion": "Audífonos con cancelación de ruido",
+    "precio": 512.75,
+    "stock": 8
+  },
+  {
+    "nombre_producto": "Zapato Deportivo Magenta 4018",
+    "descripcion": "Zapato cómodo para actividades deportivas",
+    "precio": 162.2,
+    "stock": 67
+  },
+  {
+    "nombre_producto": "Mesa Plegable Coral 8205",
+    "descripcion": "Mesa multiusos portátil",
+    "precio": 220.53,
+    "stock": 165
+  },
+  {
+    "nombre_producto": "Monitor 4K Amarillo dorado 2907",
+    "descripcion": "Monitor UHD de 27 pulgadas",
+    "precio": 508.88,
+    "stock": 13
+  },
+  {
+    "nombre_producto": "Silla Gamer Azul 4906",
+    "descripcion": "Silla ergonómica para videojuegos",
+    "precio": 111.95,
+    "stock": 238
+  },
+  {
+    "nombre_producto": "Teclado Mecánico Blanco navajo 1221",
+    "descripcion": "Teclado con retroiluminación RGB",
+    "precio": 366.1,
+    "stock": 201
+  },
+  {
+    "nombre_producto": "Zapato Deportivo Azul pizarra medio 5707",
+    "descripcion": "Zapato cómodo para actividades deportivas",
+    "precio": 250.39,
+    "stock": 82
+  },
+  {
+    "nombre_producto": "Camisa Casual Púrpura 3750",
+    "descripcion": "Camisa de algodón para uso diario",
+    "precio": 154.29,
+    "stock": 164
+  },
+  {
+    "nombre_producto": "Mouse Inalámbrico Turquesa oscuro 7814",
+    "descripcion": "Mouse ergonómico y recargable",
+    "precio": 522.72,
+    "stock": 222
+  },
+  {
+    "nombre_producto": "Zapato Deportivo Orquídea medio 3247",
+    "descripcion": "Zapato cómodo para actividades deportivas",
+    "precio": 427.15,
+    "stock": 51
+  },
+  {
+    "nombre_producto": "Zapato Deportivo Turquesa pálido 9533",
+    "descripcion": "Zapato cómodo para actividades deportivas",
+    "precio": 240.39,
+    "stock": 295
+  }
+]

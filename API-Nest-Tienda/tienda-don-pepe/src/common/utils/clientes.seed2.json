@@ -1,0 +1,130 @@
+[
+  {
+    "nombre_cliente": "Laura",
+    "apellido1": "Scott",
+    "apellido2": "Mason",
+    "fecha_nacimiento": "1960-09-09",
+    "puntos_compra": 482,
+    "email": "laura.scott@example.com"
+  },
+  {
+    "nombre_cliente": "Joshua",
+    "apellido1": "Garcia",
+    "apellido2": "Fisher",
+    "fecha_nacimiento": "1971-04-16",
+    "puntos_compra": 234,
+    "email": "joshua.garcia@example.com"
+  },
+  {
+    "nombre_cliente": "Elizabeth",
+    "apellido1": "Barron",
+    "apellido2": null,
+    "fecha_nacimiento": "1990-05-21",
+    "puntos_compra": null,
+    "email": "elizabeth.barron@example.com"
+  },
+  {
+    "nombre_cliente": "Derek",
+    "apellido1": "Johnson",
+    "apellido2": null,
+    "fecha_nacimiento": "2006-04-12",
+    "puntos_compra": 655,
+    "email": "derek.johnson@example.com"
+  },
+  {
+    "nombre_cliente": "Ashley",
+    "apellido1": "Green",
+    "apellido2": null,
+    "fecha_nacimiento": "1974-01-28",
+    "puntos_compra": null,
+    "email": "ashley.green@example.com"
+  },
+  {
+    "nombre_cliente": "Miguel",
+    "apellido1": "Whitaker",
+    "apellido2": "Shepherd",
+    "fecha_nacimiento": "1997-04-17",
+    "puntos_compra": 501,
+    "email": "miguel.whitaker@example.com"
+  },
+  {
+    "nombre_cliente": "Nicole",
+    "apellido1": "Kidd",
+    "apellido2": null,
+    "fecha_nacimiento": "1988-11-23",
+    "puntos_compra": 819,
+    "email": "nicole.kidd@example.com"
+  },
+  {
+    "nombre_cliente": "Barry",
+    "apellido1": "Cortez",
+    "apellido2": null,
+    "fecha_nacimiento": "1969-06-24",
+    "puntos_compra": null,
+    "email": "barry.cortez@example.com"
+  },
+  {
+    "nombre_cliente": "Tanya",
+    "apellido1": "Mason",
+    "apellido2": "Christensen",
+    "fecha_nacimiento": "2006-12-07",
+    "puntos_compra": 133,
+    "email": "tanya.mason@example.com"
+  },
+  {
+    "nombre_cliente": "Michele",
+    "apellido1": "Bridges",
+    "apellido2": null,
+    "fecha_nacimiento": "1971-07-06",
+    "puntos_compra": null,
+    "email": "michele.bridges@example.com"
+  },
+  {
+    "nombre_cliente": "Carlos",
+    "apellido1": "Martinez",
+    "apellido2": "Perez",
+    "fecha_nacimiento": "1995-11-05",
+    "puntos_compra": 507,
+    "email": "carlos.martinez@example.com"
+  },
+  {
+    "nombre_cliente": "Daniel",
+    "apellido1": "Lopez",
+    "apellido2": "Harris",
+    "fecha_nacimiento": "1982-03-18",
+    "puntos_compra": 731,
+    "email": "daniel.lopez@example.com"
+  },
+  {
+    "nombre_cliente": "Jessica",
+    "apellido1": "Diaz",
+    "apellido2": "Young",
+    "fecha_nacimiento": "2003-02-15",
+    "puntos_compra": 426,
+    "email": "jessica.diaz@example.com"
+  },
+  {
+    "nombre_cliente": "David",
+    "apellido1": "Davis",
+    "apellido2": "Thompson",
+    "fecha_nacimiento": "1992-01-09",
+    "puntos_compra": 900,
+    "email": "david.davis@example.com"
+  },
+  {
+    "nombre_cliente": "Rebecca",
+    "apellido1": "Anderson",
+    "apellido2": "Lewis",
+    "fecha_nacimiento": "1987-09-21",
+    "puntos_compra": 650,
+    "email": "rebecca.anderson@example.com"
+  },
+  {
+    "nombre_cliente": "Ryan",
+    "apellido1": "Jackson",
+    "apellido2": "Graham",
+    "fecha_nacimiento": "1980-07-12",
+    "puntos_compra": 345,
+    "email": "ryan.jackson@example.com"
+  }
+]
