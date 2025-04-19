@@ -154,6 +154,19 @@ export class ComprasService {
     return compra
   }
 
+  async findByCliente(clienteId: number) {
+    const compras = await this.comprasRepository.find({
+      where: { cliente_: { id_cliente: clienteId } },
+      relations: ['cliente_', 'detalles_', 'detalles_.producto', 'tienda_'],
+    });
+
+    if (!compras || compras.length === 0) {
+      throw new NotFoundException(`No se encontraron compras para el cliente con ID ${clienteId}`);
+    }
+
+    return compras;
+  }
+
   async update(id: number, updateCompraDto: UpdateCompraDto) {
     const queryRunner = this.dataSource.createQueryRunner();
     await queryRunner.connect();
