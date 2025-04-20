@@ -64,21 +64,38 @@ export class ProductosService {
 
   async seed(){
     try{
-      const productosJson = readFileSync('src/common/utils/productos.seed.json', 'utf8');
+      const productosJson = readFileSync('src/common/utils/productos_500.seed.json', 'utf8');
       const productosData = JSON.parse(productosJson);
   
-      const productos = productosData.map((producto: Producto) =>{
+      const productos = productosData.map(async (producto: Producto) =>{
         const createProductoDto: CreateProductoDto ={
           nombre_producto: producto.nombre_producto,
           descripcion: producto.descripcion,
           precio: producto.precio,
           stock: producto.stock,
         }
-        return this.create(createProductoDto);
+        // Verificar si el producto ya existe
+        const existingProducto: Producto = await this.productosRepository.findOne({
+          where: { nombre_producto: createProductoDto.nombre_producto },
+        });
+        if (!existingProducto) {
+          // Crear el producto
+          const newProducto = this.productosRepository.create(createProductoDto);
+          // Guardar el producto en la base de datos
+          return this.productosRepository.save(newProducto);
+        }
+        // Si el producto ya existe, añadir el stock
+        else {
+          const updatedProducto = this.productosRepository.create({
+            ...existingProducto,
+            stock: existingProducto.stock + createProductoDto.stock,
+          });
+          return this.productosRepository.save(updatedProducto);
+        }
       });
       return await Promise.all(productos);
     }catch (error){
-      throw new Error(`Error al intentar leer el archivo de seed de clientes: ${error.message}`);
+      throw new Error(`Error al intentar leer el archivo de seed de prodcutos: ${error.message}`);
     }
 
   }
