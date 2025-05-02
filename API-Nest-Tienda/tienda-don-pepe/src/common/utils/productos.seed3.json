@@ -1,0 +1,3002 @@
+[
+  {
+    "nombre_producto": "Razer Max Ventilador RGB",
+    "descripcion": "Razer Max Ventilador RGB de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1712.48,
+    "stock": 11
+  },
+  {
+    "nombre_producto": "AMD Turbo Placa Madre",
+    "descripcion": "AMD Turbo Placa Madre de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1958.89,
+    "stock": 17
+  },
+  {
+    "nombre_producto": "Acer RGB Refrigeraci\u00f3n L\u00edquida",
+    "descripcion": "Acer RGB Refrigeraci\u00f3n L\u00edquida de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 957.68,
+    "stock": 6
+  },
+  {
+    "nombre_producto": "AMD Plus Mouse",
+    "descripcion": "AMD Plus Mouse de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 780.55,
+    "stock": 36
+  },
+  {
+    "nombre_producto": "Dell Pro Placa Madre",
+    "descripcion": "Dell Pro Placa Madre de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 570.0,
+    "stock": 69
+  },
+  {
+    "nombre_producto": "Razer Plus Mouse",
+    "descripcion": "Razer Plus Mouse de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 78.43,
+    "stock": 29
+  },
+  {
+    "nombre_producto": "Corsair Gaming Disco Duro",
+    "descripcion": "Corsair Gaming Disco Duro de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 81.02,
+    "stock": 95
+  },
+  {
+    "nombre_producto": "Dell Elite Router Gaming",
+    "descripcion": "Dell Elite Router Gaming de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1558.34,
+    "stock": 93
+  },
+  {
+    "nombre_producto": "Razer Ultra Monitor",
+    "descripcion": "Razer Ultra Monitor de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1348.48,
+    "stock": 24
+  },
+  {
+    "nombre_producto": "Acer Elite Controlador",
+    "descripcion": "Acer Elite Controlador de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1966.95,
+    "stock": 29
+  },
+  {
+    "nombre_producto": "MSI Pro C\u00e1mara Web",
+    "descripcion": "MSI Pro C\u00e1mara Web de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1381.27,
+    "stock": 73
+  },
+  {
+    "nombre_producto": "Dell RGB C\u00e1mara Web",
+    "descripcion": "Dell RGB C\u00e1mara Web de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 495.22,
+    "stock": 93
+  },
+  {
+    "nombre_producto": "Logitech Ultra Tarjeta Gr\u00e1fica",
+    "descripcion": "Logitech Ultra Tarjeta Gr\u00e1fica de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1892.51,
+    "stock": 21
+  },
+  {
+    "nombre_producto": "ASUS Ultra Tarjeta Capturadora",
+    "descripcion": "ASUS Ultra Tarjeta Capturadora de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 792.29,
+    "stock": 77
+  },
+  {
+    "nombre_producto": "Gigabyte Gaming Controlador",
+    "descripcion": "Gigabyte Gaming Controlador de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 591.75,
+    "stock": 73
+  },
+  {
+    "nombre_producto": "Corsair Gaming Tarjeta Capturadora",
+    "descripcion": "Corsair Gaming Tarjeta Capturadora de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 638.84,
+    "stock": 53
+  },
+  {
+    "nombre_producto": "MSI Compacto Auriculares",
+    "descripcion": "MSI Compacto Auriculares de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 346.47,
+    "stock": 69
+  },
+  {
+    "nombre_producto": "Razer Max Laptop Gamer",
+    "descripcion": "Razer Max Laptop Gamer de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 554.23,
+    "stock": 94
+  },
+  {
+    "nombre_producto": "MSI Extreme Teclado",
+    "descripcion": "MSI Extreme Teclado de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 716.3,
+    "stock": 51
+  },
+  {
+    "nombre_producto": "MSI Extreme Tarjeta Capturadora",
+    "descripcion": "MSI Extreme Tarjeta Capturadora de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1956.3,
+    "stock": 30
+  },
+  {
+    "nombre_producto": "HyperX Max Ventilador RGB",
+    "descripcion": "HyperX Max Ventilador RGB de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 700.25,
+    "stock": 57
+  },
+  {
+    "nombre_producto": "AMD Extreme Mousepad",
+    "descripcion": "AMD Extreme Mousepad de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1236.86,
+    "stock": 88
+  },
+  {
+    "nombre_producto": "Gigabyte Gaming Gabinete",
+    "descripcion": "Gigabyte Gaming Gabinete de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 633.61,
+    "stock": 65
+  },
+  {
+    "nombre_producto": "AMD Pro Tarjeta Gr\u00e1fica",
+    "descripcion": "AMD Pro Tarjeta Gr\u00e1fica de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 557.24,
+    "stock": 89
+  },
+  {
+    "nombre_producto": "NZXT Compacto Mousepad",
+    "descripcion": "NZXT Compacto Mousepad de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1030.0,
+    "stock": 61
+  },
+  {
+    "nombre_producto": "Gigabyte Extreme Monitor Curvo",
+    "descripcion": "Gigabyte Extreme Monitor Curvo de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1207.96,
+    "stock": 38
+  },
+  {
+    "nombre_producto": "Intel Turbo Controlador",
+    "descripcion": "Intel Turbo Controlador de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 930.2,
+    "stock": 53
+  },
+  {
+    "nombre_producto": "AMD Pro Procesador",
+    "descripcion": "AMD Pro Procesador de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 344.81,
+    "stock": 27
+  },
+  {
+    "nombre_producto": "Corsair RGB Placa Madre",
+    "descripcion": "Corsair RGB Placa Madre de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 35.53,
+    "stock": 42
+  },
+  {
+    "nombre_producto": "Intel Pro Tarjeta Gr\u00e1fica",
+    "descripcion": "Intel Pro Tarjeta Gr\u00e1fica de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1487.85,
+    "stock": 79
+  },
+  {
+    "nombre_producto": "Intel Turbo Monitor Curvo",
+    "descripcion": "Intel Turbo Monitor Curvo de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 272.97,
+    "stock": 56
+  },
+  {
+    "nombre_producto": "Intel Ultra Controlador",
+    "descripcion": "Intel Ultra Controlador de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1334.1,
+    "stock": 85
+  },
+  {
+    "nombre_producto": "Razer Ultra Tarjeta Capturadora",
+    "descripcion": "Razer Ultra Tarjeta Capturadora de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 911.67,
+    "stock": 40
+  },
+  {
+    "nombre_producto": "AMD Plus Auriculares",
+    "descripcion": "AMD Plus Auriculares de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 41.74,
+    "stock": 90
+  },
+  {
+    "nombre_producto": "Dell Gaming Micr\u00f3fono",
+    "descripcion": "Dell Gaming Micr\u00f3fono de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 682.97,
+    "stock": 61
+  },
+  {
+    "nombre_producto": "Intel Elite Controlador",
+    "descripcion": "Intel Elite Controlador de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1640.72,
+    "stock": 19
+  },
+  {
+    "nombre_producto": "ASUS RGB Teclado",
+    "descripcion": "ASUS RGB Teclado de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 678.3,
+    "stock": 69
+  },
+  {
+    "nombre_producto": "Acer Elite Auriculares",
+    "descripcion": "Acer Elite Auriculares de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1040.99,
+    "stock": 62
+  },
+  {
+    "nombre_producto": "Razer Pro Procesador",
+    "descripcion": "Razer Pro Procesador de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 928.29,
+    "stock": 86
+  },
+  {
+    "nombre_producto": "ASUS Compacto Refrigeraci\u00f3n L\u00edquida",
+    "descripcion": "ASUS Compacto Refrigeraci\u00f3n L\u00edquida de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1625.95,
+    "stock": 51
+  },
+  {
+    "nombre_producto": "AMD Compacto Auriculares",
+    "descripcion": "AMD Compacto Auriculares de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 955.94,
+    "stock": 48
+  },
+  {
+    "nombre_producto": "HyperX Turbo Mousepad",
+    "descripcion": "HyperX Turbo Mousepad de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1227.6,
+    "stock": 65
+  },
+  {
+    "nombre_producto": "ASUS Max Gabinete",
+    "descripcion": "ASUS Max Gabinete de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 699.57,
+    "stock": 37
+  },
+  {
+    "nombre_producto": "Logitech RGB Tarjeta Capturadora",
+    "descripcion": "Logitech RGB Tarjeta Capturadora de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 112.06,
+    "stock": 64
+  },
+  {
+    "nombre_producto": "Acer Ultra Base para Laptop",
+    "descripcion": "Acer Ultra Base para Laptop de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1511.15,
+    "stock": 11
+  },
+  {
+    "nombre_producto": "Dell Pro Silla Gamer",
+    "descripcion": "Dell Pro Silla Gamer de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 89.62,
+    "stock": 76
+  },
+  {
+    "nombre_producto": "Logitech Extreme Fuente de Poder",
+    "descripcion": "Logitech Extreme Fuente de Poder de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 855.49,
+    "stock": 1
+  },
+  {
+    "nombre_producto": "HyperX Turbo Router Gaming",
+    "descripcion": "HyperX Turbo Router Gaming de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1102.09,
+    "stock": 6
+  },
+  {
+    "nombre_producto": "Gigabyte Compacto Procesador",
+    "descripcion": "Gigabyte Compacto Procesador de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 675.48,
+    "stock": 83
+  },
+  {
+    "nombre_producto": "HyperX Turbo Placa Madre",
+    "descripcion": "HyperX Turbo Placa Madre de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 164.37,
+    "stock": 69
+  },
+  {
+    "nombre_producto": "HyperX Pro Router Gaming",
+    "descripcion": "HyperX Pro Router Gaming de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1762.96,
+    "stock": 5
+  },
+  {
+    "nombre_producto": "Acer Elite Router Gaming",
+    "descripcion": "Acer Elite Router Gaming de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 136.4,
+    "stock": 79
+  },
+  {
+    "nombre_producto": "Dell Compacto Auriculares",
+    "descripcion": "Dell Compacto Auriculares de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 436.71,
+    "stock": 15
+  },
+  {
+    "nombre_producto": "ASUS RGB Monitor Curvo",
+    "descripcion": "ASUS RGB Monitor Curvo de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 374.17,
+    "stock": 42
+  },
+  {
+    "nombre_producto": "Razer RGB Mouse",
+    "descripcion": "Razer RGB Mouse de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 529.13,
+    "stock": 58
+  },
+  {
+    "nombre_producto": "HyperX Gaming Soporte de Monitor",
+    "descripcion": "HyperX Gaming Soporte de Monitor de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1984.56,
+    "stock": 68
+  },
+  {
+    "nombre_producto": "MSI Extreme Monitor",
+    "descripcion": "MSI Extreme Monitor de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 174.99,
+    "stock": 9
+  },
+  {
+    "nombre_producto": "NZXT Extreme Mouse",
+    "descripcion": "NZXT Extreme Mouse de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 191.84,
+    "stock": 83
+  },
+  {
+    "nombre_producto": "ASUS Turbo Mouse",
+    "descripcion": "ASUS Turbo Mouse de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 231.97,
+    "stock": 28
+  },
+  {
+    "nombre_producto": "AMD Extreme Mousepad pro",
+    "descripcion": "AMD Extreme Mousepad de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 380.24,
+    "stock": 47
+  },
+  {
+    "nombre_producto": "MSI Elite Controlador",
+    "descripcion": "MSI Elite Controlador de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1757.89,
+    "stock": 45
+  },
+  {
+    "nombre_producto": "Acer Ultra Tarjeta Gr\u00e1fica",
+    "descripcion": "Acer Ultra Tarjeta Gr\u00e1fica de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1288.46,
+    "stock": 39
+  },
+  {
+    "nombre_producto": "Intel Ultra Tarjeta Gr\u00e1fica",
+    "descripcion": "Intel Ultra Tarjeta Gr\u00e1fica de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 186.61,
+    "stock": 46
+  },
+  {
+    "nombre_producto": "Gigabyte Gaming Fuente de Poder",
+    "descripcion": "Gigabyte Gaming Fuente de Poder de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 196.58,
+    "stock": 23
+  },
+  {
+    "nombre_producto": "Logitech Max Tarjeta Gr\u00e1fica",
+    "descripcion": "Logitech Max Tarjeta Gr\u00e1fica de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 753.49,
+    "stock": 59
+  },
+  {
+    "nombre_producto": "AMD Pro Micr\u00f3fono",
+    "descripcion": "AMD Pro Micr\u00f3fono de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 32.05,
+    "stock": 44
+  },
+  {
+    "nombre_producto": "Razer Elite Base para Laptop",
+    "descripcion": "Razer Elite Base para Laptop de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 331.05,
+    "stock": 14
+  },
+  {
+    "nombre_producto": "Razer Gaming Monitor",
+    "descripcion": "Razer Gaming Monitor de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 894.82,
+    "stock": 59
+  },
+  {
+    "nombre_producto": "Dell Elite Controlador",
+    "descripcion": "Dell Elite Controlador de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1429.87,
+    "stock": 35
+  },
+  {
+    "nombre_producto": "HyperX Pro Refrigeraci\u00f3n L\u00edquida",
+    "descripcion": "HyperX Pro Refrigeraci\u00f3n L\u00edquida de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1792.6,
+    "stock": 40
+  },
+  {
+    "nombre_producto": "MSI Turbo Fuente de Poder",
+    "descripcion": "MSI Turbo Fuente de Poder de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1233.04,
+    "stock": 1
+  },
+  {
+    "nombre_producto": "ASUS Pro Laptop Gamer",
+    "descripcion": "ASUS Pro Laptop Gamer de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 754.99,
+    "stock": 62
+  },
+  {
+    "nombre_producto": "MSI Ultra Base para Laptop",
+    "descripcion": "MSI Ultra Base para Laptop de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 858.15,
+    "stock": 25
+  },
+  {
+    "nombre_producto": "NZXT Compacto Mouse",
+    "descripcion": "NZXT Compacto Mouse de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1205.54,
+    "stock": 47
+  },
+  {
+    "nombre_producto": "Razer Elite Tarjeta Gr\u00e1fica",
+    "descripcion": "Razer Elite Tarjeta Gr\u00e1fica de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 778.34,
+    "stock": 1
+  },
+  {
+    "nombre_producto": "Dell RGB Memoria RAM",
+    "descripcion": "Dell RGB Memoria RAM de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 349.66,
+    "stock": 14
+  },
+  {
+    "nombre_producto": "Gigabyte Turbo Monitor",
+    "descripcion": "Gigabyte Turbo Monitor de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 293.27,
+    "stock": 73
+  },
+  {
+    "nombre_producto": "MSI Elite Base para Laptop",
+    "descripcion": "MSI Elite Base para Laptop de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1215.53,
+    "stock": 79
+  },
+  {
+    "nombre_producto": "HyperX Compacto C\u00e1mara Web",
+    "descripcion": "HyperX Compacto C\u00e1mara Web de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 384.59,
+    "stock": 4
+  },
+  {
+    "nombre_producto": "HyperX RGB Disco Duro",
+    "descripcion": "HyperX RGB Disco Duro de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 825.98,
+    "stock": 16
+  },
+  {
+    "nombre_producto": "ASUS Extreme Refrigeraci\u00f3n L\u00edquida",
+    "descripcion": "ASUS Extreme Refrigeraci\u00f3n L\u00edquida de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1022.66,
+    "stock": 63
+  },
+  {
+    "nombre_producto": "Dell Plus SSD",
+    "descripcion": "Dell Plus SSD de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1758.42,
+    "stock": 47
+  },
+  {
+    "nombre_producto": "ASUS Ultra Tarjeta Gr\u00e1fica",
+    "descripcion": "ASUS Ultra Tarjeta Gr\u00e1fica de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 949.22,
+    "stock": 89
+  },
+  {
+    "nombre_producto": "Gigabyte Turbo Monitor",
+    "descripcion": "Gigabyte Turbo Monitor de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1829.69,
+    "stock": 81
+  },
+  {
+    "nombre_producto": "HyperX Ultra Controlador",
+    "descripcion": "HyperX Ultra Controlador de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1000.65,
+    "stock": 63
+  },
+  {
+    "nombre_producto": "Corsair Max Laptop Gamer",
+    "descripcion": "Corsair Max Laptop Gamer de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1300.73,
+    "stock": 74
+  },
+  {
+    "nombre_producto": "Logitech Plus Soporte de Monitor",
+    "descripcion": "Logitech Plus Soporte de Monitor de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1129.86,
+    "stock": 28
+  },
+  {
+    "nombre_producto": "Corsair Plus Gabinete",
+    "descripcion": "Corsair Plus Gabinete de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1691.95,
+    "stock": 42
+  },
+  {
+    "nombre_producto": "AMD Ultra Tarjeta Capturadora",
+    "descripcion": "AMD Ultra Tarjeta Capturadora de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 54.66,
+    "stock": 52
+  },
+  {
+    "nombre_producto": "ASUS Gaming Memoria RAM",
+    "descripcion": "ASUS Gaming Memoria RAM de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 647.29,
+    "stock": 62
+  },
+  {
+    "nombre_producto": "Logitech Elite Placa Madre",
+    "descripcion": "Logitech Elite Placa Madre de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 584.05,
+    "stock": 55
+  },
+  {
+    "nombre_producto": "Logitech Extreme Auriculares",
+    "descripcion": "Logitech Extreme Auriculares de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 235.77,
+    "stock": 24
+  },
+  {
+    "nombre_producto": "Acer Pro Micr\u00f3fono",
+    "descripcion": "Acer Pro Micr\u00f3fono de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1525.88,
+    "stock": 86
+  },
+  {
+    "nombre_producto": "NZXT Turbo Laptop Gamer",
+    "descripcion": "NZXT Turbo Laptop Gamer de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1859.14,
+    "stock": 88
+  },
+  {
+    "nombre_producto": "HyperX Extreme Monitor",
+    "descripcion": "HyperX Extreme Monitor de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 481.3,
+    "stock": 93
+  },
+  {
+    "nombre_producto": "HyperX RGB Fuente de Poder",
+    "descripcion": "HyperX RGB Fuente de Poder de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 321.39,
+    "stock": 39
+  },
+  {
+    "nombre_producto": "Dell Extreme Tarjeta Capturadora",
+    "descripcion": "Dell Extreme Tarjeta Capturadora de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1757.69,
+    "stock": 35
+  },
+  {
+    "nombre_producto": "Gigabyte Pro Disco Duro",
+    "descripcion": "Gigabyte Pro Disco Duro de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 812.34,
+    "stock": 19
+  },
+  {
+    "nombre_producto": "Logitech Compacto Procesador",
+    "descripcion": "Logitech Compacto Procesador de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 317.28,
+    "stock": 12
+  },
+  {
+    "nombre_producto": "AMD Elite Refrigeraci\u00f3n L\u00edquida",
+    "descripcion": "AMD Elite Refrigeraci\u00f3n L\u00edquida de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1935.97,
+    "stock": 96
+  },
+  {
+    "nombre_producto": "Razer Ultra Placa Madre",
+    "descripcion": "Razer Ultra Placa Madre de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1819.22,
+    "stock": 37
+  },
+  {
+    "nombre_producto": "Logitech Elite Silla Gamer",
+    "descripcion": "Logitech Elite Silla Gamer de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1702.02,
+    "stock": 17
+  },
+  {
+    "nombre_producto": "Gigabyte Ultra Disco Duro",
+    "descripcion": "Gigabyte Ultra Disco Duro de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1749.73,
+    "stock": 80
+  },
+  {
+    "nombre_producto": "Corsair Plus Placa Madre",
+    "descripcion": "Corsair Plus Placa Madre de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1500.78,
+    "stock": 34
+  },
+  {
+    "nombre_producto": "NZXT Turbo Teclado",
+    "descripcion": "NZXT Turbo Teclado de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1266.55,
+    "stock": 13
+  },
+  {
+    "nombre_producto": "Razer Extreme Teclado",
+    "descripcion": "Razer Extreme Teclado de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 434.22,
+    "stock": 62
+  },
+  {
+    "nombre_producto": "Logitech Ultra Laptop Gamer",
+    "descripcion": "Logitech Ultra Laptop Gamer de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1107.55,
+    "stock": 53
+  },
+  {
+    "nombre_producto": "ASUS Plus Monitor Curvo",
+    "descripcion": "ASUS Plus Monitor Curvo de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 594.16,
+    "stock": 76
+  },
+  {
+    "nombre_producto": "Gigabyte Extreme SSD",
+    "descripcion": "Gigabyte Extreme SSD de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1058.11,
+    "stock": 98
+  },
+  {
+    "nombre_producto": "Razer Pro Soporte de Monitor",
+    "descripcion": "Razer Pro Soporte de Monitor de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 648.61,
+    "stock": 85
+  },
+  {
+    "nombre_producto": "Intel RGB Micr\u00f3fono",
+    "descripcion": "Intel RGB Micr\u00f3fono de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1662.05,
+    "stock": 19
+  },
+  {
+    "nombre_producto": "MSI Extreme Ventilador RGB",
+    "descripcion": "MSI Extreme Ventilador RGB de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1247.86,
+    "stock": 60
+  },
+  {
+    "nombre_producto": "NZXT Turbo Tarjeta Capturadora",
+    "descripcion": "NZXT Turbo Tarjeta Capturadora de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 818.32,
+    "stock": 86
+  },
+  {
+    "nombre_producto": "Acer Plus Ventilador RGB",
+    "descripcion": "Acer Plus Ventilador RGB de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1426.63,
+    "stock": 20
+  },
+  {
+    "nombre_producto": "Logitech Compacto Disco Duro",
+    "descripcion": "Logitech Compacto Disco Duro de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1640.6,
+    "stock": 45
+  },
+  {
+    "nombre_producto": "AMD Extreme Micr\u00f3fono",
+    "descripcion": "AMD Extreme Micr\u00f3fono de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 754.35,
+    "stock": 56
+  },
+  {
+    "nombre_producto": "ASUS Gaming Fuente de Poder",
+    "descripcion": "ASUS Gaming Fuente de Poder de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 629.44,
+    "stock": 43
+  },
+  {
+    "nombre_producto": "Intel Extreme Auriculares",
+    "descripcion": "Intel Extreme Auriculares de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1204.9,
+    "stock": 49
+  },
+  {
+    "nombre_producto": "MSI Ultra Micr\u00f3fono",
+    "descripcion": "MSI Ultra Micr\u00f3fono de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1802.21,
+    "stock": 72
+  },
+  {
+    "nombre_producto": "AMD Max Controlador",
+    "descripcion": "AMD Max Controlador de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 170.7,
+    "stock": 7
+  },
+  {
+    "nombre_producto": "Gigabyte Gaming Gabinete",
+    "descripcion": "Gigabyte Gaming Gabinete de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1658.98,
+    "stock": 97
+  },
+  {
+    "nombre_producto": "Corsair Pro Ventilador RGB",
+    "descripcion": "Corsair Pro Ventilador RGB de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 31.01,
+    "stock": 94
+  },
+  {
+    "nombre_producto": "AMD Ultra Placa Madre",
+    "descripcion": "AMD Ultra Placa Madre de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 588.64,
+    "stock": 91
+  },
+  {
+    "nombre_producto": "Dell Elite Monitor",
+    "descripcion": "Dell Elite Monitor de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 472.06,
+    "stock": 15
+  },
+  {
+    "nombre_producto": "AMD Compacto Placa Madre",
+    "descripcion": "AMD Compacto Placa Madre de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 802.42,
+    "stock": 79
+  },
+  {
+    "nombre_producto": "MSI Pro SSD",
+    "descripcion": "MSI Pro SSD de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1004.58,
+    "stock": 53
+  },
+  {
+    "nombre_producto": "ASUS RGB Tarjeta Capturadora",
+    "descripcion": "ASUS RGB Tarjeta Capturadora de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 376.34,
+    "stock": 66
+  },
+  {
+    "nombre_producto": "Razer RGB Micr\u00f3fono",
+    "descripcion": "Razer RGB Micr\u00f3fono de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1641.34,
+    "stock": 88
+  },
+  {
+    "nombre_producto": "HyperX Extreme Laptop Gamer",
+    "descripcion": "HyperX Extreme Laptop Gamer de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1121.76,
+    "stock": 5
+  },
+  {
+    "nombre_producto": "Dell Plus Base para Laptop",
+    "descripcion": "Dell Plus Base para Laptop de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 147.25,
+    "stock": 53
+  },
+  {
+    "nombre_producto": "NZXT Pro Monitor Curvo",
+    "descripcion": "NZXT Pro Monitor Curvo de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1884.57,
+    "stock": 37
+  },
+  {
+    "nombre_producto": "HyperX Elite Monitor Curvo",
+    "descripcion": "HyperX Elite Monitor Curvo de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1389.2,
+    "stock": 91
+  },
+  {
+    "nombre_producto": "AMD Elite Silla Gamer",
+    "descripcion": "AMD Elite Silla Gamer de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 817.98,
+    "stock": 8
+  },
+  {
+    "nombre_producto": "ASUS Ultra Router Gaming",
+    "descripcion": "ASUS Ultra Router Gaming de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1017.9,
+    "stock": 13
+  },
+  {
+    "nombre_producto": "ASUS Turbo Silla Gamer",
+    "descripcion": "ASUS Turbo Silla Gamer de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1389.17,
+    "stock": 75
+  },
+  {
+    "nombre_producto": "ASUS Ultra Fuente de Poder",
+    "descripcion": "ASUS Ultra Fuente de Poder de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 874.58,
+    "stock": 59
+  },
+  {
+    "nombre_producto": "Razer Turbo Tarjeta Capturadora",
+    "descripcion": "Razer Turbo Tarjeta Capturadora de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 114.26,
+    "stock": 45
+  },
+  {
+    "nombre_producto": "AMD Plus Silla Gamer",
+    "descripcion": "AMD Plus Silla Gamer de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 122.31,
+    "stock": 38
+  },
+  {
+    "nombre_producto": "Intel Max Memoria RAM",
+    "descripcion": "Intel Max Memoria RAM de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1869.33,
+    "stock": 26
+  },
+  {
+    "nombre_producto": "Corsair Elite C\u00e1mara Web",
+    "descripcion": "Corsair Elite C\u00e1mara Web de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1815.76,
+    "stock": 19
+  },
+  {
+    "nombre_producto": "AMD RGB Silla Gamer",
+    "descripcion": "AMD RGB Silla Gamer de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 153.69,
+    "stock": 82
+  },
+  {
+    "nombre_producto": "HyperX Max Placa Madre",
+    "descripcion": "HyperX Max Placa Madre de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1587.45,
+    "stock": 77
+  },
+  {
+    "nombre_producto": "Razer Extreme Monitor Curvo",
+    "descripcion": "Razer Extreme Monitor Curvo de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 616.61,
+    "stock": 19
+  },
+  {
+    "nombre_producto": "AMD Ultra Laptop Gamer",
+    "descripcion": "AMD Ultra Laptop Gamer de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1528.38,
+    "stock": 17
+  },
+  {
+    "nombre_producto": "ASUS Ultra Laptop Gamer",
+    "descripcion": "ASUS Ultra Laptop Gamer de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1986.3,
+    "stock": 76
+  },
+  {
+    "nombre_producto": "Corsair Compacto Mousepad",
+    "descripcion": "Corsair Compacto Mousepad de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 823.88,
+    "stock": 55
+  },
+  {
+    "nombre_producto": "AMD Max Router Gaming",
+    "descripcion": "AMD Max Router Gaming de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 486.01,
+    "stock": 94
+  },
+  {
+    "nombre_producto": "AMD RGB Tarjeta Capturadora",
+    "descripcion": "AMD RGB Tarjeta Capturadora de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 954.67,
+    "stock": 58
+  },
+  {
+    "nombre_producto": "HyperX Ultra Controlador",
+    "descripcion": "HyperX Ultra Controlador de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1459.55,
+    "stock": 72
+  },
+  {
+    "nombre_producto": "Intel Gaming SSD",
+    "descripcion": "Intel Gaming SSD de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1145.42,
+    "stock": 59
+  },
+  {
+    "nombre_producto": "NZXT Turbo Silla Gamer",
+    "descripcion": "NZXT Turbo Silla Gamer de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1485.7,
+    "stock": 48
+  },
+  {
+    "nombre_producto": "NZXT Plus Placa Madre",
+    "descripcion": "NZXT Plus Placa Madre de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1917.04,
+    "stock": 42
+  },
+  {
+    "nombre_producto": "HyperX Compacto Disco Duro",
+    "descripcion": "HyperX Compacto Disco Duro de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1893.94,
+    "stock": 19
+  },
+  {
+    "nombre_producto": "ASUS Max Router Gaming",
+    "descripcion": "ASUS Max Router Gaming de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1092.95,
+    "stock": 64
+  },
+  {
+    "nombre_producto": "MSI Ultra SSD",
+    "descripcion": "MSI Ultra SSD de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 348.98,
+    "stock": 87
+  },
+  {
+    "nombre_producto": "Acer Plus Mouse",
+    "descripcion": "Acer Plus Mouse de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1254.13,
+    "stock": 20
+  },
+  {
+    "nombre_producto": "Gigabyte Ultra Micr\u00f3fono",
+    "descripcion": "Gigabyte Ultra Micr\u00f3fono de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1073.18,
+    "stock": 25
+  },
+  {
+    "nombre_producto": "ASUS Compacto Monitor",
+    "descripcion": "ASUS Compacto Monitor de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1246.33,
+    "stock": 57
+  },
+  {
+    "nombre_producto": "HyperX Max Tarjeta Gr\u00e1fica",
+    "descripcion": "HyperX Max Tarjeta Gr\u00e1fica de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1874.87,
+    "stock": 38
+  },
+  {
+    "nombre_producto": "Corsair Pro Disco Duro",
+    "descripcion": "Corsair Pro Disco Duro de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 561.36,
+    "stock": 68
+  },
+  {
+    "nombre_producto": "ASUS RGB Base para Laptop",
+    "descripcion": "ASUS RGB Base para Laptop de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1682.74,
+    "stock": 39
+  },
+  {
+    "nombre_producto": "AMD Extreme Auriculares",
+    "descripcion": "AMD Extreme Auriculares de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1372.86,
+    "stock": 62
+  },
+  {
+    "nombre_producto": "MSI Turbo Mousepad",
+    "descripcion": "MSI Turbo Mousepad de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 687.94,
+    "stock": 27
+  },
+  {
+    "nombre_producto": "AMD Turbo Laptop Gamer",
+    "descripcion": "AMD Turbo Laptop Gamer de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 438.98,
+    "stock": 80
+  },
+  {
+    "nombre_producto": "Razer Extreme Gabinete",
+    "descripcion": "Razer Extreme Gabinete de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 469.62,
+    "stock": 68
+  },
+  {
+    "nombre_producto": "Acer Ultra Mouse",
+    "descripcion": "Acer Ultra Mouse de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 804.91,
+    "stock": 26
+  },
+  {
+    "nombre_producto": "MSI Ultra Ventilador RGB",
+    "descripcion": "MSI Ultra Ventilador RGB de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1393.78,
+    "stock": 6
+  },
+  {
+    "nombre_producto": "Acer Turbo Procesador",
+    "descripcion": "Acer Turbo Procesador de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1109.47,
+    "stock": 83
+  },
+  {
+    "nombre_producto": "Corsair Elite Ventilador RGB",
+    "descripcion": "Corsair Elite Ventilador RGB de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 67.32,
+    "stock": 35
+  },
+  {
+    "nombre_producto": "Logitech Extreme Procesador",
+    "descripcion": "Logitech Extreme Procesador de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 355.07,
+    "stock": 5
+  },
+  {
+    "nombre_producto": "AMD Pro Teclado",
+    "descripcion": "AMD Pro Teclado de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1366.91,
+    "stock": 46
+  },
+  {
+    "nombre_producto": "HyperX Max Tarjeta Gr\u00e1fica",
+    "descripcion": "HyperX Max Tarjeta Gr\u00e1fica de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1337.57,
+    "stock": 24
+  },
+  {
+    "nombre_producto": "MSI Elite Monitor",
+    "descripcion": "MSI Elite Monitor de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 461.39,
+    "stock": 83
+  },
+  {
+    "nombre_producto": "AMD RGB Mousepad",
+    "descripcion": "AMD RGB Mousepad de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1086.67,
+    "stock": 57
+  },
+  {
+    "nombre_producto": "NZXT Compacto Monitor",
+    "descripcion": "NZXT Compacto Monitor de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 913.55,
+    "stock": 72
+  },
+  {
+    "nombre_producto": "Razer Ultra Mouse",
+    "descripcion": "Razer Ultra Mouse de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 261.77,
+    "stock": 4
+  },
+  {
+    "nombre_producto": "Gigabyte RGB Gabinete",
+    "descripcion": "Gigabyte RGB Gabinete de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1526.18,
+    "stock": 16
+  },
+  {
+    "nombre_producto": "HyperX Gaming Base para Laptop",
+    "descripcion": "HyperX Gaming Base para Laptop de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 143.47,
+    "stock": 17
+  },
+  {
+    "nombre_producto": "ASUS Plus Silla Gamer",
+    "descripcion": "ASUS Plus Silla Gamer de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1150.84,
+    "stock": 20
+  },
+  {
+    "nombre_producto": "ASUS Ultra Monitor",
+    "descripcion": "ASUS Ultra Monitor de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1351.26,
+    "stock": 66
+  },
+  {
+    "nombre_producto": "Intel RGB Auriculares",
+    "descripcion": "Intel RGB Auriculares de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 273.26,
+    "stock": 45
+  },
+  {
+    "nombre_producto": "Razer Compacto C\u00e1mara Web",
+    "descripcion": "Razer Compacto C\u00e1mara Web de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 148.62,
+    "stock": 22
+  },
+  {
+    "nombre_producto": "Corsair Max Monitor Curvo",
+    "descripcion": "Corsair Max Monitor Curvo de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1563.76,
+    "stock": 26
+  },
+  {
+    "nombre_producto": "HyperX Ultra Teclado",
+    "descripcion": "HyperX Ultra Teclado de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 292.6,
+    "stock": 35
+  },
+  {
+    "nombre_producto": "HyperX Extreme Auriculares",
+    "descripcion": "HyperX Extreme Auriculares de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 953.82,
+    "stock": 5
+  },
+  {
+    "nombre_producto": "Acer Compacto Micr\u00f3fono",
+    "descripcion": "Acer Compacto Micr\u00f3fono de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1296.86,
+    "stock": 14
+  },
+  {
+    "nombre_producto": "ASUS Max Refrigeraci\u00f3n L\u00edquida",
+    "descripcion": "ASUS Max Refrigeraci\u00f3n L\u00edquida de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1075.94,
+    "stock": 48
+  },
+  {
+    "nombre_producto": "Logitech RGB Mousepad",
+    "descripcion": "Logitech RGB Mousepad de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1045.12,
+    "stock": 25
+  },
+  {
+    "nombre_producto": "Logitech Plus Tarjeta Capturadora",
+    "descripcion": "Logitech Plus Tarjeta Capturadora de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 155.71,
+    "stock": 60
+  },
+  {
+    "nombre_producto": "Intel Compacto Mousepad",
+    "descripcion": "Intel Compacto Mousepad de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 824.28,
+    "stock": 9
+  },
+  {
+    "nombre_producto": "Dell Plus Micr\u00f3fono",
+    "descripcion": "Dell Plus Micr\u00f3fono de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1774.12,
+    "stock": 77
+  },
+  {
+    "nombre_producto": "AMD Max Refrigeraci\u00f3n L\u00edquida",
+    "descripcion": "AMD Max Refrigeraci\u00f3n L\u00edquida de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1351.88,
+    "stock": 99
+  },
+  {
+    "nombre_producto": "Razer Ultra Base para Laptop",
+    "descripcion": "Razer Ultra Base para Laptop de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 140.58,
+    "stock": 32
+  },
+  {
+    "nombre_producto": "AMD Pro Refrigeraci\u00f3n L\u00edquida",
+    "descripcion": "AMD Pro Refrigeraci\u00f3n L\u00edquida de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1125.93,
+    "stock": 74
+  },
+  {
+    "nombre_producto": "Razer Elite Refrigeraci\u00f3n L\u00edquida",
+    "descripcion": "Razer Elite Refrigeraci\u00f3n L\u00edquida de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1659.38,
+    "stock": 58
+  },
+  {
+    "nombre_producto": "Acer Elite Silla Gamer",
+    "descripcion": "Acer Elite Silla Gamer de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1207.77,
+    "stock": 65
+  },
+  {
+    "nombre_producto": "AMD Elite Mousepad",
+    "descripcion": "AMD Elite Mousepad de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1647.51,
+    "stock": 92
+  },
+  {
+    "nombre_producto": "ASUS Gaming Laptop Gamer",
+    "descripcion": "ASUS Gaming Laptop Gamer de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 873.92,
+    "stock": 43
+  },
+  {
+    "nombre_producto": "Intel Gaming Mouse",
+    "descripcion": "Intel Gaming Mouse de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 795.33,
+    "stock": 3
+  },
+  {
+    "nombre_producto": "Intel Pro Router Gaming",
+    "descripcion": "Intel Pro Router Gaming de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1220.75,
+    "stock": 5
+  },
+  {
+    "nombre_producto": "MSI RGB Micr\u00f3fono",
+    "descripcion": "MSI RGB Micr\u00f3fono de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1145.9,
+    "stock": 89
+  },
+  {
+    "nombre_producto": "Razer Elite Fuente de Poder",
+    "descripcion": "Razer Elite Fuente de Poder de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 30.21,
+    "stock": 20
+  },
+  {
+    "nombre_producto": "Dell Ultra Teclado",
+    "descripcion": "Dell Ultra Teclado de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1785.86,
+    "stock": 40
+  },
+  {
+    "nombre_producto": "NZXT Compacto Gabinete",
+    "descripcion": "NZXT Compacto Gabinete de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1940.47,
+    "stock": 67
+  },
+  {
+    "nombre_producto": "Corsair Turbo Monitor Curvo",
+    "descripcion": "Corsair Turbo Monitor Curvo de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1815.05,
+    "stock": 47
+  },
+  {
+    "nombre_producto": "Dell Plus Mouse",
+    "descripcion": "Dell Plus Mouse de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1946.84,
+    "stock": 63
+  },
+  {
+    "nombre_producto": "Corsair Elite Memoria RAM",
+    "descripcion": "Corsair Elite Memoria RAM de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1144.44,
+    "stock": 49
+  },
+  {
+    "nombre_producto": "Intel Elite Refrigeraci\u00f3n L\u00edquida",
+    "descripcion": "Intel Elite Refrigeraci\u00f3n L\u00edquida de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1899.75,
+    "stock": 99
+  },
+  {
+    "nombre_producto": "Corsair Max Procesador",
+    "descripcion": "Corsair Max Procesador de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 610.83,
+    "stock": 11
+  },
+  {
+    "nombre_producto": "Intel Plus Monitor",
+    "descripcion": "Intel Plus Monitor de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 99.57,
+    "stock": 72
+  },
+  {
+    "nombre_producto": "Razer Extreme Soporte de Monitor",
+    "descripcion": "Razer Extreme Soporte de Monitor de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 540.05,
+    "stock": 95
+  },
+  {
+    "nombre_producto": "Gigabyte Gaming Procesador",
+    "descripcion": "Gigabyte Gaming Procesador de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1294.84,
+    "stock": 63
+  },
+  {
+    "nombre_producto": "Corsair Extreme Auriculares",
+    "descripcion": "Corsair Extreme Auriculares de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1008.46,
+    "stock": 89
+  },
+  {
+    "nombre_producto": "Dell Compacto Ventilador RGB",
+    "descripcion": "Dell Compacto Ventilador RGB de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1177.49,
+    "stock": 1
+  },
+  {
+    "nombre_producto": "ASUS Elite Router Gaming",
+    "descripcion": "ASUS Elite Router Gaming de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 353.59,
+    "stock": 27
+  },
+  {
+    "nombre_producto": "Logitech Elite Fuente de Poder",
+    "descripcion": "Logitech Elite Fuente de Poder de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1232.59,
+    "stock": 47
+  },
+  {
+    "nombre_producto": "AMD Plus C\u00e1mara Web",
+    "descripcion": "AMD Plus C\u00e1mara Web de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1437.97,
+    "stock": 40
+  },
+  {
+    "nombre_producto": "Gigabyte RGB Mousepad",
+    "descripcion": "Gigabyte RGB Mousepad de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 174.46,
+    "stock": 78
+  },
+  {
+    "nombre_producto": "Logitech Ultra Soporte de Monitor",
+    "descripcion": "Logitech Ultra Soporte de Monitor de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 521.72,
+    "stock": 56
+  },
+  {
+    "nombre_producto": "HyperX Compacto Memoria RAM",
+    "descripcion": "HyperX Compacto Memoria RAM de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1096.43,
+    "stock": 64
+  },
+  {
+    "nombre_producto": "Gigabyte Max Silla Gamer",
+    "descripcion": "Gigabyte Max Silla Gamer de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 881.58,
+    "stock": 64
+  },
+  {
+    "nombre_producto": "Dell Compacto Placa Madre",
+    "descripcion": "Dell Compacto Placa Madre de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 892.6,
+    "stock": 81
+  },
+  {
+    "nombre_producto": "Dell Ultra Mouse",
+    "descripcion": "Dell Ultra Mouse de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1735.83,
+    "stock": 34
+  },
+  {
+    "nombre_producto": "Logitech Compacto Teclado",
+    "descripcion": "Logitech Compacto Teclado de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1129.73,
+    "stock": 30
+  },
+  {
+    "nombre_producto": "Corsair Max Micr\u00f3fono",
+    "descripcion": "Corsair Max Micr\u00f3fono de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1367.79,
+    "stock": 43
+  },
+  {
+    "nombre_producto": "Razer Extreme Router Gaming",
+    "descripcion": "Razer Extreme Router Gaming de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1016.17,
+    "stock": 97
+  },
+  {
+    "nombre_producto": "Corsair Pro Monitor Curvo",
+    "descripcion": "Corsair Pro Monitor Curvo de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 856.4,
+    "stock": 13
+  },
+  {
+    "nombre_producto": "MSI Max Procesador",
+    "descripcion": "MSI Max Procesador de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1598.92,
+    "stock": 47
+  },
+  {
+    "nombre_producto": "Dell Plus Disco Duro",
+    "descripcion": "Dell Plus Disco Duro de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1738.16,
+    "stock": 76
+  },
+  {
+    "nombre_producto": "Dell Turbo Laptop Gamer",
+    "descripcion": "Dell Turbo Laptop Gamer de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 371.49,
+    "stock": 22
+  },
+  {
+    "nombre_producto": "ASUS Ultra Fuente de Poder",
+    "descripcion": "ASUS Ultra Fuente de Poder de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1677.36,
+    "stock": 100
+  },
+  {
+    "nombre_producto": "Logitech Elite Placa Madre",
+    "descripcion": "Logitech Elite Placa Madre de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1791.95,
+    "stock": 51
+  },
+  {
+    "nombre_producto": "MSI RGB Micr\u00f3fono",
+    "descripcion": "MSI RGB Micr\u00f3fono de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 582.54,
+    "stock": 50
+  },
+  {
+    "nombre_producto": "Razer Extreme Router Gaming",
+    "descripcion": "Razer Extreme Router Gaming de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 257.26,
+    "stock": 52
+  },
+  {
+    "nombre_producto": "ASUS Ultra SSD",
+    "descripcion": "ASUS Ultra SSD de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1074.75,
+    "stock": 6
+  },
+  {
+    "nombre_producto": "ASUS RGB Procesador",
+    "descripcion": "ASUS RGB Procesador de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 561.72,
+    "stock": 19
+  },
+  {
+    "nombre_producto": "ASUS RGB Disco Duro",
+    "descripcion": "ASUS RGB Disco Duro de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 216.57,
+    "stock": 47
+  },
+  {
+    "nombre_producto": "ASUS RGB Teclado",
+    "descripcion": "ASUS RGB Teclado de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1644.16,
+    "stock": 28
+  },
+  {
+    "nombre_producto": "Logitech Compacto C\u00e1mara Web",
+    "descripcion": "Logitech Compacto C\u00e1mara Web de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1144.53,
+    "stock": 16
+  },
+  {
+    "nombre_producto": "Logitech Elite Placa Madre",
+    "descripcion": "Logitech Elite Placa Madre de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 344.19,
+    "stock": 63
+  },
+  {
+    "nombre_producto": "Logitech Pro Router Gaming",
+    "descripcion": "Logitech Pro Router Gaming de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1940.9,
+    "stock": 1
+  },
+  {
+    "nombre_producto": "Acer Turbo Tarjeta Gr\u00e1fica",
+    "descripcion": "Acer Turbo Tarjeta Gr\u00e1fica de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1307.32,
+    "stock": 58
+  },
+  {
+    "nombre_producto": "AMD Gaming Procesador",
+    "descripcion": "AMD Gaming Procesador de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 978.57,
+    "stock": 58
+  },
+  {
+    "nombre_producto": "Intel Elite Monitor Curvo",
+    "descripcion": "Intel Elite Monitor Curvo de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 432.51,
+    "stock": 17
+  },
+  {
+    "nombre_producto": "Dell Plus Mouse",
+    "descripcion": "Dell Plus Mouse de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 841.36,
+    "stock": 51
+  },
+  {
+    "nombre_producto": "AMD Elite SSD",
+    "descripcion": "AMD Elite SSD de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1949.68,
+    "stock": 76
+  },
+  {
+    "nombre_producto": "Corsair Plus Gabinete",
+    "descripcion": "Corsair Plus Gabinete de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 76.82,
+    "stock": 61
+  },
+  {
+    "nombre_producto": "Corsair Elite Procesador",
+    "descripcion": "Corsair Elite Procesador de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1811.32,
+    "stock": 40
+  },
+  {
+    "nombre_producto": "AMD RGB Tarjeta Gr\u00e1fica",
+    "descripcion": "AMD RGB Tarjeta Gr\u00e1fica de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1123.97,
+    "stock": 66
+  },
+  {
+    "nombre_producto": "AMD Plus Tarjeta Gr\u00e1fica",
+    "descripcion": "AMD Plus Tarjeta Gr\u00e1fica de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1735.12,
+    "stock": 85
+  },
+  {
+    "nombre_producto": "Gigabyte Max Procesador",
+    "descripcion": "Gigabyte Max Procesador de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1047.08,
+    "stock": 94
+  },
+  {
+    "nombre_producto": "MSI Max Placa Madre",
+    "descripcion": "MSI Max Placa Madre de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1596.47,
+    "stock": 1
+  },
+  {
+    "nombre_producto": "Acer RGB Laptop Gamer",
+    "descripcion": "Acer RGB Laptop Gamer de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1964.36,
+    "stock": 92
+  },
+  {
+    "nombre_producto": "Corsair Elite Gabinete",
+    "descripcion": "Corsair Elite Gabinete de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 597.77,
+    "stock": 21
+  },
+  {
+    "nombre_producto": "Intel Ultra Micr\u00f3fono",
+    "descripcion": "Intel Ultra Micr\u00f3fono de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1604.18,
+    "stock": 79
+  },
+  {
+    "nombre_producto": "NZXT Gaming Router Gaming",
+    "descripcion": "NZXT Gaming Router Gaming de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 844.31,
+    "stock": 54
+  },
+  {
+    "nombre_producto": "HyperX Pro Base para Laptop",
+    "descripcion": "HyperX Pro Base para Laptop de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1275.31,
+    "stock": 18
+  },
+  {
+    "nombre_producto": "Acer Max Monitor Curvo",
+    "descripcion": "Acer Max Monitor Curvo de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1562.65,
+    "stock": 78
+  },
+  {
+    "nombre_producto": "Logitech RGB Placa Madre",
+    "descripcion": "Logitech RGB Placa Madre de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 526.73,
+    "stock": 30
+  },
+  {
+    "nombre_producto": "ASUS Ultra Refrigeraci\u00f3n L\u00edquida",
+    "descripcion": "ASUS Ultra Refrigeraci\u00f3n L\u00edquida de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1665.67,
+    "stock": 67
+  },
+  {
+    "nombre_producto": "Acer Plus Monitor Curvo",
+    "descripcion": "Acer Plus Monitor Curvo de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1359.48,
+    "stock": 33
+  },
+  {
+    "nombre_producto": "Acer Ultra Laptop Gamer",
+    "descripcion": "Acer Ultra Laptop Gamer de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 882.34,
+    "stock": 86
+  },
+  {
+    "nombre_producto": "Intel Turbo Auriculares",
+    "descripcion": "Intel Turbo Auriculares de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1493.6,
+    "stock": 35
+  },
+  {
+    "nombre_producto": "Acer Elite Tarjeta Capturadora",
+    "descripcion": "Acer Elite Tarjeta Capturadora de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 148.71,
+    "stock": 65
+  },
+  {
+    "nombre_producto": "NZXT Gaming Refrigeraci\u00f3n L\u00edquida",
+    "descripcion": "NZXT Gaming Refrigeraci\u00f3n L\u00edquida de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 61.32,
+    "stock": 91
+  },
+  {
+    "nombre_producto": "Gigabyte Compacto Disco Duro",
+    "descripcion": "Gigabyte Compacto Disco Duro de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1533.98,
+    "stock": 54
+  },
+  {
+    "nombre_producto": "ASUS Ultra Mouse",
+    "descripcion": "ASUS Ultra Mouse de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1852.56,
+    "stock": 90
+  },
+  {
+    "nombre_producto": "Razer Plus Fuente de Poder",
+    "descripcion": "Razer Plus Fuente de Poder de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 757.98,
+    "stock": 3
+  },
+  {
+    "nombre_producto": "Dell Ultra Silla Gamer",
+    "descripcion": "Dell Ultra Silla Gamer de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1270.0,
+    "stock": 22
+  },
+  {
+    "nombre_producto": "Corsair Pro Tarjeta Gr\u00e1fica",
+    "descripcion": "Corsair Pro Tarjeta Gr\u00e1fica de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1411.99,
+    "stock": 2
+  },
+  {
+    "nombre_producto": "NZXT Plus Ventilador RGB",
+    "descripcion": "NZXT Plus Ventilador RGB de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 648.57,
+    "stock": 20
+  },
+  {
+    "nombre_producto": "Dell Ultra Procesador",
+    "descripcion": "Dell Ultra Procesador de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1635.83,
+    "stock": 66
+  },
+  {
+    "nombre_producto": "NZXT RGB C\u00e1mara Web",
+    "descripcion": "NZXT RGB C\u00e1mara Web de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1358.16,
+    "stock": 70
+  },
+  {
+    "nombre_producto": "Gigabyte Plus Laptop Gamer",
+    "descripcion": "Gigabyte Plus Laptop Gamer de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1675.19,
+    "stock": 25
+  },
+  {
+    "nombre_producto": "AMD Plus Base para Laptop",
+    "descripcion": "AMD Plus Base para Laptop de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 272.87,
+    "stock": 17
+  },
+  {
+    "nombre_producto": "Logitech Plus Tarjeta Capturadora",
+    "descripcion": "Logitech Plus Tarjeta Capturadora de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 960.78,
+    "stock": 26
+  },
+  {
+    "nombre_producto": "AMD Elite Router Gaming",
+    "descripcion": "AMD Elite Router Gaming de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1989.36,
+    "stock": 80
+  },
+  {
+    "nombre_producto": "HyperX RGB Mouse",
+    "descripcion": "HyperX RGB Mouse de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1293.73,
+    "stock": 55
+  },
+  {
+    "nombre_producto": "Dell Pro Mouse",
+    "descripcion": "Dell Pro Mouse de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1278.55,
+    "stock": 80
+  },
+  {
+    "nombre_producto": "NZXT Elite Laptop Gamer",
+    "descripcion": "NZXT Elite Laptop Gamer de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 164.39,
+    "stock": 30
+  },
+  {
+    "nombre_producto": "MSI Gaming Micr\u00f3fono",
+    "descripcion": "MSI Gaming Micr\u00f3fono de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1406.86,
+    "stock": 70
+  },
+  {
+    "nombre_producto": "Razer Gaming Base para Laptop",
+    "descripcion": "Razer Gaming Base para Laptop de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1683.58,
+    "stock": 96
+  },
+  {
+    "nombre_producto": "Intel Elite Fuente de Poder",
+    "descripcion": "Intel Elite Fuente de Poder de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 887.89,
+    "stock": 63
+  },
+  {
+    "nombre_producto": "NZXT Ultra Gabinete",
+    "descripcion": "NZXT Ultra Gabinete de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 80.76,
+    "stock": 75
+  },
+  {
+    "nombre_producto": "ASUS Compacto Procesador",
+    "descripcion": "ASUS Compacto Procesador de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 134.19,
+    "stock": 63
+  },
+  {
+    "nombre_producto": "Logitech Elite Fuente de Poder",
+    "descripcion": "Logitech Elite Fuente de Poder de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 985.5,
+    "stock": 75
+  },
+  {
+    "nombre_producto": "NZXT Ultra Teclado",
+    "descripcion": "NZXT Ultra Teclado de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1903.02,
+    "stock": 63
+  },
+  {
+    "nombre_producto": "Acer Plus Refrigeraci\u00f3n L\u00edquida",
+    "descripcion": "Acer Plus Refrigeraci\u00f3n L\u00edquida de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 261.36,
+    "stock": 69
+  },
+  {
+    "nombre_producto": "MSI Elite Refrigeraci\u00f3n L\u00edquida",
+    "descripcion": "MSI Elite Refrigeraci\u00f3n L\u00edquida de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1180.99,
+    "stock": 72
+  },
+  {
+    "nombre_producto": "HyperX Elite Teclado",
+    "descripcion": "HyperX Elite Teclado de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 512.58,
+    "stock": 61
+  },
+  {
+    "nombre_producto": "HyperX Extreme Ventilador RGB",
+    "descripcion": "HyperX Extreme Ventilador RGB de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 787.08,
+    "stock": 98
+  },
+  {
+    "nombre_producto": "Corsair Extreme SSD",
+    "descripcion": "Corsair Extreme SSD de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1368.59,
+    "stock": 24
+  },
+  {
+    "nombre_producto": "ASUS Max SSD",
+    "descripcion": "ASUS Max SSD de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 450.1,
+    "stock": 86
+  },
+  {
+    "nombre_producto": "Gigabyte Turbo Monitor",
+    "descripcion": "Gigabyte Turbo Monitor de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 640.01,
+    "stock": 84
+  },
+  {
+    "nombre_producto": "Logitech Plus Laptop Gamer",
+    "descripcion": "Logitech Plus Laptop Gamer de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 302.92,
+    "stock": 53
+  },
+  {
+    "nombre_producto": "Razer Compacto Silla Gamer",
+    "descripcion": "Razer Compacto Silla Gamer de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1588.66,
+    "stock": 30
+  },
+  {
+    "nombre_producto": "NZXT Pro Micr\u00f3fono",
+    "descripcion": "NZXT Pro Micr\u00f3fono de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 277.57,
+    "stock": 29
+  },
+  {
+    "nombre_producto": "Corsair Ultra Auriculares",
+    "descripcion": "Corsair Ultra Auriculares de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 27.15,
+    "stock": 40
+  },
+  {
+    "nombre_producto": "Intel Extreme Mousepad",
+    "descripcion": "Intel Extreme Mousepad de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 168.64,
+    "stock": 85
+  },
+  {
+    "nombre_producto": "Corsair Plus Mousepad",
+    "descripcion": "Corsair Plus Mousepad de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1666.95,
+    "stock": 49
+  },
+  {
+    "nombre_producto": "Logitech Ultra Controlador",
+    "descripcion": "Logitech Ultra Controlador de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1370.68,
+    "stock": 51
+  },
+  {
+    "nombre_producto": "Acer Elite Auriculares",
+    "descripcion": "Acer Elite Auriculares de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1326.42,
+    "stock": 15
+  },
+  {
+    "nombre_producto": "AMD Pro Silla Gamer",
+    "descripcion": "AMD Pro Silla Gamer de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1660.16,
+    "stock": 29
+  },
+  {
+    "nombre_producto": "HyperX Gaming Auriculares",
+    "descripcion": "HyperX Gaming Auriculares de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 800.61,
+    "stock": 22
+  },
+  {
+    "nombre_producto": "Dell Plus Monitor",
+    "descripcion": "Dell Plus Monitor de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 924.34,
+    "stock": 18
+  },
+  {
+    "nombre_producto": "MSI Elite Mouse",
+    "descripcion": "MSI Elite Mouse de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1935.97,
+    "stock": 1
+  },
+  {
+    "nombre_producto": "NZXT Compacto Laptop Gamer",
+    "descripcion": "NZXT Compacto Laptop Gamer de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1654.02,
+    "stock": 43
+  },
+  {
+    "nombre_producto": "Dell Gaming SSD",
+    "descripcion": "Dell Gaming SSD de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 34.36,
+    "stock": 70
+  },
+  {
+    "nombre_producto": "Razer Compacto Monitor",
+    "descripcion": "Razer Compacto Monitor de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1797.13,
+    "stock": 74
+  },
+  {
+    "nombre_producto": "Gigabyte Elite Tarjeta Gr\u00e1fica",
+    "descripcion": "Gigabyte Elite Tarjeta Gr\u00e1fica de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 612.9,
+    "stock": 57
+  },
+  {
+    "nombre_producto": "Intel Compacto Micr\u00f3fono",
+    "descripcion": "Intel Compacto Micr\u00f3fono de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1733.98,
+    "stock": 87
+  },
+  {
+    "nombre_producto": "Acer Turbo Fuente de Poder",
+    "descripcion": "Acer Turbo Fuente de Poder de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 478.89,
+    "stock": 9
+  },
+  {
+    "nombre_producto": "Gigabyte Max Tarjeta Capturadora",
+    "descripcion": "Gigabyte Max Tarjeta Capturadora de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 118.59,
+    "stock": 80
+  },
+  {
+    "nombre_producto": "Corsair Extreme Placa Madre",
+    "descripcion": "Corsair Extreme Placa Madre de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 978.3,
+    "stock": 79
+  },
+  {
+    "nombre_producto": "Intel Ultra Auriculares",
+    "descripcion": "Intel Ultra Auriculares de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 806.11,
+    "stock": 23
+  },
+  {
+    "nombre_producto": "HyperX Elite C\u00e1mara Web",
+    "descripcion": "HyperX Elite C\u00e1mara Web de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1036.36,
+    "stock": 97
+  },
+  {
+    "nombre_producto": "HyperX Ultra C\u00e1mara Web",
+    "descripcion": "HyperX Ultra C\u00e1mara Web de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1013.38,
+    "stock": 7
+  },
+  {
+    "nombre_producto": "Razer Elite Base para Laptop",
+    "descripcion": "Razer Elite Base para Laptop de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 629.71,
+    "stock": 9
+  },
+  {
+    "nombre_producto": "Corsair Turbo Auriculares",
+    "descripcion": "Corsair Turbo Auriculares de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1733.44,
+    "stock": 47
+  },
+  {
+    "nombre_producto": "Razer Compacto Mouse",
+    "descripcion": "Razer Compacto Mouse de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1035.29,
+    "stock": 99
+  },
+  {
+    "nombre_producto": "Dell RGB Tarjeta Gr\u00e1fica",
+    "descripcion": "Dell RGB Tarjeta Gr\u00e1fica de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1734.06,
+    "stock": 44
+  },
+  {
+    "nombre_producto": "ASUS Compacto C\u00e1mara Web",
+    "descripcion": "ASUS Compacto C\u00e1mara Web de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 786.77,
+    "stock": 73
+  },
+  {
+    "nombre_producto": "HyperX Ultra Controlador",
+    "descripcion": "HyperX Ultra Controlador de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 565.23,
+    "stock": 100
+  },
+  {
+    "nombre_producto": "HyperX Extreme Soporte de Monitor",
+    "descripcion": "HyperX Extreme Soporte de Monitor de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 147.68,
+    "stock": 66
+  },
+  {
+    "nombre_producto": "ASUS Extreme Fuente de Poder",
+    "descripcion": "ASUS Extreme Fuente de Poder de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 437.5,
+    "stock": 13
+  },
+  {
+    "nombre_producto": "NZXT Pro Mouse",
+    "descripcion": "NZXT Pro Mouse de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1483.33,
+    "stock": 45
+  },
+  {
+    "nombre_producto": "Acer Gaming Soporte de Monitor",
+    "descripcion": "Acer Gaming Soporte de Monitor de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 844.78,
+    "stock": 97
+  },
+  {
+    "nombre_producto": "MSI Extreme Memoria RAM",
+    "descripcion": "MSI Extreme Memoria RAM de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 929.46,
+    "stock": 100
+  },
+  {
+    "nombre_producto": "Razer Ultra Disco Duro",
+    "descripcion": "Razer Ultra Disco Duro de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1917.56,
+    "stock": 91
+  },
+  {
+    "nombre_producto": "ASUS RGB Auriculares",
+    "descripcion": "ASUS RGB Auriculares de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 511.47,
+    "stock": 27
+  },
+  {
+    "nombre_producto": "Logitech Extreme Refrigeraci\u00f3n L\u00edquida",
+    "descripcion": "Logitech Extreme Refrigeraci\u00f3n L\u00edquida de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 76.68,
+    "stock": 62
+  },
+  {
+    "nombre_producto": "Corsair Plus Soporte de Monitor",
+    "descripcion": "Corsair Plus Soporte de Monitor de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1425.62,
+    "stock": 70
+  },
+  {
+    "nombre_producto": "Intel Pro Router Gaming",
+    "descripcion": "Intel Pro Router Gaming de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 509.79,
+    "stock": 27
+  },
+  {
+    "nombre_producto": "MSI Compacto Refrigeraci\u00f3n L\u00edquida",
+    "descripcion": "MSI Compacto Refrigeraci\u00f3n L\u00edquida de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1826.89,
+    "stock": 3
+  },
+  {
+    "nombre_producto": "Dell Elite C\u00e1mara Web",
+    "descripcion": "Dell Elite C\u00e1mara Web de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 292.39,
+    "stock": 41
+  },
+  {
+    "nombre_producto": "Dell Gaming Micr\u00f3fono",
+    "descripcion": "Dell Gaming Micr\u00f3fono de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 171.3,
+    "stock": 88
+  },
+  {
+    "nombre_producto": "ASUS Extreme Disco Duro",
+    "descripcion": "ASUS Extreme Disco Duro de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 752.8,
+    "stock": 1
+  },
+  {
+    "nombre_producto": "HyperX Ultra Micr\u00f3fono",
+    "descripcion": "HyperX Ultra Micr\u00f3fono de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 961.03,
+    "stock": 27
+  },
+  {
+    "nombre_producto": "MSI Pro Monitor",
+    "descripcion": "MSI Pro Monitor de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 105.16,
+    "stock": 32
+  },
+  {
+    "nombre_producto": "Razer Compacto Tarjeta Gr\u00e1fica",
+    "descripcion": "Razer Compacto Tarjeta Gr\u00e1fica de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1147.0,
+    "stock": 6
+  },
+  {
+    "nombre_producto": "Intel Extreme Refrigeraci\u00f3n L\u00edquida",
+    "descripcion": "Intel Extreme Refrigeraci\u00f3n L\u00edquida de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 589.22,
+    "stock": 17
+  },
+  {
+    "nombre_producto": "Intel Max Mouse",
+    "descripcion": "Intel Max Mouse de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1122.53,
+    "stock": 38
+  },
+  {
+    "nombre_producto": "HyperX Ultra Laptop Gamer",
+    "descripcion": "HyperX Ultra Laptop Gamer de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 717.29,
+    "stock": 30
+  },
+  {
+    "nombre_producto": "Gigabyte RGB Tarjeta Gr\u00e1fica",
+    "descripcion": "Gigabyte RGB Tarjeta Gr\u00e1fica de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1473.9,
+    "stock": 59
+  },
+  {
+    "nombre_producto": "Corsair RGB Monitor",
+    "descripcion": "Corsair RGB Monitor de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 636.44,
+    "stock": 96
+  },
+  {
+    "nombre_producto": "Gigabyte Extreme Micr\u00f3fono",
+    "descripcion": "Gigabyte Extreme Micr\u00f3fono de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 945.59,
+    "stock": 45
+  },
+  {
+    "nombre_producto": "Intel Compacto C\u00e1mara Web",
+    "descripcion": "Intel Compacto C\u00e1mara Web de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1757.85,
+    "stock": 1
+  },
+  {
+    "nombre_producto": "AMD Gaming Auriculares",
+    "descripcion": "AMD Gaming Auriculares de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1559.49,
+    "stock": 33
+  },
+  {
+    "nombre_producto": "MSI Gaming Fuente de Poder",
+    "descripcion": "MSI Gaming Fuente de Poder de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1708.42,
+    "stock": 11
+  },
+  {
+    "nombre_producto": "Razer Pro Procesador",
+    "descripcion": "Razer Pro Procesador de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1588.4,
+    "stock": 64
+  },
+  {
+    "nombre_producto": "Dell Gaming Monitor Curvo",
+    "descripcion": "Dell Gaming Monitor Curvo de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 550.73,
+    "stock": 19
+  },
+  {
+    "nombre_producto": "Gigabyte Extreme Placa Madre",
+    "descripcion": "Gigabyte Extreme Placa Madre de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 565.72,
+    "stock": 14
+  },
+  {
+    "nombre_producto": "Acer Turbo Teclado",
+    "descripcion": "Acer Turbo Teclado de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1582.57,
+    "stock": 41
+  },
+  {
+    "nombre_producto": "Razer Extreme C\u00e1mara Web",
+    "descripcion": "Razer Extreme C\u00e1mara Web de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 220.77,
+    "stock": 30
+  },
+  {
+    "nombre_producto": "ASUS Max Tarjeta Capturadora",
+    "descripcion": "ASUS Max Tarjeta Capturadora de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1241.98,
+    "stock": 12
+  },
+  {
+    "nombre_producto": "Logitech RGB Refrigeraci\u00f3n L\u00edquida",
+    "descripcion": "Logitech RGB Refrigeraci\u00f3n L\u00edquida de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 236.51,
+    "stock": 40
+  },
+  {
+    "nombre_producto": "ASUS Plus Micr\u00f3fono",
+    "descripcion": "ASUS Plus Micr\u00f3fono de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 994.31,
+    "stock": 49
+  },
+  {
+    "nombre_producto": "Corsair Max Gabinete",
+    "descripcion": "Corsair Max Gabinete de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1173.41,
+    "stock": 56
+  },
+  {
+    "nombre_producto": "Logitech Extreme Procesador",
+    "descripcion": "Logitech Extreme Procesador de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 559.7,
+    "stock": 86
+  },
+  {
+    "nombre_producto": "ASUS Compacto Mouse",
+    "descripcion": "ASUS Compacto Mouse de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1113.47,
+    "stock": 99
+  },
+  {
+    "nombre_producto": "Acer Pro Refrigeraci\u00f3n L\u00edquida",
+    "descripcion": "Acer Pro Refrigeraci\u00f3n L\u00edquida de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 888.79,
+    "stock": 23
+  },
+  {
+    "nombre_producto": "Intel Compacto Procesador",
+    "descripcion": "Intel Compacto Procesador de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 648.89,
+    "stock": 4
+  },
+  {
+    "nombre_producto": "ASUS Compacto Teclado",
+    "descripcion": "ASUS Compacto Teclado de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1942.36,
+    "stock": 15
+  },
+  {
+    "nombre_producto": "Razer Plus Mousepad",
+    "descripcion": "Razer Plus Mousepad de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 520.47,
+    "stock": 46
+  },
+  {
+    "nombre_producto": "Dell Extreme SSD",
+    "descripcion": "Dell Extreme SSD de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 478.83,
+    "stock": 22
+  },
+  {
+    "nombre_producto": "HyperX Gaming Refrigeraci\u00f3n L\u00edquida",
+    "descripcion": "HyperX Gaming Refrigeraci\u00f3n L\u00edquida de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 875.73,
+    "stock": 67
+  },
+  {
+    "nombre_producto": "Razer Turbo Laptop Gamer",
+    "descripcion": "Razer Turbo Laptop Gamer de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 941.3,
+    "stock": 38
+  },
+  {
+    "nombre_producto": "Razer Compacto Tarjeta Capturadora",
+    "descripcion": "Razer Compacto Tarjeta Capturadora de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 763.9,
+    "stock": 14
+  },
+  {
+    "nombre_producto": "Gigabyte Gaming Tarjeta Capturadora",
+    "descripcion": "Gigabyte Gaming Tarjeta Capturadora de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1807.45,
+    "stock": 83
+  },
+  {
+    "nombre_producto": "HyperX Max C\u00e1mara Web",
+    "descripcion": "HyperX Max C\u00e1mara Web de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1452.39,
+    "stock": 88
+  },
+  {
+    "nombre_producto": "Gigabyte Turbo Tarjeta Gr\u00e1fica",
+    "descripcion": "Gigabyte Turbo Tarjeta Gr\u00e1fica de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1678.64,
+    "stock": 80
+  },
+  {
+    "nombre_producto": "Dell Max Tarjeta Gr\u00e1fica",
+    "descripcion": "Dell Max Tarjeta Gr\u00e1fica de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 906.13,
+    "stock": 7
+  },
+  {
+    "nombre_producto": "NZXT Ultra Fuente de Poder",
+    "descripcion": "NZXT Ultra Fuente de Poder de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1829.69,
+    "stock": 3
+  },
+  {
+    "nombre_producto": "ASUS Extreme Refrigeraci\u00f3n L\u00edquida",
+    "descripcion": "ASUS Extreme Refrigeraci\u00f3n L\u00edquida de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1020.86,
+    "stock": 7
+  },
+  {
+    "nombre_producto": "Razer RGB Gabinete",
+    "descripcion": "Razer RGB Gabinete de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 200.05,
+    "stock": 24
+  },
+  {
+    "nombre_producto": "Gigabyte RGB Procesador",
+    "descripcion": "Gigabyte RGB Procesador de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1843.45,
+    "stock": 100
+  },
+  {
+    "nombre_producto": "ASUS Pro Mousepad",
+    "descripcion": "ASUS Pro Mousepad de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 829.98,
+    "stock": 87
+  },
+  {
+    "nombre_producto": "Intel Elite Fuente de Poder",
+    "descripcion": "Intel Elite Fuente de Poder de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 269.86,
+    "stock": 1
+  },
+  {
+    "nombre_producto": "Acer RGB Laptop Gamer",
+    "descripcion": "Acer RGB Laptop Gamer de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 887.14,
+    "stock": 22
+  },
+  {
+    "nombre_producto": "ASUS Max Tarjeta Gr\u00e1fica",
+    "descripcion": "ASUS Max Tarjeta Gr\u00e1fica de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 558.54,
+    "stock": 8
+  },
+  {
+    "nombre_producto": "Razer Plus Mousepad",
+    "descripcion": "Razer Plus Mousepad de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 225.68,
+    "stock": 73
+  },
+  {
+    "nombre_producto": "Corsair Turbo Refrigeraci\u00f3n L\u00edquida",
+    "descripcion": "Corsair Turbo Refrigeraci\u00f3n L\u00edquida de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 72.71,
+    "stock": 40
+  },
+  {
+    "nombre_producto": "Razer Gaming Procesador",
+    "descripcion": "Razer Gaming Procesador de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 40.46,
+    "stock": 52
+  },
+  {
+    "nombre_producto": "Dell Plus Ventilador RGB",
+    "descripcion": "Dell Plus Ventilador RGB de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1158.48,
+    "stock": 56
+  },
+  {
+    "nombre_producto": "Corsair Pro Soporte de Monitor",
+    "descripcion": "Corsair Pro Soporte de Monitor de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1516.17,
+    "stock": 71
+  },
+  {
+    "nombre_producto": "MSI Elite Base para Laptop",
+    "descripcion": "MSI Elite Base para Laptop de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 791.99,
+    "stock": 89
+  },
+  {
+    "nombre_producto": "AMD Gaming Procesador",
+    "descripcion": "AMD Gaming Procesador de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 313.52,
+    "stock": 39
+  },
+  {
+    "nombre_producto": "Dell Elite Placa Madre",
+    "descripcion": "Dell Elite Placa Madre de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 923.57,
+    "stock": 71
+  },
+  {
+    "nombre_producto": "AMD Compacto Silla Gamer",
+    "descripcion": "AMD Compacto Silla Gamer de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 115.77,
+    "stock": 36
+  },
+  {
+    "nombre_producto": "Intel Pro Base para Laptop",
+    "descripcion": "Intel Pro Base para Laptop de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1755.51,
+    "stock": 85
+  },
+  {
+    "nombre_producto": "Acer Turbo Monitor Curvo",
+    "descripcion": "Acer Turbo Monitor Curvo de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1627.28,
+    "stock": 98
+  },
+  {
+    "nombre_producto": "Logitech Ultra Monitor Curvo",
+    "descripcion": "Logitech Ultra Monitor Curvo de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 487.42,
+    "stock": 78
+  },
+  {
+    "nombre_producto": "HyperX Ultra SSD",
+    "descripcion": "HyperX Ultra SSD de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 985.36,
+    "stock": 51
+  },
+  {
+    "nombre_producto": "Gigabyte Ultra Monitor",
+    "descripcion": "Gigabyte Ultra Monitor de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 338.22,
+    "stock": 7
+  },
+  {
+    "nombre_producto": "AMD Elite Tarjeta Capturadora",
+    "descripcion": "AMD Elite Tarjeta Capturadora de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1247.87,
+    "stock": 90
+  },
+  {
+    "nombre_producto": "Corsair Pro Monitor Curvo",
+    "descripcion": "Corsair Pro Monitor Curvo de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1413.15,
+    "stock": 54
+  },
+  {
+    "nombre_producto": "Intel Compacto Base para Laptop",
+    "descripcion": "Intel Compacto Base para Laptop de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 67.0,
+    "stock": 13
+  },
+  {
+    "nombre_producto": "Corsair RGB Ventilador RGB",
+    "descripcion": "Corsair RGB Ventilador RGB de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1336.49,
+    "stock": 8
+  },
+  {
+    "nombre_producto": "Dell Compacto Gabinete",
+    "descripcion": "Dell Compacto Gabinete de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 686.63,
+    "stock": 34
+  },
+  {
+    "nombre_producto": "Acer RGB Ventilador RGB",
+    "descripcion": "Acer RGB Ventilador RGB de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 953.15,
+    "stock": 56
+  },
+  {
+    "nombre_producto": "Acer Extreme Gabinete",
+    "descripcion": "Acer Extreme Gabinete de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1365.11,
+    "stock": 15
+  },
+  {
+    "nombre_producto": "Gigabyte Turbo Tarjeta Capturadora",
+    "descripcion": "Gigabyte Turbo Tarjeta Capturadora de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1596.8,
+    "stock": 78
+  },
+  {
+    "nombre_producto": "Acer Gaming Base para Laptop",
+    "descripcion": "Acer Gaming Base para Laptop de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1345.9,
+    "stock": 72
+  },
+  {
+    "nombre_producto": "ASUS Gaming Soporte de Monitor",
+    "descripcion": "ASUS Gaming Soporte de Monitor de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 243.08,
+    "stock": 95
+  },
+  {
+    "nombre_producto": "NZXT Extreme Monitor Curvo",
+    "descripcion": "NZXT Extreme Monitor Curvo de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1771.37,
+    "stock": 83
+  },
+  {
+    "nombre_producto": "Intel Plus SSD",
+    "descripcion": "Intel Plus SSD de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 902.33,
+    "stock": 86
+  },
+  {
+    "nombre_producto": "Intel Max Controlador",
+    "descripcion": "Intel Max Controlador de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 782.86,
+    "stock": 66
+  },
+  {
+    "nombre_producto": "Razer Turbo Disco Duro",
+    "descripcion": "Razer Turbo Disco Duro de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 128.69,
+    "stock": 60
+  },
+  {
+    "nombre_producto": "ASUS Gaming Refrigeraci\u00f3n L\u00edquida",
+    "descripcion": "ASUS Gaming Refrigeraci\u00f3n L\u00edquida de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 193.1,
+    "stock": 96
+  },
+  {
+    "nombre_producto": "Logitech Turbo Mousepad",
+    "descripcion": "Logitech Turbo Mousepad de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1323.34,
+    "stock": 84
+  },
+  {
+    "nombre_producto": "Corsair Compacto Gabinete",
+    "descripcion": "Corsair Compacto Gabinete de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 190.41,
+    "stock": 49
+  },
+  {
+    "nombre_producto": "NZXT Turbo Monitor",
+    "descripcion": "NZXT Turbo Monitor de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 796.87,
+    "stock": 8
+  },
+  {
+    "nombre_producto": "Acer Extreme Mouse",
+    "descripcion": "Acer Extreme Mouse de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1306.47,
+    "stock": 75
+  },
+  {
+    "nombre_producto": "AMD Plus Disco Duro",
+    "descripcion": "AMD Plus Disco Duro de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1139.43,
+    "stock": 31
+  },
+  {
+    "nombre_producto": "ASUS Turbo Ventilador RGB",
+    "descripcion": "ASUS Turbo Ventilador RGB de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 968.54,
+    "stock": 22
+  },
+  {
+    "nombre_producto": "Dell Pro Ventilador RGB",
+    "descripcion": "Dell Pro Ventilador RGB de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1478.98,
+    "stock": 58
+  },
+  {
+    "nombre_producto": "Intel Plus Base para Laptop",
+    "descripcion": "Intel Plus Base para Laptop de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 671.36,
+    "stock": 12
+  },
+  {
+    "nombre_producto": "MSI Turbo SSD",
+    "descripcion": "MSI Turbo SSD de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 659.43,
+    "stock": 17
+  },
+  {
+    "nombre_producto": "NZXT Plus Base para Laptop",
+    "descripcion": "NZXT Plus Base para Laptop de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1592.45,
+    "stock": 94
+  },
+  {
+    "nombre_producto": "ASUS Ultra C\u00e1mara Web",
+    "descripcion": "ASUS Ultra C\u00e1mara Web de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1141.81,
+    "stock": 92
+  },
+  {
+    "nombre_producto": "Acer Elite Base para Laptop",
+    "descripcion": "Acer Elite Base para Laptop de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1410.02,
+    "stock": 32
+  },
+  {
+    "nombre_producto": "NZXT Extreme Teclado",
+    "descripcion": "NZXT Extreme Teclado de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 94.84,
+    "stock": 44
+  },
+  {
+    "nombre_producto": "Acer RGB Ventilador RGB",
+    "descripcion": "Acer RGB Ventilador RGB de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 442.07,
+    "stock": 40
+  },
+  {
+    "nombre_producto": "MSI Gaming Procesador",
+    "descripcion": "MSI Gaming Procesador de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 778.07,
+    "stock": 55
+  },
+  {
+    "nombre_producto": "AMD Pro Router Gaming",
+    "descripcion": "AMD Pro Router Gaming de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 39.71,
+    "stock": 48
+  },
+  {
+    "nombre_producto": "HyperX Elite Procesador",
+    "descripcion": "HyperX Elite Procesador de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 821.33,
+    "stock": 7
+  },
+  {
+    "nombre_producto": "Gigabyte Plus Disco Duro",
+    "descripcion": "Gigabyte Plus Disco Duro de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1823.5,
+    "stock": 75
+  },
+  {
+    "nombre_producto": "AMD Turbo Gabinete",
+    "descripcion": "AMD Turbo Gabinete de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1362.38,
+    "stock": 60
+  },
+  {
+    "nombre_producto": "Gigabyte Plus Mouse",
+    "descripcion": "Gigabyte Plus Mouse de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1099.88,
+    "stock": 89
+  },
+  {
+    "nombre_producto": "Gigabyte Turbo Ventilador RGB",
+    "descripcion": "Gigabyte Turbo Ventilador RGB de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 898.15,
+    "stock": 75
+  },
+  {
+    "nombre_producto": "ASUS Turbo Fuente de Poder",
+    "descripcion": "ASUS Turbo Fuente de Poder de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 92.44,
+    "stock": 94
+  },
+  {
+    "nombre_producto": "NZXT Max Micr\u00f3fono",
+    "descripcion": "NZXT Max Micr\u00f3fono de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 626.58,
+    "stock": 35
+  },
+  {
+    "nombre_producto": "Razer Compacto Auriculares",
+    "descripcion": "Razer Compacto Auriculares de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1945.51,
+    "stock": 93
+  },
+  {
+    "nombre_producto": "Dell Elite Disco Duro",
+    "descripcion": "Dell Elite Disco Duro de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1887.11,
+    "stock": 22
+  },
+  {
+    "nombre_producto": "ASUS Plus Refrigeraci\u00f3n L\u00edquida",
+    "descripcion": "ASUS Plus Refrigeraci\u00f3n L\u00edquida de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 482.17,
+    "stock": 95
+  },
+  {
+    "nombre_producto": "Logitech Turbo SSD",
+    "descripcion": "Logitech Turbo SSD de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1010.5,
+    "stock": 37
+  },
+  {
+    "nombre_producto": "NZXT Elite Controlador",
+    "descripcion": "NZXT Elite Controlador de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1663.49,
+    "stock": 15
+  },
+  {
+    "nombre_producto": "Corsair Turbo Monitor",
+    "descripcion": "Corsair Turbo Monitor de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1323.41,
+    "stock": 10
+  },
+  {
+    "nombre_producto": "ASUS Gaming Teclado",
+    "descripcion": "ASUS Gaming Teclado de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1185.34,
+    "stock": 9
+  },
+  {
+    "nombre_producto": "Acer Pro C\u00e1mara Web",
+    "descripcion": "Acer Pro C\u00e1mara Web de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1537.89,
+    "stock": 62
+  },
+  {
+    "nombre_producto": "Acer Ultra SSD",
+    "descripcion": "Acer Ultra SSD de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1747.98,
+    "stock": 48
+  },
+  {
+    "nombre_producto": "Dell RGB SSD",
+    "descripcion": "Dell RGB SSD de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1671.7,
+    "stock": 75
+  },
+  {
+    "nombre_producto": "MSI Extreme Tarjeta Capturadora",
+    "descripcion": "MSI Extreme Tarjeta Capturadora de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1988.02,
+    "stock": 8
+  },
+  {
+    "nombre_producto": "NZXT Elite Monitor Curvo",
+    "descripcion": "NZXT Elite Monitor Curvo de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 700.18,
+    "stock": 65
+  },
+  {
+    "nombre_producto": "Corsair RGB Monitor Curvo",
+    "descripcion": "Corsair RGB Monitor Curvo de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 961.28,
+    "stock": 80
+  },
+  {
+    "nombre_producto": "NZXT Plus Controlador",
+    "descripcion": "NZXT Plus Controlador de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1068.85,
+    "stock": 75
+  },
+  {
+    "nombre_producto": "Dell Extreme Procesador",
+    "descripcion": "Dell Extreme Procesador de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 720.8,
+    "stock": 11
+  },
+  {
+    "nombre_producto": "ASUS Turbo Tarjeta Gr\u00e1fica",
+    "descripcion": "ASUS Turbo Tarjeta Gr\u00e1fica de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 941.96,
+    "stock": 68
+  },
+  {
+    "nombre_producto": "Intel Pro Teclado",
+    "descripcion": "Intel Pro Teclado de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 250.11,
+    "stock": 27
+  },
+  {
+    "nombre_producto": "Dell Max Router Gaming",
+    "descripcion": "Dell Max Router Gaming de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1293.36,
+    "stock": 67
+  },
+  {
+    "nombre_producto": "ASUS Pro Procesador",
+    "descripcion": "ASUS Pro Procesador de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1415.83,
+    "stock": 43
+  },
+  {
+    "nombre_producto": "ASUS Compacto Memoria RAM",
+    "descripcion": "ASUS Compacto Memoria RAM de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1464.63,
+    "stock": 76
+  },
+  {
+    "nombre_producto": "Corsair Max Silla Gamer",
+    "descripcion": "Corsair Max Silla Gamer de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 536.75,
+    "stock": 57
+  },
+  {
+    "nombre_producto": "Intel Plus Mouse",
+    "descripcion": "Intel Plus Mouse de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 874.13,
+    "stock": 59
+  },
+  {
+    "nombre_producto": "Logitech Max Base para Laptop",
+    "descripcion": "Logitech Max Base para Laptop de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 774.62,
+    "stock": 60
+  },
+  {
+    "nombre_producto": "MSI Gaming Base para Laptop",
+    "descripcion": "MSI Gaming Base para Laptop de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1243.21,
+    "stock": 3
+  },
+  {
+    "nombre_producto": "Razer Elite Memoria RAM",
+    "descripcion": "Razer Elite Memoria RAM de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 281.28,
+    "stock": 88
+  },
+  {
+    "nombre_producto": "Gigabyte Pro Auriculares",
+    "descripcion": "Gigabyte Pro Auriculares de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1013.22,
+    "stock": 56
+  },
+  {
+    "nombre_producto": "Intel RGB Disco Duro",
+    "descripcion": "Intel RGB Disco Duro de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1736.06,
+    "stock": 41
+  },
+  {
+    "nombre_producto": "Logitech RGB Procesador",
+    "descripcion": "Logitech RGB Procesador de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1212.09,
+    "stock": 85
+  },
+  {
+    "nombre_producto": "NZXT RGB Fuente de Poder",
+    "descripcion": "NZXT RGB Fuente de Poder de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 707.75,
+    "stock": 12
+  },
+  {
+    "nombre_producto": "HyperX Max Monitor",
+    "descripcion": "HyperX Max Monitor de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 664.6,
+    "stock": 59
+  },
+  {
+    "nombre_producto": "MSI Turbo Memoria RAM",
+    "descripcion": "MSI Turbo Memoria RAM de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1260.15,
+    "stock": 6
+  },
+  {
+    "nombre_producto": "Dell Ultra Memoria RAM",
+    "descripcion": "Dell Ultra Memoria RAM de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1893.43,
+    "stock": 9
+  },
+  {
+    "nombre_producto": "Corsair Max Tarjeta Gr\u00e1fica",
+    "descripcion": "Corsair Max Tarjeta Gr\u00e1fica de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 119.1,
+    "stock": 5
+  },
+  {
+    "nombre_producto": "NZXT Plus Tarjeta Gr\u00e1fica",
+    "descripcion": "NZXT Plus Tarjeta Gr\u00e1fica de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 42.79,
+    "stock": 31
+  },
+  {
+    "nombre_producto": "Razer Plus Soporte de Monitor",
+    "descripcion": "Razer Plus Soporte de Monitor de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1414.64,
+    "stock": 86
+  },
+  {
+    "nombre_producto": "Logitech Max C\u00e1mara Web",
+    "descripcion": "Logitech Max C\u00e1mara Web de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 897.32,
+    "stock": 73
+  },
+  {
+    "nombre_producto": "MSI Turbo Refrigeraci\u00f3n L\u00edquida",
+    "descripcion": "MSI Turbo Refrigeraci\u00f3n L\u00edquida de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 562.68,
+    "stock": 33
+  },
+  {
+    "nombre_producto": "MSI Plus Gabinete",
+    "descripcion": "MSI Plus Gabinete de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 530.19,
+    "stock": 60
+  },
+  {
+    "nombre_producto": "NZXT Extreme Laptop Gamer",
+    "descripcion": "NZXT Extreme Laptop Gamer de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 28.25,
+    "stock": 84
+  },
+  {
+    "nombre_producto": "Corsair Gaming Monitor Curvo",
+    "descripcion": "Corsair Gaming Monitor Curvo de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 689.46,
+    "stock": 83
+  },
+  {
+    "nombre_producto": "Gigabyte Gaming Laptop Gamer",
+    "descripcion": "Gigabyte Gaming Laptop Gamer de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 172.09,
+    "stock": 27
+  },
+  {
+    "nombre_producto": "NZXT Plus Silla Gamer",
+    "descripcion": "NZXT Plus Silla Gamer de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 676.64,
+    "stock": 30
+  },
+  {
+    "nombre_producto": "ASUS RGB Controlador",
+    "descripcion": "ASUS RGB Controlador de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1895.2,
+    "stock": 59
+  },
+  {
+    "nombre_producto": "HyperX Extreme Procesador",
+    "descripcion": "HyperX Extreme Procesador de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 600.12,
+    "stock": 94
+  },
+  {
+    "nombre_producto": "NZXT Extreme Ventilador RGB",
+    "descripcion": "NZXT Extreme Ventilador RGB de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 429.48,
+    "stock": 38
+  },
+  {
+    "nombre_producto": "Dell Compacto C\u00e1mara Web",
+    "descripcion": "Dell Compacto C\u00e1mara Web de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 94.41,
+    "stock": 75
+  },
+  {
+    "nombre_producto": "Intel Max Mouse",
+    "descripcion": "Intel Max Mouse de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1545.3,
+    "stock": 40
+  },
+  {
+    "nombre_producto": "Acer Turbo Teclado",
+    "descripcion": "Acer Turbo Teclado de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 890.14,
+    "stock": 34
+  },
+  {
+    "nombre_producto": "Razer Plus Monitor",
+    "descripcion": "Razer Plus Monitor de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1092.39,
+    "stock": 4
+  },
+  {
+    "nombre_producto": "Razer Extreme Disco Duro",
+    "descripcion": "Razer Extreme Disco Duro de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1560.84,
+    "stock": 49
+  },
+  {
+    "nombre_producto": "ASUS Plus C\u00e1mara Web",
+    "descripcion": "ASUS Plus C\u00e1mara Web de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1618.21,
+    "stock": 74
+  },
+  {
+    "nombre_producto": "AMD Turbo Fuente de Poder",
+    "descripcion": "AMD Turbo Fuente de Poder de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1603.03,
+    "stock": 95
+  },
+  {
+    "nombre_producto": "HyperX Elite Tarjeta Gr\u00e1fica",
+    "descripcion": "HyperX Elite Tarjeta Gr\u00e1fica de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1023.83,
+    "stock": 29
+  },
+  {
+    "nombre_producto": "Corsair Extreme Monitor",
+    "descripcion": "Corsair Extreme Monitor de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 930.74,
+    "stock": 63
+  },
+  {
+    "nombre_producto": "NZXT RGB Soporte de Monitor",
+    "descripcion": "NZXT RGB Soporte de Monitor de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1930.01,
+    "stock": 37
+  },
+  {
+    "nombre_producto": "MSI Elite C\u00e1mara Web",
+    "descripcion": "MSI Elite C\u00e1mara Web de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1972.26,
+    "stock": 82
+  },
+  {
+    "nombre_producto": "Razer Turbo Disco Duro",
+    "descripcion": "Razer Turbo Disco Duro de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1043.62,
+    "stock": 8
+  },
+  {
+    "nombre_producto": "NZXT Elite Soporte de Monitor",
+    "descripcion": "NZXT Elite Soporte de Monitor de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 432.45,
+    "stock": 60
+  },
+  {
+    "nombre_producto": "Corsair Plus Tarjeta Gr\u00e1fica",
+    "descripcion": "Corsair Plus Tarjeta Gr\u00e1fica de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 332.73,
+    "stock": 92
+  },
+  {
+    "nombre_producto": "Corsair Turbo Tarjeta Gr\u00e1fica",
+    "descripcion": "Corsair Turbo Tarjeta Gr\u00e1fica de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 921.55,
+    "stock": 8
+  },
+  {
+    "nombre_producto": "Acer Elite Memoria RAM",
+    "descripcion": "Acer Elite Memoria RAM de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 342.89,
+    "stock": 37
+  },
+  {
+    "nombre_producto": "Dell Turbo Fuente de Poder",
+    "descripcion": "Dell Turbo Fuente de Poder de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1978.43,
+    "stock": 83
+  },
+  {
+    "nombre_producto": "Gigabyte Max Fuente de Poder",
+    "descripcion": "Gigabyte Max Fuente de Poder de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1522.22,
+    "stock": 61
+  },
+  {
+    "nombre_producto": "Gigabyte Compacto Controlador",
+    "descripcion": "Gigabyte Compacto Controlador de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1184.87,
+    "stock": 57
+  },
+  {
+    "nombre_producto": "Acer Pro Refrigeraci\u00f3n L\u00edquida",
+    "descripcion": "Acer Pro Refrigeraci\u00f3n L\u00edquida de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1741.91,
+    "stock": 87
+  },
+  {
+    "nombre_producto": "Acer Plus Placa Madre",
+    "descripcion": "Acer Plus Placa Madre de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1212.01,
+    "stock": 15
+  },
+  {
+    "nombre_producto": "Acer Plus Fuente de Poder",
+    "descripcion": "Acer Plus Fuente de Poder de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1305.45,
+    "stock": 52
+  },
+  {
+    "nombre_producto": "Dell Max C\u00e1mara Web",
+    "descripcion": "Dell Max C\u00e1mara Web de alta calidad para entusiastas del gaming y la computaci\u00f3n.",
+    "precio": 1884.53,
+    "stock": 22
+  }
+]

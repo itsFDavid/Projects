@@ -64,7 +64,7 @@ export class ProductosService {
 
   async seed(){
     try{
-      const productosJson = readFileSync('src/common/utils/productos_500.seed.json', 'utf8');
+      const productosJson = readFileSync('src/common/utils/productos.seed3.json', 'utf8');
       const productosData = JSON.parse(productosJson);
   
       const productos = productosData.map(async (producto: Producto) =>{
