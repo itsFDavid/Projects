@@ -1,7 +1,16 @@
 import { IsEmail, IsOptional, IsString, Max, MaxLength, MinLength } from "class-validator";
 import { Role } from "../entities/users.entity";
+import { ApiProperty } from "@nestjs/swagger";
 
 export class RegisterUserDto {
+
+  @ApiProperty({
+    description: 'Nombre del usuario',
+    example: 'Juan',
+    minLength: 4,
+    maxLength: 50,
+    required: true,
+  })
   @IsString({
     message: 'El nombre debe ser una cadena de texto',
   })
@@ -13,6 +22,13 @@ export class RegisterUserDto {
   })
   nombre: string;
 
+  @ApiProperty({
+    description: 'Primer apellido del usuario',
+    example: 'Pérez',
+    minLength: 4,
+    maxLength: 50,
+    required: true,
+  })
   @IsString({
     message: 'El primer apellido debe ser una cadena de texto',
   })
@@ -24,6 +40,13 @@ export class RegisterUserDto {
   })
   apellido1: string;
 
+  @ApiProperty({
+    description: 'Segundo apellido del usuario',
+    example: 'García',
+    minLength: 4,
+    maxLength: 50,
+    required: false,
+  })
   @IsString({
     message: 'El segundo apellido debe ser una cadena de texto',
   })
@@ -36,12 +59,24 @@ export class RegisterUserDto {
   @IsOptional()
   apellido2?: string;
 
+  @ApiProperty({
+    description: 'Fecha de nacimiento del usuario',
+    example: '1990-01-01',
+    required: false,
+  })
   @IsString({
     message: 'La fecha de nacimiento debe ser una cadena de texto',
   })
   @IsOptional()
   fecha_nacimiento?: Date| null;
 
+  @ApiProperty({
+    description: 'Password del usuario',
+    example: 'password123',
+    minLength: 6,
+    maxLength: 20,
+    required: true,
+  })
   @IsString({
     message: 'La contraseña debe ser una cadena de texto',
   })
@@ -53,6 +88,11 @@ export class RegisterUserDto {
   })
   password: string;
   
+  @ApiProperty({
+    description: 'Email del usuario',
+    example: 'email@gmail.com',
+    required: true,
+  })
   @IsEmail({}, {
     message: 'El email no es válido',
   })
@@ -61,7 +101,12 @@ export class RegisterUserDto {
   })
   email: string;
 
-
+  @ApiProperty({
+    description: 'Rol del usuario',
+    example: 'user',
+    enum: Role,
+    required: false,
+  })
   @IsString({
     message: 'El rol debe ser una cadena de texto',
   })
