@@ -1,23 +1,32 @@
-# Usar la imagen oficial de Node.js
-FROM node:16-alpine
+FROM node:22-alpine3.20 AS builder
 
-# Establecer el directorio de trabajo en el contenedor
 WORKDIR /app
 
-# Copiar el package.json y package-lock.json
-COPY package*.json ./
+# No hace falta instalar yarn, ya está en la imagen base
 
-# Instalar dependencias
-RUN npm install
+# Copiar archivos de dependencias
+COPY package.json yarn.lock ./
 
-# Copiar el resto de los archivos de la aplicación
+# Instalar dependencias con yarn
+RUN yarn install
+
+# Copiar todo el código
 COPY . .
 
-# Construir la aplicación
-RUN npm run build
+# Construir la app
+RUN yarn build
 
-# Exponer el puerto que usará la aplicación
+# Etapa de producción
+FROM node:22-alpine3.20 AS runner
+
+WORKDIR /app
+
+COPY --from=builder /app/dist ./dist
+COPY --from=builder /app/node_modules ./node_modules
+COPY --from=builder /app/package*.json ./
+
+ENV NODE_ENV=production
+
 EXPOSE 3000
 
-# Comando para ejecutar la aplicación
-CMD ["npm", "run", "start:prod"]
+CMD ["node", "dist/main"]
