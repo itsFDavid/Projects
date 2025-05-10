@@ -1,0 +1,41 @@
+# Etapa de build
+FROM mcr.microsoft.com/windows/servercore:ltsc2019 AS builder
+
+# Instala Node.js manualmente porque no hay imagen oficial Node + Windows ltsc2019
+RUN powershell -Command `
+    Invoke-WebRequest -Uri https://nodejs.org/dist/v22.2.0/node-v22.2.0-x64.msi -OutFile node.msi ; `
+    Start-Process msiexec.exe -Wait -ArgumentList '/quiet', '/i', 'node.msi'
+
+WORKDIR /app
+
+# Copiar archivos del proyecto
+COPY package.json yarn.lock ./
+
+# Instalar yarn globalmente y dependencias
+RUN npm install -g yarn && yarn install
+
+# Copiar el resto del código
+COPY . .
+
+# Construir la app
+RUN yarn build
+
+# Etapa de producción
+FROM mcr.microsoft.com/windows/servercore:ltsc2019
+
+# Instalar Node.js otra vez en la imagen final
+RUN powershell -Command `
+    Invoke-WebRequest -Uri https://nodejs.org/dist/v22.2.0/node-v22.2.0-x64.msi -OutFile node.msi ; `
+    Start-Process msiexec.exe -Wait -ArgumentList '/quiet', '/i', 'node.msi'
+
+WORKDIR /app
+
+COPY --from=builder /app/dist ./dist
+COPY --from=builder /app/node_modules ./node_modules
+COPY --from=builder /app/package*.json ./
+
+ENV NODE_ENV=production
+
+EXPOSE 3000
+
+CMD ["node", "dist/main"]
