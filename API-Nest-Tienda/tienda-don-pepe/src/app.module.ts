@@ -10,6 +10,8 @@ import { config } from './common/enviroments';
 import { FacturasModule } from './facturas/facturas.module';
 import { PrinterModule } from './printer/printer.module';
 import { AuthModule } from './auth/auth.module';
+import { ServeStaticModule } from '@nestjs/serve-static';
+import { join } from 'path';
 
 
 @Module({
@@ -28,6 +30,10 @@ import { AuthModule } from './auth/auth.module';
           synchronize: true,
         }
       }
+    }),
+    ServeStaticModule.forRoot({
+      rootPath: join(__dirname, '..', 'imagenes'),
+      serveRoot: '/imagenes',
     }),
     ComprasModule,
     ClientesModule,
