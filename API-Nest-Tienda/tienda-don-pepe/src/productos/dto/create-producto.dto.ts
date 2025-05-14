@@ -52,7 +52,7 @@ export class CreateProductoDto {
         required: true
     })
     @IsNumber()
-    @Min(1, {message: 'El stock no puede ser menor a 0'})
+    @Min(10, {message: 'El stock no puede ser menor a 10'})
     @Max(250, {message: 'El stock no puede ser mayor a 250'})
     stock: number;
 }
