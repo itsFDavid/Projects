@@ -1,4 +1,4 @@
-import { IsNumber, IsOptional, IsPositive, IsString, Length, MaxLength, Min} from "class-validator";
+import { IsNumber, IsOptional, IsPositive, IsString, Length, Max, MaxLength, Min} from "class-validator";
 import { ApiProperty } from "@nestjs/swagger";
 export class CreateProductoDto {
 
@@ -9,8 +9,10 @@ export class CreateProductoDto {
         maxLength: 50,
         required: true
     })
-    @IsString()
-    @Length(3, 50)
+    @IsString({
+        message: 'El nombre del producto debe ser una cadena de texto'
+    })
+    @Length(3, 50, {message: 'El nombre del producto debe tener entre 3 y 50 caracteres'})
     nombre_producto: string;
     
     @ApiProperty({
@@ -19,9 +21,11 @@ export class CreateProductoDto {
         maxLength: 255,
         required: false
     })
-    @IsString()
+    @IsString({
+        message: 'La descripción debe ser una cadena de texto'
+    })
     @IsOptional()
-    @Length(0, 255)
+    @Length(0, 255, {message: 'La descripción no puede exceder los 255 caracteres'})
     descripcion?: string;
     
     @ApiProperty({
@@ -29,9 +33,17 @@ export class CreateProductoDto {
         example: 1000,
         required: true
     })
-    @IsNumber()
-    @IsPositive()
-    @Min(0)
+    @IsNumber({
+        allowInfinity: false,
+        allowNaN: false,
+        maxDecimalPlaces: 2
+    }, {
+        message: 'El precio debe ser un número'
+    })
+    @IsPositive({
+        message: 'El precio debe ser un número positivo'
+    })
+    @Min(1, {message: 'El precio no puede ser menor a 1'})
     precio: number;
     
     @ApiProperty({
@@ -40,6 +52,7 @@ export class CreateProductoDto {
         required: true
     })
     @IsNumber()
-    @Min(0)
+    @Min(1, {message: 'El stock no puede ser menor a 0'})
+    @Max(250, {message: 'El stock no puede ser mayor a 250'})
     stock: number;
 }

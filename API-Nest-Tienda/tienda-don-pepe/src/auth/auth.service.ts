@@ -77,17 +77,18 @@ export class AuthService {
     // Find the user by email
     const user = await this.userRepository.findOne({ where: { email } });
     if (!user) {
-      throw new NotFoundException('User not found');
+      // credenciales incorrectas
+      throw new UnauthorizedException('Credenciales incorrectas');
     }
     // Compare the password with the hashed password
     const isPasswordValid = await bcrypt.compare(password, user.password);
     if (!isPasswordValid) {
-      throw new UnauthorizedException('Invalid password');
+      throw new UnauthorizedException('Credenciales incorrectas');
     }
 
     const client = await this.clientesRepository.findOne({ where: { email: user.email } });
     if (!client) {
-      throw new NotFoundException('Client not found');
+      throw new NotFoundException('Cliente no encontrado');
     }
     // Generate a JWT token
     const token = this.jwtService.sign({ id: client.id_cliente, email: user.email });
@@ -115,13 +116,13 @@ export class AuthService {
       const payload = await this.jwtService.verify(token);
       const user = await this.userRepository.findOne({ where: { email: payload.email } });
       if (!user) {
-        throw new UnauthorizedException('User not found');
+        throw new UnauthorizedException('Usuario no encontrado');
       }
       // Generate a new token
       const newToken = this.jwtService.sign({ id: user.id, email: user.email });
       return { user, newToken };
     } catch (error) {
-      throw new UnauthorizedException('Invalid token');
+      throw new UnauthorizedException('Token inválido');
     }
   }
 }
