@@ -3,9 +3,11 @@ import { AppModule } from './app.module';
 import { Logger, ValidationPipe } from '@nestjs/common';
 import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
 import { ConfigService } from '@nestjs/config';
-
+import { join } from 'path';
+import { NestExpressApplication } from '@nestjs/platform-express';
 async function bootstrap() {
-  const app = await NestFactory.create(AppModule);
+  const app = await NestFactory.create<NestExpressApplication>(AppModule);
+  app.setGlobalPrefix('api/v1');
   app.setGlobalPrefix('api/v1');
   app.useGlobalPipes(
     new ValidationPipe({
@@ -28,6 +30,10 @@ async function bootstrap() {
   //   allowedHeaders: 'Content-Type, Authorization',
   // });
   app.enableCors();
+  
+  // app.useStaticAssets(join(__dirname, '..', 'imagenes'), {
+  //   prefix: '/imagenes/',
+  // });
 
     // Configuración de Swagger
   const config = new DocumentBuilder()
@@ -39,7 +45,7 @@ async function bootstrap() {
   
   const document = SwaggerModule.createDocument(app, config);
   SwaggerModule.setup('/', app, document);
-  await app.listen(process.env.API_PORT ?? 3000);
+  await app.listen(process.env.API_PORT ?? 3000, '0.0.0.0');
   Logger.debug('Servidor en http://localhost:'+ (process.env.API_PORT ?? 3000))
 }
 bootstrap();
