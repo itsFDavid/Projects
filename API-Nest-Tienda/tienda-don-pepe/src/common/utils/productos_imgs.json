@@ -1,0 +1,703 @@
+[
+    {
+      "nombre_producto": "Razer Max Ventilador RGB",
+      "descripcion": "Sistema de refrigeración avanzado con efectos RGB sincronizables y control de velocidad de 0-3000 RPM",
+      "precio": 1712.48,
+      "stock": 11,
+      "imagen": "imagenes/producto1.jpg"
+    },
+    {
+      "nombre_producto": "AMD Turbo Placa Madre",
+      "descripcion": "Socket AMD AM4 compatible con procesadores Ryzen 5000, soporte PCIe 4.0 y hasta 128GB de memoria DDR4",
+      "precio": 1958.89,
+      "stock": 17,
+      "imagen": "imagenes/producto2.jpg"
+    },
+    {
+      "nombre_producto": "Acer RGB Refrigeración Líquida",
+      "descripcion": "Sistema AIO de 240mm con radiador de doble ventilador y efectos personalizables mediante software propietario",
+      "precio": 957.68,
+      "stock": 6,
+      "imagen": "imagenes/producto3.jpg"
+    },
+    {
+      "nombre_producto": "AMD Plus Mouse",
+      "descripcion": "Sensor óptico de 16000 DPI, 8 botones programables y peso ajustable para máxima precisión en gaming",
+      "precio": 780.55,
+      "stock": 36,
+      "imagen": "imagenes/producto4.jpg"
+    },
+    {
+      "nombre_producto": "Dell Pro Placa Madre",
+      "descripcion": "Chipset Intel Z590, soporte para overclock, iluminación RGB integrada y sistema de audio HD de 7.1 canales",
+      "precio": 570.0,
+      "stock": 69,
+      "imagen": "imagenes/producto5.jpg"
+    },
+    {
+      "nombre_producto": "Logitech Ultra Teclado Mecánico",
+      "descripcion": "Switches Cherry MX Red, teclas anti-ghosting, reposamuñecas desmontable y retroiluminación personalizable",
+      "precio": 1245.78,
+      "stock": 23,
+      "imagen": "imagenes/producto6.jpg"
+    },
+    {
+      "nombre_producto": "Western Digital SSD 1TB",
+      "descripcion": "Velocidades de lectura/escritura de hasta 7000/5300 MB/s, interfaz PCIe Gen4 y 5 años de garantía",
+      "precio": 2399.99,
+      "stock": 42,
+      "imagen": "imagenes/producto7.jpg"
+    },
+    {
+      "nombre_producto": "ASUS ROG Monitor Gaming 27\"",
+      "descripcion": "Panel IPS 2K, 165Hz, 1ms de respuesta, compatible con G-Sync y HDR400 para una experiencia inmersiva",
+      "precio": 3599.50,
+      "stock": 15,
+      "imagen": "imagenes/producto8.jpg"
+    },
+    {
+      "nombre_producto": "Corsair Vengeance RAM 16GB",
+      "descripcion": "Kit dual channel DDR4-3600MHz CL18, perfil XMP optimizado y disipadores térmicos de aluminio",
+      "precio": 895.75,
+      "stock": 56,
+      "imagen": "imagenes/producto9.jpg"
+    },
+    {
+      "nombre_producto": "Nvidia RTX 4070 GPU",
+      "descripcion": "12GB GDDR6X, tecnología DLSS 3.0, Ray Tracing de segunda generación y sistema de refrigeración de triple ventilador",
+      "precio": 8899.90,
+      "stock": 7,
+      "imagen": "imagenes/producto10.jpg"
+    },
+    {
+      "nombre_producto": "HyperX Cloud Auriculares",
+      "descripcion": "Sonido 7.1 virtual, micrófono desmontable con cancelación de ruido y almohadillas memory foam",
+      "precio": 1199.00,
+      "stock": 34,
+      "imagen": "imagenes/producto11.jpg"
+    },
+    {
+      "nombre_producto": "Intel Core i9-12900K",
+      "descripcion": "16 núcleos (8P+8E), 24 hilos, hasta 5.2GHz, caché inteligente de 30MB y compatible con DDR5",
+      "precio": 5899.99,
+      "stock": 12,
+      "imagen": "imagenes/producto12.jpg"
+    },
+    {
+      "nombre_producto": "Seagate Barracuda HDD 4TB",
+      "descripcion": "Velocidad de 7200 RPM, caché de 256MB, tecnología CMR y bajo consumo energético",
+      "precio": 1199.50,
+      "stock": 26,
+      "imagen": "imagenes/producto13.jpg"
+    },
+    {
+      "nombre_producto": "MSI Stealth Laptop Gaming",
+      "descripcion": "Pantalla 15.6\" FHD 144Hz, i7-12700H, RTX 3070, 16GB RAM, 1TB SSD y teclado RGB por zonas",
+      "precio": 18999.00,
+      "stock": 9,
+      "imagen": "imagenes/producto14.jpg"
+    },
+    {
+      "nombre_producto": "Thermaltake Gabinete ATX",
+      "descripcion": "Panel lateral de vidrio templado, 4 ventiladores RGB preinstalados y excelente flujo de aire",
+      "precio": 1650.25,
+      "stock": 20,
+      "imagen": "imagenes/producto15.jpg"
+    },
+    {
+      "nombre_producto": "Razer Basilisk Mouse Gaming",
+      "descripcion": "Sensor Focus+ de 20K DPI, 11 botones programables y rueda de desplazamiento con resistencia ajustable",
+      "precio": 990.00,
+      "stock": 31,
+      "imagen": "imagenes/producto16.jpg"
+    },
+    {
+      "nombre_producto": "Samsung Odyssey G7 Monitor",
+      "descripcion": "Panel curvo VA de 32\", 240Hz, 1ms, resolución WQHD y tecnología QLED para colores vibrantes",
+      "precio": 4799.99,
+      "stock": 8,
+      "imagen": "imagenes/producto17.jpg"
+    },
+    {
+      "nombre_producto": "EVGA Fuente de Poder 850W",
+      "descripcion": "Certificación 80+ Gold, diseño modular completo y protección OVP/UVP/OCP/OPP/SCP/OTP",
+      "precio": 1599.00,
+      "stock": 22,
+      "imagen": "imagenes/producto18.jpg"
+    },
+    {
+      "nombre_producto": "Crucial MX500 SSD 2TB",
+      "descripcion": "Interfaz SATA 6Gb/s, cache de 2GB LPDDR4, cifrado AES de 256 bits y hasta 560MB/s de lectura",
+      "precio": 2199.75,
+      "stock": 19,
+      "imagen": "imagenes/producto19.jpg"
+    },
+    {
+      "nombre_producto": "Logitech G502 Mouse",
+      "descripcion": "Sensor HERO 25K, 11 botones programables, sistema de pesas ajustables y RGB LIGHTSYNC",
+      "precio": 795.50,
+      "stock": 45,
+      "imagen": "imagenes/producto20.jpg"
+    },
+    {
+      "nombre_producto": "AOC Monitor Ultrawide 34\"",
+      "descripcion": "Panel VA curvo 1500R, resolución UWQHD, 144Hz, FreeSync Premium y modo de juego personalizable",
+      "precio": 3999.90,
+      "stock": 11,
+      "imagen": "imagenes/producto21.jpg"
+    },
+    {
+      "nombre_producto": "Cooler Master Pasta Térmica",
+      "descripcion": "Conductividad térmica de 8.5 W/m-K, baja resistencia térmica y jeringa de 4g para múltiples aplicaciones",
+      "precio": 199.99,
+      "stock": 73,
+      "imagen": "imagenes/producto22.jpg"
+    },
+    {
+      "nombre_producto": "TP-Link Router Gaming",
+      "descripcion": "Wi-Fi 6E tri-banda, 8 antenas, 2.5G WAN, QoS para gaming y tecnología anti-latencia",
+      "precio": 2450.00,
+      "stock": 14,
+      "imagen": "imagenes/producto23.jpg"
+    },
+    {
+      "nombre_producto": "Kingston Memoria USB 256GB",
+      "descripcion": "Interfaz USB 3.2 Gen 1, velocidad de transferencia de hasta 200MB/s y carcasa metálica resistente",
+      "precio": 299.75,
+      "stock": 62,
+      "imagen": "imagenes/producto24.jpg"
+    },
+    {
+      "nombre_producto": "Acer Nitro XV272 Monitor",
+      "descripcion": "Panel IPS de 27\", 170Hz, tiempo de respuesta de 0.5ms y compatibilidad con HDR10",
+      "precio": 2899.00,
+      "stock": 16,
+      "imagen": "imagenes/producto25.jpg"
+    },
+    {
+      "nombre_producto": "AMD Ryzen 9 5900X",
+      "descripcion": "12 núcleos, 24 hilos, velocidad base de 3.7GHz, boost hasta 4.8GHz y TDP de 105W",
+      "precio": 4699.90,
+      "stock": 10,
+      "imagen": "imagenes/producto26.jpg"
+    },
+    {
+      "nombre_producto": "Corsair iCUE Lighting Node",
+      "descripcion": "Control de hasta 6 ventiladores RGB y 4 tiras LED con sincronización completa del ecosistema iCUE",
+      "precio": 599.50,
+      "stock": 28,
+      "imagen": "imagenes/producto27.jpg"
+    },
+    {
+      "nombre_producto": "Lenovo Legion Dock",
+      "descripcion": "Estación de acoplamiento con DisplayPort, HDMI, 4 puertos USB-A, 2 USB-C y Ethernet Gigabit",
+      "precio": 1799.75,
+      "stock": 13,
+      "imagen": "imagenes/producto28.jpg"
+    },
+    {
+      "nombre_producto": "SteelSeries Apex Pro Teclado",
+      "descripcion": "Switches OmniPoint ajustables, pantalla OLED inteligente, reposamuñecas magnético y construcción de aluminio",
+      "precio": 1899.00,
+      "stock": 21,
+      "imagen": "imagenes/producto29.jpg"
+    },
+    {
+      "nombre_producto": "Gigabyte AORUS Placa Madre",
+      "descripcion": "Chipset AMD X570, soporte PCIe 4.0, VRM digital de 16 fases y sistema de refrigeración de alto rendimiento",
+      "precio": 2799.50,
+      "stock": 15,
+      "imagen": "imagenes/producto30.jpg"
+    },
+    {
+      "nombre_producto": "LG UltraGear Monitor 32\"",
+      "descripcion": "Panel Nano IPS 4K, 144Hz, compatibilidad con G-Sync y DisplayHDR 600 para la mejor experiencia gaming",
+      "precio": 5999.99,
+      "stock": 7,
+      "imagen": "imagenes/producto31.jpg"
+    },
+    {
+      "nombre_producto": "Bose QuietComfort Auriculares",
+      "descripcion": "Cancelación de ruido líder en la industria, conectividad Bluetooth 5.1 y hasta 24 horas de batería",
+      "precio": 3499.00,
+      "stock": 18,
+      "imagen": "imagenes/producto32.jpg"
+    },
+    {
+      "nombre_producto": "Razer Huntsman Elite Teclado",
+      "descripcion": "Switches ópticos con actuación de 1.5mm, dial multifunción personalizable y reposamuñecas ergonómico iluminado",
+      "precio": 1790.50,
+      "stock": 24,
+      "imagen": "imagenes/producto33.jpg"
+    },
+    {
+      "nombre_producto": "WD_BLACK P50 SSD Externo",
+      "descripcion": "Capacidad de 1TB, velocidades de hasta 2000MB/s mediante SuperSpeed USB 20Gbps y compatible con PC, Mac y consolas",
+      "precio": 2499.75,
+      "stock": 13,
+      "imagen": "imagenes/producto34.jpg"
+    },
+    {
+      "nombre_producto": "Adata XPG RAM 32GB",
+      "descripcion": "Kit de 2x16GB DDR4-4133MHz, latencia CL19, perfil XMP 2.0 y diseño de disipador térmico agresivo",
+      "precio": 1799.00,
+      "stock": 9,
+      "imagen": "imagenes/producto35.jpg"
+    },
+    {
+      "nombre_producto": "Epson EcoTank Impresora",
+      "descripcion": "Sistema de tanque de tinta recargable, WiFi Direct, impresión a doble cara y pantalla LCD a color",
+      "precio": 3299.50,
+      "stock": 12,
+      "imagen": "imagenes/producto36.jpg"
+    },
+    {
+      "nombre_producto": "Logitech MX Master 3 Mouse",
+      "descripcion": "Sensor Darkfield 4000 DPI, rueda de desplazamiento MagSpeed electromagnética y batería de hasta 70 días",
+      "precio": 999.90,
+      "stock": 31,
+      "imagen": "imagenes/producto37.jpg"
+    },
+    {
+      "nombre_producto": "Crucial P5 Plus SSD NVMe",
+      "descripcion": "PCIe 4.0, velocidades de lectura/escritura de hasta 6600/5000 MB/s y memoria NAND TLC de 176 capas",
+      "precio": 1499.75,
+      "stock": 22,
+      "imagen": "imagenes/producto38.jpg"
+    },
+    {
+      "nombre_producto": "HP Spectre x360 Laptop",
+      "descripcion": "Pantalla OLED 4K táctil, Intel Core i7-1165G7, 16GB RAM, 1TB SSD y lápiz táctil incluido",
+      "precio": 19999.00,
+      "stock": 6,
+      "imagen": "imagenes/producto39.jpg"
+    },
+    {
+      "nombre_producto": "Noctua NH-D15 Disipador",
+      "descripcion": "Diseño de doble torre, 6 heat pipes, 2 ventiladores NF-A15 PWM y pasta térmica NT-H1 incluida",
+      "precio": 1299.50,
+      "stock": 17,
+      "imagen": "imagenes/producto40.jpg"
+    },
+    {
+      "nombre_producto": "Elgato Stream Deck MK.2",
+      "descripcion": "15 teclas LCD personalizables, integración con software de streaming y placa frontal intercambiable",
+      "precio": 1899.00,
+      "stock": 14,
+      "imagen": "imagenes/producto41.jpg"
+    },
+    {
+      "nombre_producto": "ASUS ZenBook Pro Duo",
+      "descripcion": "Pantalla principal OLED 4K, segunda pantalla ScreenPad Plus, RTX 3070 y procesador Intel Core i9",
+      "precio": 29999.99,
+      "stock": 5,
+      "imagen": "imagenes/producto42.jpg"
+    },
+    {
+      "nombre_producto": "Samsung T7 SSD Portátil",
+      "descripcion": "Capacidad de 2TB, velocidades de transferencia de hasta 1050MB/s y seguridad por contraseña con AES 256 bits",
+      "precio": 1899.75,
+      "stock": 27,
+      "imagen": "imagenes/producto43.jpg"
+    },
+    {
+      "nombre_producto": "Corsair MP600 SSD M.2",
+      "descripcion": "Tecnología PCIe Gen4, velocidades secuenciales de hasta 7000MB/s y disipador térmico de aluminio integrado",
+      "precio": 2299.50,
+      "stock": 19,
+      "imagen": "imagenes/producto44.jpg"
+    },
+    {
+      "nombre_producto": "Razer Kraken V3 X Auriculares",
+      "descripcion": "Controladores TriForce de 40mm, micrófono cardioide Razer HyperClear y efectos de iluminación Razer Chroma RGB",
+      "precio": 899.90,
+      "stock": 38,
+      "imagen": "imagenes/producto45.jpg"
+    },
+    {
+      "nombre_producto": "Wacom Intuos Pro Tableta Gráfica",
+      "descripcion": "Superficie activa de tamaño medio, 8192 niveles de presión, ExpressKeys personalizables y conectividad Bluetooth",
+      "precio": 3599.00,
+      "stock": 11,
+      "imagen": "imagenes/producto46.jpg"
+    },
+    {
+      "nombre_producto": "Netgear Nighthawk Router",
+      "descripcion": "WiFi 6E, velocidades de hasta 10.8Gbps, procesador quad-core de 1.8GHz y 6 puertos Gigabit Ethernet",
+      "precio": 2799.75,
+      "stock": 15,
+      "imagen": "imagenes/producto47.jpg"
+    },
+    {
+      "nombre_producto": "HyperX Alloy Origins Teclado",
+      "descripcion": "Switches mecánicos HyperX Red, estructura de aluminio, iluminación RGB por tecla y cable USB-C desmontable",
+      "precio": 1099.50,
+      "stock": 29,
+      "imagen": "imagenes/producto48.jpg"
+    },
+    {
+      "nombre_producto": "Apple Mac Mini M2 Pro",
+      "descripcion": "Chip M2 Pro de 10 núcleos, 16GB RAM unificada, SSD de 512GB y conectividad Thunderbolt 4",
+      "precio": 15999.00,
+      "stock": 8,
+      "imagen": "imagenes/producto49.jpg"
+    },
+    {
+      "nombre_producto": "Jabra Elite 85t Auriculares",
+      "descripcion": "Cancelación activa de ruido ajustable, resistencia al agua IPX4, batería de 25 horas y 6 micrófonos integrados",
+      "precio": 2499.90,
+      "stock": 21,
+      "imagen": "imagenes/producto50.jpg"
+    },
+    {
+      "nombre_producto": "Fractal Design Meshify 2 Gabinete",
+      "descripcion": "Diseño de flujo de aire optimizado, panel lateral de vidrio templado y gestión de cables integrada",
+      "precio": 1799.00,
+      "stock": 16,
+      "imagen": "imagenes/producto51.jpg"
+    },
+    {
+      "nombre_producto": "Razer Viper Ultimate Mouse",
+      "descripcion": "Tecnología HyperSpeed Wireless, sensor óptico Focus+ de 20K DPI y switches ópticos con duración de 70 millones de clics",
+      "precio": 1499.75,
+      "stock": 25,
+      "imagen": "imagenes/producto52.jpg"
+    },
+    {
+      "nombre_producto": "Keychron K8 Teclado Mecánico",
+      "descripcion": "Conexión inalámbrica Bluetooth 5.1, compatible con Windows/Mac, iluminación RGB y diseño TKL compacto",
+      "precio": 1199.50,
+      "stock": 32,
+      "imagen": "imagenes/producto53.jpg"
+    },
+    {
+      "nombre_producto": "Sony WH-1000XM5 Auriculares",
+      "descripcion": "Cancelación de ruido líder con 8 micrófonos, procesador V1 integrado y hasta 30 horas de duración de batería",
+      "precio": 4299.00,
+      "stock": 14,
+      "imagen": "imagenes/producto54.jpg"
+    },
+    {
+      "nombre_producto": "ASUS ROG Swift PG32UQX Monitor",
+      "descripcion": "Panel Mini-LED de 32\", 4K UHD, 144Hz, HDR 1400 y tecnología G-Sync Ultimate para gaming profesional",
+      "precio": 12999.99,
+      "stock": 4,
+      "imagen": "imagenes/producto55.jpg"
+    },
+    {
+      "nombre_producto": "Seagate FireCuda 530 SSD",
+      "descripcion": "Velocidades secuenciales de hasta 7300MB/s, disipador térmico personalizado y endurancia de 2550 TBW",
+      "precio": 2899.75,
+      "stock": 18,
+      "imagen": "imagenes/producto56.jpg"
+    },
+    {
+      "nombre_producto": "Logitech G Pro X Superlight Mouse",
+      "descripcion": "Diseño ultraligero de menos de 63g, sensor HERO 25K y pies de PTFE para deslizamiento suave",
+      "precio": 1399.90,
+      "stock": 26,
+      "imagen": "imagenes/producto57.jpg"
+    },
+    {
+      "nombre_producto": "Alienware AW3423DW Monitor",
+      "descripcion": "Panel QD-OLED de 34\", resolución 3440x1440, 175Hz y certificación DisplayHDR True Black 400",
+      "precio": 13999.00,
+      "stock": 7,
+      "imagen": "imagenes/producto58.jpg"
+    },
+    {
+      "nombre_producto": "MSI MAG Core Liquid 240R Refrigeración",
+      "descripcion": "Radiador de 240mm, bomba silenciosa con placa de cobre y ventiladores ARGB PWM de alto rendimiento",
+      "precio": 1599.50,
+      "stock": 20,
+      "imagen": "imagenes/producto59.jpg"
+    },
+    {
+      "nombre_producto": "EVGA GeForce RTX 3080 Ti",
+      "descripcion": "12GB GDDR6X, arquitectura Ampere, 10240 núcleos CUDA y sistema de refrigeración ICX3 de triple ventilador",
+      "precio": 10999.90,
+      "stock": 6,
+      "imagen": "imagenes/producto60.jpg"
+    },
+    {
+      "nombre_producto": "Shure SM7B Micrófono",
+      "descripcion": "Patrón polar cardioide, respuesta de frecuencia optimizada para voz y filtro anti-pop integrado",
+      "precio": 3999.00,
+      "stock": 12,
+      "imagen": "imagenes/producto61.jpg"
+    },
+    {
+      "nombre_producto": "ASRock B550 Placa Madre",
+      "descripcion": "Soporte para AMD Ryzen 5000, PCIe 4.0, WiFi 6, Nahimic Audio y Lightning Gen 4 M.2 con disipador térmico",
+      "precio": 1699.75,
+      "stock": 23,
+      "imagen": "imagenes/producto62.jpg"
+    },
+    {
+      "nombre_producto": "Dell Ultrasharp Monitor 4K",
+      "descripcion": "Panel IPS de 32\", 99% sRGB, conectividad USB-C con entrega de potencia de 90W y tecnología ComfortView Plus",
+      "precio": 6999.50,
+      "stock": 9,
+      "imagen": "imagenes/producto63.jpg"
+    },
+    {
+      "nombre_producto": "Anker PowerCore 26800 Powerbank",
+      "descripcion": "Capacidad de 26800mAh, 3 puertos USB, tecnología PowerIQ y carga rápida para múltiples dispositivos",
+      "precio": 599.90,
+      "stock": 42,
+      "imagen": "imagenes/producto64.jpg"
+    },
+    {
+      "nombre_producto": "Sennheiser HD 660 S Auriculares",
+      "descripcion": "Diseño abierto circumaural, transductores de 150 ohm y respuesta de frecuencia de 10Hz a 41kHz",
+      "precio": 4299.00,
+      "stock": 11,
+      "imagen": "imagenes/producto65.jpg"
+    },
+    {
+      "nombre_producto": "Razer Raptor 27 Monitor",
+      "descripcion": "Panel IPS de 27\", QHD, 165Hz, 1ms, HDR400 y sistema de gestión de cables integrado en la base",
+      "precio": 7499.75,
+      "stock": 8,
+      "imagen": "imagenes/producto66.jpg"
+    },
+    {
+      "nombre_producto": "Intel Core i5-12600K",
+      "descripcion": "10 núcleos (6P+4E), 16 hilos, frecuencia turbo de hasta 4.9GHz y compatibilidad con memoria DDR5",
+      "precio": 3699.50,
+      "stock": 19,
+      "imagen": "imagenes/producto67.jpg"
+    },
+    {
+      "nombre_producto": "Glorious Model O Mouse",
+      "descripcion": "Diseño ultraligero de 67g, cable ascendido para reducir arrastre y sensor óptico Pixart 3360",
+      "precio": 799.90,
+      "stock": 27,
+      "imagen": "imagenes/producto68.jpg"
+    },
+    {
+      "nombre_producto": "Samsung 980 PRO SSD NVMe",
+      "descripcion": "Interfaz PCIe 4.0, controlador Elpis personalizado y tecnología V-NAND de 7ª generación",
+      "precio": 1899.00,
+      "stock": 22,
+      "imagen": "imagenes/producto69.jpg"
+    },
+    {
+      "nombre_producto": "Focusrite Scarlett 2i2 Interfaz de Audio",
+      "descripcion": "2 entradas combo XLR/jack con preamplificadores Scarlett, monitoreo directo y latencia ultrabaja",
+      "precio": 1799.75,
+      "stock": 15,
+      "imagen": "imagenes/producto70.jpg"
+    },
+    {
+      "nombre_producto": "Cooler Master MasterBox Gabinete",
+      "descripcion": "Diseño compacto ATX, panel frontal mesh para máximo flujo de aire y sistema de filtros de polvo",
+      "precio": 899.50,
+      "stock": 24,
+      "imagen": "imagenes/producto71.jpg"
+    },
+    {
+      "nombre_producto": "ASUS ROG Strix Fuente de Poder 850W",
+      "descripcion": "Certificación 80+ Platinum, ventilador Axial-tech de 135mm y tecnología 0dB para operación silenciosa",
+      "precio": 2299.90,
+      "stock": 13,
+      "imagen": "imagenes/producto72.jpg"
+    },
+    {
+      "nombre_producto": "Logitech G733 Auriculares",
+      "descripcion": "Tecnología inalámbrica LIGHTSPEED, banda para la cabeza ajustable y tecnología DTS Headphone:X 2.0",
+      "precio": 1499.00,
+      "stock": 30,
+      "imagen": "imagenes/producto73.jpg"
+    },
+    {
+      "nombre_producto": "Synology DS220+ NAS",
+      "descripcion": "Procesador dual-core, 2GB RAM DDR4, capacidad para 2 bahías y transcodificación de video 4K en tiempo real",
+      "precio": 3499.75,
+      "stock": 9,
+      "imagen": "imagenes/producto74.jpg"
+    },
+    {
+      "nombre_producto": "AMD Radeon RX 6800 XT",
+      "descripcion": "16GB GDDR6, arquitectura RDNA 2, Ray Tracing y sistema de refrigeración con tres ventiladores",
+      "precio": 9699.50,
+      "stock": 5,
+      "imagen": "imagenes/producto75.jpg"
+    },
+    {
+      "nombre_producto": "Philips Hue Bridge",
+      "descripcion": "Control centralizado para hasta 50 dispositivos Hue, compatible con Alexa, Google Assistant y Apple HomeKit",
+      "precio": 799.90,
+      "stock": 33,
+      "imagen": "imagenes/producto76.jpg"
+    },
+    {
+      "nombre_producto": "Rode NT-USB Mini Micrófono",
+      "descripcion": "Patrón polar cardioide, salida para auriculares con mezcla de cero latencia y pie de escritorio integrado",
+      "precio": 1299.00,
+      "stock": 21,
+      "imagen": "imagenes/producto77.jpg"
+    },
+    {
+      "nombre_producto": "Lian Li O11 Dynamic Gabinete",
+      "descripcion": "Diseño dual-chamber, panel frontal y lateral de vidrio templado y soporte para radiadores de hasta 360mm",
+      "precio": 1999.75,
+      "stock": 17,
+      "imagen": "imagenes/producto78.jpg"
+    },
+    {
+      "nombre_producto": "Sabrent Rocket Q 8TB SSD",
+      "descripcion": "Enorme capacidad en formato M.2, velocidades de hasta 3400MB/s y memoria QLC 3D NAND",
+      "precio": 9999.50,
+      "stock": 6,
+      "imagen": "imagenes/producto79.jpg"
+    },
+    {
+      "nombre_producto": "AOC CQ32G1 Monitor Gaming",
+      "descripcion": "Panel VA curvo de 32\", QHD, 144Hz, 1ms MPRT y tecnología AMD FreeSync Premium para gaming inmersivo",
+      "precio": 3799.50,
+      "stock": 12,
+      "imagen": "imagenes/producto80.jpg"
+    },
+    {
+      "nombre_producto": "Fractal Design Ion+ 760P Fuente",
+      "descripcion": "760W con certificación 80+ Platinum, sistema de cables completamente modulares y ventilador FDB de 140mm",
+      "precio": 1799.00,
+      "stock": 19,
+      "imagen": "imagenes/producto81.jpg"
+    },
+    {
+      "nombre_producto": "Creative Sound BlasterX G6 DAC",
+      "descripcion": "Amplificador de auriculares y DAC externo con tecnología Xamp y procesamiento de sonido Scout Mode",
+      "precio": 1299.75,
+      "stock": 24,
+      "imagen": "imagenes/producto82.jpg"
+    },
+    {
+      "nombre_producto": "Gigabyte M32U Monitor",
+      "descripcion": "Panel IPS de 32\", 4K, 144Hz, 1ms GTG, soporte para HDMI 2.1 y KVM integrado para controlar múltiples dispositivos",
+      "precio": 8999.90,
+      "stock": 7,
+      "imagen": "imagenes/producto83.jpg"
+    },
+    {
+      "nombre_producto": "Elgato Cam Link 4K",
+      "descripcion": "Convertidor HDMI a USB para usar cámaras DSLR como webcams de alta calidad con resolución 4K a 30fps",
+      "precio": 1599.00,
+      "stock": 16,
+      "imagen": "imagenes/producto84.jpg"
+    },
+    {
+      "nombre_producto": "be quiet! Dark Rock Pro 4 Disipador",
+      "descripcion": "Diseño twin-tower con 7 heat pipes, dos ventiladores Silent Wings PWM y sistema de montaje sin herramientas",
+      "precio": 1199.75,
+      "stock": 22,
+      "imagen": "imagenes/producto85.jpg"
+    },
+    {
+      "nombre_producto": "Corsair K100 RGB Teclado",
+      "descripcion": "Switches ópticos-mecánicos OPX, rueda de control iCUE, teclas macro dedicadas y reposamuñecas desmontable",
+      "precio": 2499.50,
+      "stock": 11,
+      "imagen": "imagenes/producto86.jpg"
+    },
+    {
+      "nombre_producto": "Kingston Canvas Select Plus MicroSD",
+      "descripcion": "Capacidad de 256GB, velocidad de lectura de hasta 100MB/s, clase A1 y resistente a temperaturas extremas",
+      "precio": 399.90,
+      "stock": 49,
+      "imagen": "imagenes/producto87.jpg"
+    },
+    {
+      "nombre_producto": "Ubiquiti UniFi AP AC Pro",
+      "descripcion": "Punto de acceso WiFi dual-band con velocidades de hasta 1300Mbps y PoE 802.3af compatible",
+      "precio": 1799.00,
+      "stock": 14,
+      "imagen": "imagenes/producto88.jpg"
+    },
+    {
+      "nombre_producto": "Raspberry Pi 4 Model B 8GB",
+      "descripcion": "Procesador quad-core Cortex-A72, 8GB RAM LPDDR4, WiFi 5, Bluetooth 5.0 y dos puertos micro-HDMI",
+      "precio": 999.75,
+      "stock": 28,
+      "imagen": "imagenes/producto89.jpg"
+    },
+    {
+      "nombre_producto": "NZXT Kraken Z73 Refrigeración",
+      "descripcion": "Radiador de 360mm, pantalla LCD personalizable y tres ventiladores Aer P de 120mm para máximo rendimiento",
+      "precio": 2999.50,
+      "stock": 10,
+      "imagen": "imagenes/producto90.jpg"
+    },
+    {
+      "nombre_producto": "ViewSonic XG2705 Monitor",
+      "descripcion": "Panel IPS de 27\", Full HD, 144Hz, 1ms MPRT y soporte ajustable en altura para mayor comodidad",
+      "precio": 2499.90,
+      "stock": 18,
+      "imagen": "imagenes/producto91.jpg"
+    },
+    {
+      "nombre_producto": "Blue Yeti X Micrófono USB",
+      "descripcion": "4 patrones de captación, cuatro cápsulas de condensador y medidor LED de alta resolución en tiempo real",
+      "precio": 1799.00,
+      "stock": 13,
+      "imagen": "imagenes/producto92.jpg"
+    },
+    {
+      "nombre_producto": "Razer BlackWidow V3 Teclado",
+      "descripcion": "Switches mecánicos Razer pink, iluminación Chroma RGB personalizable y dial multifunción programable",
+      "precio": 1699.75,
+      "stock": 25,
+      "imagen": "imagenes/producto93.jpg"
+    },
+    {
+      "nombre_producto": "LG 27GN950-B Monitor",
+      "descripcion": "Panel Nano IPS de 27\", 4K UHD, 144Hz, compatibilidad VESA DisplayHDR 600 y FreeSync Premium Pro",
+      "precio": 6799.50,
+      "stock": 8,
+      "imagen": "imagenes/producto94.jpg"
+    },
+    {
+      "nombre_producto": "Anker PowerConf S3 Altavoz Bluetooth",
+      "descripcion": "6 micrófonos con cancelación de ruido, conectividad USB-C y batería de hasta 24 horas para conferencias",
+      "precio": 999.90,
+      "stock": 31,
+      "imagen": "imagenes/producto95.jpg"
+    },
+    {
+      "nombre_producto": "ADATA SU800 SSD SATA",
+      "descripcion": "Capacidad de 1TB, memoria 3D NAND, caché SLC dinámico y tecnología LDPC ECC para máxima durabilidad",
+      "precio": 1199.00,
+      "stock": 27,
+      "imagen": "imagenes/producto96.jpg"
+    },
+    {
+      "nombre_producto": "Thrustmaster T300RS GT Volante",
+      "descripcion": "Sistema Force Feedback con motor brushless, rotación de 1080° y pedales T3PA-GT incluidos",
+      "precio": 5499.75,
+      "stock": 9,
+      "imagen": "imagenes/producto97.jpg"
+    },
+    {
+      "nombre_producto": "Corsair HS60 Pro Auriculares",
+      "descripcion": "Audio envolvente 7.1, drivers de neodimio de 50mm y micrófono unidireccional desmontable con cancelación de ruido",
+      "precio": 799.50,
+      "stock": 36,
+      "imagen": "imagenes/producto98.jpg"
+    },
+    {
+      "nombre_producto": "MSI Optix MAG274QRF-QD Monitor",
+      "descripcion": "Panel Rapid IPS de 27\", WQHD, 165Hz, 1ms GTG y tecnología Quantum Dot para amplia gama de colores",
+      "precio": 5299.90,
+      "stock": 12,
+      "imagen": "imagenes/producto99.jpg"
+    },
+    {
+      "nombre_producto": "Audioengine A5+ Altavoces",
+      "descripcion": "Amplificador integrado de 150W, woofers de Kevlar de 5\" y conectividad Bluetooth 5.0 aptX HD",
+      "precio": 4799.00,
+      "stock": 10,
+      "imagen": "imagenes/producto100.jpg"
+    }
+]
+  
