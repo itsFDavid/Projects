@@ -3,6 +3,8 @@ import { DetalleCompraDto } from './dto/detalle-compra.dto';
 import { PrinterService } from 'src/printer/printer.service';
 import { FacturaDoc } from './documents/factura.doc';
 import { ComprasService } from 'src/compras/compras.service';
+import fs from 'fs';
+import path from 'path';
 
 @Injectable()
 export class FacturasService {
@@ -33,7 +35,11 @@ export class FacturasService {
         },
       })),
     };
-    const docDefinition = FacturaDoc(detalleCompraDtoMapped);
+    
+    const logoPath = path.join(__dirname, '..', '..', 'public', 'logo.png');
+    const logoBase64 = fs.readFileSync(logoPath, 'base64');
+    
+    const docDefinition = FacturaDoc(detalleCompraDtoMapped, logoBase64);
     const pdfDoc = this.printerService.generatePDF(docDefinition);
     return pdfDoc;
   }
