@@ -4,6 +4,7 @@ import { Formatter } from '../formatter/formatter';
 
 export const FacturaDoc = (
   detalleCompraDto: DetalleCompraDto,
+  logoBase64: string,
 ): TDocumentDefinitions => {
   const productos = detalleCompraDto.detalles_.map((detalle) => {
     return {
@@ -59,10 +60,20 @@ export const FacturaDoc = (
       };
     },
     header: {
-      text: 'Factura Tiendas Don Pepe',
-      fontSize: 18,
-      style: 'header',
-      alignment: 'center',
+      columns: [
+        {
+          image: 'data:image/png;base64,' + logoBase64,
+          width: 60,
+          margin: [30, 10, 0, 0],
+        },
+        {
+          text: 'Factura Tiendas Don Pepe',
+          fontSize: 18,
+          style: 'header',
+          alignment: 'center',
+          margin: [0, 20, 0, 0],
+        },
+      ],
     },
     footer: function (currentPage, pageCount) {
       return [
@@ -95,39 +106,99 @@ export const FacturaDoc = (
       ,
       // Datos del cliente y tienda
       {
-        columns: [
-          [
-            {
-              text: `Cliente: ${nombre_cliente}`,
-              alignment: 'left',
-              margin: [0, 0, 0, 5],
-            },
-            {
-              text: `Tienda: ${nombre_tienda}`,
-              alignment: 'left',
-              margin: [0, 0, 0, 10],
-            },
-          ],
-          [
-            {
-              text: `Fecha de compra: ${fecha_compra}`,
-              alignment: 'right',
-              margin: [0, 0, 0, 5],
-            },
-            {
-              text: `ID de compra: ${id_compra}`,
-              alignment: 'right',
-              margin: [0, 0, 0, 5],
-            },
-            {
-              text: `Total de productos: ${total_productos}`,
-              alignment: 'right',
-              margin: [0, 0, 0, 10],
-            },
-          ],
-        ],
-        columnGap: 20,
-        margin: [0, 20, 0, 20],
+        layout: {
+          hLineWidth: function(i, node) {
+            return (i === 0 || i === node.table.body.length) ? 1 : 0; // Línea solo al inicio y final
+          },
+          vLineWidth: () => 0, // Sin líneas verticales
+          hLineColor: () => '#cccccc', // Color gris claro para las líneas
+          paddingTop: () => 5,
+          paddingBottom: () => 5
+        },
+        table: {
+          widths: ['30%', '70%'], // Proporción 30/70
+          body: [
+            [
+              { 
+                text: 'INFORMACIÓN DE LA COMPRA', 
+                style: 'tableHeader', 
+                colSpan: 2, 
+                alignment: 'center',
+                margin: [0, 5, 0, 5]
+              },
+              {}
+            ],
+            [
+              { 
+                text: 'Cliente:', 
+                style: 'tableLabel',
+                border: [false, false, false, true], // Línea inferior
+                borderColor: ['', '', '', '#eeeeee'] // Color línea inferior
+              },
+              { 
+                text: nombre_cliente, 
+                style: 'tableValue',
+                border: [false, false, false, true], // Línea inferior
+                borderColor: ['', '', '', '#eeeeee'] // Color línea inferior
+              }
+            ],
+            [
+              { 
+                text: 'Tienda:', 
+                style: 'tableLabel',
+                border: [false, false, false, true], // Línea inferior
+                borderColor: ['', '', '', '#eeeeee'] // Color línea inferior
+              },
+              { 
+                text: nombre_tienda, 
+                style: 'tableValue',
+                border: [false, false, false, true], // Color línea inferior
+                borderColor: ['', '', '', '#eeeeee']
+              }
+            ],
+            [
+              { 
+                text: 'Fecha de compra:', 
+                style: 'tableLabel',
+                border: [false, false, false, true], // Línea inferior
+                borderColor: ['', '', '', '#eeeeee']
+              },
+              { 
+                text: fecha_compra, 
+                style: 'tableValue',
+                border: [false, false, false, true], // Línea inferior
+                borderColor: ['', '', '', '#eeeeee']
+              }
+            ],
+            [
+              { 
+                text: 'ID de compra:', 
+                style: 'tableLabel',
+                border: [false, false, false, true], // Línea inferior
+                borderColor: ['', '', '', '#eeeeee']
+              },
+              { 
+                text: id_compra.toString(), 
+                style: 'tableValue',
+                border: [false, false, false, true], // Línea inferior
+                borderColor: ['', '', '', '#eeeeee']
+              }
+            ],
+            [
+              { 
+                text: 'Total productos:', 
+                style: 'tableLabel',
+                border: [false, false, false, false] // Sin línea inferior
+              },
+              { 
+                text: total_productos.toString(), 
+                style: 'tableValue',
+                border: [false, false, false, false] // Sin línea inferior
+              }
+            ]
+          ]
+        },
+        margin: [0, 20, 0, 20]
       },
       // Datos de los productos y totales
       {
@@ -238,6 +309,11 @@ export const FacturaDoc = (
         alignment: 'center',
         color: 'gray',
       },
+      iconCell: {
+        fontSize: 10,
+        alignment: 'center',
+        margin: [0, 5, 5, 5]
+      }
     },
   };
 };
