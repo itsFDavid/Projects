@@ -1,5 +1,6 @@
 import { IsNumber, IsOptional, IsPositive, IsString, Length, Max, MaxLength, Min} from "class-validator";
 import { ApiProperty } from "@nestjs/swagger";
+import { Type } from "class-transformer";
 export class CreateProductoDto {
 
     @ApiProperty({
@@ -44,6 +45,7 @@ export class CreateProductoDto {
         message: 'El precio debe ser un número positivo'
     })
     @Min(1, {message: 'El precio no puede ser menor a 1'})
+    @Type(() => Number)
     precio: number;
     
     @ApiProperty({
@@ -54,5 +56,18 @@ export class CreateProductoDto {
     @IsNumber()
     @Min(10, {message: 'El stock no puede ser menor a 10'})
     @Max(250, {message: 'El stock no puede ser mayor a 250'})
+    @Type(() => Number)
     stock: number;
+
+
+    @ApiProperty({
+        description: 'Imagen del producto',
+        example: 'https://example.com/imagen.jpg',
+        required: false,
+    })
+    @IsString({
+        message: 'La URL de la imagen debe ser una cadena de texto'
+    })
+    @IsOptional()
+    imagen?: string;
 }
