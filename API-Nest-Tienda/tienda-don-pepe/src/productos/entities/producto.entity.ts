@@ -1,4 +1,4 @@
-import { Column, Entity, PrimaryGeneratedColumn } from "typeorm";
+import { BeforeInsert, BeforeUpdate, Column, Entity, PrimaryGeneratedColumn } from "typeorm";
 
 @Entity()
 export class Producto {
@@ -16,4 +16,7 @@ export class Producto {
   
     @Column({ type: 'int', default: 0 })
     stock: number;
+
+    @Column({ nullable: true })
+    imagen?: string; 
 }
