@@ -121,6 +121,12 @@ async def create_chat_completion(
     # 2. AÑADIR LAS HERRAMIENTAS (TOOLS) SI EXISTEN EN LA SOLICITUD
     if request.tools:
         gemini_payload["tools"] = [{"functionDeclarations": [t.function.dict() for t in request.tools]}]
+
+        # Sanitizar los parámetros de la herramienta para eliminar claves no deseadas por Gemini
+        for declaration in gemini_payload["tools"][0]["functionDeclarations"]:
+            if "parameters" in declaration and "$schema" in declaration["parameters"]:
+                del declaration["parameters"]["$schema"]
+
         if isinstance(request.tool_choice, dict) and "function" in request.tool_choice:
              gemini_payload["toolConfig"] = {
                 "functionCallingConfig": {
