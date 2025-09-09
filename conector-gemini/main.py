@@ -30,15 +30,43 @@ class ChatCompletionRequest(BaseModel):
 app = FastAPI(
     title="Gemini API Connector",
     description="Adapta la API de Gemini para que sea compatible con el formato de OpenRouter/OpenAI, incluyendo Tool Calling.",
-    version="1.3.1",
+    version="1.3.2",
 )
+
+# --- Funciones Auxiliares ---
+
+def _sanitize_tool_parameters(params: Any):
+    """
+    Recorre recursivamente el diccionario de parámetros de una herramienta
+    y elimina las claves que no son compatibles con la API de Gemini.
+    """
+    if isinstance(params, dict):
+        # Eliminar claves no deseadas en el nivel actual
+        params.pop("$schema", None)
+        params.pop("additionalProperties", None)
+        
+        # Recorrer las claves restantes
+        for key in list(params.keys()):
+            _sanitize_tool_parameters(params[key])
+    elif isinstance(params, list):
+        for item in params:
+            _sanitize_tool_parameters(item)
+
+def _get_api_key(authorization: str | None) -> str:
+    """Valida y extrae la API key del header."""
+    if not authorization or not authorization.startswith("Bearer "):
+        raise HTTPException(
+            status_code=401,
+            detail="Falta el encabezado de autorización o es inválido. Usa 'Authorization: Bearer TU_API_KEY'.",
+        )
+    return authorization.split(" ")[1]
+
 
 # --- Endpoints ---
 
 @app.get("/v1/models", tags=["Models"])
 @app.get("/models", tags=["Models"], include_in_schema=False)
 async def get_models(authorization: Annotated[str | None, Header()] = None):
-    # (Este endpoint no necesita cambios, se mantiene igual)
     api_key = _get_api_key(authorization)
     target_url = f"https://generativelanguage.googleapis.com/v1beta/models?key={api_key}"
     async with httpx.AsyncClient() as client:
@@ -76,7 +104,6 @@ async def create_chat_completion(
 ):
     api_key = _get_api_key(authorization)
     
-    # 1. Preparar el payload para Gemini traduciendo todo el historial de mensajes
     gemini_contents = []
     system_prompts = []
     user_and_model_messages = []
@@ -96,40 +123,30 @@ async def create_chat_completion(
     for message in user_and_model_messages:
         role = "model" if message.role == "assistant" else "user"
         if message.content:
-            gemini_contents.append({
-                "role": role,
-                "parts": [{"text": message.content}]
-            })
+            gemini_contents.append({"role": role, "parts": [{"text": message.content}]})
 
     if not any(c['role'] == 'user' for c in gemini_contents):
         raise HTTPException(status_code=400, detail="No se encontró un mensaje de rol 'user' válido para enviar a Gemini.")
 
     gemini_payload = {"contents": gemini_contents}
 
-    # 2. AÑADIR LAS HERRAMIENTAS (TOOLS) SI EXISTEN EN LA SOLICITUD
     if request.tools:
         gemini_payload["tools"] = [{"functionDeclarations": [t.function.dict() for t in request.tools]}]
         
-        # --- INICIO DE LA CORRECCIÓN ---
-        # Sanitizar los parámetros de la herramienta para eliminar claves no deseadas por Gemini
+        # --- INICIO DE LA CORRECCIÓN MEJORADA ---
         for declaration in gemini_payload["tools"][0]["functionDeclarations"]:
-            if "parameters" in declaration and "$schema" in declaration["parameters"]:
-                del declaration["parameters"]["$schema"]
-        # --- FIN DE LA CORRECCIÓN ---
+            if "parameters" in declaration:
+                _sanitize_tool_parameters(declaration["parameters"])
+        # --- FIN DE LA CORRECCIÓN MEJORADA ---
 
         if isinstance(request.tool_choice, dict) and "function" in request.tool_choice:
              gemini_payload["toolConfig"] = {
-                "functionCallingConfig": {
-                    "mode": "ANY",
-                    "allowedFunctionNames": [request.tool_choice["function"]["name"]]
-                }
+                "functionCallingConfig": {"mode": "ANY", "allowedFunctionNames": [request.tool_choice["function"]["name"]]}
             }
     
-    # 3. Realizar la llamada a Gemini
     model_name = request.model
     target_url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent?key={api_key}"
     
-    # Imprimir el payload final sanitizado para depuración
     print(f"Payload final para Gemini (sanitizado): {json.dumps(gemini_payload, indent=2)}")
 
     async with httpx.AsyncClient(timeout=120.0) as client:
@@ -138,26 +155,17 @@ async def create_chat_completion(
             response.raise_for_status()
             gemini_data = response.json()
 
-            # 4. TRADUCIR LA RESPUESTA DE VUELTA AL FORMATO OPENAI
             part = gemini_data["candidates"][0]["content"]["parts"][0]
             if "functionCall" in part:
                 function_call = part["functionCall"]
-                tool_calls = [{
-                    "id": f"call_{uuid.uuid4()}", "type": "function",
-                    "function": {
-                        "name": function_call["name"],
-                        "arguments": json.dumps(function_call["args"]),
-                    }
-                }]
+                tool_calls = [{"id": f"call_{uuid.uuid4()}", "type": "function", "function": {"name": function_call["name"], "arguments": json.dumps(function_call["args"])}}]
                 message = {"role": "assistant", "content": None, "tool_calls": tool_calls}
             else:
-                content = part.get("text", "")
-                message = {"role": "assistant", "content": content}
+                message = {"role": "assistant", "content": part.get("text", "")}
 
             finish_reason = "tool_calls" if "tool_calls" in message else "stop"
             openai_response = {
-                "id": f"chatcmpl-{uuid.uuid4()}", "object": "chat.completion",
-                "created": int(time.time()), "model": model_name,
+                "id": f"chatcmpl-{uuid.uuid4()}", "object": "chat.completion", "created": int(time.time()), "model": model_name,
                 "choices": [{"index": 0, "message": message, "finish_reason": finish_reason}],
                 "usage": {"prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 0}
             }
@@ -172,14 +180,6 @@ async def create_chat_completion(
         except Exception as e:
             raise HTTPException(status_code=500, detail=f"Ocurrió un error interno: {str(e)}")
 
-# --- Función Auxiliar ---
-def _get_api_key(authorization: str | None) -> str:
-    if not authorization or not authorization.startswith("Bearer "):
-        raise HTTPException(
-            status_code=401,
-            detail="Falta el encabezado de autorización o es inválido. Usa 'Authorization: Bearer TU_API_KEY'.",
-        )
-    return authorization.split(" ")[1]
 
 @app.get("/", tags=["Health"])
 def read_root():
