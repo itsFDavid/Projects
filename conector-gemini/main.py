@@ -30,6 +30,7 @@ app = FastAPI(
 # --- Endpoints de la API ---
 
 @app.get("/v1/models", tags=["Models"])
+@app.get("/models", tags=["Models"], include_in_schema=False) # Añade esta línea
 async def get_models(authorization: Annotated[str | None, Header()] = None):
     """
     Obtiene los modelos de Gemini usando la API Key del header 'Authorization: Bearer <key>'
