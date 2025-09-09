@@ -18,7 +18,7 @@ class Tool(BaseModel):
 
 class ChatMessage(BaseModel):
     role: str
-    content: str
+    content: str | None
 
 class ChatCompletionRequest(BaseModel):
     model: str
@@ -30,7 +30,7 @@ class ChatCompletionRequest(BaseModel):
 app = FastAPI(
     title="Gemini API Connector",
     description="Adapta la API de Gemini para que sea compatible con el formato de OpenRouter/OpenAI, incluyendo Tool Calling.",
-    version="1.2.0",
+    version="1.3.0",
 )
 
 # --- Endpoints ---
@@ -76,26 +76,49 @@ async def create_chat_completion(
 ):
     api_key = _get_api_key(authorization)
     
-    # 1. Preparar el payload base para Gemini
-    last_user_prompt = next((msg.content for msg in reversed(request.messages) if msg.role == "user"), None)
-    if not last_user_prompt:
-        raise HTTPException(status_code=400, detail="No se encontró un mensaje de rol 'user'.")
+    # 1. Preparar el payload para Gemini traduciendo todo el historial de mensajes
+    gemini_contents = []
+    # Gemini no tiene un rol 'system', así que fusionamos los prompts de sistema con el primer mensaje de usuario
+    system_prompts = []
+    user_and_model_messages = []
 
-    gemini_payload = {"contents": [{"parts": [{"text": last_user_prompt}]}]}
+    for message in request.messages:
+        if message.role == 'system':
+            system_prompts.append(message.content)
+        # Ignorar mensajes de asistente sin contenido (típico en peticiones de tool calling)
+        elif message.role == 'assistant' and message.content is None:
+            continue
+        else:
+            user_and_model_messages.append(message)
+
+    # Prepend system prompts to the first user message content
+    if system_prompts and user_and_model_messages and user_and_model_messages[0].role == 'user':
+        full_first_prompt = "\n".join(filter(None, system_prompts)) + "\n\n" + user_and_model_messages[0].content
+        user_and_model_messages[0].content = full_first_prompt
+
+    for message in user_and_model_messages:
+        role = "model" if message.role == "assistant" else "user"
+        if message.content:
+            gemini_contents.append({
+                "role": role,
+                "parts": [{"text": message.content}]
+            })
+
+    if not any(c['role'] == 'user' for c in gemini_contents):
+        raise HTTPException(status_code=400, detail="No se encontró un mensaje de rol 'user' válido para enviar a Gemini.")
+
+    gemini_payload = {"contents": gemini_contents}
 
     # 2. AÑADIR LAS HERRAMIENTAS (TOOLS) SI EXISTEN EN LA SOLICITUD
     if request.tools:
         gemini_payload["tools"] = [{"functionDeclarations": [t.function.dict() for t in request.tools]}]
-        # Opcional: Forzar el uso de una herramienta si se especifica
         if isinstance(request.tool_choice, dict) and "function" in request.tool_choice:
              gemini_payload["toolConfig"] = {
-                "mode": "ANY",
                 "functionCallingConfig": {
                     "mode": "ANY",
                     "allowedFunctionNames": [request.tool_choice["function"]["name"]]
                 }
             }
-
 
     # 3. Realizar la llamada a Gemini
     model_name = request.model
@@ -108,26 +131,26 @@ async def create_chat_completion(
             gemini_data = response.json()
 
             # 4. TRADUCIR LA RESPUESTA DE VUELTA AL FORMATO OPENAI
-            # Si Gemini responde con una llamada a función (tool_calls)
-            if "functionCall" in gemini_data["candidates"][0]["content"]["parts"][0]:
-                function_call = gemini_data["candidates"][0]["content"]["parts"][0]["functionCall"]
+            part = gemini_data["candidates"][0]["content"]["parts"][0]
+            if "functionCall" in part:
+                function_call = part["functionCall"]
                 tool_calls = [{
-                    "id": f"call_{uuid.uuid4()}",
-                    "type": "function",
+                    "id": f"call_{uuid.uuid4()}", "type": "function",
                     "function": {
                         "name": function_call["name"],
                         "arguments": json.dumps(function_call["args"]),
                     }
                 }]
                 message = {"role": "assistant", "content": None, "tool_calls": tool_calls}
-            else: # Si responde con texto normal
-                content = gemini_data["candidates"][0]["content"]["parts"][0]["text"]
+            else:
+                content = part.get("text", "")
                 message = {"role": "assistant", "content": content}
 
+            finish_reason = "tool_calls" if "tool_calls" in message else "stop"
             openai_response = {
                 "id": f"chatcmpl-{uuid.uuid4()}", "object": "chat.completion",
                 "created": int(time.time()), "model": model_name,
-                "choices": [{"index": 0, "message": message, "finish_reason": "tool_calls" if "tool_calls" in message else "stop"}],
+                "choices": [{"index": 0, "message": message, "finish_reason": finish_reason}],
                 "usage": {"prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 0}
             }
             return Response(content=json.dumps(openai_response), media_type="application/json")
@@ -141,7 +164,6 @@ async def create_chat_completion(
 
 # --- Función Auxiliar ---
 def _get_api_key(authorization: str | None) -> str:
-    # (sin cambios)
     if not authorization or not authorization.startswith("Bearer "):
         raise HTTPException(
             status_code=401,
@@ -151,6 +173,5 @@ def _get_api_key(authorization: str | None) -> str:
 
 @app.get("/", tags=["Health"])
 def read_root():
-    # (sin cambios)
     return {"status": "ok"}
 
