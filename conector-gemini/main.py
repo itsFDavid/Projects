@@ -30,7 +30,7 @@ class ChatCompletionRequest(BaseModel):
 app = FastAPI(
     title="Gemini API Connector",
     description="Adapta la API de Gemini para que sea compatible con el formato de OpenRouter/OpenAI, incluyendo Tool Calling.",
-    version="1.3.0",
+    version="1.3.1",
 )
 
 # --- Endpoints ---
@@ -75,32 +75,23 @@ async def create_chat_completion(
     authorization: Annotated[str | None, Header()] = None,
 ):
     api_key = _get_api_key(authorization)
-    # Log de la solicitud entrante para depuración
-    print(f"Solicitud entrante: {request.json()}")
     
     # 1. Preparar el payload para Gemini traduciendo todo el historial de mensajes
     gemini_contents = []
-    # Gemini no tiene un rol 'system', así que fusionamos los prompts de sistema con el primer mensaje de usuario
     system_prompts = []
     user_and_model_messages = []
 
     for message in request.messages:
         if message.role == 'system':
             system_prompts.append(message.content)
-        # Ignorar mensajes de asistente sin contenido (típico en peticiones de tool calling)
         elif message.role == 'assistant' and message.content is None:
             continue
         else:
             user_and_model_messages.append(message)
 
-    print(f"Mensajes de usuario y asistente procesados: {[m.dict() for m in user_and_model_messages]}")
-
-    # Prepend system prompts to the first user message content
     if system_prompts and user_and_model_messages and user_and_model_messages[0].role == 'user':
         full_first_prompt = "\n".join(filter(None, system_prompts)) + "\n\n" + user_and_model_messages[0].content
         user_and_model_messages[0].content = full_first_prompt
-
-    print(f"Mensajes de usuario y asistente después de la modificación: {[m.dict() for m in user_and_model_messages]}")
 
     for message in user_and_model_messages:
         role = "model" if message.role == "assistant" else "user"
@@ -109,23 +100,22 @@ async def create_chat_completion(
                 "role": role,
                 "parts": [{"text": message.content}]
             })
-    print(f"Contenido preparado para Gemini: {gemini_contents}")
 
     if not any(c['role'] == 'user' for c in gemini_contents):
-        print(f"Contenido de Gemini no válido: {gemini_contents}")
         raise HTTPException(status_code=400, detail="No se encontró un mensaje de rol 'user' válido para enviar a Gemini.")
 
     gemini_payload = {"contents": gemini_contents}
-    print(f"Payload final para Gemini antes de herramientas: {gemini_payload}")
 
     # 2. AÑADIR LAS HERRAMIENTAS (TOOLS) SI EXISTEN EN LA SOLICITUD
     if request.tools:
         gemini_payload["tools"] = [{"functionDeclarations": [t.function.dict() for t in request.tools]}]
-
+        
+        # --- INICIO DE LA CORRECCIÓN ---
         # Sanitizar los parámetros de la herramienta para eliminar claves no deseadas por Gemini
         for declaration in gemini_payload["tools"][0]["functionDeclarations"]:
             if "parameters" in declaration and "$schema" in declaration["parameters"]:
                 del declaration["parameters"]["$schema"]
+        # --- FIN DE LA CORRECCIÓN ---
 
         if isinstance(request.tool_choice, dict) and "function" in request.tool_choice:
              gemini_payload["toolConfig"] = {
@@ -134,24 +124,22 @@ async def create_chat_completion(
                     "allowedFunctionNames": [request.tool_choice["function"]["name"]]
                 }
             }
-    print(f"Payload final para Gemini con herramientas: {gemini_payload}")
-
+    
     # 3. Realizar la llamada a Gemini
     model_name = request.model
     target_url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent?key={api_key}"
-
-    print(f"Llamando a Gemini en {target_url} con payload: {gemini_payload}")
     
+    # Imprimir el payload final sanitizado para depuración
+    print(f"Payload final para Gemini (sanitizado): {json.dumps(gemini_payload, indent=2)}")
+
     async with httpx.AsyncClient(timeout=120.0) as client:
         try:
             response = await client.post(target_url, json=gemini_payload)
             response.raise_for_status()
             gemini_data = response.json()
-            print(f"Respuesta de Gemini: {gemini_data}")
 
             # 4. TRADUCIR LA RESPUESTA DE VUELTA AL FORMATO OPENAI
             part = gemini_data["candidates"][0]["content"]["parts"][0]
-            print(f"Parte procesada de Gemini: {part}")
             if "functionCall" in part:
                 function_call = part["functionCall"]
                 tool_calls = [{
@@ -162,11 +150,9 @@ async def create_chat_completion(
                     }
                 }]
                 message = {"role": "assistant", "content": None, "tool_calls": tool_calls}
-                print(f"Mensaje con llamada a herramienta: {message}")
             else:
                 content = part.get("text", "")
                 message = {"role": "assistant", "content": content}
-                print(f"Mensaje de asistente normal: {message}")
 
             finish_reason = "tool_calls" if "tool_calls" in message else "stop"
             openai_response = {
@@ -175,17 +161,15 @@ async def create_chat_completion(
                 "choices": [{"index": 0, "message": message, "finish_reason": finish_reason}],
                 "usage": {"prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 0}
             }
-            print(f"Respuesta final formateada para OpenAI: {openai_response}")
             return Response(content=json.dumps(openai_response), media_type="application/json")
 
         except httpx.HTTPStatusError as e:
             print(f"Error en la llamada a Gemini: {e}")
+            print(f"Respuesta de Gemini: {e.response.text}")
             raise HTTPException(status_code=e.response.status_code, detail=f"Error desde la API de Gemini: {e.response.text}")
         except (KeyError, IndexError):
-            print(f"Estructura inesperada en la respuesta de Gemini: {gemini_data}")
             raise HTTPException(status_code=500, detail=f"Error al procesar la respuesta de Gemini. Estructura inesperada: {gemini_data}")
         except Exception as e:
-            print(f"Error interno: {e}")
             raise HTTPException(status_code=500, detail=f"Ocurrió un error interno: {str(e)}")
 
 # --- Función Auxiliar ---
