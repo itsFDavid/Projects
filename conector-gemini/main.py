@@ -4,7 +4,7 @@ import uuid
 import json
 from fastapi import FastAPI, HTTPException, Header, Response
 from fastapi.responses import StreamingResponse
-from pydantic import BaseModel, Field
+from pydantic import BaseModel
 from typing import List, Annotated, Any
 
 # --- Modelos de Datos ---
