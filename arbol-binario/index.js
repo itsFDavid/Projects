@@ -72,6 +72,16 @@ class ArbolBinario {
     return resultado;
   }
 
+  /**
+   * Realiza un recorrido PostOrden y devuelve los valores.
+   * @returns {number[]} Un array con los valores del recorrido.
+   */
+  recorridoPostOrden() {
+    const resultado = [];
+    this._postOrden(this.raiz, resultado);
+    return resultado;
+  }
+
   insertarNodo(nodo, nuevoNodo) {
     if (nuevoNodo.valor < nodo.valor) {
       if (nodo.left === null) {
