@@ -82,6 +82,13 @@ class ArbolBinario {
     return resultado;
   }
 
+  /**
+   * Imprime una representación visual del árbol en la consola.
+   */
+  imprimir() {
+    this._imprimirRecursivo(this.raiz);
+  }
+
   insertarNodo(nodo, nuevoNodo) {
     if (nuevoNodo.valor < nodo.valor) {
       if (nodo.left === null) {
