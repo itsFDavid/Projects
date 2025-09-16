@@ -89,121 +89,110 @@ class ArbolBinario {
     this._imprimirRecursivo(this.raiz);
   }
 
-  insertarNodo(nodo, nuevoNodo) {
-    if (nuevoNodo.valor < nodo.valor) {
-      if (nodo.left === null) {
-        nodo.left = nuevoNodo;
-      } else {
-        this.insertarNodo(nodo.left, nuevoNodo);
-      }
-    } else {
-      if (nodo.right === null) {
-        nodo.right = nuevoNodo;
-      } else {
-        this.insertarNodo(nodo.right, nuevoNodo);
-      }
+  // --- Métodos Privados (Lógica Recursiva) ---
+
+  _insertarRecursivo(nodo, valor) {
+    if (nodo === null) {
+      return new Nodo(valor);
     }
+
+    if (valor < nodo.valor) {
+      nodo.left = this._insertarRecursivo(nodo.left, valor);
+    } else if (valor > nodo.valor) {
+      nodo.right = this._insertarRecursivo(nodo.right, valor);
+    }
+    // Si el valor es igual, no hacemos nada para evitar duplicados.
+
+    return nodo;
   }
 
-  buscar(valor) {
-    return this.buscarNodo(this.raiz, valor);
+  _buscarRecursivo(nodo, valor) {
+    if (nodo === null || nodo.valor === valor) {
+      return nodo;
+    }
+
+    if (valor < nodo.valor) {
+      return this._buscarRecursivo(nodo.left, valor);
+    }
+    return this._buscarRecursivo(nodo.right, valor);
   }
 
-  buscarNodo(nodo, valor) {
+  _eliminarRecursivo(nodo, valor) {
     if (nodo === null) {
       return null;
     }
-    if (valor < nodo.valor) {
-      return this.buscarNodo(nodo.left, valor);
-    } else if (valor > nodo.valor) {
-      return this.buscarNodo(nodo.right, valor);
-    } else {
-      return nodo;
-    }
-  }
 
-  eliminar(valor) {
-    this.raiz = this.eliminarNodo(this.raiz, valor);
-  }
-
-  eliminarNodo(nodo, valor) {
-    if (nodo === null) {
-      return null;
-    }
+    // Navegar hasta el nodo a eliminar
     if (valor < nodo.valor) {
-      nodo.left = this.eliminarNodo(nodo.left, valor);
-      return nodo;
+      nodo.left = this._eliminarRecursivo(nodo.left, valor);
     } else if (valor > nodo.valor) {
-      nodo.right = this.eliminarNodo(nodo.right, valor);
-      return nodo;
+      nodo.right = this._eliminarRecursivo(nodo.right, valor);
     } else {
+      // Caso 1: El nodo es una hoja (no tiene hijos)
       if (nodo.left === null && nodo.right === null) {
         return null;
       }
+      // Caso 2: El nodo tiene un solo hijo
       if (nodo.left === null) {
         return nodo.right;
       }
       if (nodo.right === null) {
         return nodo.left;
       }
-      const aux = this.minimo(nodo.right);
-      nodo.valor = aux.valor;
-      nodo.right = this.eliminarNodo(nodo.right, aux.valor);
-      return nodo;
+      // Caso 3: El nodo tiene dos hijos
+      // Encontrar el sucesor in-orden (el valor más pequeño en el subárbol derecho)
+      const sucesor = this._encontrarMinimo(nodo.right);
+      nodo.valor = sucesor.valor;
+      // Eliminar el sucesor de su ubicación original
+      nodo.right = this._eliminarRecursivo(nodo.right, sucesor.valor);
     }
+    return nodo;
   }
 
-  minimo(nodo) {
-    if (nodo.left === null) {
-      return nodo;
+  _encontrarMinimo(nodo) {
+    let actual = nodo;
+    while (actual.left !== null) {
+      actual = actual.left;
     }
-    return this.minimo(nodo.left);
+    return actual;
   }
 
-  preOrden(nodo) {
+  // Métodos de recorrido que acumulan valores en un array
+  _inOrden(nodo, resultado) {
     if (nodo !== null) {
-      console.log(nodo.valor);
-      this.preOrden(nodo.left);
-      this.preOrden(nodo.right);
+      this._inOrden(nodo.left, resultado);
+      resultado.push(nodo.valor);
+      this._inOrden(nodo.right, resultado);
     }
   }
 
-  inOrden(nodo) {
+  _preOrden(nodo, resultado) {
     if (nodo !== null) {
-      this.inOrden(nodo.left);
-      console.log(nodo.valor);
-      this.inOrden(nodo.right);
+      resultado.push(nodo.valor);
+      this._preOrden(nodo.left, resultado);
+      this._preOrden(nodo.right, resultado);
     }
   }
 
-  postOrden(nodo) {
+  _postOrden(nodo, resultado) {
     if (nodo !== null) {
-      this.postOrden(nodo.left);
-      this.postOrden(nodo.right);
-      console.log(nodo.valor);
+      this._postOrden(nodo.left, resultado);
+      this._postOrden(nodo.right, resultado);
+      resultado.push(nodo.valor);
     }
   }
 
-  getRaiz() {
-    return this.raiz;
-  }
-
-  imprimirArbol(nodo = this.raiz, prefijo = "", esIzquierdo = true) {
+  _imprimirRecursivo(nodo, prefijo = "", esIzquierdo = true) {
     if (nodo !== null) {
-      // Llamada recursiva en el subárbol derecho primero (para que se imprima en la parte superior)
-      this.imprimirArbol(
+      this._imprimirRecursivo(
         nodo.right,
         prefijo + (esIzquierdo ? "│   " : "    "),
         false
       );
-
-      // Imprimir el nodo actual
       console.log(
-        chalk.red(prefijo + (esIzquierdo ? "└── " : "┌── ") + nodo.valor)
+        chalk.cyan(prefijo + (esIzquierdo ? "└── " : "┌── ") + nodo.valor)
       );
-
-      // Llamada recursiva en el subárbol izquierdo
-      this.imprimirArbol(
+      this._imprimirRecursivo(
         nodo.left,
         prefijo + (esIzquierdo ? "    " : "│   "),
         true
@@ -212,93 +201,120 @@ class ArbolBinario {
   }
 }
 
+// --- Lógica de la Interfaz de Usuario (CLI) ---
+
+const TITULO = "Arbol Binario";
+
+/**
+ * Muestra el encabezado y el estado actual del árbol.
+ * @param {ArbolBinario} arbol La instancia del árbol a imprimir.
+ */
+const mostrarEstado = (arbol) => {
+  console.clear();
+  console.log(chalk.yellow(figlet.textSync(TITULO, { font: "Standard" })));
+  console.log(chalk.yellow("Estado actual del árbol:"));
+  arbol.imprimir();
+  console.log("\n");
+};
+
+/**
+ * Pide al usuario que ingrese un valor numérico.
+ * @param {string} mensaje El mensaje a mostrar al usuario.
+ * @returns {Promise<number>} El número ingresado por el usuario.
+ */
+const preguntarValor = async (mensaje) => {
+  const { valor } = await inquirer.prompt({
+    type: "input",
+    name: "valor",
+    message: chalk.blue(mensaje),
+    validate: (input) =>
+      !isNaN(parseInt(input)) || "Por favor, ingrese un número válido.",
+  });
+  return parseInt(valor);
+};
+
+/**
+ * Función principal que ejecuta el menú de la aplicación.
+ */
 const main = async () => {
-  console.log(chalk.yellow(figlet.textSync("Arbol Binario")));
   const arbol = new ArbolBinario();
 
-  let continuar = true;
-  while (continuar) {
-    // limpiar la consola
-    console.clear();
-    console.log(chalk.yellow(figlet.textSync("Arbol Binario")));
-    arbol.imprimirArbol();
-    console.log("\n");
+  while (true) {
+    mostrarEstado(arbol);
+
     const { opcion } = await inquirer.prompt({
       type: "list",
       name: "opcion",
       message: chalk.green("Seleccione una opción"),
       choices: [
-        "[1] Insertar",
-        "[2] Buscar",
-        "[3] Eliminar",
-        "[4] PreOrden",
-        "[5] InOrden",
-        "[6] PostOrden",
-        "[7] Imprimir Árbol",
-        "[8] Salir",
+        new inquirer.Separator(),
+        { name: "Insertar un nodo", value: "insertar" },
+        { name: "Buscar un nodo", value: "buscar" },
+        { name: "Eliminar un nodo", value: "eliminar" },
+        new inquirer.Separator(),
+        { name: "Recorrido PreOrden", value: "preorden" },
+        { name: "Recorrido InOrden", value: "inorden" },
+        { name: "Recorrido PostOrden", value: "postorden" },
+        new inquirer.Separator(),
+        { name: "Salir", value: "salir" },
       ],
     });
 
-    switch (opcion) {
-      case "[1] Insertar":
-        const { valorInsertar } = await inquirer.prompt({
-          type: "input",
-          name: "valorInsertar",
-          message: chalk.blue("Ingrese el valor del nodo a insertar"),
-        });
-        arbol.insertar(parseInt(valorInsertar));
-        console.log(chalk.green(`Nodo ${valorInsertar} insertado`));
-        break;
+    if (opcion === "salir") break;
 
-      case "[2] Buscar":
-        const { valorBuscar } = await inquirer.prompt({
-          type: "input",
-          name: "valorBuscar",
-          message: chalk.blue("Ingrese el valor del nodo a buscar"),
-        });
-        const nodo = arbol.buscar(parseInt(valorBuscar));
+    // Manejador de acciones
+    switch (opcion) {
+      case "insertar": {
+        const valor = await preguntarValor("Ingrese el valor a insertar:");
+        arbol.insertar(valor);
+        console.log(chalk.green(`✔️ Nodo ${valor} insertado.`));
+        break;
+      }
+      case "buscar": {
+        const valor = await preguntarValor("Ingrese el valor a buscar:");
+        const nodo = arbol.buscar(valor);
         if (nodo) {
-          console.log(chalk.green(`Nodo encontrado: ${nodo.valor}`));
+          console.log(chalk.green(`✔️ Nodo ${nodo.valor} encontrado.`));
         } else {
-          console.log(chalk.red("Nodo no encontrado"));
+          console.log(chalk.red(`❌ Nodo ${valor} no encontrado.`));
         }
         break;
-
-      case "[3] Eliminar":
-        const { valorEliminar } = await inquirer.prompt({
-          type: "input",
-          name: "valorEliminar",
-          message: chalk.blue("Ingrese el valor del nodo a eliminar"),
-        });
-        arbol.eliminar(parseInt(valorEliminar));
-        console.log(chalk.green(`Nodo ${valorEliminar} eliminado`));
+      }
+      case "eliminar": {
+        const valor = await preguntarValor("Ingrese el valor a eliminar:");
+        arbol.eliminar(valor);
+        console.log(chalk.green(`✔️ Nodo ${valor} eliminado.`));
         break;
-
-      case "[4] PreOrden":
-        console.log(chalk.yellow("Recorrido PreOrden:"));
-        arbol.preOrden(arbol.getRaiz());
+      }
+      case "preorden":
+        console.log(
+          chalk.yellow("Recorrido PreOrden:"),
+          arbol.recorridoPreOrden().join(" -> ")
+        );
         break;
-
-      case "[5] InOrden":
-        console.log(chalk.yellow("Recorrido InOrden:"));
-        arbol.inOrden(arbol.getRaiz());
+      case "inorden":
+        console.log(
+          chalk.yellow("Recorrido InOrden:"),
+          arbol.recorridoInOrden().join(" -> ")
+        );
         break;
-
-      case "[6] PostOrden":
-        console.log(chalk.yellow("Recorrido PostOrden:"));
-        arbol.postOrden(arbol.getRaiz());
-        break;
-
-      case "[7] Imprimir Árbol":
-        console.log(chalk.yellow("Árbol binario:"));
-        arbol.imprimirArbol();
-        break;
-
-      case "[8] Salir":
-        continuar = false;
+      case "postorden":
+        console.log(
+          chalk.yellow("Recorrido PostOrden:"),
+          arbol.recorridoPostOrden().join(" -> ")
+        );
         break;
     }
+
+    // Pausa para que el usuario vea el resultado antes de limpiar la pantalla
+    await inquirer.prompt({
+      type: "input",
+      name: "pausa",
+      message: chalk.dim("Presione Enter para continuar..."),
+    });
   }
+
+  console.log(chalk.yellow("¡Hasta luego!"));
 };
 
 main();
