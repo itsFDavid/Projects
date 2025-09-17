@@ -153,6 +153,11 @@ const main = async () => {
 
   let continuar = true;
   while (continuar) {
+    // limpiar la consola
+    console.clear();
+    console.log(chalk.yellow(figlet.textSync("Arbol Binario")));
+    arbol.imprimirArbol();
+    console.log("\n");
     const { opcion } = await inquirer.prompt({
       type: "list",
       name: "opcion",
