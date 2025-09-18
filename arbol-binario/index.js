@@ -163,14 +163,14 @@ const main = async () => {
       name: "opcion",
       message: chalk.green("Seleccione una opción"),
       choices: [
-        "Insertar",
-        "Buscar",
-        "Eliminar",
-        "PreOrden",
-        "InOrden",
-        "PostOrden",
-        "Imprimir Árbol",
-        "Salir",
+        "[1] Insertar",
+        "[2] Buscar",
+        "[3] Eliminar",
+        "[4] PreOrden",
+        "[5] InOrden",
+        "[6] PostOrden",
+        "[7] Imprimir Árbol",
+        "[8] Salir",
       ],
     });
 
