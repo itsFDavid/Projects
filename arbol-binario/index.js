@@ -175,7 +175,7 @@ const main = async () => {
     });
 
     switch (opcion) {
-      case "Insertar":
+      case "[1] Insertar":
         const { valorInsertar } = await inquirer.prompt({
           type: "input",
           name: "valorInsertar",
@@ -185,7 +185,7 @@ const main = async () => {
         console.log(chalk.green(`Nodo ${valorInsertar} insertado`));
         break;
 
-      case "Buscar":
+      case "[2] Buscar":
         const { valorBuscar } = await inquirer.prompt({
           type: "input",
           name: "valorBuscar",
@@ -199,7 +199,7 @@ const main = async () => {
         }
         break;
 
-      case "Eliminar":
+      case "[3] Eliminar":
         const { valorEliminar } = await inquirer.prompt({
           type: "input",
           name: "valorEliminar",
@@ -209,26 +209,27 @@ const main = async () => {
         console.log(chalk.green(`Nodo ${valorEliminar} eliminado`));
         break;
 
-      case "PreOrden":
+      case "[4] PreOrden":
         console.log(chalk.yellow("Recorrido PreOrden:"));
         arbol.preOrden(arbol.getRaiz());
         break;
 
-      case "InOrden":
+      case "[5] InOrden":
         console.log(chalk.yellow("Recorrido InOrden:"));
         arbol.inOrden(arbol.getRaiz());
         break;
 
-      case "PostOrden":
+      case "[6] PostOrden":
         console.log(chalk.yellow("Recorrido PostOrden:"));
         arbol.postOrden(arbol.getRaiz());
         break;
 
-      case "Imprimir Árbol":
+      case "[7] Imprimir Árbol":
         console.log(chalk.yellow("Árbol binario:"));
         arbol.imprimirArbol();
         break;
-      case "Salir":
+
+      case "[8] Salir":
         continuar = false;
         break;
     }
