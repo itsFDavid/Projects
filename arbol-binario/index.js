@@ -2,6 +2,11 @@ import inquirer from "inquirer";
 import chalk from "chalk";
 import figlet from "figlet"; // Para darle un toque gráfico a los títulos
 
+// --- Clases del Árbol Binario ---
+
+/**
+ * Representa un nodo individual en el árbol.
+ */
 class Nodo {
   constructor(valor) {
     this.valor = valor;
@@ -10,18 +15,24 @@ class Nodo {
   }
 }
 
+/**
+ * Implementación de un Árbol Binario de Búsqueda (BST).
+ * La lógica principal de la estructura de datos está contenida aquí.
+ */
 class ArbolBinario {
   constructor() {
     this.raiz = null;
   }
 
+  // --- Métodos Públicos ---
+
+  /**
+   * Inserta un valor en el árbol.
+   * @param {number} valor El valor a insertar.
+   */
   insertar(valor) {
-    const nuevoNodo = new Nodo(valor);
-    if (this.raiz === null) {
-      this.raiz = nuevoNodo;
-    } else {
-      this.insertarNodo(this.raiz, nuevoNodo);
-    }
+    // La función recursiva actualiza la raíz directamente.
+    this.raiz = this._insertarRecursivo(this.raiz, valor);
   }
 
   insertarNodo(nodo, nuevoNodo) {
