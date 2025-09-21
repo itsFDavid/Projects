@@ -35,6 +35,15 @@ class ArbolBinario {
     this.raiz = this._insertarRecursivo(this.raiz, valor);
   }
 
+  /**
+   * Busca un valor en el árbol.
+   * @param {number} valor El valor a buscar.
+   * @returns {Nodo | null} El nodo encontrado o null si no existe.
+   */
+  buscar(valor) {
+    return this._buscarRecursivo(this.raiz, valor);
+  }
+
   insertarNodo(nodo, nuevoNodo) {
     if (nuevoNodo.valor < nodo.valor) {
       if (nodo.left === null) {
