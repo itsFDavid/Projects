@@ -44,6 +44,14 @@ class ArbolBinario {
     return this._buscarRecursivo(this.raiz, valor);
   }
 
+  /**
+   * Elimina un valor del árbol.
+   * @param {number} valor El valor a eliminar.
+   */
+  eliminar(valor) {
+    this.raiz = this._eliminarRecursivo(this.raiz, valor);
+  }
+
   insertarNodo(nodo, nuevoNodo) {
     if (nuevoNodo.valor < nodo.valor) {
       if (nodo.left === null) {
