@@ -52,6 +52,16 @@ class ArbolBinario {
     this.raiz = this._eliminarRecursivo(this.raiz, valor);
   }
 
+  /**
+   * Realiza un recorrido InOrden y devuelve los valores.
+   * @returns {number[]} Un array con los valores del recorrido.
+   */
+  recorridoInOrden() {
+    const resultado = [];
+    this._inOrden(this.raiz, resultado);
+    return resultado;
+  }
+
   insertarNodo(nodo, nuevoNodo) {
     if (nuevoNodo.valor < nodo.valor) {
       if (nodo.left === null) {
