@@ -2,7 +2,7 @@ import inquirer from "inquirer";
 import chalk from "chalk";
 import figlet from "figlet"; // Para darle un toque gráfico a los títulos
 
-// --- Clases del Árbol Binario ---
+
 
 /**
  * Representa un nodo individual en el árbol.
