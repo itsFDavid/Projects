@@ -62,6 +62,16 @@ class ArbolBinario {
     return resultado;
   }
 
+  /**
+   * Realiza un recorrido PreOrden y devuelve los valores.
+   * @returns {number[]} Un array con los valores del recorrido.
+   */
+  recorridoPreOrden() {
+    const resultado = [];
+    this._preOrden(this.raiz, resultado);
+    return resultado;
+  }
+
   insertarNodo(nodo, nuevoNodo) {
     if (nuevoNodo.valor < nodo.valor) {
       if (nodo.left === null) {
