@@ -1,6 +1,6 @@
 import inquirer from "inquirer";
 import chalk from "chalk";
-import figlet from "figlet"; // Para darle un toque gráfico a los títulos
+import figlet from "figlet";
 
 
 
