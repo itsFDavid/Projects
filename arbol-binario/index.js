@@ -24,7 +24,7 @@ class ArbolBinario {
     this.raiz = null;
   }
 
-  // --- Métodos Públicos ---
+
 
   /**
    * Inserta un valor en el árbol.
