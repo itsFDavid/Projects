@@ -31,7 +31,6 @@ class ArbolBinario {
    * @param {number} valor El valor a insertar.
    */
   insertar(valor) {
-    // La función recursiva actualiza la raíz directamente.
     this.raiz = this._insertarRecursivo(this.raiz, valor);
   }
 
