@@ -100,7 +100,6 @@ class ArbolBinario {
     } else if (valor > nodo.valor) {
       nodo.right = this._insertarRecursivo(nodo.right, valor);
     }
-    // Si el valor es igual, no hacemos nada para evitar duplicados.
 
     return nodo;
   }
