@@ -88,7 +88,7 @@ class ArbolBinario {
     this._imprimirRecursivo(this.raiz);
   }
 
-  // --- Métodos Privados (Lógica Recursiva) ---
+
 
   _insertarRecursivo(nodo, valor) {
     if (nodo === null) {
