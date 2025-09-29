@@ -120,7 +120,6 @@ class ArbolBinario {
       return null;
     }
 
-    // Navegar hasta el nodo a eliminar
     if (valor < nodo.valor) {
       nodo.left = this._eliminarRecursivo(nodo.left, valor);
     } else if (valor > nodo.valor) {
