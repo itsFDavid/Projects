@@ -125,7 +125,6 @@ class ArbolBinario {
     } else if (valor > nodo.valor) {
       nodo.right = this._eliminarRecursivo(nodo.right, valor);
     } else {
-      // Caso 1: El nodo es una hoja (no tiene hijos)
       if (nodo.left === null && nodo.right === null) {
         return null;
       }
