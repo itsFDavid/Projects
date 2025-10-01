@@ -128,7 +128,6 @@ class ArbolBinario {
       if (nodo.left === null && nodo.right === null) {
         return null;
       }
-      // Caso 2: El nodo tiene un solo hijo
       if (nodo.left === null) {
         return nodo.right;
       }
