@@ -134,7 +134,6 @@ class ArbolBinario {
       if (nodo.right === null) {
         return nodo.left;
       }
-      // Caso 3: El nodo tiene dos hijos
       // Encontrar el sucesor in-orden (el valor más pequeño en el subárbol derecho)
       const sucesor = this._encontrarMinimo(nodo.right);
       nodo.valor = sucesor.valor;
