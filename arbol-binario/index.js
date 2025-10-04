@@ -134,7 +134,7 @@ class ArbolBinario {
       if (nodo.right === null) {
         return nodo.left;
       }
-      // Encontrar el sucesor in-orden (el valor más pequeño en el subárbol derecho)
+
       const sucesor = this._encontrarMinimo(nodo.right);
       nodo.valor = sucesor.valor;
       // Eliminar el sucesor de su ubicación original
