@@ -137,7 +137,6 @@ class ArbolBinario {
 
       const sucesor = this._encontrarMinimo(nodo.right);
       nodo.valor = sucesor.valor;
-      // Eliminar el sucesor de su ubicación original
       nodo.right = this._eliminarRecursivo(nodo.right, sucesor.valor);
     }
     return nodo;
