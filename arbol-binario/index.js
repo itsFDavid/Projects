@@ -150,7 +150,7 @@ class ArbolBinario {
     return actual;
   }
 
-  // Métodos de recorrido que acumulan valores en un array
+
   _inOrden(nodo, resultado) {
     if (nodo !== null) {
       this._inOrden(nodo.left, resultado);
