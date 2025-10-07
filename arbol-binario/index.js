@@ -194,7 +194,6 @@ class ArbolBinario {
   }
 }
 
-// --- Lógica de la Interfaz de Usuario (CLI) ---
 
 const TITULO = "Arbol Binario";
 
