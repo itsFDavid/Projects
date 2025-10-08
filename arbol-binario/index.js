@@ -254,7 +254,7 @@ const main = async () => {
 
     if (opcion === "salir") break;
 
-    // Manejador de acciones
+
     switch (opcion) {
       case "insertar": {
         const valor = await preguntarValor("Ingrese el valor a insertar:");
