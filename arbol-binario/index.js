@@ -298,7 +298,7 @@ const main = async () => {
         break;
     }
 
-    // Pausa para que el usuario vea el resultado antes de limpiar la pantalla
+
     await inquirer.prompt({
       type: "input",
       name: "pausa",
