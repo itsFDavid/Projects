@@ -298,7 +298,6 @@ const main = async () => {
         break;
     }
 
-
     await inquirer.prompt({
       type: "input",
       name: "pausa",
