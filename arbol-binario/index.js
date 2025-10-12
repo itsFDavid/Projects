@@ -194,7 +194,6 @@ class ArbolBinario {
   }
 }
 
-
 const TITULO = "Arbol Binario";
 
 /**
