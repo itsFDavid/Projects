@@ -150,7 +150,6 @@ class ArbolBinario {
     return actual;
   }
 
-
   _inOrden(nodo, resultado) {
     if (nodo !== null) {
       this._inOrden(nodo.left, resultado);
