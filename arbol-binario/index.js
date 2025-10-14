@@ -89,7 +89,6 @@ class ArbolBinario {
   }
 
 
-
   _insertarRecursivo(nodo, valor) {
     if (nodo === null) {
       return new Nodo(valor);
