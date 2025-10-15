@@ -88,7 +88,6 @@ class ArbolBinario {
     this._imprimirRecursivo(this.raiz);
   }
 
-
   _insertarRecursivo(nodo, valor) {
     if (nodo === null) {
       return new Nodo(valor);
