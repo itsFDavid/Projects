@@ -25,7 +25,6 @@ class ArbolBinario {
   }
 
 
-
   /**
    * Inserta un valor en el árbol.
    * @param {number} valor El valor a insertar.
