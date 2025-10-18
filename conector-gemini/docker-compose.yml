@@ -3,10 +3,10 @@ services:
     image: conector-gemini
     networks:
       - proxy
-    labels:
-      - "traefik.enable=true"
-      - "traefik.http.routers.gemini.rule=Host(`gemini.docker.localhost`)"
-      - "traefik.http.services.gemini.loadbalancer.server.port=8000"
+    # labels:
+      # - "traefik.enable=true"
+      # - "traefik.http.routers.gemini.rule=Host(`gemini.docker.localhost`)"
+      # - "traefik.http.services.gemini.loadbalancer.server.port=8000"
 
 networks:
   proxy:
