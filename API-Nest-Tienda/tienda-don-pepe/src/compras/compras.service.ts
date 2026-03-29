@@ -1,4 +1,4 @@
-import { BadRequestException, Injectable, NotFoundException } from '@nestjs/common';
+import { BadRequestException, Injectable, Logger, NotFoundException } from '@nestjs/common';
 import { CreateCompraDto } from './dto/create-compra.dto';
 import { DataSource, Repository } from 'typeorm';
 import { Compra } from './entities/compra.entity';
@@ -14,6 +14,7 @@ import { UpdateCompraDto } from './dto/update-compra.dto';
 
 @Injectable()
 export class ComprasService {
+  private readonly logger = new Logger(ComprasService.name);
 
   constructor(
     @InjectRepository(Compra)
@@ -161,7 +162,7 @@ export class ComprasService {
     });
 
     if (!compras || compras.length === 0) {
-      throw new NotFoundException(`No se encontraron compras para el cliente con ID ${clienteId}`);
+      throw new NotFoundException(`No se encontraron compras para el cliente`);
     }
 
     return compras;
@@ -177,17 +178,17 @@ export class ComprasService {
   
       // Verificar cliente
       const cliente = await queryRunner.manager.findOne(Cliente, { where: { id_cliente: clienteId } });
-      if (!cliente) throw new NotFoundException(`Cliente con ID ${clienteId} no encontrado`);
+      if (!cliente) throw new NotFoundException(`Cliente no encontrado`);
   
       const tienda = await queryRunner.manager.findOne(Tienda, { where: { id_tienda: tiendaId } });
-      if (!tienda) throw new NotFoundException(`Tienda con ID ${tiendaId} no encontrada`);
+      if (!tienda) throw new NotFoundException(`Tienda no encontrada`);
       
       // Verificar compra existente
       const compra = await queryRunner.manager.findOne(Compra, { 
         where: { id_compra: id }, 
         relations: ['cliente_','detalles_', 'detalles_.producto', 'tienda_'] 
       });
-      if (!compra) throw new NotFoundException(`Compra con ID ${id} no encontrada`);
+      if (!compra) throw new NotFoundException(`Compra no encontrada`);
   
       // Ajustar detalles y stock
       const detallesActualizados = await Promise.all(detalles.map(async (detalleDto: DetalleCompraDto) => {
@@ -196,7 +197,7 @@ export class ComprasService {
 
   
         const producto = await queryRunner.manager.findOne(Producto, { where: { id_producto: productoId } });
-        if (!producto) throw new NotFoundException(`Producto con ID ${productoId} no encontrado`);
+        if (!producto) throw new NotFoundException(`Producto no encontrado`);
   
         // Ajustar stock
         const detalleExistente = compra.detalles_.find(d => d.producto.id_producto === productoId);
@@ -229,7 +230,8 @@ export class ComprasService {
       return compra;
     } catch (error) {
       await queryRunner.rollbackTransaction();
-      throw new BadRequestException(`Error al actualizar la compra: ${error.message}`);
+      this.logger.error(`Error al actualizar la compra: ${error.message}`, error.stack);
+      throw new BadRequestException(`Error al actualizar la compra`);
     } finally {
       await queryRunner.release();
     }
@@ -247,10 +249,10 @@ export class ComprasService {
         where: { id_compra: id },
         relations: ['cliente_', 'detalles_', 'detalles_.producto', 'tienda_'],
       });
-      if (!compra) throw new NotFoundException(`Compra con ID ${id} no encontrada`);
+      if (!compra) throw new NotFoundException(`Compra no encontrada`);
 
       const tienda = await queryRunner.manager.findOne(Tienda, { where: { id_tienda: compra.tienda_.id_tienda } });
-      if (!tienda) throw new NotFoundException(`Tienda con ID ${compra.tienda_.id_tienda} no encontrada`);
+      if (!tienda) throw new NotFoundException(`Tienda no encontrada`);
   
       // Restaurar stock
       for (const detalle of compra.detalles_) {
@@ -271,7 +273,8 @@ export class ComprasService {
       return { message: `Compra con ID ${id} eliminada correctamente` };
     } catch (error) {
       await queryRunner.rollbackTransaction();
-      throw new BadRequestException(`Error al eliminar la compra: ${error.message}`);
+      this.logger.error(`Error al eliminar la compra: ${error.message}`, error.stack);
+      throw new BadRequestException(`Error al eliminar la compra`);
     } finally {
       await queryRunner.release();
     }
@@ -318,13 +321,13 @@ export class ComprasService {
             });
   
             if (!producto) {
-              errors.push(`Producto con ID ${productoId} no encontrado`);
+              errors.push(`Producto no encontrado`);
               return null;  // No continuar si el producto no se encuentra
             }
 
             const tienda = await queryRunner.manager.findOne(Tienda, { where: { id_tienda: detalleDto.tiendaId } });
             if (!tienda) {
-              errors.push(`Tienda con ID ${detalleDto.tiendaId} no encontrada`);
+              errors.push(`Tienda no encontrada`);
               return null;  // No continuar si la tienda no se encuentra
             }
   
