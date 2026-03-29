@@ -21,15 +21,16 @@ import { join } from 'path';
       envFilePath: `.env.${process.env.NODE_ENV || 'local'}`,
     }),
     TypeOrmModule.forRootAsync({
-      useFactory: () => {
-        const enviroment = process.env.NODE_ENV === 'prod' ? 'prod' : 'local';
-        return {
-          type: 'mysql',
-          ...config.enviroments[enviroment],
-          autoLoadEntities: true,
-          synchronize: true,
-        }
-      }
+      useFactory: () => ({
+        type: 'mysql',
+        host: process.env.DATABASE_HOST,
+        port: parseInt(process.env.DATABASE_PORT) || 3306,
+        username: process.env.MYSQL_USER,
+        password: process.env.MYSQL_PASSWORD,
+        database: process.env.MYSQL_DATABASE,
+        autoLoadEntities: true,
+        // synchronize: true, // Ten cuidado con esto en producción real
+      })
     }),
     ServeStaticModule.forRoot({
       rootPath: join(__dirname, '..', 'imagenes'),
