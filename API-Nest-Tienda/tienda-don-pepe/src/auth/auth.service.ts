@@ -28,20 +28,30 @@ export class AuthService {
   }
 
   private async createFirstAdmin() {
-      const adminExists = await this.userRepository.findOneBy({ email: 'admin@admin.com' });
-      
-      if (adminExists) return;
+    const adminEmail = 'admin@admin.com';
+    const adminExists = await this.userRepository.findOneBy({ email: adminEmail });
+    
+    if (adminExists) return;
 
-      const firstAdmin = this.userRepository.create({
-          email: 'admin@admin.com' as any,
-          password: bcrypt.hashSync('Admin123456!', 10),
-          nombre: 'Admin',
-          apellido1: 'System',
-          role: 'admin' as any
-      });
+    // 1. Crear el Usuario Admin
+    const firstAdmin = this.userRepository.create({
+        email: adminEmail as any,
+        password: bcrypt.hashSync('Admin123456!', 10),
+        nombre: 'Admin',
+        apellido1: 'System',
+        role: 'admin' as any
+    });
+    await this.userRepository.save(firstAdmin);
 
-      await this.userRepository.save(firstAdmin);
-      console.log('Primer administrador creado: admin@admin.com');
+    // 2. IMPORTANTE: Crear el Cliente asociado para que el login no falle
+    const adminClient = this.clientesRepository.create({
+        nombre_cliente: 'Admin',
+        apellido1: 'System',
+        email: adminEmail
+    });
+    await this.clientesRepository.save(adminClient);
+
+    console.log('✅ Admin y Cliente asociado creados correctamente');
   }
 
   async registerUser(registerUserDto: RegisterUserDto){
