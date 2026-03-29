@@ -9,6 +9,7 @@ import { Repository } from 'typeorm';
 import { Users } from './entities/users.entity';
 import { InjectRepository } from '@nestjs/typeorm';
 import { JwtService } from '@nestjs/jwt';
+import { ValidRoles } from './interfaces';
 
 @Injectable()
 export class AuthService {
@@ -21,6 +22,27 @@ export class AuthService {
     private readonly clientesService: ClientesService,
     private readonly jwtService: JwtService
   ){}
+
+  async onModuleInit() {
+      await this.createFirstAdmin();
+  }
+
+  private async createFirstAdmin() {
+      const adminExists = await this.userRepository.findOneBy({ email: 'admin@admin.com' });
+      
+      if (adminExists) return;
+
+      const firstAdmin = this.userRepository.create({
+          email: 'admin@admin.com' as any,
+          password: bcrypt.hashSync('Admin123456!', 10),
+          nombre: 'Admin',
+          apellido1: 'System',
+          role: 'admin' as any
+      });
+
+      await this.userRepository.save(firstAdmin);
+      console.log('Primer administrador creado: admin@admin.com');
+  }
 
   async registerUser(registerUserDto: RegisterUserDto){
     try {
@@ -125,4 +147,6 @@ export class AuthService {
       throw new UnauthorizedException('Token inválido');
     }
   }
+
+  
 }
